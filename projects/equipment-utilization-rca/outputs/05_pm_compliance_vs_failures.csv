@@ -1,0 +1,5 @@
+site,pm_services,pm_compliance_pct,avg_hours_late,pct_hours_overdue,bd_per_1000h_on_schedule,bd_per_1000h_overdue
+Site C - Sulawesi,237,63.3,59.0,16.6,2.38,6.92
+Site D - Papua,231,83.5,30.0,7.5,2.22,5.79
+Site B - Sumatra,242,90.9,20.0,4.1,2.55,9.05
+Site A - Kalimantan,240,94.2,16.0,2.6,2.61,7.51

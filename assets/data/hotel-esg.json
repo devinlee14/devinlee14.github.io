@@ -1,0 +1,264 @@
+{
+ "kpi": {
+  "properties": 40,
+  "countries": 8,
+  "raw_rows": 2364,
+  "records": 2400,
+  "issues": 201,
+  "auto_standardised": 388,
+  "recall": 99.5,
+  "false_alarms": 0,
+  "within2_before": 93.0,
+  "within2_after": 100.0,
+  "missing_before": 72,
+  "invoices_to_chase": 35,
+  "total_tco2e": 364467
+ },
+ "recall": [
+  {
+   "label": "Missing submission",
+   "caught": 72,
+   "total": 72
+  },
+  {
+   "label": "Mismatch vs bill",
+   "caught": 47,
+   "total": 48
+  },
+  {
+   "label": "Exact duplicate",
+   "caught": 24,
+   "total": 24
+  },
+  {
+   "label": "Unit mislabel (MWh as kWh)",
+   "caught": 19,
+   "total": 19
+  },
+  {
+   "label": "Decimal shift (x10)",
+   "caught": 16,
+   "total": 16
+  },
+  {
+   "label": "Conflicting duplicate",
+   "caught": 12,
+   "total": 12
+  },
+  {
+   "label": "Zero / negative value",
+   "caught": 9,
+   "total": 9
+  }
+ ],
+ "status": {
+  "validated": 2235,
+  "corrected_from_bill": 90,
+  "sourced_from_bill": 72,
+  "verified_anomaly": 2,
+  "estimated": 1
+ },
+ "monthly": {
+  "periods": [
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12"
+  ],
+  "scope2": [
+   14909.5,
+   13918.1,
+   15064.9,
+   14723.8,
+   15364.5,
+   15140.2,
+   15621.3,
+   15357.7,
+   14776.3,
+   15292.2,
+   14510.8,
+   14846.7,
+   14902.0,
+   13538.9,
+   15183.3,
+   14716.6,
+   15390.2,
+   15080.1,
+   15640.9,
+   15435.0,
+   14844.6,
+   15064.5,
+   14460.2,
+   14947.6
+  ],
+  "scope1": [
+   255.3,
+   246.4,
+   273.7,
+   248.4,
+   242.9,
+   231.6,
+   223.3,
+   224.9,
+   211.3,
+   234.2,
+   232.5,
+   250.7,
+   262.8,
+   230.6,
+   275.7,
+   246.0,
+   249.2,
+   221.2,
+   232.6,
+   223.5,
+   220.9,
+   220.8,
+   233.8,
+   244.3
+  ]
+ },
+ "intensity_by_country": {
+  "labels": [
+   "Singapore",
+   "Japan",
+   "Thailand",
+   "United Arab Emirates",
+   "Australia",
+   "Vietnam",
+   "Malaysia",
+   "Indonesia"
+  ],
+  "values": [
+   38.1,
+   40.5,
+   46.1,
+   48.2,
+   58.8,
+   66.7,
+   69.8,
+   87.8
+  ]
+ },
+ "leak": {
+  "periods": [
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12"
+  ],
+  "values": [
+   10227.0,
+   9746.0,
+   10866.0,
+   9919.0,
+   10639.0,
+   8818.0,
+   9285.0,
+   9529.0,
+   9066.0,
+   10414.0,
+   10710.0,
+   9590.0,
+   10906.0,
+   8886.0,
+   9532.0,
+   9203.0,
+   10413.0,
+   23583.0,
+   25231.0,
+   9935.0,
+   8859.0,
+   9295.0,
+   9766.0,
+   8747.0
+  ]
+ },
+ "issue_sample": [
+  {
+   "issue_id": "DQ-00002",
+   "property_id": "HTL-005",
+   "period": "2025-04",
+   "utility": "electricity",
+   "rule": "duplicate_conflicting",
+   "detail": "values [953600.0, 1033118.0]",
+   "action": "kept first, re-checked at reconciliation"
+  },
+  {
+   "issue_id": "DQ-00037",
+   "property_id": "HTL-001",
+   "period": "2024-11",
+   "utility": "electricity",
+   "rule": "decimal_shift",
+   "detail": "submitted 6,041,145.0 vs bill 604,114.5 (+900.0%)",
+   "action": "replaced with bill"
+  },
+  {
+   "issue_id": "DQ-00038",
+   "property_id": "HTL-001",
+   "period": "2025-12",
+   "utility": "electricity",
+   "rule": "bill_mismatch",
+   "detail": "submitted 643,792.0 vs bill 611,127.5 (+5.3%)",
+   "action": "replaced with bill"
+  },
+  {
+   "issue_id": "DQ-00041",
+   "property_id": "HTL-002",
+   "period": "2025-05",
+   "utility": "electricity",
+   "rule": "unit_mislabel",
+   "detail": "submitted 953.9 vs bill 953,879.2 (-99.9%)",
+   "action": "replaced with bill"
+  },
+  {
+   "issue_id": "DQ-00199",
+   "property_id": "HTL-002",
+   "period": "2024-09",
+   "utility": "electricity",
+   "rule": "intensity_outlier",
+   "detail": "1356.00 kWh/room-night (robust z=+134.1)",
+   "action": "implausible: quarantined and estimated"
+  }
+ ]
+}

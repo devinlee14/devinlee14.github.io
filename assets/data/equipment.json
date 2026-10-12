@@ -1,0 +1,322 @@
+{
+ "split": {
+  "op": 68.3,
+  "idle": 12.1,
+  "standby": 13.8,
+  "down": 5.8
+ },
+ "kpi": {
+  "units": 48,
+  "sites": 4,
+  "unit_days": 17520,
+  "pa": 94.2,
+  "ua": 72.5,
+  "breakdowns": 670,
+  "hydraulic_share": 30.5,
+  "top3_share": 66.3,
+  "papua_parts_share": 65.9,
+  "papua_parts_wait": 20.7,
+  "others_parts_wait": 5.6,
+  "papua_saved_h": 2170,
+  "sulawesi_compliance": 63.3,
+  "overdue_ratio_min": 2.6,
+  "overdue_ratio_max": 3.5,
+  "sulawesi_avoidable_bd": 45,
+  "sulawesi_avoidable_h": 753,
+  "hydraulic_repeat": 29.2,
+  "rainy_ua": 62.8,
+  "dry_ua": 79.5
+ },
+ "season": {
+  "Site A - Kalimantan": {
+   "ua": [
+    63.0,
+    62.9,
+    62.7,
+    79.7,
+    79.7,
+    79.5,
+    78.9,
+    79.6,
+    79.5,
+    79.8,
+    62.9,
+    62.9
+   ],
+   "pa": [
+    95.3,
+    96.1,
+    96.6,
+    93.6,
+    93.9,
+    93.7,
+    93.9,
+    94.1,
+    94.2,
+    94.7,
+    95.9,
+    96.7
+   ]
+  },
+  "Site B - Sumatra": {
+   "ua": [
+    62.3,
+    79.5,
+    79.4,
+    79.3,
+    79.6,
+    79.7,
+    78.8,
+    79.3,
+    79.0,
+    62.3,
+    62.8,
+    62.6
+   ],
+   "pa": [
+    95.5,
+    93.7,
+    95.3,
+    94.2,
+    95.1,
+    95.5,
+    95.9,
+    95.1,
+    95.6,
+    94.2,
+    95.9,
+    94.3
+   ]
+  },
+  "Site C - Sulawesi": {
+   "ua": [
+    62.2,
+    62.7,
+    62.2,
+    63.0,
+    79.7,
+    80.1,
+    79.9,
+    79.6,
+    79.5,
+    79.4,
+    79.9,
+    62.8
+   ],
+   "pa": [
+    94.1,
+    95.4,
+    95.8,
+    96.2,
+    94.9,
+    91.2,
+    93.1,
+    93.4,
+    94.4,
+    94.0,
+    94.0,
+    94.6
+   ]
+  },
+  "Site D - Papua": {
+   "ua": [
+    63.2,
+    62.5,
+    63.1,
+    62.9,
+    63.3,
+    62.7,
+    79.3,
+    79.8,
+    79.3,
+    80.0,
+    79.7,
+    79.2
+   ],
+   "pa": [
+    92.6,
+    94.6,
+    95.3,
+    94.8,
+    94.8,
+    94.1,
+    92.3,
+    90.9,
+    91.8,
+    89.7,
+    91.5,
+    91.0
+   ]
+  }
+ },
+ "pareto": {
+  "system": [
+   "Hydraulic",
+   "Engine",
+   "Electrical",
+   "Undercarriage / Tyres",
+   "Attachment / Bucket",
+   "Cooling"
+  ],
+  "breakdowns": [
+   212,
+   119,
+   111,
+   86,
+   66,
+   76
+  ],
+  "downtime_h": [
+   3865.0,
+   2749.0,
+   1793.0,
+   1630.0,
+   1338.0,
+   1306.0
+  ],
+  "avg_h": [
+   18.2,
+   23.1,
+   16.1,
+   19.0,
+   20.3,
+   17.2
+  ],
+  "cumulative_pct": [
+   30.5,
+   52.2,
+   66.3,
+   79.1,
+   89.7,
+   100.0
+  ]
+ },
+ "mttr": {
+  "site": [
+   "Site D - Papua",
+   "Site C - Sulawesi",
+   "Site A - Kalimantan",
+   "Site B - Sumatra"
+  ],
+  "repair_h": [
+   9.1,
+   8.3,
+   8.1,
+   8.0
+  ],
+  "waiting_parts_h": [
+   20.7,
+   6.7,
+   5.7,
+   4.5
+  ],
+  "waiting_mechanic_h": [
+   1.7,
+   1.7,
+   1.8,
+   1.6
+  ]
+ },
+ "pm": [
+  {
+   "site": "Site C - Sulawesi",
+   "pm_compliance_pct": 63.3,
+   "pct_hours_overdue": 16.6,
+   "bd_per_1000h_on_schedule": 2.38,
+   "bd_per_1000h_overdue": 6.92
+  },
+  {
+   "site": "Site D - Papua",
+   "pm_compliance_pct": 83.5,
+   "pct_hours_overdue": 7.5,
+   "bd_per_1000h_on_schedule": 2.22,
+   "bd_per_1000h_overdue": 5.79
+  },
+  {
+   "site": "Site B - Sumatra",
+   "pm_compliance_pct": 90.9,
+   "pct_hours_overdue": 4.1,
+   "bd_per_1000h_on_schedule": 2.55,
+   "bd_per_1000h_overdue": 9.05
+  },
+  {
+   "site": "Site A - Kalimantan",
+   "pm_compliance_pct": 94.2,
+   "pct_hours_overdue": 2.6,
+   "bd_per_1000h_on_schedule": 2.61,
+   "bd_per_1000h_overdue": 7.51
+  }
+ ],
+ "bad": [
+  {
+   "unit_id": "U-016",
+   "site": "Site D - Papua",
+   "model": "DT-60 Dump Truck",
+   "breakdowns": 14,
+   "downtime_h": 649.0
+  },
+  {
+   "unit_id": "U-032",
+   "site": "Site D - Papua",
+   "model": "DT-60 Dump Truck",
+   "breakdowns": 19,
+   "downtime_h": 536.0
+  },
+  {
+   "unit_id": "U-008",
+   "site": "Site D - Papua",
+   "model": "EX-360 Excavator",
+   "breakdowns": 12,
+   "downtime_h": 527.0
+  },
+  {
+   "unit_id": "U-015",
+   "site": "Site C - Sulawesi",
+   "model": "DT-60 Dump Truck",
+   "breakdowns": 27,
+   "downtime_h": 479.0
+  },
+  {
+   "unit_id": "U-040",
+   "site": "Site D - Papua",
+   "model": "EX-360 Excavator",
+   "breakdowns": 10,
+   "downtime_h": 465.0
+  },
+  {
+   "unit_id": "U-012",
+   "site": "Site D - Papua",
+   "model": "WL-50 Wheel Loader",
+   "breakdowns": 11,
+   "downtime_h": 426.0
+  },
+  {
+   "unit_id": "U-020",
+   "site": "Site D - Papua",
+   "model": "EX-200 Excavator",
+   "breakdowns": 11,
+   "downtime_h": 375.0
+  },
+  {
+   "unit_id": "U-037",
+   "site": "Site A - Kalimantan",
+   "model": "EX-360 Excavator",
+   "breakdowns": 19,
+   "downtime_h": 316.0
+  },
+  {
+   "unit_id": "U-034",
+   "site": "Site B - Sumatra",
+   "model": "EX-200 Excavator",
+   "breakdowns": 23,
+   "downtime_h": 315.0
+  },
+  {
+   "unit_id": "U-011",
+   "site": "Site C - Sulawesi",
+   "model": "WL-50 Wheel Loader",
+   "breakdowns": 14,
+   "downtime_h": 309.0
+  }
+ ]
+}

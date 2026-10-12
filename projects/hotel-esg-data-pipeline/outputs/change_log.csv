@@ -1,0 +1,552 @@
+property_id,period,utility,field,old_value,new_value,reason,source
+HTL-031,2024-02,water,property_id, HTL-031 ,HTL-031,non-standard property_id format,rule
+HTL-027,2024-11,water,property_id,HTL027,HTL-027,non-standard property_id format,rule
+HTL-038,2025-07,electricity,property_id,HTL038,HTL-038,non-standard property_id format,rule
+HTL-028,2025-10,water,property_id,HTL028,HTL-028,non-standard property_id format,rule
+HTL-039,2024-10,electricity,property_id,HTL039,HTL-039,non-standard property_id format,rule
+HTL-026,2024-06,water,property_id,htl-026,HTL-026,non-standard property_id format,rule
+HTL-021,2024-11,electricity,property_id, HTL-021 ,HTL-021,non-standard property_id format,rule
+HTL-018,2024-04,gas,property_id,htl-018,HTL-018,non-standard property_id format,rule
+HTL-032,2024-12,gas,property_id, HTL-032 ,HTL-032,non-standard property_id format,rule
+HTL-022,2024-05,water,property_id,HTL022,HTL-022,non-standard property_id format,rule
+HTL-023,2025-11,water,property_id,htl-023,HTL-023,non-standard property_id format,rule
+HTL-007,2024-05,electricity,property_id, HTL-007 ,HTL-007,non-standard property_id format,rule
+HTL-030,2025-12,electricity,period,2025/12,2025-12,non-standard period format,rule
+HTL-031,2024-05,electricity,period,May-2024,2024-05,non-standard period format,rule
+HTL-008,2024-01,water,period,Jan-2024,2024-01,non-standard period format,rule
+HTL-032,2025-01,electricity,period,2025/01,2025-01,non-standard period format,rule
+HTL-013,2025-08,electricity,period,Aug-2025,2025-08,non-standard period format,rule
+HTL-006,2024-01,water,period,2024/01,2024-01,non-standard period format,rule
+HTL-037,2024-03,electricity,period,2024/03,2024-03,non-standard period format,rule
+HTL-010,2025-01,water,period,2025/01,2025-01,non-standard period format,rule
+HTL-003,2025-09,electricity,period,Sep-2025,2025-09,non-standard period format,rule
+HTL-032,2025-06,electricity,period,Jun-2025,2025-06,non-standard period format,rule
+HTL-017,2024-12,gas,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-027,2024-03,water,period,2024/03,2024-03,non-standard period format,rule
+HTL-023,2025-12,water,period,2025/12,2025-12,non-standard period format,rule
+HTL-029,2025-06,electricity,period,Jun-2025,2025-06,non-standard period format,rule
+HTL-029,2024-12,water,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-031,2024-07,water,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-008,2024-11,electricity,period,2024/11,2024-11,non-standard period format,rule
+HTL-035,2025-04,electricity,period,2025/04,2025-04,non-standard period format,rule
+HTL-013,2024-08,electricity,period,2024/08,2024-08,non-standard period format,rule
+HTL-007,2025-12,electricity,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-022,2025-05,water,period,May-2025,2025-05,non-standard period format,rule
+HTL-035,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-016,2024-08,water,period,2024/08,2024-08,non-standard period format,rule
+HTL-014,2024-11,electricity,period,Nov-2024,2024-11,non-standard period format,rule
+HTL-028,2024-09,gas,period,2024/09,2024-09,non-standard period format,rule
+HTL-035,2024-11,electricity,period,Nov-2024,2024-11,non-standard period format,rule
+HTL-004,2025-05,electricity,period,2025/05,2025-05,non-standard period format,rule
+HTL-003,2025-04,electricity,period,2025/04,2025-04,non-standard period format,rule
+HTL-032,2024-09,water,period,Sep-2024,2024-09,non-standard period format,rule
+HTL-015,2025-12,gas,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-013,2024-02,water,period,2024/02,2024-02,non-standard period format,rule
+HTL-014,2024-07,water,period,2024/07,2024-07,non-standard period format,rule
+HTL-015,2024-12,gas,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-022,2024-07,gas,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-014,2024-05,electricity,period,2024/05,2024-05,non-standard period format,rule
+HTL-009,2025-12,electricity,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-007,2024-09,water,period,2024/09,2024-09,non-standard period format,rule
+HTL-019,2024-08,gas,period,2024/08,2024-08,non-standard period format,rule
+HTL-040,2024-01,water,period,Jan-2024,2024-01,non-standard period format,rule
+HTL-019,2025-06,electricity,period,Jun-2025,2025-06,non-standard period format,rule
+HTL-013,2024-09,gas,period,Sep-2024,2024-09,non-standard period format,rule
+HTL-006,2024-12,water,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-007,2024-02,water,period,2024/02,2024-02,non-standard period format,rule
+HTL-009,2025-02,water,period,2025/02,2025-02,non-standard period format,rule
+HTL-019,2024-09,water,period,Sep-2024,2024-09,non-standard period format,rule
+HTL-018,2024-01,gas,period,2024/01,2024-01,non-standard period format,rule
+HTL-010,2025-02,electricity,period,Feb-2025,2025-02,non-standard period format,rule
+HTL-034,2025-02,electricity,period,2025/02,2025-02,non-standard period format,rule
+HTL-006,2024-11,water,period,2024/11,2024-11,non-standard period format,rule
+HTL-023,2025-08,water,period,2025/08,2025-08,non-standard period format,rule
+HTL-013,2024-09,electricity,period,Sep-2024,2024-09,non-standard period format,rule
+HTL-028,2025-12,electricity,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-004,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-032,2025-08,electricity,period,2025/08,2025-08,non-standard period format,rule
+HTL-007,2024-08,gas,period,2024/08,2024-08,non-standard period format,rule
+HTL-002,2024-03,electricity,period,Mar-2024,2024-03,non-standard period format,rule
+HTL-004,2024-10,gas,period,2024/10,2024-10,non-standard period format,rule
+HTL-032,2025-04,water,period,Apr-2025,2025-04,non-standard period format,rule
+HTL-020,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-031,2024-07,water,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-032,2025-09,gas,period,2025/09,2025-09,non-standard period format,rule
+HTL-025,2024-07,electricity,period,2024/07,2024-07,non-standard period format,rule
+HTL-004,2024-12,gas,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-012,2024-07,gas,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-033,2024-09,electricity,period,2024/09,2024-09,non-standard period format,rule
+HTL-014,2025-11,electricity,period,Nov-2025,2025-11,non-standard period format,rule
+HTL-036,2024-11,gas,period,Nov-2024,2024-11,non-standard period format,rule
+HTL-009,2024-05,water,period,2024/05,2024-05,non-standard period format,rule
+HTL-024,2025-02,electricity,period,Feb-2025,2025-02,non-standard period format,rule
+HTL-023,2025-01,water,period,2025/01,2025-01,non-standard period format,rule
+HTL-017,2025-08,electricity,period,2025/08,2025-08,non-standard period format,rule
+HTL-007,2024-01,electricity,period,2024/01,2024-01,non-standard period format,rule
+HTL-017,2025-06,water,period,Jun-2025,2025-06,non-standard period format,rule
+HTL-006,2025-10,electricity,period,2025/10,2025-10,non-standard period format,rule
+HTL-001,2025-04,water,period,2025/04,2025-04,non-standard period format,rule
+HTL-010,2025-11,water,period,2025/11,2025-11,non-standard period format,rule
+HTL-016,2025-05,electricity,period,2025/05,2025-05,non-standard period format,rule
+HTL-010,2025-12,electricity,period,2025/12,2025-12,non-standard period format,rule
+HTL-018,2024-07,gas,period,2024/07,2024-07,non-standard period format,rule
+HTL-016,2024-12,electricity,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-018,2024-07,water,period,2024/07,2024-07,non-standard period format,rule
+HTL-020,2024-04,electricity,period,2024/04,2024-04,non-standard period format,rule
+HTL-004,2025-12,electricity,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-035,2024-08,water,period,2024/08,2024-08,non-standard period format,rule
+HTL-023,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-036,2024-05,water,period,May-2024,2024-05,non-standard period format,rule
+HTL-037,2025-07,gas,period,2025/07,2025-07,non-standard period format,rule
+HTL-017,2025-02,electricity,period,Feb-2025,2025-02,non-standard period format,rule
+HTL-039,2025-03,water,period,Mar-2025,2025-03,non-standard period format,rule
+HTL-003,2025-03,electricity,period,2025/03,2025-03,non-standard period format,rule
+HTL-011,2024-07,water,period,2024/07,2024-07,non-standard period format,rule
+HTL-036,2025-11,water,period,2025/11,2025-11,non-standard period format,rule
+HTL-005,2024-01,water,period,Jan-2024,2024-01,non-standard period format,rule
+HTL-015,2024-05,gas,period,May-2024,2024-05,non-standard period format,rule
+HTL-002,2025-03,electricity,period,Mar-2025,2025-03,non-standard period format,rule
+HTL-010,2025-06,water,period,2025/06,2025-06,non-standard period format,rule
+HTL-015,2024-10,gas,period,2024/10,2024-10,non-standard period format,rule
+HTL-034,2024-05,gas,period,2024/05,2024-05,non-standard period format,rule
+HTL-037,2025-04,gas,period,2025/04,2025-04,non-standard period format,rule
+HTL-037,2025-01,electricity,period,2025/01,2025-01,non-standard period format,rule
+HTL-005,2025-08,water,period,2025/08,2025-08,non-standard period format,rule
+HTL-038,2025-01,water,period,Jan-2025,2025-01,non-standard period format,rule
+HTL-034,2025-07,gas,period,2025/07,2025-07,non-standard period format,rule
+HTL-008,2024-05,water,period,May-2024,2024-05,non-standard period format,rule
+HTL-015,2025-10,water,period,Oct-2025,2025-10,non-standard period format,rule
+HTL-022,2025-09,water,period,Sep-2025,2025-09,non-standard period format,rule
+HTL-023,2024-03,electricity,period,2024/03,2024-03,non-standard period format,rule
+HTL-018,2025-12,water,period,2025/12,2025-12,non-standard period format,rule
+HTL-015,2024-07,gas,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-034,2025-05,gas,period,2025/05,2025-05,non-standard period format,rule
+HTL-040,2024-04,electricity,period,2024/04,2024-04,non-standard period format,rule
+HTL-004,2024-11,water,period,Nov-2024,2024-11,non-standard period format,rule
+HTL-002,2024-03,water,period,2024/03,2024-03,non-standard period format,rule
+HTL-003,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-025,2025-09,electricity,period,2025/09,2025-09,non-standard period format,rule
+HTL-024,2024-05,water,period,2024/05,2024-05,non-standard period format,rule
+HTL-024,2025-12,electricity,period,2025/12,2025-12,non-standard period format,rule
+HTL-009,2024-04,water,period,2024/04,2024-04,non-standard period format,rule
+HTL-029,2024-02,electricity,period,2024/02,2024-02,non-standard period format,rule
+HTL-022,2024-03,gas,period,2024/03,2024-03,non-standard period format,rule
+HTL-016,2025-11,electricity,period,Nov-2025,2025-11,non-standard period format,rule
+HTL-036,2024-08,electricity,period,Aug-2024,2024-08,non-standard period format,rule
+HTL-008,2025-11,water,period,Nov-2025,2025-11,non-standard period format,rule
+HTL-018,2025-10,water,period,2025/10,2025-10,non-standard period format,rule
+HTL-015,2024-04,gas,period,Apr-2024,2024-04,non-standard period format,rule
+HTL-009,2024-03,electricity,period,2024/03,2024-03,non-standard period format,rule
+HTL-003,2025-03,water,period,2025/03,2025-03,non-standard period format,rule
+HTL-029,2025-12,water,period,Dec-2025,2025-12,non-standard period format,rule
+HTL-005,2024-09,electricity,period,2024/09,2024-09,non-standard period format,rule
+HTL-023,2024-02,water,period,2024/02,2024-02,non-standard period format,rule
+HTL-021,2024-07,gas,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-018,2024-09,gas,period,Sep-2024,2024-09,non-standard period format,rule
+HTL-022,2025-07,water,period,Jul-2025,2025-07,non-standard period format,rule
+HTL-010,2025-03,water,period,2025/03,2025-03,non-standard period format,rule
+HTL-021,2024-12,water,period,Dec-2024,2024-12,non-standard period format,rule
+HTL-029,2025-06,water,period,Jun-2025,2025-06,non-standard period format,rule
+HTL-025,2024-07,water,period,Jul-2024,2024-07,non-standard period format,rule
+HTL-013,2024-03,gas,period,Mar-2024,2024-03,non-standard period format,rule
+HTL-012,2024-01,gas,period,Jan-2024,2024-01,non-standard period format,rule
+HTL-024,2025-01,water,period,2025/01,2025-01,non-standard period format,rule
+HTL-022,2025-09,gas,period,Sep-2025,2025-09,non-standard period format,rule
+HTL-014,2024-08,water,period,2024/08,2024-08,non-standard period format,rule
+HTL-037,2025-12,electricity,period,2025/12,2025-12,non-standard period format,rule
+HTL-011,2025-09,electricity,value,411.357,411357.0,unit conversion MWh -> base unit,rule
+HTL-035,2024-04,water,value,6818200.0,6818.2,unit conversion Litres -> base unit,rule
+HTL-005,2025-06,electricity,value,1091.211,1091211.0,unit conversion MWh -> base unit,rule
+HTL-029,2025-03,water,value,10459600.0,10459.6,unit conversion Litres -> base unit,rule
+HTL-017,2025-05,electricity,value,738.082,738082.0,unit conversion MWh -> base unit,rule
+HTL-035,2025-09,water,value,5506000.0,5506.0,unit conversion Litres -> base unit,rule
+HTL-005,2024-06,electricity,value,1096.06,1096060.0,unit conversion MWh -> base unit,rule
+HTL-033,2024-10,electricity,value,475.14,475140.0,unit conversion MWh -> base unit,rule
+HTL-020,2025-09,water,value,8514800.0,8514.8,unit conversion Litres -> base unit,rule
+HTL-035,2025-07,electricity,value,469.201,469201.0,unit conversion MWh -> base unit,rule
+HTL-011,2025-11,electricity,value,401.762,401762.0,unit conversion MWh -> base unit,rule
+HTL-027,2024-10,water,value,3723300.0,3723.3,unit conversion Litres -> base unit,rule
+HTL-003,2025-11,electricity,value,1104.616,1104616.0,unit conversion MWh -> base unit,rule
+HTL-027,2024-12,water,value,4046300.0,4046.3,unit conversion Litres -> base unit,rule
+HTL-038,2025-10,water,value,5806900.0,5806.900000000001,unit conversion Litres -> base unit,rule
+HTL-023,2024-10,electricity,value,1098.976,1098976.0,unit conversion MWh -> base unit,rule
+HTL-026,2025-10,electricity,value,410.437,410437.0,unit conversion MWh -> base unit,rule
+HTL-026,2025-04,electricity,value,412.615,412615.0,unit conversion MWh -> base unit,rule
+HTL-007,2024-08,electricity,value,659.192,659192.0,unit conversion MWh -> base unit,rule
+HTL-013,2024-04,electricity,value,741.777,741777.0,unit conversion MWh -> base unit,rule
+HTL-019,2024-04,electricity,value,161.09,161090.0,unit conversion MWh -> base unit,rule
+HTL-019,2024-08,electricity,value,166.345,166345.0,unit conversion MWh -> base unit,rule
+HTL-018,2024-01,water,value,8131000.0,8131.0,unit conversion Litres -> base unit,rule
+HTL-016,2024-05,water,value,10625600.0,10625.6,unit conversion Litres -> base unit,rule
+HTL-015,2025-06,water,value,7582400.0,7582.400000000001,unit conversion Litres -> base unit,rule
+HTL-018,2025-08,electricity,value,645.4,645400.0,unit conversion MWh -> base unit,rule
+HTL-005,2025-04,electricity,value,1033.118,1033117.9999999999,unit conversion MWh -> base unit,rule
+HTL-021,2025-07,electricity,value,643.109,643109.0,unit conversion MWh -> base unit,rule
+HTL-017,2024-10,water,value,10413700.0,10413.7,unit conversion Litres -> base unit,rule
+HTL-010,2024-03,electricity,value,918.291,918291.0,unit conversion MWh -> base unit,rule
+HTL-036,2024-07,electricity,value,899.617,899617.0,unit conversion MWh -> base unit,rule
+HTL-017,2025-01,electricity,value,732.739,732739.0,unit conversion MWh -> base unit,rule
+HTL-008,2025-03,electricity,value,1166.496,1166496.0,unit conversion MWh -> base unit,rule
+HTL-004,2025-02,water,value,7691200.0,7691.2,unit conversion Litres -> base unit,rule
+HTL-037,2024-04,electricity,value,799.133,799133.0,unit conversion MWh -> base unit,rule
+HTL-020,2025-10,water,value,9740000.0,9740.0,unit conversion Litres -> base unit,rule
+HTL-037,2024-10,water,value,10795200.0,10795.2,unit conversion Litres -> base unit,rule
+HTL-011,2025-08,water,value,5983900.0,5983.900000000001,unit conversion Litres -> base unit,rule
+HTL-014,2025-07,water,value,8183100.0,8183.1,unit conversion Litres -> base unit,rule
+HTL-039,2025-04,water,value,8132900.0,8132.900000000001,unit conversion Litres -> base unit,rule
+HTL-037,2025-11,electricity,value,780.743,780743.0,unit conversion MWh -> base unit,rule
+HTL-037,2024-06,water,value,10467500.0,10467.5,unit conversion Litres -> base unit,rule
+HTL-024,2025-01,electricity,value,0.0,0.0,unit conversion MWh -> base unit,rule
+HTL-013,2024-03,electricity,value,659.012,659012.0,unit conversion MWh -> base unit,rule
+HTL-009,2024-11,water,value,11608600.0,11608.6,unit conversion Litres -> base unit,rule
+HTL-012,2024-12,water,value,6365300.0,6365.3,unit conversion Litres -> base unit,rule
+HTL-028,2025-05,electricity,value,840.635,840635.0,unit conversion MWh -> base unit,rule
+HTL-004,2024-10,water,value,8071300.0,8071.3,unit conversion Litres -> base unit,rule
+HTL-017,2025-09,water,value,8859100.0,8859.1,unit conversion Litres -> base unit,rule
+HTL-003,2024-01,water,value,15058900.0,15058.9,unit conversion LITRES -> base unit,rule
+HTL-012,2024-09,electricity,value,396.126,396126.0,unit conversion MWh -> base unit,rule
+HTL-001,2024-09,electricity,value,599.665,599665.0,unit conversion MWh -> base unit,rule
+HTL-008,2024-12,water,value,0.0,0.0,unit conversion Litres -> base unit,rule
+HTL-035,2024-07,electricity,value,464.223,464223.0,unit conversion MWh -> base unit,rule
+HTL-028,2024-12,electricity,value,789.326,789326.0,unit conversion MWh -> base unit,rule
+HTL-009,2025-08,electricity,value,902.6,902600.0,unit conversion MWh -> base unit,rule
+HTL-028,2025-08,electricity,value,810.323,810323.0,unit conversion MWH -> base unit,rule
+HTL-023,2025-12,electricity,value,1000.233,1000233.0,unit conversion MWh -> base unit,rule
+HTL-006,2025-11,water,value,7325000.0,7325.0,unit conversion Litres -> base unit,rule
+HTL-014,2024-08,electricity,value,733.401,733401.0,unit conversion MWh -> base unit,rule
+HTL-032,2024-09,water,value,5681400.0,5681.400000000001,unit conversion Litres -> base unit,rule
+HTL-009,2025-10,electricity,value,852.25,852250.0,unit conversion MWh -> base unit,rule
+HTL-011,2025-04,water,value,5867500.0,5867.5,unit conversion Litres -> base unit,rule
+HTL-017,2024-11,electricity,value,700.861,700861.0,unit conversion MWh -> base unit,rule
+HTL-025,2024-12,electricity,value,843.816,843816.0,unit conversion MWh -> base unit,rule
+HTL-007,2024-09,water,value,8952400.0,8952.4,unit conversion Litres -> base unit,rule
+HTL-036,2025-06,electricity,value,876.26,876260.0,unit conversion MWh -> base unit,rule
+HTL-026,2025-02,water,value,-5783700.0,-5783.7,unit conversion Litres -> base unit,rule
+HTL-030,2024-04,electricity,value,422.757,422757.0,unit conversion MWh -> base unit,rule
+HTL-039,2025-11,electricity,value,533.814,533814.0,unit conversion MWH -> base unit,rule
+HTL-013,2025-12,electricity,value,642.088,642088.0,unit conversion MWh -> base unit,rule
+HTL-008,2024-10,water,value,15319000.0,15319.0,unit conversion Litres -> base unit,rule
+HTL-013,2025-08,water,value,9186200.0,9186.2,unit conversion Litres -> base unit,rule
+HTL-014,2025-03,electricity,value,616.32,616320.0,unit conversion MWh -> base unit,rule
+HTL-002,2025-04,electricity,value,870.578,870578.0,unit conversion MWh -> base unit,rule
+HTL-003,2025-04,water,value,16521400.0,16521.4,unit conversion Litres -> base unit,rule
+HTL-018,2025-08,water,value,8265200.0,8265.2,unit conversion Litres -> base unit,rule
+HTL-039,2024-08,electricity,value,574.039,574039.0,unit conversion MWh -> base unit,rule
+HTL-025,2025-01,electricity,value,858.659,858659.0,unit conversion MWh -> base unit,rule
+HTL-002,2024-10,water,value,11522000.0,11522.0,unit conversion Litres -> base unit,rule
+HTL-003,2024-08,water,value,15018100.0,15018.1,unit conversion Litres -> base unit,rule
+HTL-034,2024-04,electricity,value,591.194,591194.0,unit conversion MWh -> base unit,rule
+HTL-019,2024-01,water,value,2386500.0,2386.5,unit conversion Litres -> base unit,rule
+HTL-011,2024-12,water,value,5885300.0,5885.3,unit conversion Litres -> base unit,rule
+HTL-012,2024-11,electricity,value,423.182,423182.0,unit conversion MWh -> base unit,rule
+HTL-017,2024-06,electricity,value,691.136,691136.0,unit conversion MWh -> base unit,rule
+HTL-019,2025-09,electricity,value,175.208,175208.0,unit conversion MWh -> base unit,rule
+HTL-002,2024-09,water,value,11471700.0,11471.7,unit conversion Litres -> base unit,rule
+HTL-034,2025-02,water,value,6609600.0,6609.6,unit conversion Litres -> base unit,rule
+HTL-037,2025-12,water,value,10781300.0,10781.300000000001,unit conversion Litres -> base unit,rule
+HTL-016,2025-04,electricity,value,730.36,730360.0,unit conversion MWh -> base unit,rule
+HTL-027,2024-12,electricity,value,322.538,322538.0,unit conversion MWh -> base unit,rule
+HTL-007,2025-07,electricity,value,631.855,631855.0,unit conversion MWh -> base unit,rule
+HTL-012,2025-06,electricity,value,430.453,430453.0,unit conversion MWh -> base unit,rule
+HTL-027,2024-07,electricity,value,325.239,325239.0,unit conversion MWh -> base unit,rule
+HTL-015,2024-11,electricity,value,552.391,552391.0,unit conversion MWh -> base unit,rule
+HTL-023,2025-08,water,value,15751900.0,15751.9,unit conversion Litres -> base unit,rule
+HTL-013,2024-09,electricity,value,675.154,675154.0,unit conversion MWh -> base unit,rule
+HTL-026,2024-10,water,value,5198500.0,5198.5,unit conversion Litres -> base unit,rule
+HTL-036,2024-09,water,value,10622300.0,10622.300000000001,unit conversion Litres -> base unit,rule
+HTL-036,2024-01,electricity,value,9232.26,9232260.0,unit conversion MWh -> base unit,rule
+HTL-028,2025-12,water,value,11814300.0,11814.300000000001,unit conversion Litres -> base unit,rule
+HTL-031,2025-01,electricity,value,289.2,289200.0,unit conversion MWh -> base unit,rule
+HTL-030,2024-02,water,value,5633100.0,5633.1,unit conversion Litres -> base unit,rule
+HTL-031,2025-06,water,value,4255700.0,4255.7,unit conversion Litres -> base unit,rule
+HTL-031,2025-12,water,value,4732100.0,4732.1,unit conversion Litres -> base unit,rule
+HTL-007,2025-06,water,value,83722000.0,83722.0,unit conversion Litres -> base unit,rule
+HTL-003,2025-08,water,value,14192900.0,14192.9,unit conversion Litres -> base unit,rule
+HTL-022,2024-03,electricity,value,433.162,433162.0,unit conversion MWh -> base unit,rule
+HTL-023,2024-08,electricity,value,1167.374,1167374.0,unit conversion MWh -> base unit,rule
+HTL-023,2024-09,water,value,13432900.0,13432.9,unit conversion Litres -> base unit,rule
+HTL-034,2024-07,electricity,value,595.66,595660.0,unit conversion MWh -> base unit,rule
+HTL-008,2024-01,electricity,value,1092.972,1092972.0,unit conversion MWh -> base unit,rule
+HTL-020,2024-09,electricity,value,713.721,713721.0,unit conversion MWh -> base unit,rule
+HTL-018,2025-02,water,value,8424900.0,8424.9,unit conversion Litres -> base unit,rule
+HTL-010,2024-05,electricity,value,906.497,906497.0,unit conversion MWh -> base unit,rule
+HTL-036,2025-09,water,value,10093400.0,10093.4,unit conversion Litres -> base unit,rule
+HTL-015,2025-11,electricity,value,485.7,485700.0,unit conversion MWh -> base unit,rule
+HTL-017,2025-03,electricity,value,704.054,704054.0,unit conversion MWh -> base unit,rule
+HTL-011,2024-11,electricity,value,392.968,392968.0,unit conversion MWh -> base unit,rule
+HTL-014,2024-03,water,value,9003300.0,9003.300000000001,unit conversion Litres -> base unit,rule
+HTL-025,2025-03,water,value,13739800.0,13739.800000000001,unit conversion Litres -> base unit,rule
+HTL-016,2024-06,water,value,10135300.0,10135.300000000001,unit conversion Litres -> base unit,rule
+HTL-033,2024-09,electricity,value,443.91,443910.0,unit conversion MWh -> base unit,rule
+HTL-027,2025-08,electricity,value,308.286,308286.0,unit conversion MWh -> base unit,rule
+HTL-024,2025-06,electricity,value,374.858,374858.0,unit conversion MWh -> base unit,rule
+HTL-029,2024-12,electricity,value,805.348,805348.0,unit conversion MWh -> base unit,rule
+HTL-007,2024-01,electricity,value,566.325,566325.0,unit conversion MWh -> base unit,rule
+HTL-004,2025-06,electricity,value,556.354,556354.0,unit conversion MWh -> base unit,rule
+HTL-017,2025-07,water,value,25231300.0,25231.3,unit conversion Litres -> base unit,rule
+HTL-009,2024-03,water,value,13147500.0,13147.5,unit conversion LITRES -> base unit,rule
+HTL-006,2025-09,electricity,value,647.009,647009.0,unit conversion MWh -> base unit,rule
+HTL-006,2025-10,electricity,value,665.484,665484.0,unit conversion MWh -> base unit,rule
+HTL-010,2025-04,electricity,value,957.63,957630.0,unit conversion MWh -> base unit,rule
+HTL-031,2025-12,electricity,value,277.684,277684.0,unit conversion MWh -> base unit,rule
+HTL-017,2025-11,water,value,9765700.0,9765.7,unit conversion Litres -> base unit,rule
+HTL-031,2025-03,electricity,value,283.821,283821.0,unit conversion MWh -> base unit,rule
+HTL-028,2025-03,electricity,value,758.823,758823.0,unit conversion MWh -> base unit,rule
+HTL-001,2024-04,electricity,value,597.253,597253.0,unit conversion MWh -> base unit,rule
+HTL-001,2024-06,electricity,value,558.027,558027.0,unit conversion MWh -> base unit,rule
+HTL-030,2025-11,water,value,6288400.0,6288.400000000001,unit conversion Litres -> base unit,rule
+HTL-004,2025-03,electricity,value,576.668,576668.0,unit conversion MWh -> base unit,rule
+HTL-033,2024-03,electricity,value,475.001,475001.0,unit conversion MWh -> base unit,rule
+HTL-005,2024-03,water,value,14738600.0,14738.6,unit conversion Litres -> base unit,rule
+HTL-031,2025-07,electricity,value,324.807,324807.0,unit conversion MWh -> base unit,rule
+HTL-002,2025-12,electricity,value,910.468,910468.0,unit conversion MWh -> base unit,rule
+HTL-007,2024-10,water,value,8527200.0,8527.2,unit conversion Litres -> base unit,rule
+HTL-010,2024-06,water,value,11898200.0,11898.2,unit conversion Litres -> base unit,rule
+HTL-028,2024-02,water,value,11575200.0,11575.2,unit conversion Litres -> base unit,rule
+HTL-010,2025-12,electricity,value,967.222,967222.0,unit conversion MWh -> base unit,rule
+HTL-022,2024-09,water,value,5293200.0,5293.2,unit conversion Litres -> base unit,rule
+HTL-025,2024-01,water,value,13160300.0,13160.300000000001,unit conversion Litres -> base unit,rule
+HTL-024,2024-10,electricity,value,373.6,373600.0,unit conversion MWh -> base unit,rule
+HTL-008,2024-02,electricity,value,1060.478,1060478.0,unit conversion MWh -> base unit,rule
+HTL-025,2025-06,electricity,value,856.092,856092.0,unit conversion MWh -> base unit,rule
+HTL-031,2025-01,water,value,4951000.0,4951.0,unit conversion Litres -> base unit,rule
+HTL-034,2025-10,water,value,7659300.0,7659.3,unit conversion Litres -> base unit,rule
+HTL-011,2024-03,electricity,value,426.072,426072.0,unit conversion MWh -> base unit,rule
+HTL-011,2025-06,electricity,value,422.695,422695.0,unit conversion MWh -> base unit,rule
+HTL-005,2025-04,electricity,value,953.6,953600.0,unit conversion MWh -> base unit,rule
+HTL-002,2024-10,electricity,value,912.8,912800.0,unit conversion MWh -> base unit,rule
+HTL-001,2024-01,electricity,value,587.955,587955.0,unit conversion MWh -> base unit,rule
+HTL-008,2025-04,water,value,15263500.0,15263.5,unit conversion Litres -> base unit,rule
+HTL-029,2025-12,electricity,value,778.46,778460.0,unit conversion MWh -> base unit,rule
+HTL-036,2024-05,water,value,11852200.0,11852.2,unit conversion Litres -> base unit,rule
+HTL-018,2024-10,electricity,value,632.095,632095.0,unit conversion MWh -> base unit,rule
+HTL-005,2024-11,electricity,value,966.265,966265.0,unit conversion MWh -> base unit,rule
+HTL-003,2025-03,electricity,value,1121.043,1121043.0,unit conversion MWh -> base unit,rule
+HTL-030,2025-02,water,value,5934600.0,5934.6,unit conversion Litres -> base unit,rule
+HTL-040,2024-01,electricity,value,626.1,626100.0,unit conversion MWh -> base unit,rule
+HTL-020,2025-06,electricity,value,752.935,752935.0,unit conversion MWh -> base unit,rule
+HTL-032,2024-08,electricity,value,473.582,473582.0,unit conversion MWh -> base unit,rule
+HTL-014,2024-06,water,value,8513600.0,8513.6,unit conversion Litres -> base unit,rule
+HTL-035,2025-11,electricity,value,464.204,464204.0,unit conversion MWh -> base unit,rule
+HTL-029,2025-07,electricity,value,807.102,807102.0,unit conversion MWh -> base unit,rule
+HTL-003,2024-10,electricity,value,1088.387,1088387.0,unit conversion MWh -> base unit,rule
+HTL-036,2024-10,electricity,value,845.955,845955.0,unit conversion MWh -> base unit,rule
+HTL-039,2024-11,electricity,value,517.545,517544.99999999994,unit conversion MWh -> base unit,rule
+HTL-007,2025-12,water,value,8259000.0,8259.0,unit conversion Litres -> base unit,rule
+HTL-022,2025-10,electricity,value,495.12,495120.0,unit conversion MWh -> base unit,rule
+HTL-014,2025-11,water,value,9005100.0,9005.1,unit conversion Litres -> base unit,rule
+HTL-026,2024-04,electricity,value,418.828,418828.0,unit conversion MWh -> base unit,rule
+HTL-011,2024-02,electricity,value,374.788,374788.0,unit conversion MWh -> base unit,rule
+HTL-032,2024-09,electricity,value,466.251,466251.0,unit conversion MWh -> base unit,rule
+HTL-039,2024-07,water,value,7403200.0,7403.2,unit conversion Litres -> base unit,rule
+HTL-009,2024-04,electricity,value,939.656,939656.0,unit conversion MWh -> base unit,rule
+HTL-020,2025-02,electricity,value,718.138,718138.0,unit conversion MWh -> base unit,rule
+HTL-036,2024-12,electricity,value,837.249,837249.0,unit conversion MWH -> base unit,rule
+HTL-018,2025-11,electricity,value,562.404,562404.0,unit conversion MWh -> base unit,rule
+HTL-018,2024-01,water,value,8131000.0,8131.0,unit conversion Litres -> base unit,rule
+HTL-013,2024-06,electricity,value,647.006,647006.0,unit conversion MWh -> base unit,rule
+HTL-031,2024-09,water,value,4434600.0,4434.6,unit conversion Litres -> base unit,rule
+HTL-015,2025-05,electricity,value,589.288,589288.0,unit conversion MWh -> base unit,rule
+HTL-016,2025-06,water,value,10772700.0,10772.7,unit conversion Litres -> base unit,rule
+HTL-039,2025-01,electricity,value,508.401,508401.0,unit conversion MWh -> base unit,rule
+HTL-024,2025-12,electricity,value,332.038,332038.0,unit conversion MWh -> base unit,rule
+HTL-010,2024-03,water,value,13747500.0,13747.5,unit conversion Litres -> base unit,rule
+HTL-029,2024-02,electricity,value,716.628,716628.0,unit conversion MWh -> base unit,rule
+HTL-038,2025-12,electricity,value,491.985,491985.0,unit conversion MWh -> base unit,rule
+HTL-001,2024-05,electricity,value,616.377,616377.0,unit conversion MWh -> base unit,rule
+HTL-030,2024-05,electricity,value,465.41,465410.0,unit conversion MWh -> base unit,rule
+HTL-034,2025-08,water,value,7103100.0,7103.1,unit conversion Litres -> base unit,rule
+HTL-002,2024-12,electricity,value,966.291,966291.0,unit conversion MWh -> base unit,rule
+HTL-040,2025-01,electricity,value,597.775,597775.0,unit conversion MWh -> base unit,rule
+HTL-040,2024-03,water,value,8665100.0,8665.1,unit conversion Litres -> base unit,rule
+HTL-034,2025-05,electricity,value,597.694,597694.0,unit conversion MWh -> base unit,rule
+HTL-027,2025-07,electricity,value,312.408,312408.0,unit conversion MWh -> base unit,rule
+HTL-018,2025-10,water,value,7975300.0,7975.3,unit conversion Litres -> base unit,rule
+HTL-003,2025-03,water,value,14214300.0,14214.300000000001,unit conversion Litres -> base unit,rule
+HTL-008,2025-05,electricity,value,1147.839,1147839.0,unit conversion MWh -> base unit,rule
+HTL-040,2024-01,electricity,value,626.1,626100.0,unit conversion MWh -> base unit,rule
+HTL-033,2025-10,water,value,7049600.0,7049.6,unit conversion Litres -> base unit,rule
+HTL-001,2025-12,water,value,8079800.0,8079.8,unit conversion Litres -> base unit,rule
+HTL-002,2024-02,water,value,10285400.0,10285.4,unit conversion Litres -> base unit,rule
+HTL-023,2024-02,water,value,14498000.0,14498.0,unit conversion Litres -> base unit,rule
+HTL-031,2024-08,water,value,4359100.0,4359.1,unit conversion Litres -> base unit,rule
+HTL-013,2025-05,electricity,value,715.034,715034.0,unit conversion MWH -> base unit,rule
+HTL-036,2025-10,electricity,value,853.319,853319.0,unit conversion MWh -> base unit,rule
+HTL-033,2025-12,water,value,7421000.0,7421.0,unit conversion Litres -> base unit,rule
+HTL-001,2024-02,electricity,value,607.3,607300.0,unit conversion MWh -> base unit,rule
+HTL-014,2025-05,electricity,value,684.458,684458.0,unit conversion MWh -> base unit,rule
+HTL-028,2025-06,electricity,value,0.745,745.0,unit conversion MWh -> base unit,rule
+HTL-024,2025-02,water,value,5481200.0,5481.2,unit conversion Litres -> base unit,rule
+HTL-016,2024-04,water,value,10664000.0,10664.0,unit conversion Litres -> base unit,rule
+HTL-006,2024-05,water,value,7893800.0,7893.8,unit conversion Litres -> base unit,rule
+HTL-025,2024-04,electricity,value,899.226,899226.0,unit conversion MWh -> base unit,rule
+HTL-017,2025-10,electricity,value,703.514,703514.0,unit conversion MWh -> base unit,rule
+HTL-018,2024-03,electricity,value,611.847,611847.0,unit conversion MWH -> base unit,rule
+HTL-034,2024-08,electricity,value,624.344,624344.0,unit conversion MWh -> base unit,rule
+HTL-011,2024-09,electricity,value,432.024,432024.0,unit conversion MWh -> base unit,rule
+HTL-026,2025-05,electricity,value,424.475,424475.0,unit conversion MWh -> base unit,rule
+HTL-009,2024-02,electricity,value,864.875,864875.0,unit conversion MWh -> base unit,rule
+HTL-009,2025-04,water,value,12790200.0,12790.2,unit conversion Litres -> base unit,rule
+HTL-001,2024-11,electricity,value,6041145.0,604114.5,decimal_shift,bill
+HTL-001,2025-12,electricity,value,643792.0,611127.5,bill_mismatch,bill
+HTL-002,2024-06,electricity,value,0.0,936429.720967742,invalid value,bill
+HTL-002,2024-11,electricity,value,813110.0,899251.4,bill_mismatch,bill
+HTL-002,2025-05,electricity,value,953.879,953879.2,unit_mislabel,bill
+HTL-003,2025-06,electricity,value,1132145.1,1095205.3,bill_mismatch,bill
+HTL-003,2025-09,water,value,12193.4,13521.6,bill_mismatch,bill
+HTL-005,2024-12,electricity,value,1101220.8,1043494.2,bill_mismatch,bill
+HTL-005,2024-12,water,value,-14620.7,14620.7,invalid value,bill
+HTL-005,2025-12,water,value,15490.7,13918.3,bill_mismatch,bill
+HTL-007,2024-07,electricity,value,662.105,662104.8,unit_mislabel,bill
+HTL-007,2025-01,electricity,value,566474.1,521502.4,bill_mismatch,bill
+HTL-007,2025-06,water,value,83722.0,8372.2,decimal_shift,bill
+HTL-007,2025-07,water,value,9882.6,8626.0,bill_mismatch,bill
+HTL-008,2024-12,water,value,0.0,14074.682352941178,invalid value,bill
+HTL-009,2024-10,electricity,value,950196.0,931149.9,bill_mismatch,bill
+HTL-009,2025-11,electricity,value,-905839.5,905839.5,invalid value,bill
+HTL-010,2025-08,electricity,value,8977988.0,897798.8,decimal_shift,bill
+HTL-010,2025-10,electricity,value,887.809,887809.3,unit_mislabel,bill
+HTL-011,2024-04,electricity,value,472642.0,417314.8,bill_mismatch,bill
+HTL-011,2025-01,electricity,value,425.498,425497.5,unit_mislabel,bill
+HTL-012,2025-03,water,value,6700.3,6241.3,bill_mismatch,bill
+HTL-014,2024-02,electricity,value,557.489,557489.2,unit_mislabel,bill
+HTL-015,2024-05,electricity,value,601.961,601961.2,unit_mislabel,bill
+HTL-015,2024-12,electricity,value,591683.3,578796.3,bill_mismatch,bill
+HTL-015,2025-04,gas,value,684004.0,68400.4,decimal_shift,bill
+HTL-015,2025-07,electricity,value,711653.7,632522.1,bill_mismatch,bill
+HTL-015,2025-11,electricity,value,485700.0,554676.7,bill_mismatch,bill
+HTL-017,2024-04,electricity,value,688.729,688729.1,unit_mislabel,bill
+HTL-017,2024-07,gas,value,71941.1,70418.0,bill_mismatch,bill
+HTL-017,2025-08,water,value,9174.5,9934.8,bill_mismatch,bill
+HTL-018,2025-08,electricity,value,645400.0,613596.1,bill_mismatch,bill
+HTL-018,2025-08,gas,value,724620.0,72462.0,decimal_shift,bill
+HTL-019,2024-02,water,value,1986.8,2061.6,bill_mismatch,bill
+HTL-019,2024-12,electricity,value,-161347.9,161347.9,invalid value,bill
+HTL-019,2025-01,gas,value,18484.4,19554.1,bill_mismatch,bill
+HTL-019,2025-06,gas,value,25218.7,22568.8,bill_mismatch,bill
+HTL-020,2024-01,electricity,value,722365.1,827163.1,bill_mismatch,bill
+HTL-021,2024-08,electricity,value,733997.5,658187.1,bill_mismatch,bill
+HTL-021,2024-12,electricity,value,552589.9,650057.8,bill_mismatch,bill
+HTL-021,2025-10,gas,value,587506.0,58750.6,decimal_shift,bill
+HTL-021,2025-12,electricity,value,616179.8,652410.9,bill_mismatch,bill
+HTL-022,2025-11,electricity,value,434105.4,419624.1,bill_mismatch,bill
+HTL-022,2025-12,electricity,value,443.837,443836.6,unit_mislabel,bill
+HTL-024,2024-02,water,value,5290.9,5083.6,bill_mismatch,bill
+HTL-024,2024-10,electricity,value,373600.0,348766.1,bill_mismatch,bill
+HTL-024,2025-01,electricity,value,0.0,355516.4,invalid value,bill
+HTL-025,2024-03,electricity,value,815271.0,916124.2,bill_mismatch,bill
+HTL-025,2025-02,water,value,11974.1,12223.1,bill_mismatch,bill
+HTL-025,2025-04,electricity,value,903.891,903890.6,unit_mislabel,bill
+HTL-026,2024-09,electricity,value,0.0,436966.8365495392,invalid value,bill
+HTL-026,2025-02,water,value,-5783.7,5783.68064516129,invalid value,bill
+HTL-026,2025-03,electricity,value,4309466.0,430946.8,decimal_shift,bill
+HTL-027,2025-10,water,value,3652.6,3773.8,bill_mismatch,bill
+HTL-028,2024-07,electricity,value,801130.9,763894.8,bill_mismatch,bill
+HTL-028,2025-04,electricity,value,692846.1,797029.1,bill_mismatch,bill
+HTL-028,2025-06,electricity,value,745.0,745484.8,unit_mislabel,bill
+HTL-029,2024-04,electricity,value,740.619,740618.6,unit_mislabel,bill
+HTL-030,2024-01,electricity,value,416.253,416253.3,unit_mislabel,bill
+HTL-030,2024-07,electricity,value,497.866,497865.5,unit_mislabel,bill
+HTL-030,2024-08,water,value,64207.0,6420.7,decimal_shift,bill
+HTL-030,2024-12,electricity,value,377366.8,434904.9,bill_mismatch,bill
+HTL-031,2024-11,electricity,value,258016.9,272468.6,bill_mismatch,bill
+HTL-031,2025-01,electricity,value,289200.0,279420.1,bill_mismatch,bill
+HTL-032,2024-07,electricity,value,522.46,522459.8,unit_mislabel,bill
+HTL-032,2025-12,electricity,value,441.43,441430.5,unit_mislabel,bill
+HTL-032,2025-12,gas,value,47299.1,44843.5,bill_mismatch,bill
+HTL-033,2024-09,water,value,7682.7,6691.7,bill_mismatch,bill
+HTL-034,2024-12,water,value,81857.0,8185.7,decimal_shift,bill
+HTL-034,2025-03,water,value,86809.0,8680.9,decimal_shift,bill
+HTL-034,2025-10,electricity,value,611.374,611373.7,unit_mislabel,bill
+HTL-035,2024-03,electricity,value,486091.7,451914.0,bill_mismatch,bill
+HTL-035,2024-05,electricity,value,463.191,463190.9,unit_mislabel,bill
+HTL-035,2024-06,gas,value,522127.0,52212.7,decimal_shift,bill
+HTL-035,2024-06,water,value,5909.0,6470.5,bill_mismatch,bill
+HTL-035,2024-12,electricity,value,498170.3,451472.0,bill_mismatch,bill
+HTL-035,2025-03,electricity,value,461.561,461560.9,unit_mislabel,bill
+HTL-035,2025-08,water,value,5505.6,5806.6,bill_mismatch,bill
+HTL-035,2025-11,water,value,6480.7,6083.0,bill_mismatch,bill
+HTL-036,2024-01,electricity,value,9232260.0,923225.8,decimal_shift,bill
+HTL-036,2025-01,water,value,111939.0,11193.9,decimal_shift,bill
+HTL-036,2025-06,gas,value,712557.0,71255.7,decimal_shift,bill
+HTL-036,2025-11,electricity,value,785017.8,855393.0,bill_mismatch,bill
+HTL-037,2024-07,gas,value,65232.1,62534.0,bill_mismatch,bill
+HTL-037,2024-11,gas,value,72487.8,84119.2,bill_mismatch,bill
+HTL-037,2025-10,water,value,9949.8,10510.7,bill_mismatch,bill
+HTL-038,2024-10,water,value,6333.3,6471.2,bill_mismatch,bill
+HTL-038,2025-08,electricity,value,-562154.5,562154.5,invalid value,bill
+HTL-039,2024-01,electricity,value,509.942,509942.4,unit_mislabel,bill
+HTL-040,2024-07,water,value,86350.0,8635.0,decimal_shift,bill
+HTL-001,2024-04,water,value,,7637.0,missing submission,bill
+HTL-002,2025-11,water,value,,11432.8,missing submission,bill
+HTL-003,2025-07,electricity,value,,1095954.4,missing submission,bill
+HTL-003,2025-12,water,value,,17059.6,missing submission,bill
+HTL-004,2025-03,water,value,,7454.6,missing submission,bill
+HTL-004,2025-10,gas,value,,58257.0,missing submission,bill
+HTL-005,2024-10,electricity,value,,1056509.2,missing submission,bill
+HTL-005,2024-11,water,value,,12963.8,missing submission,bill
+HTL-006,2025-07,water,value,,7425.9,missing submission,bill
+HTL-007,2024-10,electricity,value,,621312.9,missing submission,bill
+HTL-007,2025-02,electricity,value,,490997.4,missing submission,bill
+HTL-008,2024-11,water,value,,13751.3,missing submission,bill
+HTL-009,2024-01,water,value,,12619.1,missing submission,bill
+HTL-009,2024-08,water,value,,12087.6,missing submission,bill
+HTL-009,2024-11,electricity,value,,956708.3,missing submission,bill
+HTL-009,2025-05,electricity,value,,955036.9,missing submission,bill
+HTL-010,2024-11,electricity,value,,922555.5,missing submission,bill
+HTL-010,2025-07,water,value,,13608.4,missing submission,bill
+HTL-011,2024-11,gas,value,,46869.2,missing submission,bill
+HTL-011,2024-12,electricity,value,,419556.0,missing submission,bill
+HTL-012,2024-01,electricity,value,,431355.8,missing submission,bill
+HTL-012,2024-01,water,value,,6398.9,missing submission,bill
+HTL-012,2025-11,water,value,,5860.9,missing submission,bill
+HTL-013,2024-01,water,value,,10691.8,missing submission,bill
+HTL-013,2024-10,electricity,value,,728383.9,missing submission,bill
+HTL-013,2025-03,electricity,value,,693379.9,missing submission,bill
+HTL-015,2024-03,electricity,value,,571608.4,missing submission,bill
+HTL-015,2025-03,gas,value,,94848.9,missing submission,bill
+HTL-016,2024-12,water,value,,12986.3,missing submission,bill
+HTL-016,2025-06,electricity,value,,754594.5,missing submission,bill
+HTL-016,2025-11,water,value,,10151.8,missing submission,bill
+HTL-017,2025-11,gas,value,,76812.8,missing submission,bill
+HTL-017,2025-12,gas,value,,71081.9,missing submission,bill
+HTL-018,2024-11,gas,value,,68662.4,missing submission,bill
+HTL-021,2025-07,water,value,,7865.8,missing submission,bill
+HTL-022,2024-09,electricity,value,,467380.8,missing submission,bill
+HTL-022,2024-11,electricity,value,,449314.9,missing submission,bill
+HTL-023,2024-06,water,value,,15139.6,missing submission,bill
+HTL-023,2025-04,electricity,value,,974588.9,missing submission,bill
+HTL-023,2025-06,water,value,,15493.8,missing submission,bill
+HTL-024,2025-03,water,value,,4825.4,missing submission,bill
+HTL-025,2025-05,water,value,,12606.5,missing submission,bill
+HTL-026,2025-12,water,value,,5562.0,missing submission,bill
+HTL-027,2025-04,gas,value,,31397.0,missing submission,bill
+HTL-027,2025-06,electricity,value,,290987.9,missing submission,bill
+HTL-027,2025-09,gas,value,,29203.9,missing submission,bill
+HTL-027,2025-11,water,value,,3713.3,missing submission,bill
+HTL-028,2024-03,water,value,,11814.5,missing submission,bill
+HTL-029,2024-05,electricity,value,,757595.0,missing submission,bill
+HTL-029,2024-06,electricity,value,,740197.0,missing submission,bill
+HTL-029,2024-07,water,value,,9811.6,missing submission,bill
+HTL-031,2024-05,water,value,,4943.7,missing submission,bill
+HTL-031,2024-06,electricity,value,,303232.3,missing submission,bill
+HTL-031,2025-08,gas,value,,35302.6,missing submission,bill
+HTL-032,2024-08,gas,value,,41005.3,missing submission,bill
+HTL-032,2025-02,water,value,,5671.1,missing submission,bill
+HTL-032,2025-04,gas,value,,57341.1,missing submission,bill
+HTL-033,2024-01,electricity,value,,466612.2,missing submission,bill
+HTL-033,2024-07,electricity,value,,470113.8,missing submission,bill
+HTL-033,2024-07,water,value,,6889.1,missing submission,bill
+HTL-033,2025-03,water,value,,6631.4,missing submission,bill
+HTL-033,2025-06,electricity,value,,437148.1,missing submission,bill
+HTL-033,2025-12,electricity,value,,477984.4,missing submission,bill
+HTL-035,2024-05,gas,value,,48247.2,missing submission,bill
+HTL-036,2024-05,electricity,value,,917815.2,missing submission,bill
+HTL-036,2024-09,electricity,value,,871167.3,missing submission,bill
+HTL-036,2025-12,water,value,,10917.5,missing submission,bill
+HTL-037,2025-07,electricity,value,,865455.9,missing submission,bill
+HTL-037,2025-08,gas,value,,88092.4,missing submission,bill
+HTL-038,2025-09,electricity,value,,543500.6,missing submission,bill
+HTL-040,2024-09,water,value,,7327.4,missing submission,bill
+HTL-040,2025-04,water,value,,9561.0,missing submission,bill
+HTL-002,2024-09,electricity,value,9129956.0,906731.9,gap estimated: median intensity x room nights,estimate

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>E-commerce Growth &amp; Retention | Devin Lee</title>
+<meta content="SQL analysis of 98k real Olist orders: growth KPIs, cohort retention, RFM segmentation and what drives repeat purchases." name="description"/>
+<meta content="#0c1620" name="theme-color"/>
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="font" crossorigin="" href="../../assets/fonts/bricolage-grotesque.woff2" rel="preload" type="font/woff2"/>
+<link href="../../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="case">
+<header class="nav">
+<div class="wrap">
+<a aria-label="Home" class="brand" href="../../">DL<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-btn">Menu</button>
+<nav aria-label="Main" class="nav-links" id="nav-links">
+<a data-id="Project" href="../../#projects">Projects</a>
+<a data-id="Kode" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/ecommerce-customer-analytics" rel="noopener" target="_blank">Code</a>
+<button aria-label="Ganti bahasa ke Bahasa Indonesia" class="lang-toggle" type="button"><span class="on">EN</span><span>ID</span></button>
+      <a class="cta" data-id="Kontak" href="../../#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="case-hero">
+<div class="wrap">
+<a class="back" data-id='&lt;svg aria-hidden="true" fill="none" viewbox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"&gt;&lt;/path&gt;&lt;/svg&gt;Semua project' href="../../#projects"><svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg>All projects</a>
+<h1 class="fade-in" data-id="Pertumbuhan e-commerce dan retensi pelanggan">E-commerce growth and customer retention</h1>
+<p class="lede fade-in" data-id="GMV Olist tumbuh hampir tiga kali lipat dalam setahun. Saya memakai SQL untuk melihat dari mana pertumbuhan itu berasal, dan menemukan marketplace yang sangat jago mendapatkan pelanggan baru, tapi hampir tidak pernah melihat mereka kembali.">Olist grew GMV almost threefold in a year. I used SQL to check where that growth came from, and found a marketplace that is excellent at acquiring customers and almost never sees them again.</p>
+<dl class="facts fade-in">
+<div><dt>Data</dt><dd data-id="Asli: dataset publik Olist, 97.905 pesanan, 94.703 pelanggan, Jan 2017 – Agu 2018">Real: Olist public dataset, 97,905 orders, 94,703 customers, Jan 2017 – Aug 2018</dd></div>
+<div><dt>Tools</dt><dd>SQL (DuckDB), Python, statsmodels</dd></div>
+<div><dt data-id="Metode">Methods</dt><dd data-id="Window function, analisis kohort, RFM, uji-z dua proporsi">Window functions, cohort analysis, RFM, two-proportion z-test</dd></div>
+<div><dt data-id="Mata uang">Currency</dt><dd data-id="Real Brasil (R$)">Brazilian reais (R$)</dd></div>
+</dl>
+</div>
+</div>
+<section aria-label="Key numbers">
+<div class="wrap">
+<div class="kpis">
+<div class="kpi reveal"><b class="num">+<span id="k-growth">181</span>%</b><span data-id="Pertumbuhan GMV, S1 2018 vs S1 2017">GMV growth, H1 2018 vs H1 2017</span></div>
+<div class="kpi reveal"><b class="num">R$<span id="k-gmv">15.7M</span></b><span data-id='GMV dari &lt;span id="k-orders"&gt;97,905&lt;/span&gt; pesanan'>GMV across <span id="k-orders">97,905</span> orders</span></div>
+<div class="kpi accent reveal"><b class="num"><span id="k-repeat">3.0</span>%</b><span data-id="pelanggan yang pernah melakukan pesanan kedua">of customers ever place a second order</span></div>
+<div class="kpi reveal"><b class="num">−22%</b><span data-id='tingkat pembelian ulang jika pengiriman pertama terlambat (p = &lt;span id="k-p"&gt;0.002&lt;/span&gt;)'>repeat rate when the first delivery was late (p = <span id="k-p">0.002</span>)</span></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="growth">
+<div class="wrap">
+<div class="split" style="margin-bottom:28px">
+<div class="prose reveal from-left">
+<h2 data-id="Pertumbuhannya nyata, dan musiman" id="growth">Growth is real, and seasonal</h2>
+<p data-id="GMV bulanan naik dari R$137 ribu pada Januari 2017 menjadi sekitar R$1 juta sepanjang 2018. &lt;strong&gt;Black Friday (November 2017) menaikkan GMV 53% hanya dalam satu bulan&lt;/strong&gt;, lonjakan terbesar dalam data ini.">Monthly GMV went from R$137k in January 2017 to around R$1M through 2018. <strong>Black Friday (November 2017) lifted GMV 53% in a single month</strong>, the biggest spike in the data.</p>
+</div>
+<div class="prose reveal from-right">
+<p data-id="Pertanyaan yang saya jawab dengan SQL:" style="margin-top:8px">Questions I answered in SQL:</p>
+<ul>
+<li data-id="Seberapa cepat GMV tumbuh, dan apa pemicu puncaknya?">How fast is GMV growing, and what drives the peaks?</li>
+<li data-id="Apakah pelanggan kembali setelah pesanan pertama?">Do customers come back after their first order?</li>
+<li data-id="Segmen mana yang menyumbang pendapatan?">Which segments hold the revenue?</li>
+<li data-id="Apakah pengalaman pesanan pertama memengaruhi pembelian ulang?">Does the first-order experience change repeat behaviour?</li>
+</ul>
+</div>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="GMV bulanan">Monthly GMV</h3>
+<p class="sub" data-id="R$, nilai produk + ongkos kirim; pesanan batal dan tidak tersedia tidak dihitung. Arahkan kursor untuk melihat jumlah pesanan dan AOV.">R$, product value + freight; canceled and unavailable orders excluded. Hover for orders and AOV.</p>
+<div class="chart-box"><canvas id="c-gmv"></canvas></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="retention">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Hampir tidak ada yang kembali" id="retention">Almost nobody comes back</h2>
+<p data-id="Detail penting: Olist memberi &lt;code&gt;customer_id&lt;/code&gt; baru untuk setiap pesanan. Join memakai &lt;code&gt;customer_unique_id&lt;/code&gt; justru menunjukkan orang yang sebenarnya. Tanpa perbaikan ini, retensi sama sekali tidak bisa diukur.">A key detail: Olist gives a new <code>customer_id</code> to every order. Joining on <code>customer_unique_id</code> instead reveals the real person. Without that fix, retention can't be measured at all.</p>
+<p data-id="Setiap kohort bulanan hanya mempertahankan &lt;strong&gt;kurang dari 1%&lt;/strong&gt; pelanggan di bulan-bulan berikutnya, dan hanya &lt;strong&gt;3,0%&lt;/strong&gt; dari seluruh pelanggan yang pernah memesan dua kali. Pertumbuhan hampir sepenuhnya datang dari pelanggan baru.">Every monthly cohort retains <strong>under 1%</strong> of customers in any later month, and only <strong>3.0%</strong> of all customers ever order twice. Growth is coming almost entirely from new customers.</p>
+</div>
+<div class="reveal from-right">
+<div class="code-head"><span>02_cohort_retention.sql</span><a data-id="File lengkap di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/blob/main/projects/ecommerce-customer-analytics/sql/02_cohort_retention.sql" rel="noopener" target="_blank">Full file on GitHub</a></div>
+<pre class="code"><code><span class="k">WITH</span> first_purchase <span class="k">AS</span> (
+    <span class="k">SELECT</span> customer_id, order_month,
+           <span class="f">MIN</span>(order_month) <span class="k">OVER</span> (<span class="k">PARTITION BY</span> customer_id) <span class="k">AS</span> cohort_month
+    <span class="k">FROM</span> orders
+),
+activity <span class="k">AS</span> (
+    <span class="k">SELECT</span> <span class="k">DISTINCT</span> customer_id, cohort_month,
+           <span class="f">DATE_DIFF</span>('month', cohort_month, order_month) <span class="k">AS</span> month_number
+    <span class="k">FROM</span> first_purchase
+),
+cohort_size <span class="k">AS</span> (
+    <span class="k">SELECT</span> cohort_month, <span class="f">COUNT</span>(<span class="k">DISTINCT</span> customer_id) <span class="k">AS</span> customers
+    <span class="k">FROM</span> activity <span class="k">WHERE</span> month_number = 0 <span class="k">GROUP BY</span> cohort_month
+)
+<span class="k">SELECT</span> <span class="f">STRFTIME</span>(a.cohort_month, '%Y-%m') <span class="k">AS</span> cohort,
+       s.customers,
+       a.month_number,
+       <span class="f">COUNT</span>(<span class="k">DISTINCT</span> a.customer_id)                              <span class="k">AS</span> active,
+       <span class="f">ROUND</span>(100.0 * <span class="f">COUNT</span>(<span class="k">DISTINCT</span> a.customer_id) / s.customers, 2) <span class="k">AS</span> retention_pct
+<span class="k">FROM</span> activity a
+<span class="k">JOIN</span> cohort_size s <span class="k">USING</span> (cohort_month)
+<span class="k">WHERE</span> a.month_number &lt;= 12
+<span class="k">GROUP BY</span> a.cohort_month, s.customers, a.month_number
+<span class="k">ORDER BY</span> a.cohort_month, a.month_number;</code></pre>
+</div>
+</div>
+<div class="chart-card reveal" style="margin-top:28px">
+<h3 data-id="Retensi kohort, % pelanggan yang aktif N bulan setelah pembelian pertama">Cohort retention, % of customers active N months after first purchase</h3>
+<p class="sub" data-id="Kohort akuisisi 2017. Sel yang lebih gelap berarti retensi lebih tinggi (maks. 0,7%).">2017 acquisition cohorts. Darker cells mean higher retention (max 0.7%).</p>
+<div class="table-wrap"><table class="data heat" id="t-cohort"></table></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="segments">
+<div class="wrap">
+<h2 class="reveal" data-id="Siapa penyumbang pendapatan" id="segments">Who holds the revenue</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Segmen RFM: porsi pelanggan vs porsi pendapatan">RFM segments: share of customers vs share of revenue</h3>
+<p class="sub" data-id="Frekuensi dinilai dengan ambang (1, 2, 3+ pesanan) karena 97% pelanggan hanya membeli sekali, sehingga kuintil tidak akan bermakna.">Frequency is scored with thresholds (1, 2, 3+ orders) because 97% of customers buy once, so quintiles would be meaningless.</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c3)"&gt;&lt;/i&gt;% pelanggan'><i style="background:var(--c3)"></i>% of customers</span><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;% pendapatan'><i style="background:var(--c1)"></i>% of revenue</span></div>
+<div class="chart-box tall"><canvas id="c-rfm"></canvas></div>
+<p class="takeaway" data-id="Pelanggan &lt;strong&gt;New high-value&lt;/strong&gt; dan &lt;strong&gt;Lost high-value&lt;/strong&gt; hanya 30% dari total, tapi menyumbang &lt;strong&gt;56% pendapatan&lt;/strong&gt;. Pelanggan yang membeli ulang hanya 3%."><strong>New high-value</strong> and <strong>Lost high-value</strong> customers are 30% of the base but bring <strong>56% of revenue</strong>. Repeat customers are only 3%.</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="15 kategori teratas berdasarkan pendapatan">Top 15 categories by revenue</h3>
+<p class="sub" data-id="Porsi pendapatan produk. Arahkan kursor untuk melihat porsi kumulatif.">Share of product revenue. Hover for the cumulative share.</p>
+<div class="chart-box tall"><canvas id="c-cat"></canvas></div>
+<p class="takeaway" data-id='Ekornya panjang: 10 teratas dari &lt;span id="k-cats"&gt;74&lt;/span&gt; kategori menyumbang &lt;strong&gt;&lt;span id="k-top10"&gt;62.4&lt;/span&gt;%&lt;/strong&gt; pendapatan, jadi tidak ada satu kategori yang mendominasi.'>A long tail: the top 10 of <span id="k-cats">74</span> categories make up <strong><span id="k-top10">62.4</span>%</strong> of revenue, so no single category dominates.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="drivers">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Pengiriman pertama menentukan loyalitas" id="drivers">The first delivery shapes loyalty</h2>
+<p data-id="Jika hanya melihat pesanan &lt;strong&gt;pertama&lt;/strong&gt; setiap pelanggan (dengan waktu minimal 6 bulan untuk kembali), pelanggan yang pengiriman pertamanya &lt;strong&gt;terlambat 22% lebih jarang kembali&lt;/strong&gt;: 3,19% vs 4,09%.">Taking only each customer's <strong>first</strong> order (with at least 6 months to return), customers whose first delivery arrived <strong>late came back 22% less often</strong>: 3.19% vs 4.09%.</p>
+<p data-id="Uji-z dua proporsi menunjukkan peluang selisih ini terjadi karena kebetulan hanya &lt;strong&gt;p = 0,002&lt;/strong&gt;. Review pertama bintang 5 juga diikuti tingkat pembelian ulang yang lebih tinggi dibanding bintang 1.">A two-proportion z-test puts the chance of seeing this gap by luck at <strong>p = 0.002</strong>. A 5-star first review also goes with a higher repeat rate than a 1-star one.</p>
+<p data-id='Karena itu saya melanjutkan dengan &lt;a href="../delivery-experience-rca/" style="color:var(--teal)"&gt;root cause analysis keterlambatan pengiriman&lt;/a&gt; secara terpisah.'>That's why I followed up with a separate <a href="../delivery-experience-rca/" style="color:var(--teal)">root cause analysis of late deliveries</a>.</p>
+</div>
+<div class="chart-card reveal from-right">
+<h3 data-id="Tingkat pembelian ulang berdasarkan pengalaman pesanan pertama">Repeat-purchase rate by first-order experience</h3>
+<p class="sub" data-id="% pelanggan yang memesan lagi">% of customers who ordered again</p>
+<div class="chart-box"><canvas id="c-rep"></canvas></div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="recs">
+<div class="wrap">
+<h2 class="reveal" data-id="Rekomendasi" id="recs">Recommendations</h2>
+<ul class="recs">
+<li class="reveal"><h3 data-id="Buat program pembelian kedua">Build a second-purchase programme</h3><p data-id='Sasar pelanggan "New high-value" 30–45 hari setelah barang diterima. Menaikkan tingkat pembelian ulang dari 3% ke 5% berarti sekitar 1.900 pelanggan kembali tambahan per 95 ribu pelanggan baru.'>Target "New high-value" customers 30–45 days after delivery. Moving the repeat rate from 3% to 5% means about 1,900 more returning customers per 95k acquired.</p></li>
+<li class="reveal"><h3 data-id="Rebut kembali pelanggan high-value yang hilang">Win back lost high-value customers</h3><p data-id="13,9 ribu orang dengan rata-rata belanja R$309. Gunakan kampanye per kategori berdasarkan barang yang pertama kali mereka beli.">13.9k people averaging R$309 each. Use category-specific campaigns based on what they bought first.</p></li>
+<li class="reveal"><h3 data-id="Jadikan ketepatan pengiriman sebagai alat retensi">Treat on-time delivery as a retention lever</h3><p data-id="Pesanan pertama yang terlambat terbukti menurunkan pembelian ulang, jadi KPI logistik perlu masuk ke review pertumbuhan, bukan hanya review operasional.">Late first orders measurably reduce repeat purchases, so logistics KPIs belong in the growth review, not only the ops review.</p></li>
+<li class="reveal"><h3 data-id="Rencanakan Black Friday lebih awal">Plan for Black Friday early</h3><p data-id="Lonjakan permintaan terbesar dalam setahun. Stok, kapasitas kurir, dan layanan pelanggan perlu ditambah sebelum hari itu tiba.">The biggest demand spike of the year. Inventory, carrier capacity and customer service need to scale ahead of it.</p></li>
+</ul>
+<a class="next-case reveal" href="../delivery-experience-rca/">
+<div><small data-id="Project berikutnya">Next project</small><strong data-id="Root cause analysis pengalaman pengiriman">Delivery experience root cause analysis</strong></div>
+<svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></svg>
+</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span data-id="&amp;copy; 2026 Devin Lee. Data: Olist, CC BY-NC-SA 4.0.">© 2026 Devin Lee. Data: Olist, CC BY-NC-SA 4.0.</span><a data-id="Kode dan README di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/ecommerce-customer-analytics" rel="noopener" target="_blank">Code and README on GitHub</a></div></footer>
+<script src="../../assets/vendor/lenis.min.js"></script>
+<script src="../../assets/vendor/chart.umd.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+<script>
+(async () => {
+  const { c, fmt, compact, load, whenVisible, seq } = Viz;
+  const d = await load("../../assets/data/ecommerce.json");
+  const k = d.kpi;
+  const set = (id, v) => (document.getElementById(id).textContent = v);
+  set("k-growth", k.h1_growth.toFixed(0)); set("k-gmv", compact(k.gmv)); set("k-orders", fmt(k.orders));
+  set("k-repeat", k.repeat_rate.toFixed(1)); set("k-p", k.p_value.toFixed(3)); set("k-cats", k.categories); set("k-top10", k.top10_share);
+
+  const m = d.monthly;
+  const bf = m.months.indexOf("2017-11");
+  whenVisible(document.getElementById("c-gmv"), () => new Chart("c-gmv", {
+    type: "line",
+    data: { labels: m.months, datasets: [{ label: "GMV", data: m.gmv, borderColor: c.teal, tension: 0.3,
+      pointRadius: m.months.map((_, i) => (i === bf ? 6 : 0)), pointBackgroundColor: c.amber, pointBorderColor: "#132029", pointBorderWidth: 2 }] },
+    options: { interaction: { mode: "index", intersect: false },
+      scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 10 } }, y: { beginAtZero: true, ticks: { callback: v => "R$ " + compact(v) } } },
+      plugins: { tooltip: { callbacks: {
+        label: i => ` GMV R$ ${fmt(i.raw)}`,
+        afterLabel: i => [` ${fmt(m.orders[i.dataIndex])} orders`, ` AOV R$ ${m.aov[i.dataIndex].toFixed(2)}`].concat(i.dataIndex === bf ? [" Black Friday month"] : []) } } } },
+  }));
+
+  // cohort heatmap
+  const ch = d.cohort, max = Math.max(...ch.grid.flat());
+  const t = document.getElementById("t-cohort");
+  t.innerHTML = `<thead><tr><th>Cohort</th><th class="r">Customers</th>${ch.months.map(x => `<th>M+${x}</th>`).join("")}</tr></thead><tbody>` +
+    ch.cohorts.map((co, r) => `<tr><td>${co}</td><td class="r" style="background:none;color:var(--text-2)">${fmt(ch.sizes[r])}</td>` +
+      ch.grid[r].map((v, j) => `<td title="${co}, month +${j + 1}: ${v.toFixed(2)}% retained" style="background:${seq(v / max)}">${v.toFixed(2)}</td>`).join("") + "</tr>").join("") + "</tbody>";
+
+  whenVisible(document.getElementById("c-rfm"), () => new Chart("c-rfm", {
+    type: "bar",
+    data: { labels: d.rfm.map(r => r.segment), datasets: [
+      { label: "% of customers", data: d.rfm.map(r => r.pct_customers), backgroundColor: c.blue, barThickness: 11 },
+      { label: "% of revenue", data: d.rfm.map(r => r.pct_revenue), backgroundColor: c.teal, barThickness: 11 }] },
+    options: { indexAxis: "y", interaction: { mode: "index", intersect: false },
+      scales: { x: { ticks: { callback: v => v + "%" } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.dataset.label}: ${i.raw}%`, footer: it => `Avg spend R$ ${d.rfm[it[0].dataIndex].avg_monetary.toFixed(0)} · ${fmt(d.rfm[it[0].dataIndex].customers)} customers` } } } },
+  }));
+
+  const p = d.pareto, tot = p.revenue.reduce((a, b) => a + b, 0) / (p.cum[p.cum.length - 1] / 100);
+  whenVisible(document.getElementById("c-cat"), () => new Chart("c-cat", {
+    type: "bar",
+    data: { labels: p.labels, datasets: [{ label: "Share of revenue", data: p.revenue.map(v => +(100 * v / tot).toFixed(2)), backgroundColor: p.labels.map((_, i) => (i < 10 ? c.teal : "#2b4a52")), barThickness: 12 }] },
+    options: { indexAxis: "y", scales: { x: { ticks: { callback: v => v + "%" } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.raw}% of revenue (R$ ${compact(p.revenue[i.dataIndex])})`, afterLabel: i => ` cumulative: ${p.cum[i.dataIndex]}%` } } } },
+  }));
+
+  const rp = d.repeat;
+  const del = ["on time", "late"].map(v => rp.find(r => r.dimension === "delivery" && r.value === v));
+  const rev = ["1.0", "2.0", "3.0", "4.0", "5.0"].map(v => rp.find(r => r.dimension === "review_score" && r.value === v));
+  const rows = [...del, ...rev];
+  whenVisible(document.getElementById("c-rep"), () => new Chart("c-rep", {
+    type: "bar",
+    data: { labels: ["On time", "Late", "1★", "2★", "3★", "4★", "5★"], datasets: [{ data: rows.map(r => r.repeat_rate_pct),
+      backgroundColor: [c.teal, c.amber, c.blue, c.blue, c.blue, c.blue, c.blue], maxBarThickness: 40 }] },
+    options: { scales: { x: { grid: { display: false } }, y: { beginAtZero: true, ticks: { callback: v => v + "%" } } },
+      plugins: { tooltip: { callbacks: { title: it => it[0].dataIndex < 2 ? `First delivery: ${it[0].label}` : `First review: ${it[0].label}`,
+        label: i => ` ${i.raw}% came back`, afterLabel: i => ` ${fmt(rows[i.dataIndex].customers)} customers` } } } },
+  }));
+})();
+</script>
+</body>
+</html>

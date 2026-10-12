@@ -1,0 +1,8 @@
+segment,customers,pct_customers,revenue,pct_revenue,avg_recency_days,avg_frequency,avg_monetary
+New high-value,14603,15.4,4426982.0,28.2,94.0,1.0,303.16
+Lost high-value,13948,14.7,4307490.0,27.5,395.0,1.0,308.82
+Cooling down,18328,19.4,2789973.0,17.8,223.0,1.0,152.22
+Lost low-value,22899,24.2,1665775.0,10.6,397.0,1.0,72.74
+New low-value,22051,23.3,1611182.0,10.3,92.0,1.0,73.07
+Loyal - at risk,1646,1.7,491327.0,3.1,323.0,2.08,298.5
+Champions,1228,1.3,395668.0,2.5,91.0,2.16,322.21

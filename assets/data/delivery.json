@@ -1,0 +1,262 @@
+{
+ "kpi": {
+  "orders": 94819,
+  "late_rate": 8.2,
+  "avg_review_ontime": 4.29,
+  "avg_review_late": 2.56,
+  "bad_ontime": 9.1,
+  "bad_late": 52.9,
+  "late_odds_ratio": 13.898,
+  "excess_bad_reviews": 3412,
+  "share_bad_from_late": 28.3,
+  "late_if_missed_handover": 24.8,
+  "late_if_handover_ok": 6.6,
+  "missed_handover_share_of_late": 27.3,
+  "median_early_days": 12.3,
+  "top_sellers_for_half_late": 102,
+  "n_sellers": 2927,
+  "top_sellers_pct": 3.5,
+  "worst_month": "2018-03",
+  "worst_month_rate": 21.4
+ },
+ "impact": [
+  {
+   "late_bucket": "On time",
+   "orders": 87031,
+   "avg_review": 4.29,
+   "bad_review_pct": 9.1
+  },
+  {
+   "late_bucket": "1-3 days late",
+   "orders": 2642,
+   "avg_review": 3.77,
+   "bad_review_pct": 19.0
+  },
+  {
+   "late_bucket": "4-7 days late",
+   "orders": 1812,
+   "avg_review": 2.32,
+   "bad_review_pct": 59.7
+  },
+  {
+   "late_bucket": "8-14 days late",
+   "orders": 1786,
+   "avg_review": 1.75,
+   "bad_review_pct": 76.2
+  },
+  {
+   "late_bucket": "15+ days late",
+   "orders": 1548,
+   "avg_review": 1.71,
+   "bad_review_pct": 76.1
+  }
+ ],
+ "odds": [
+  {
+   "factor": "late",
+   "odds_ratio": 13.898,
+   "ci_low": 13.177,
+   "ci_high": 14.66,
+   "p_value": 0.0
+  },
+  {
+   "factor": "multi_seller",
+   "odds_ratio": 4.957,
+   "ci_low": 4.379,
+   "ci_high": 5.612,
+   "p_value": 0.0
+  },
+  {
+   "factor": "log_promised",
+   "odds_ratio": 1.812,
+   "ci_low": 1.691,
+   "ci_high": 1.942,
+   "p_value": 0.0
+  },
+  {
+   "factor": "n_items",
+   "odds_ratio": 1.562,
+   "ci_low": 1.51,
+   "ci_high": 1.615,
+   "p_value": 0.0
+  },
+  {
+   "factor": "freight_ratio",
+   "odds_ratio": 1.107,
+   "ci_low": 1.021,
+   "ci_high": 1.2,
+   "p_value": 0.013
+  },
+  {
+   "factor": "log_price",
+   "odds_ratio": 1.071,
+   "ci_low": 1.039,
+   "ci_high": 1.104,
+   "p_value": 0.0
+  },
+  {
+   "factor": "interstate",
+   "odds_ratio": 0.963,
+   "ci_low": 0.911,
+   "ci_high": 1.018,
+   "p_value": 0.179
+  }
+ ],
+ "stage": {
+  "labels": [
+   "Approval",
+   "Seller handling",
+   "Carrier transit"
+  ],
+  "on_time": [
+   0.0,
+   1.8,
+   6.9
+  ],
+  "late": [
+   0.0,
+   3.0,
+   23.9
+  ]
+ },
+ "monthly": {
+  "month": [
+   "2017-01",
+   "2017-02",
+   "2017-03",
+   "2017-04",
+   "2017-05",
+   "2017-06",
+   "2017-07",
+   "2017-08",
+   "2017-09",
+   "2017-10",
+   "2017-11",
+   "2017-12",
+   "2018-01",
+   "2018-02",
+   "2018-03",
+   "2018-04",
+   "2018-05",
+   "2018-06",
+   "2018-07",
+   "2018-08"
+  ],
+  "orders": [
+   747,
+   1638,
+   2545,
+   2279,
+   3530,
+   3130,
+   3841,
+   4190,
+   4136,
+   4478,
+   7287,
+   5508,
+   7045,
+   6543,
+   7001,
+   6409,
+   6681,
+   5973,
+   5593,
+   6265
+  ],
+  "late_rate": [
+   3.1,
+   3.2,
+   5.6,
+   7.9,
+   3.6,
+   3.8,
+   3.5,
+   3.3,
+   5.2,
+   5.3,
+   14.3,
+   8.4,
+   6.6,
+   16.0,
+   21.4,
+   5.5,
+   8.2,
+   1.4,
+   4.8,
+   10.5
+  ]
+ },
+ "state": {
+  "customer_state": [
+   "AL",
+   "MA",
+   "PI",
+   "CE",
+   "SE",
+   "BA",
+   "RJ",
+   "PA",
+   "ES",
+   "MS",
+   "PE",
+   "PB"
+  ],
+  "orders": [
+   392,
+   700,
+   468,
+   1253,
+   330,
+   3207,
+   12171,
+   932,
+   1965,
+   696,
+   1567,
+   508
+  ],
+  "late_rate": [
+   23.7,
+   20.0,
+   16.2,
+   15.6,
+   15.5,
+   14.1,
+   13.6,
+   12.3,
+   12.3,
+   11.6,
+   11.0,
+   11.0
+  ],
+  "avg_delivery_days": [
+   24.355934193121694,
+   21.638210400132277,
+   19.57084129669199,
+   21.36739109470604,
+   21.50746811868687,
+   19.381737507795446,
+   15.364707272257675,
+   23.789954833790336,
+   15.83302520968806,
+   15.663839100415071,
+   18.525322065045263,
+   20.478015501968503
+  ]
+ },
+ "route": [
+  {
+   "route": "Interstate",
+   "orders": 60721,
+   "late_rate": 0.094,
+   "carrier_days": 9.21
+  },
+  {
+   "route": "Same state",
+   "orders": 34098,
+   "late_rate": 0.061,
+   "carrier_days": 3.672
+  }
+ ]
+}

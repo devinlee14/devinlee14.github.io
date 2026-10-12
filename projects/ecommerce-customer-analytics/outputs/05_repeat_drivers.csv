@@ -1,0 +1,9 @@
+dimension,value,customers,repeat_rate_pct
+delivery,late,4257,3.19
+delivery,not delivered,1105,4.43
+delivery,on time,50976,4.09
+review_score,1.0,6149,3.59
+review_score,2.0,1839,3.7
+review_score,3.0,4883,4.12
+review_score,4.0,11096,3.65
+review_score,5.0,31914,4.26

@@ -1,0 +1,1621 @@
+event_id,unit_id,event_type,system,start_time,end_time,repair_h,waiting_parts_h,waiting_mechanic_h,hour_meter,pm_overdue
+EV-00001,U-001,Breakdown,Undercarriage / Tyres,2025-01-12 12:00:00,2025-01-13 02:19:00,5.9,5.98,2.44,17143.7,False
+EV-00002,U-001,Preventive maintenance,PM service,2025-01-21 18:00:00,2025-01-22 02:32:00,8.54,0.0,0.0,17257.9,False
+EV-00003,U-001,Preventive maintenance,PM service,2025-02-10 18:00:00,2025-02-11 00:46:00,6.76,0.0,0.0,17502.1,False
+EV-00004,U-001,Preventive maintenance,PM service,2025-03-02 18:00:00,2025-03-03 03:45:00,9.75,0.0,0.0,17755.8,False
+EV-00005,U-001,Preventive maintenance,PM service,2025-03-22 18:00:00,2025-03-23 01:47:00,7.78,0.0,0.0,18000.4,False
+EV-00006,U-001,Preventive maintenance,PM service,2025-04-09 18:00:00,2025-04-10 00:31:00,6.52,0.0,0.0,18256.6,False
+EV-00007,U-001,Breakdown,Electrical,2025-04-18 16:00:00,2025-04-19 01:32:00,8.61,0.0,0.92,18385.1,False
+EV-00008,U-001,Preventive maintenance,PM service,2025-04-26 18:00:00,2025-04-27 01:57:00,7.95,0.0,0.0,18511.9,False
+EV-00009,U-001,Preventive maintenance,PM service,2025-05-12 18:00:00,2025-05-13 03:02:00,9.03,0.0,0.0,18756.3,False
+EV-00010,U-001,Breakdown,Hydraulic,2025-05-17 08:00:00,2025-05-17 23:34:00,9.6,4.96,1.0,18814.6,False
+EV-00011,U-001,Preventive maintenance,PM service,2025-05-29 18:00:00,2025-05-30 02:55:00,8.92,0.0,0.0,19008.5,False
+EV-00012,U-001,Preventive maintenance,PM service,2025-06-14 18:00:00,2025-06-15 00:33:00,6.55,0.0,0.0,19251.9,False
+EV-00013,U-001,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 01:53:00,7.88,0.0,0.0,19513.8,False
+EV-00014,U-001,Breakdown,Engine,2025-07-09 08:00:00,2025-07-09 13:40:00,4.69,0.0,0.98,19619.7,False
+EV-00015,U-001,Preventive maintenance,PM service,2025-07-17 18:00:00,2025-07-18 00:04:00,6.07,0.0,0.0,19750.2,False
+EV-00016,U-001,Preventive maintenance,PM service,2025-08-03 18:00:00,2025-08-04 02:27:00,8.45,0.0,0.0,20016.4,False
+EV-00017,U-001,Preventive maintenance,PM service,2025-08-19 18:00:00,2025-08-20 01:59:00,7.98,0.0,0.0,20264.1,False
+EV-00018,U-001,Preventive maintenance,PM service,2025-09-04 18:00:00,2025-09-05 01:05:00,7.08,0.0,0.0,20506.9,False
+EV-00019,U-001,Breakdown,Hydraulic,2025-09-06 08:00:00,2025-09-06 17:43:00,8.27,0.0,1.45,20518.1,False
+EV-00020,U-001,Preventive maintenance,PM service,2025-09-21 18:00:00,2025-09-22 03:22:00,9.36,0.0,0.0,20752.5,False
+EV-00021,U-001,Breakdown,Hydraulic,2025-10-08 08:00:00,2025-10-09 08:38:00,10.43,13.39,0.82,20996.9,False
+EV-00022,U-001,Preventive maintenance,PM service,2025-10-09 18:00:00,2025-10-10 01:32:00,7.54,0.0,0.0,21008.9,False
+EV-00023,U-001,Preventive maintenance,PM service,2025-10-25 18:00:00,2025-10-26 02:25:00,8.41,0.0,0.0,21258.6,False
+EV-00024,U-001,Preventive maintenance,PM service,2025-11-13 18:00:00,2025-11-14 02:42:00,8.7,0.0,0.0,21507.5,False
+EV-00025,U-001,Breakdown,Undercarriage / Tyres,2025-11-18 12:00:00,2025-11-19 04:17:00,8.28,5.12,2.89,21557.2,False
+EV-00026,U-001,Preventive maintenance,PM service,2025-12-04 18:00:00,2025-12-05 03:01:00,9.01,0.0,0.0,21756.4,False
+EV-00027,U-001,Preventive maintenance,PM service,2025-12-24 18:00:00,2025-12-25 03:03:00,9.06,0.0,0.0,22004.4,False
+EV-00028,U-002,Preventive maintenance,PM service,2025-01-17 18:00:00,2025-01-18 00:37:00,6.61,0.0,0.0,23750.8,False
+EV-00029,U-002,Preventive maintenance,PM service,2025-02-05 18:00:00,2025-02-06 02:26:00,8.43,0.0,0.0,24000.2,False
+EV-00030,U-002,Preventive maintenance,PM service,2025-02-22 18:00:00,2025-02-23 01:35:00,7.59,0.0,0.0,24264.1,False
+EV-00031,U-002,Breakdown,Hydraulic,2025-02-26 08:00:00,2025-02-27 05:44:00,4.83,15.08,1.82,24304.2,False
+EV-00032,U-002,Preventive maintenance,PM service,2025-03-11 18:00:00,2025-03-12 02:25:00,8.42,0.0,0.0,24507.1,False
+EV-00033,U-002,Breakdown,Hydraulic,2025-03-23 16:00:00,2025-03-23 20:24:00,3.22,0.0,1.18,24679.9,False
+EV-00034,U-002,Preventive maintenance,PM service,2025-03-28 18:00:00,2025-03-29 03:04:00,9.07,0.0,0.0,24760.8,False
+EV-00035,U-002,Breakdown,Hydraulic,2025-04-13 16:00:00,2025-04-14 06:38:00,7.7,5.9,1.04,25002.2,False
+EV-00036,U-002,Preventive maintenance,PM service,2025-04-14 18:00:00,2025-04-15 02:45:00,8.75,0.0,0.0,25016.5,False
+EV-00037,U-002,Breakdown,Engine,2025-04-17 20:00:00,2025-04-18 18:11:00,21.48,0.0,0.7,25052.0,False
+EV-00038,U-002,Preventive maintenance,PM service,2025-05-01 18:00:00,2025-05-02 00:55:00,6.91,0.0,0.0,25260.0,False
+EV-00039,U-002,Breakdown,Hydraulic,2025-05-07 12:00:00,2025-05-07 18:25:00,5.02,0.0,1.4,25341.5,False
+EV-00040,U-002,Preventive maintenance,PM service,2025-05-17 18:00:00,2025-05-18 03:17:00,9.29,0.0,0.0,25500.4,False
+EV-00041,U-002,Breakdown,Cooling,2025-05-29 16:00:00,2025-05-30 06:31:00,6.77,7.0,0.74,25672.6,False
+EV-00042,U-002,Breakdown,Engine,2025-06-03 16:00:00,2025-06-05 03:37:00,16.33,16.93,2.35,25739.3,False
+EV-00043,U-002,Preventive maintenance,PM service,2025-06-05 18:00:00,2025-06-06 02:52:00,8.87,0.0,0.0,25750.9,False
+EV-00044,U-002,Breakdown,Electrical,2025-06-22 19:34:00,2025-06-23 00:27:00,3.9,0.0,0.99,26007.2,False
+EV-00045,U-002,Preventive maintenance,PM service,2025-06-23 18:00:00,2025-06-24 03:50:00,9.83,0.0,0.0,26023.5,False
+EV-00046,U-002,Breakdown,Attachment / Bucket,2025-06-26 08:00:00,2025-06-26 16:05:00,6.25,0.0,1.84,26048.5,False
+EV-00047,U-002,Breakdown,Hydraulic,2025-07-02 12:00:00,2025-07-02 15:16:00,2.55,0.0,0.71,26133.6,False
+EV-00048,U-002,Preventive maintenance,PM service,2025-07-14 18:00:00,2025-07-15 01:58:00,7.96,0.0,0.0,26323.3,False
+EV-00049,U-002,Preventive maintenance,PM service,2025-07-26 18:00:00,2025-07-27 02:17:00,8.28,0.0,0.0,26510.0,False
+EV-00050,U-002,Preventive maintenance,PM service,2025-08-11 18:00:00,2025-08-12 00:14:00,6.23,0.0,0.0,26761.2,False
+EV-00051,U-002,Preventive maintenance,PM service,2025-08-27 18:00:00,2025-08-28 02:16:00,8.26,0.0,0.0,27012.7,False
+EV-00052,U-002,Breakdown,Engine,2025-09-11 08:00:00,2025-09-12 02:28:00,11.08,4.99,2.39,27225.5,False
+EV-00053,U-002,Preventive maintenance,PM service,2025-09-13 18:00:00,2025-09-14 02:00:00,8.0,0.0,0.0,27260.8,False
+EV-00054,U-002,Preventive maintenance,PM service,2025-09-29 18:00:00,2025-09-30 00:48:00,6.8,0.0,0.0,27509.0,False
+EV-00055,U-002,Breakdown,Hydraulic,2025-09-30 08:00:00,2025-09-30 15:07:00,5.32,0.0,1.8,27509.0,False
+EV-00056,U-002,Preventive maintenance,PM service,2025-10-20 18:00:00,2025-10-21 01:19:00,7.32,0.0,0.0,27761.6,False
+EV-00057,U-002,Breakdown,Undercarriage / Tyres,2025-10-31 12:00:00,2025-11-01 07:48:00,17.91,0.0,1.88,27894.1,False
+EV-00058,U-002,Preventive maintenance,PM service,2025-11-10 18:00:00,2025-11-11 02:42:00,8.7,0.0,0.0,28012.9,False
+EV-00059,U-002,Breakdown,Attachment / Bucket,2025-11-21 08:00:00,2025-11-21 16:00:00,6.88,0.0,1.12,28131.5,False
+EV-00060,U-002,Preventive maintenance,PM service,2025-12-01 18:00:00,2025-12-02 03:42:00,9.71,0.0,0.0,28261.5,False
+EV-00061,U-002,Breakdown,Hydraulic,2025-12-24 12:00:00,2025-12-25 13:35:00,9.13,15.18,1.27,28528.6,True
+EV-00062,U-002,Preventive maintenance,PM service,2025-12-28 18:00:00,2025-12-29 03:47:00,9.79,0.0,0.0,28569.7,False
+EV-00063,U-003,Preventive maintenance,PM service,2025-01-21 18:00:00,2025-01-22 03:17:00,9.28,0.0,0.0,20878.8,False
+EV-00064,U-003,Preventive maintenance,PM service,2025-02-01 18:00:00,2025-02-02 01:40:00,7.67,0.0,0.0,21010.8,False
+EV-00065,U-003,Breakdown,Undercarriage / Tyres,2025-02-15 12:00:00,2025-02-15 18:40:00,6.0,0.0,0.66,21178.8,False
+EV-00066,U-003,Breakdown,Hydraulic,2025-02-18 16:00:00,2025-02-20 13:15:00,21.67,21.75,1.83,21210.3,False
+EV-00067,U-003,Preventive maintenance,PM service,2025-03-03 18:00:00,2025-03-04 00:47:00,6.78,0.0,0.0,21345.9,False
+EV-00068,U-003,Breakdown,Hydraulic,2025-03-06 15:25:00,2025-03-07 06:34:00,10.27,0.0,4.87,21371.9,False
+EV-00069,U-003,Preventive maintenance,PM service,2025-03-18 18:00:00,2025-03-19 03:36:00,9.6,0.0,0.0,21509.2,False
+EV-00070,U-003,Preventive maintenance,PM service,2025-04-14 18:00:00,2025-04-15 00:01:00,6.02,0.0,0.0,21829.7,False
+EV-00071,U-003,Breakdown,Hydraulic,2025-04-24 16:00:00,2025-04-24 22:16:00,4.51,0.0,1.76,21939.9,False
+EV-00072,U-003,Preventive maintenance,PM service,2025-05-07 18:00:00,2025-05-08 03:03:00,9.04,0.0,0.0,22130.8,False
+EV-00073,U-003,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 01:02:00,7.03,0.0,0.0,22265.6,False
+EV-00074,U-003,Breakdown,Hydraulic,2025-05-18 12:00:00,2025-05-19 09:18:00,19.4,0.0,1.89,22279.2,False
+EV-00075,U-003,Preventive maintenance,PM service,2025-06-02 18:00:00,2025-06-03 01:10:00,7.17,0.0,0.0,22515.6,False
+EV-00076,U-003,Preventive maintenance,PM service,2025-06-17 18:00:00,2025-06-18 00:02:00,6.04,0.0,0.0,22752.4,False
+EV-00077,U-003,Breakdown,Electrical,2025-06-20 19:27:00,2025-06-22 06:28:00,6.36,24.99,3.67,22791.6,False
+EV-00078,U-003,Breakdown,Undercarriage / Tyres,2025-06-24 19:55:00,2025-06-25 15:38:00,19.31,0.0,0.41,22827.7,False
+EV-00079,U-003,Preventive maintenance,PM service,2025-07-06 18:00:00,2025-07-07 03:19:00,9.31,0.0,0.0,23016.5,False
+EV-00080,U-003,Breakdown,Hydraulic,2025-07-10 12:00:00,2025-07-11 00:42:00,6.31,5.75,0.63,23059.8,False
+EV-00081,U-003,Preventive maintenance,PM service,2025-07-22 18:00:00,2025-07-23 00:16:00,6.27,0.0,0.0,23255.3,False
+EV-00082,U-003,Breakdown,Undercarriage / Tyres,2025-08-06 20:00:00,2025-08-07 17:01:00,10.75,9.43,0.82,23490.7,False
+EV-00083,U-003,Preventive maintenance,PM service,2025-08-08 18:00:00,2025-08-09 02:01:00,8.02,0.0,0.0,23510.9,False
+EV-00084,U-003,Preventive maintenance,PM service,2025-09-06 18:00:00,2025-09-07 00:01:00,6.02,0.0,0.0,23967.8,False
+EV-00085,U-003,Breakdown,Attachment / Bucket,2025-09-11 12:00:00,2025-09-12 06:27:00,7.38,8.25,2.82,24027.4,True
+EV-00086,U-003,Preventive maintenance,PM service,2025-09-22 18:00:00,2025-09-23 02:27:00,8.45,0.0,0.0,24198.7,False
+EV-00087,U-003,Breakdown,Cooling,2025-10-04 20:00:00,2025-10-05 01:06:00,3.6,0.0,1.49,24381.1,True
+EV-00088,U-003,Preventive maintenance,PM service,2025-10-08 18:00:00,2025-10-09 03:18:00,9.29,0.0,0.0,24445.0,False
+EV-00089,U-003,Preventive maintenance,PM service,2025-10-12 18:00:00,2025-10-13 02:47:00,8.78,0.0,0.0,24501.0,False
+EV-00090,U-003,Preventive maintenance,PM service,2025-10-29 18:00:00,2025-10-30 02:56:00,8.94,0.0,0.0,24764.7,False
+EV-00091,U-003,Preventive maintenance,PM service,2025-11-14 18:00:00,2025-11-15 00:50:00,6.83,0.0,0.0,25012.6,False
+EV-00092,U-003,Preventive maintenance,PM service,2025-11-30 18:00:00,2025-12-01 03:41:00,9.69,0.0,0.0,25264.0,False
+EV-00093,U-003,Preventive maintenance,PM service,2025-12-20 18:00:00,2025-12-21 02:19:00,8.32,0.0,0.0,25508.3,False
+EV-00094,U-004,Preventive maintenance,PM service,2025-01-08 18:00:00,2025-01-09 01:55:00,7.91,0.0,0.0,7502.6,False
+EV-00095,U-004,Breakdown,Cooling,2025-01-23 12:00:00,2025-01-24 18:20:00,5.8,22.0,2.53,7683.7,False
+EV-00096,U-004,Preventive maintenance,PM service,2025-01-30 18:00:00,2025-01-31 02:11:00,8.19,0.0,0.0,7758.8,False
+EV-00097,U-004,Breakdown,Hydraulic,2025-02-26 12:00:00,2025-02-26 15:25:00,1.94,0.0,1.47,8084.6,True
+EV-00098,U-004,Preventive maintenance,PM service,2025-03-05 18:00:00,2025-03-06 03:33:00,9.55,0.0,0.0,8179.4,False
+EV-00099,U-004,Preventive maintenance,PM service,2025-03-12 18:00:00,2025-03-13 00:19:00,6.31,0.0,0.0,8259.7,False
+EV-00100,U-004,Preventive maintenance,PM service,2025-04-01 18:00:00,2025-04-02 02:43:00,8.72,0.0,0.0,8503.3,False
+EV-00101,U-004,Breakdown,Hydraulic,2025-04-04 16:00:00,2025-04-04 21:16:00,3.79,0.0,1.48,8529.1,False
+EV-00102,U-004,Preventive maintenance,PM service,2025-04-23 18:00:00,2025-04-24 03:13:00,9.22,0.0,0.0,8760.5,False
+EV-00103,U-004,Breakdown,Undercarriage / Tyres,2025-05-06 16:00:00,2025-05-07 05:14:00,12.73,0.0,0.51,8913.2,False
+EV-00104,U-004,Preventive maintenance,PM service,2025-05-13 18:00:00,2025-05-14 01:29:00,7.48,0.0,0.0,9001.7,False
+EV-00105,U-004,Preventive maintenance,PM service,2025-06-03 18:00:00,2025-06-04 01:32:00,7.53,0.0,0.0,9256.7,False
+EV-00106,U-004,Breakdown,Hydraulic,2025-06-18 12:00:00,2025-06-20 06:24:00,13.22,27.88,1.29,9437.8,False
+EV-00107,U-004,Preventive maintenance,PM service,2025-06-25 18:00:00,2025-06-26 00:44:00,6.73,0.0,0.0,9502.7,False
+EV-00108,U-004,Breakdown,Attachment / Bucket,2025-07-16 20:00:00,2025-07-17 03:21:00,6.62,0.0,0.73,9815.7,True
+EV-00109,U-004,Preventive maintenance,PM service,2025-07-24 18:00:00,2025-07-25 01:40:00,7.67,0.0,0.0,9943.2,False
+EV-00110,U-004,Preventive maintenance,PM service,2025-07-28 18:00:00,2025-07-29 02:36:00,8.6,0.0,0.0,10002.8,False
+EV-00111,U-004,Breakdown,Attachment / Bucket,2025-07-30 08:00:00,2025-07-30 18:36:00,8.77,0.0,1.83,10010.8,False
+EV-00112,U-004,Preventive maintenance,PM service,2025-08-15 18:00:00,2025-08-16 03:16:00,9.27,0.0,0.0,10264.8,False
+EV-00113,U-004,Breakdown,Electrical,2025-08-18 12:00:00,2025-08-21 14:38:00,3.14,69.29,2.19,10294.4,False
+EV-00114,U-004,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 01:33:00,7.55,0.0,0.0,10503.6,False
+EV-00115,U-004,Breakdown,Hydraulic,2025-09-09 16:00:00,2025-09-10 06:23:00,13.59,0.0,0.8,10588.8,False
+EV-00116,U-004,Breakdown,Undercarriage / Tyres,2025-09-30 20:00:00,2025-10-01 06:49:00,7.33,0.0,3.49,10916.3,True
+EV-00117,U-004,Preventive maintenance,PM service,2025-10-02 18:00:00,2025-10-03 02:28:00,8.46,0.0,0.0,10946.2,False
+EV-00118,U-004,Preventive maintenance,PM service,2025-10-06 18:00:00,2025-10-07 00:35:00,6.59,0.0,0.0,11002.6,False
+EV-00119,U-004,Breakdown,Electrical,2025-10-09 16:00:00,2025-10-09 22:04:00,5.0,0.0,1.08,11037.5,False
+EV-00120,U-004,Preventive maintenance,PM service,2025-10-22 18:00:00,2025-10-23 00:16:00,6.26,0.0,0.0,11251.0,False
+EV-00121,U-004,Breakdown,Undercarriage / Tyres,2025-11-05 20:00:00,2025-11-06 09:53:00,13.03,0.0,0.86,11468.1,False
+EV-00122,U-004,Preventive maintenance,PM service,2025-11-14 18:00:00,2025-11-15 00:13:00,6.21,0.0,0.0,11604.0,False
+EV-00123,U-004,Preventive maintenance,PM service,2025-11-24 18:00:00,2025-11-25 01:07:00,7.12,0.0,0.0,11755.9,False
+EV-00124,U-004,Preventive maintenance,PM service,2025-12-11 18:00:00,2025-12-12 02:17:00,8.29,0.0,0.0,12009.1,False
+EV-00125,U-004,Breakdown,Hydraulic,2025-12-21 08:00:00,2025-12-21 22:54:00,13.34,0.0,1.57,12147.3,False
+EV-00126,U-004,Preventive maintenance,PM service,2025-12-28 18:00:00,2025-12-29 03:53:00,9.88,0.0,0.0,12259.9,False
+EV-00127,U-005,Breakdown,Engine,2025-01-03 16:00:00,2025-01-04 02:10:00,9.11,0.0,1.05,9238.4,False
+EV-00128,U-005,Preventive maintenance,PM service,2025-01-05 18:00:00,2025-01-06 00:40:00,6.67,0.0,0.0,9264.5,False
+EV-00129,U-005,Breakdown,Electrical,2025-01-13 08:00:00,2025-01-13 19:58:00,8.9,0.0,3.07,9348.9,False
+EV-00130,U-005,Breakdown,Attachment / Bucket,2025-01-23 19:03:00,2025-01-24 14:31:00,3.99,14.43,1.06,9478.7,False
+EV-00131,U-005,Preventive maintenance,PM service,2025-01-26 18:00:00,2025-01-27 03:24:00,9.4,0.0,0.0,9504.7,False
+EV-00132,U-005,Preventive maintenance,PM service,2025-02-15 18:00:00,2025-02-16 00:02:00,6.03,0.0,0.0,9761.4,False
+EV-00133,U-005,Preventive maintenance,PM service,2025-03-06 18:00:00,2025-03-07 02:24:00,8.4,0.0,0.0,10006.0,False
+EV-00134,U-005,Breakdown,Hydraulic,2025-03-09 08:00:00,2025-03-09 14:58:00,2.24,3.72,1.0,10024.7,False
+EV-00135,U-005,Breakdown,Hydraulic,2025-03-12 16:00:00,2025-03-13 11:05:00,5.23,12.48,1.37,10058.7,False
+EV-00136,U-005,Breakdown,Cooling,2025-03-25 08:00:00,2025-03-25 21:04:00,10.21,0.0,2.85,10205.9,False
+EV-00137,U-005,Preventive maintenance,PM service,2025-03-29 18:00:00,2025-03-30 02:06:00,8.11,0.0,0.0,10258.8,False
+EV-00138,U-005,Breakdown,Undercarriage / Tyres,2025-03-31 08:00:00,2025-03-31 15:26:00,5.77,0.0,1.66,10265.7,False
+EV-00139,U-005,Preventive maintenance,PM service,2025-04-15 18:00:00,2025-04-16 01:18:00,7.3,0.0,0.0,10503.5,False
+EV-00140,U-005,Preventive maintenance,PM service,2025-05-01 18:00:00,2025-05-02 01:09:00,7.15,0.0,0.0,10754.1,False
+EV-00141,U-005,Preventive maintenance,PM service,2025-05-18 18:00:00,2025-05-19 02:55:00,8.92,0.0,0.0,11013.0,False
+EV-00142,U-005,Preventive maintenance,PM service,2025-06-03 18:00:00,2025-06-04 03:18:00,9.3,0.0,0.0,11263.2,False
+EV-00143,U-005,Breakdown,Attachment / Bucket,2025-06-06 12:00:00,2025-06-07 09:01:00,12.09,7.22,1.71,11291.4,False
+EV-00144,U-005,Breakdown,Engine,2025-06-11 08:00:00,2025-06-12 17:40:00,18.66,5.78,9.23,11350.2,False
+EV-00145,U-005,Breakdown,Cooling,2025-06-16 12:00:00,2025-06-17 03:44:00,5.5,8.69,1.54,11405.5,False
+EV-00146,U-005,Preventive maintenance,PM service,2025-06-22 18:00:00,2025-06-23 01:06:00,7.09,0.0,0.0,11502.2,False
+EV-00147,U-005,Preventive maintenance,PM service,2025-07-09 18:00:00,2025-07-10 03:59:00,9.98,0.0,0.0,11762.9,False
+EV-00148,U-005,Preventive maintenance,PM service,2025-07-25 18:00:00,2025-07-26 02:48:00,8.8,0.0,0.0,12007.5,False
+EV-00149,U-005,Breakdown,Engine,2025-07-31 08:00:00,2025-08-01 05:28:00,4.33,14.25,2.88,12081.0,False
+EV-00150,U-005,Preventive maintenance,PM service,2025-08-11 18:00:00,2025-08-12 01:33:00,7.55,0.0,0.0,12255.1,False
+EV-00151,U-005,Breakdown,Undercarriage / Tyres,2025-08-13 16:00:00,2025-08-14 14:36:00,8.79,13.06,0.76,12273.3,False
+EV-00152,U-005,Preventive maintenance,PM service,2025-09-01 18:00:00,2025-09-02 00:19:00,6.31,0.0,0.0,12565.2,False
+EV-00153,U-005,Preventive maintenance,PM service,2025-09-13 18:00:00,2025-09-14 00:33:00,6.55,0.0,0.0,12750.7,False
+EV-00154,U-005,Preventive maintenance,PM service,2025-10-11 18:00:00,2025-10-12 00:30:00,6.49,0.0,0.0,13191.8,False
+EV-00155,U-005,Breakdown,Attachment / Bucket,2025-10-23 19:19:00,2025-10-24 05:57:00,9.4,0.0,1.24,13378.6,True
+EV-00156,U-005,Breakdown,Hydraulic,2025-10-28 19:41:00,2025-10-29 02:07:00,4.24,0.0,2.19,13451.2,True
+EV-00157,U-005,Preventive maintenance,PM service,2025-10-29 18:00:00,2025-10-30 02:45:00,8.75,0.0,0.0,13467.0,False
+EV-00158,U-005,Preventive maintenance,PM service,2025-11-01 18:00:00,2025-11-02 00:18:00,6.29,0.0,0.0,13504.8,False
+EV-00159,U-005,Preventive maintenance,PM service,2025-11-21 18:00:00,2025-11-22 02:37:00,8.62,0.0,0.0,13756.1,False
+EV-00160,U-005,Preventive maintenance,PM service,2025-12-11 18:00:00,2025-12-12 02:18:00,8.3,0.0,0.0,14009.3,False
+EV-00161,U-005,Preventive maintenance,PM service,2025-12-31 18:00:00,2026-01-01 01:38:00,7.63,0.0,0.0,14251.1,False
+EV-00162,U-006,Preventive maintenance,PM service,2025-01-03 18:00:00,2025-01-04 03:23:00,9.39,0.0,0.0,23001.4,False
+EV-00163,U-006,Breakdown,Engine,2025-01-08 08:00:00,2025-01-08 22:38:00,12.7,0.0,1.93,23044.0,False
+EV-00164,U-006,Breakdown,Hydraulic,2025-01-14 08:00:00,2025-01-15 00:42:00,8.21,5.91,2.57,23110.2,False
+EV-00165,U-006,Breakdown,Undercarriage / Tyres,2025-01-16 08:00:00,2025-01-16 16:52:00,7.82,0.0,1.05,23124.4,False
+EV-00166,U-006,Preventive maintenance,PM service,2025-01-26 18:00:00,2025-01-27 01:40:00,7.67,0.0,0.0,23250.7,False
+EV-00167,U-006,Preventive maintenance,PM service,2025-02-13 18:00:00,2025-02-14 00:07:00,6.11,0.0,0.0,23514.9,False
+EV-00168,U-006,Breakdown,Electrical,2025-02-22 20:00:00,2025-02-23 11:07:00,5.54,5.89,3.68,23650.2,False
+EV-00169,U-006,Preventive maintenance,PM service,2025-03-01 18:00:00,2025-03-02 00:04:00,6.07,0.0,0.0,23755.7,False
+EV-00170,U-006,Preventive maintenance,PM service,2025-03-17 18:00:00,2025-03-18 02:18:00,8.29,0.0,0.0,24009.1,False
+EV-00171,U-006,Breakdown,Engine,2025-03-19 19:31:00,2025-03-20 19:38:00,11.28,11.44,1.4,24030.8,False
+EV-00172,U-006,Preventive maintenance,PM service,2025-04-03 18:00:00,2025-04-04 03:16:00,9.27,0.0,0.0,24257.2,False
+EV-00173,U-006,Preventive maintenance,PM service,2025-04-19 18:00:00,2025-04-20 01:37:00,7.61,0.0,0.0,24510.4,False
+EV-00174,U-006,Breakdown,Electrical,2025-04-27 19:04:00,2025-04-28 05:25:00,9.63,0.0,0.72,24627.1,False
+EV-00175,U-006,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 03:15:00,9.26,0.0,0.0,24751.3,False
+EV-00176,U-006,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 02:43:00,8.72,0.0,0.0,25000.6,False
+EV-00177,U-006,Breakdown,Cooling,2025-05-27 19:44:00,2025-05-28 04:38:00,5.18,0.0,3.73,25080.9,False
+EV-00178,U-006,Breakdown,Electrical,2025-06-01 16:00:00,2025-06-02 06:51:00,3.94,9.11,1.79,25151.6,False
+EV-00179,U-006,Preventive maintenance,PM service,2025-06-08 18:00:00,2025-06-09 00:29:00,6.48,0.0,0.0,25260.3,False
+EV-00180,U-006,Preventive maintenance,PM service,2025-06-24 18:00:00,2025-06-25 03:27:00,9.44,0.0,0.0,25507.5,False
+EV-00181,U-006,Breakdown,Hydraulic,2025-07-09 20:00:00,2025-07-10 11:48:00,4.51,9.56,1.74,25738.4,False
+EV-00182,U-006,Preventive maintenance,PM service,2025-07-11 18:00:00,2025-07-12 00:08:00,6.13,0.0,0.0,25763.8,False
+EV-00183,U-006,Preventive maintenance,PM service,2025-07-27 18:00:00,2025-07-28 03:23:00,9.39,0.0,0.0,26007.6,False
+EV-00184,U-006,Preventive maintenance,PM service,2025-08-12 18:00:00,2025-08-13 00:51:00,6.85,0.0,0.0,26254.8,False
+EV-00185,U-006,Preventive maintenance,PM service,2025-08-28 18:00:00,2025-08-29 03:21:00,9.36,0.0,0.0,26504.7,False
+EV-00186,U-006,Preventive maintenance,PM service,2025-09-13 18:00:00,2025-09-14 00:13:00,6.22,0.0,0.0,26752.7,False
+EV-00187,U-006,Preventive maintenance,PM service,2025-09-30 18:00:00,2025-10-01 00:38:00,6.63,0.0,0.0,27011.4,False
+EV-00188,U-006,Preventive maintenance,PM service,2025-10-20 18:00:00,2025-10-21 02:11:00,8.18,0.0,0.0,27260.7,False
+EV-00189,U-006,Preventive maintenance,PM service,2025-11-09 18:00:00,2025-11-10 02:00:00,8.0,0.0,0.0,27501.7,False
+EV-00190,U-006,Breakdown,Hydraulic,2025-11-19 12:00:00,2025-11-20 03:32:00,6.38,7.47,1.68,27610.6,False
+EV-00191,U-006,Preventive maintenance,PM service,2025-12-01 18:00:00,2025-12-02 03:20:00,9.34,0.0,0.0,27753.4,False
+EV-00192,U-006,Breakdown,Electrical,2025-12-11 08:00:00,2025-12-11 21:32:00,6.51,5.72,1.31,27859.8,False
+EV-00193,U-006,Preventive maintenance,PM service,2025-12-22 18:00:00,2025-12-23 01:28:00,7.46,0.0,0.0,28005.4,False
+EV-00194,U-006,Breakdown,Undercarriage / Tyres,2025-12-23 08:00:00,2025-12-23 15:30:00,5.86,0.0,1.63,28005.4,False
+EV-00195,U-006,Breakdown,Engine,2025-12-26 08:00:00,2025-12-28 04:23:00,27.32,14.45,2.61,28032.7,False
+EV-00196,U-007,Breakdown,Cooling,2025-01-20 12:00:00,2025-01-21 02:16:00,6.01,7.12,1.14,2366.7,True
+EV-00197,U-007,Preventive maintenance,PM service,2025-01-21 18:00:00,2025-01-22 02:26:00,8.43,0.0,0.0,2378.2,False
+EV-00198,U-007,Preventive maintenance,PM service,2025-01-31 18:00:00,2025-02-01 03:50:00,9.83,0.0,0.0,2502.1,False
+EV-00199,U-007,Breakdown,Hydraulic,2025-02-05 12:00:00,2025-02-06 13:20:00,8.75,15.06,1.53,2550.5,False
+EV-00200,U-007,Preventive maintenance,PM service,2025-02-22 18:00:00,2025-02-23 00:54:00,6.9,0.0,0.0,2759.6,False
+EV-00201,U-007,Breakdown,Hydraulic,2025-03-10 12:00:00,2025-03-10 15:59:00,3.2,0.0,0.78,2952.9,False
+EV-00202,U-007,Preventive maintenance,PM service,2025-03-25 18:00:00,2025-03-26 00:41:00,6.69,0.0,0.0,3134.3,False
+EV-00203,U-007,Preventive maintenance,PM service,2025-04-14 18:00:00,2025-04-15 00:44:00,6.74,0.0,0.0,3384.2,False
+EV-00204,U-007,Preventive maintenance,PM service,2025-04-25 18:00:00,2025-04-26 03:44:00,9.73,0.0,0.0,3512.5,False
+EV-00205,U-007,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 01:38:00,7.64,0.0,0.0,3831.2,False
+EV-00206,U-007,Preventive maintenance,PM service,2025-05-27 18:00:00,2025-05-28 03:09:00,9.16,0.0,0.0,4002.2,False
+EV-00207,U-007,Breakdown,Electrical,2025-06-17 19:55:00,2025-06-19 07:21:00,2.18,30.93,2.33,4329.9,True
+EV-00208,U-007,Preventive maintenance,PM service,2025-06-20 18:00:00,2025-06-21 02:31:00,8.52,0.0,0.0,4354.4,False
+EV-00209,U-007,Preventive maintenance,PM service,2025-07-08 18:00:00,2025-07-09 02:26:00,8.44,0.0,0.0,4639.6,False
+EV-00210,U-007,Breakdown,Undercarriage / Tyres,2025-07-11 20:00:00,2025-07-12 03:06:00,6.07,0.0,1.02,4676.6,False
+EV-00211,U-007,Preventive maintenance,PM service,2025-07-22 18:00:00,2025-07-23 01:56:00,7.93,0.0,0.0,4856.4,False
+EV-00212,U-007,Preventive maintenance,PM service,2025-08-13 18:00:00,2025-08-14 01:09:00,7.15,0.0,0.0,5193.8,False
+EV-00213,U-007,Preventive maintenance,PM service,2025-08-17 18:00:00,2025-08-18 03:13:00,9.22,0.0,0.0,5252.8,False
+EV-00214,U-007,Breakdown,Attachment / Bucket,2025-09-04 12:00:00,2025-09-04 22:48:00,9.01,0.0,1.79,5520.6,False
+EV-00215,U-007,Breakdown,Attachment / Bucket,2025-09-07 08:00:00,2025-09-07 16:31:00,6.92,0.0,1.6,5554.3,True
+EV-00216,U-007,Preventive maintenance,PM service,2025-09-08 18:00:00,2025-09-09 02:16:00,8.27,0.0,0.0,5571.7,False
+EV-00217,U-007,Preventive maintenance,PM service,2025-09-30 18:00:00,2025-10-01 00:07:00,6.12,0.0,0.0,5913.6,False
+EV-00218,U-007,Breakdown,Undercarriage / Tyres,2025-10-14 16:00:00,2025-10-15 13:36:00,11.12,8.22,2.25,6126.0,True
+EV-00219,U-007,Breakdown,Cooling,2025-10-17 16:00:00,2025-10-18 05:29:00,4.85,7.34,1.3,6155.5,True
+EV-00220,U-007,Preventive maintenance,PM service,2025-10-18 18:00:00,2025-10-19 02:37:00,8.61,0.0,0.0,6170.3,False
+EV-00221,U-007,Preventive maintenance,PM service,2025-10-24 18:00:00,2025-10-25 03:20:00,9.33,0.0,0.0,6259.9,False
+EV-00222,U-007,Breakdown,Hydraulic,2025-10-26 08:00:00,2025-10-26 15:23:00,5.81,0.0,1.58,6267.5,False
+EV-00223,U-007,Preventive maintenance,PM service,2025-11-10 18:00:00,2025-11-11 00:35:00,6.58,0.0,0.0,6509.3,False
+EV-00224,U-007,Breakdown,Electrical,2025-11-24 08:00:00,2025-11-25 08:29:00,4.74,18.0,1.75,6712.0,False
+EV-00225,U-007,Breakdown,Electrical,2025-11-27 16:00:00,2025-11-28 19:41:00,5.32,20.7,1.67,6747.4,False
+EV-00226,U-007,Preventive maintenance,PM service,2025-11-28 18:00:00,2025-11-29 03:23:00,9.39,0.0,0.0,6750.3,False
+EV-00227,U-007,Breakdown,Cooling,2025-11-29 08:00:00,2025-11-30 00:19:00,5.56,9.87,0.89,6750.3,False
+EV-00228,U-007,Breakdown,Hydraulic,2025-12-26 08:00:00,2025-12-26 18:25:00,8.09,0.0,2.33,7079.9,True
+EV-00229,U-007,Preventive maintenance,PM service,2025-12-28 18:00:00,2025-12-29 01:07:00,7.12,0.0,0.0,7107.5,False
+EV-00230,U-008,Breakdown,Hydraulic,2025-01-03 16:00:00,2025-01-07 02:40:00,3.23,77.36,2.07,21745.6,False
+EV-00231,U-008,Preventive maintenance,PM service,2025-01-08 18:00:00,2025-01-09 02:09:00,8.16,0.0,0.0,21758.8,False
+EV-00232,U-008,Preventive maintenance,PM service,2025-01-28 18:00:00,2025-01-29 03:37:00,9.62,0.0,0.0,22005.7,False
+EV-00233,U-008,Breakdown,Cooling,2025-02-13 15:48:00,2025-02-14 18:22:00,2.38,23.17,1.03,22200.6,False
+EV-00234,U-008,Breakdown,Hydraulic,2025-02-22 08:00:00,2025-02-22 13:34:00,4.82,0.0,0.74,22290.6,True
+EV-00235,U-008,Preventive maintenance,PM service,2025-02-25 18:00:00,2025-02-26 03:36:00,9.6,0.0,0.0,22334.6,False
+EV-00236,U-008,Preventive maintenance,PM service,2025-03-16 18:00:00,2025-03-17 00:22:00,6.37,0.0,0.0,22569.3,False
+EV-00237,U-008,Breakdown,Undercarriage / Tyres,2025-03-30 12:00:00,2025-04-01 01:54:00,14.72,22.18,1.01,22732.5,False
+EV-00238,U-008,Preventive maintenance,PM service,2025-04-02 18:00:00,2025-04-03 03:27:00,9.45,0.0,0.0,22751.3,False
+EV-00239,U-008,Breakdown,Electrical,2025-04-11 18:49:00,2025-04-14 14:04:00,5.21,59.9,2.13,22858.6,False
+EV-00240,U-008,Preventive maintenance,PM service,2025-04-26 18:00:00,2025-04-27 02:00:00,8.01,0.0,0.0,23009.9,False
+EV-00241,U-008,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 03:31:00,9.51,0.0,0.0,23259.2,False
+EV-00242,U-008,Preventive maintenance,PM service,2025-06-05 18:00:00,2025-06-06 00:59:00,6.98,0.0,0.0,23512.8,False
+EV-00243,U-008,Preventive maintenance,PM service,2025-06-25 18:00:00,2025-06-26 03:04:00,9.06,0.0,0.0,23759.7,False
+EV-00244,U-008,Breakdown,Attachment / Bucket,2025-07-01 16:00:00,2025-07-01 22:49:00,6.23,0.0,0.6,23823.4,False
+EV-00245,U-008,Breakdown,Undercarriage / Tyres,2025-07-06 16:00:00,2025-07-07 21:39:00,10.91,17.58,1.16,23895.0,False
+EV-00246,U-008,Preventive maintenance,PM service,2025-07-14 18:00:00,2025-07-15 03:28:00,9.47,0.0,0.0,24009.1,False
+EV-00247,U-008,Breakdown,Hydraulic,2025-07-23 16:00:00,2025-07-25 01:26:00,5.41,26.91,1.11,24136.3,False
+EV-00248,U-008,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 03:31:00,9.51,0.0,0.0,24261.8,False
+EV-00249,U-008,Preventive maintenance,PM service,2025-08-17 18:00:00,2025-08-18 02:36:00,8.6,0.0,0.0,24509.9,False
+EV-00250,U-008,Preventive maintenance,PM service,2025-09-02 18:00:00,2025-09-03 03:03:00,9.04,0.0,0.0,24759.8,False
+EV-00251,U-008,Breakdown,Hydraulic,2025-09-11 16:00:00,2025-09-12 13:15:00,2.73,17.27,1.26,24883.7,False
+EV-00252,U-008,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 02:27:00,8.45,0.0,0.0,25000.5,False
+EV-00253,U-008,Preventive maintenance,PM service,2025-10-11 18:00:00,2025-10-12 01:09:00,7.15,0.0,0.0,25343.9,False
+EV-00254,U-008,Breakdown,Hydraulic,2025-10-15 20:00:00,2025-10-20 03:32:00,10.22,92.17,1.13,25398.5,False
+EV-00255,U-008,Breakdown,Hydraulic,2025-10-21 16:00:00,2025-10-24 23:38:00,6.42,71.91,1.31,25408.5,False
+EV-00256,U-008,Preventive maintenance,PM service,2025-10-30 18:00:00,2025-10-31 00:38:00,6.64,0.0,0.0,25502.1,False
+EV-00257,U-008,Preventive maintenance,PM service,2025-11-15 18:00:00,2025-11-16 03:41:00,9.68,0.0,0.0,25754.5,False
+EV-00258,U-008,Preventive maintenance,PM service,2025-12-02 18:00:00,2025-12-03 01:31:00,7.51,0.0,0.0,26010.4,False
+EV-00259,U-008,Preventive maintenance,PM service,2025-12-18 18:00:00,2025-12-19 00:59:00,6.99,0.0,0.0,26254.5,False
+EV-00260,U-008,Breakdown,Attachment / Bucket,2025-12-31 12:00:00,2026-01-01 20:49:00,13.9,17.44,1.48,26444.9,False
+EV-00261,U-009,Preventive maintenance,PM service,2025-01-09 18:00:00,2025-01-10 00:46:00,6.77,0.0,0.0,21252.2,False
+EV-00262,U-009,Breakdown,Electrical,2025-01-12 12:00:00,2025-01-12 19:12:00,5.93,0.0,1.27,21274.1,False
+EV-00263,U-009,Breakdown,Engine,2025-02-02 08:00:00,2025-02-02 13:40:00,4.48,0.0,1.18,21526.6,True
+EV-00264,U-009,Preventive maintenance,PM service,2025-02-13 18:00:00,2025-02-14 02:40:00,8.67,0.0,0.0,21661.3,False
+EV-00265,U-009,Preventive maintenance,PM service,2025-02-21 18:00:00,2025-02-22 00:00:00,6.0,0.0,0.0,21757.4,False
+EV-00266,U-009,Preventive maintenance,PM service,2025-03-13 18:00:00,2025-03-14 01:24:00,7.39,0.0,0.0,22006.6,False
+EV-00267,U-009,Preventive maintenance,PM service,2025-04-02 18:00:00,2025-04-03 02:43:00,8.72,0.0,0.0,22262.2,False
+EV-00268,U-009,Breakdown,Hydraulic,2025-04-06 12:00:00,2025-04-06 16:49:00,3.44,0.0,1.38,22305.5,False
+EV-00269,U-009,Breakdown,Hydraulic,2025-04-19 19:50:00,2025-04-20 07:18:00,8.45,0.0,3.02,22508.0,False
+EV-00270,U-009,Preventive maintenance,PM service,2025-04-20 18:00:00,2025-04-21 01:06:00,7.11,0.0,0.0,22519.0,False
+EV-00271,U-009,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 03:02:00,9.03,0.0,0.0,22757.5,False
+EV-00272,U-009,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 02:22:00,8.36,0.0,0.0,23002.6,False
+EV-00273,U-009,Preventive maintenance,PM service,2025-06-07 18:00:00,2025-06-08 00:26:00,6.44,0.0,0.0,23264.6,False
+EV-00274,U-009,Preventive maintenance,PM service,2025-06-23 18:00:00,2025-06-24 00:56:00,6.94,0.0,0.0,23511.3,False
+EV-00275,U-009,Breakdown,Attachment / Bucket,2025-07-08 16:00:00,2025-07-09 16:19:00,11.84,11.58,0.9,23736.6,False
+EV-00276,U-009,Preventive maintenance,PM service,2025-07-10 18:00:00,2025-07-11 02:01:00,8.02,0.0,0.0,23756.0,False
+EV-00277,U-009,Breakdown,Hydraulic,2025-07-12 08:00:00,2025-07-12 15:09:00,5.16,0.0,1.99,23764.8,False
+EV-00278,U-009,Preventive maintenance,PM service,2025-07-27 18:00:00,2025-07-28 02:02:00,8.03,0.0,0.0,24007.3,False
+EV-00279,U-009,Breakdown,Hydraulic,2025-08-11 16:00:00,2025-08-12 04:41:00,9.17,0.0,3.52,24229.4,False
+EV-00280,U-009,Preventive maintenance,PM service,2025-08-13 18:00:00,2025-08-14 03:33:00,9.55,0.0,0.0,24259.9,False
+EV-00281,U-009,Preventive maintenance,PM service,2025-08-29 18:00:00,2025-08-30 00:38:00,6.64,0.0,0.0,24509.0,False
+EV-00282,U-009,Preventive maintenance,PM service,2025-09-14 18:00:00,2025-09-15 01:47:00,7.79,0.0,0.0,24758.4,False
+EV-00283,U-009,Preventive maintenance,PM service,2025-09-30 18:00:00,2025-10-01 00:01:00,6.02,0.0,0.0,25003.1,False
+EV-00284,U-009,Breakdown,Attachment / Bucket,2025-10-18 19:19:00,2025-10-18 23:14:00,2.3,0.0,1.62,25288.3,True
+EV-00285,U-009,Breakdown,Electrical,2025-10-21 19:58:00,2025-10-22 21:28:00,4.7,16.54,4.27,25334.5,True
+EV-00286,U-009,Preventive maintenance,PM service,2025-10-23 18:00:00,2025-10-24 03:13:00,9.21,0.0,0.0,25351.0,False
+EV-00287,U-009,Preventive maintenance,PM service,2025-11-03 18:00:00,2025-11-04 02:59:00,8.98,0.0,0.0,25508.6,False
+EV-00288,U-009,Preventive maintenance,PM service,2025-11-24 18:00:00,2025-11-25 00:12:00,6.2,0.0,0.0,25758.2,False
+EV-00289,U-009,Preventive maintenance,PM service,2025-12-13 18:00:00,2025-12-14 00:31:00,6.52,0.0,0.0,26000.3,False
+EV-00290,U-010,Preventive maintenance,PM service,2025-01-02 18:00:00,2025-01-03 00:12:00,6.19,0.0,0.0,13255.0,False
+EV-00291,U-010,Preventive maintenance,PM service,2025-01-23 18:00:00,2025-01-24 02:14:00,8.23,0.0,0.0,13505.1,False
+EV-00292,U-010,Breakdown,Hydraulic,2025-02-04 16:00:00,2025-02-05 07:43:00,11.28,3.77,0.68,13652.1,False
+EV-00293,U-010,Breakdown,Attachment / Bucket,2025-02-14 12:00:00,2025-02-14 22:26:00,7.52,0.0,2.92,13796.5,True
+EV-00294,U-010,Breakdown,Undercarriage / Tyres,2025-02-15 19:54:00,2025-02-16 11:06:00,6.16,6.55,2.5,13810.5,True
+EV-00295,U-010,Breakdown,Hydraulic,2025-02-20 12:00:00,2025-02-21 08:55:00,11.53,7.85,1.54,13870.1,True
+EV-00296,U-010,Preventive maintenance,PM service,2025-02-26 18:00:00,2025-02-27 03:21:00,9.35,0.0,0.0,13963.9,False
+EV-00297,U-010,Preventive maintenance,PM service,2025-03-01 18:00:00,2025-03-02 00:14:00,6.23,0.0,0.0,14002.5,False
+EV-00298,U-010,Breakdown,Attachment / Bucket,2025-03-06 08:00:00,2025-03-06 14:37:00,5.71,0.0,0.91,14059.9,False
+EV-00299,U-010,Preventive maintenance,PM service,2025-03-18 18:00:00,2025-03-19 02:59:00,8.98,0.0,0.0,14255.3,False
+EV-00300,U-010,Preventive maintenance,PM service,2025-04-04 18:00:00,2025-04-05 01:34:00,7.56,0.0,0.0,14512.8,False
+EV-00301,U-010,Breakdown,Cooling,2025-04-18 08:00:00,2025-04-18 18:12:00,1.22,5.61,3.37,14714.2,False
+EV-00302,U-010,Preventive maintenance,PM service,2025-04-21 18:00:00,2025-04-22 03:37:00,9.62,0.0,0.0,14762.8,False
+EV-00303,U-010,Preventive maintenance,PM service,2025-05-07 18:00:00,2025-05-08 01:10:00,7.16,0.0,0.0,15006.9,False
+EV-00304,U-010,Preventive maintenance,PM service,2025-05-23 18:00:00,2025-05-24 02:05:00,8.09,0.0,0.0,15261.5,False
+EV-00305,U-010,Breakdown,Undercarriage / Tyres,2025-06-05 12:00:00,2025-06-06 07:15:00,3.68,14.52,1.04,15445.9,False
+EV-00306,U-010,Preventive maintenance,PM service,2025-06-09 18:00:00,2025-06-10 02:59:00,8.98,0.0,0.0,15504.6,False
+EV-00307,U-010,Preventive maintenance,PM service,2025-06-25 18:00:00,2025-06-26 00:51:00,6.86,0.0,0.0,15758.2,False
+EV-00308,U-010,Breakdown,Hydraulic,2025-07-05 08:00:00,2025-07-05 14:46:00,4.35,0.0,2.43,15895.1,False
+EV-00309,U-010,Preventive maintenance,PM service,2025-07-12 18:00:00,2025-07-13 00:42:00,6.7,0.0,0.0,16007.5,False
+EV-00310,U-010,Preventive maintenance,PM service,2025-07-28 18:00:00,2025-07-29 02:36:00,8.6,0.0,0.0,16254.3,False
+EV-00311,U-010,Breakdown,Electrical,2025-08-06 19:44:00,2025-08-07 11:02:00,4.52,7.8,2.98,16386.9,False
+EV-00312,U-010,Preventive maintenance,PM service,2025-08-14 18:00:00,2025-08-15 00:41:00,6.69,0.0,0.0,16508.7,False
+EV-00313,U-010,Preventive maintenance,PM service,2025-08-30 18:00:00,2025-08-31 03:54:00,9.9,0.0,0.0,16760.0,False
+EV-00314,U-010,Breakdown,Hydraulic,2025-09-02 19:40:00,2025-09-03 04:52:00,7.99,0.0,1.21,16796.2,False
+EV-00315,U-010,Preventive maintenance,PM service,2025-09-15 18:00:00,2025-09-16 02:58:00,8.97,0.0,0.0,17003.1,False
+EV-00316,U-010,Breakdown,Electrical,2025-09-16 12:00:00,2025-09-17 05:05:00,6.67,8.41,2.01,17007.1,False
+EV-00317,U-010,Preventive maintenance,PM service,2025-10-09 18:00:00,2025-10-10 02:31:00,8.52,0.0,0.0,17339.1,False
+EV-00318,U-010,Preventive maintenance,PM service,2025-10-23 18:00:00,2025-10-24 02:19:00,8.32,0.0,0.0,17505.4,False
+EV-00319,U-010,Breakdown,Undercarriage / Tyres,2025-10-31 08:00:00,2025-11-01 09:50:00,9.86,13.48,2.5,17592.0,False
+EV-00320,U-010,Preventive maintenance,PM service,2025-11-13 18:00:00,2025-11-14 00:53:00,6.88,0.0,0.0,17750.2,False
+EV-00321,U-010,Breakdown,Engine,2025-11-19 08:00:00,2025-11-19 23:07:00,9.1,4.88,1.13,17805.8,False
+EV-00322,U-010,Preventive maintenance,PM service,2025-12-04 18:00:00,2025-12-05 01:36:00,7.6,0.0,0.0,18005.6,False
+EV-00323,U-010,Preventive maintenance,PM service,2025-12-24 18:00:00,2025-12-25 02:48:00,8.8,0.0,0.0,18255.2,False
+EV-00324,U-011,Breakdown,Hydraulic,2025-01-02 15:20:00,2025-01-03 12:37:00,3.78,14.81,2.69,9293.7,False
+EV-00325,U-011,Preventive maintenance,PM service,2025-01-20 18:00:00,2025-01-21 01:47:00,7.78,0.0,0.0,9508.3,False
+EV-00326,U-011,Breakdown,Hydraulic,2025-02-16 12:00:00,2025-02-16 20:17:00,6.11,0.0,2.18,9831.5,True
+EV-00327,U-011,Preventive maintenance,PM service,2025-02-21 18:00:00,2025-02-22 02:41:00,8.68,0.0,0.0,9896.5,False
+EV-00328,U-011,Breakdown,Attachment / Bucket,2025-02-25 16:00:00,2025-02-27 00:15:00,9.07,22.1,1.08,9933.5,False
+EV-00329,U-011,Preventive maintenance,PM service,2025-03-18 18:00:00,2025-03-19 03:26:00,9.44,0.0,0.0,10182.0,False
+EV-00330,U-011,Preventive maintenance,PM service,2025-03-24 18:00:00,2025-03-25 01:25:00,7.41,0.0,0.0,10251.1,False
+EV-00331,U-011,Preventive maintenance,PM service,2025-04-13 18:00:00,2025-04-14 02:17:00,8.28,0.0,0.0,10500.9,False
+EV-00332,U-011,Breakdown,Hydraulic,2025-04-21 16:00:00,2025-04-22 07:22:00,5.41,8.27,1.68,10594.7,False
+EV-00333,U-011,Preventive maintenance,PM service,2025-05-09 18:00:00,2025-05-10 01:48:00,7.81,0.0,0.0,10845.1,False
+EV-00334,U-011,Breakdown,Engine,2025-05-28 16:00:00,2025-05-30 03:57:00,21.81,13.56,0.57,11132.8,True
+EV-00335,U-011,Preventive maintenance,PM service,2025-06-03 18:00:00,2025-06-04 03:04:00,9.07,0.0,0.0,11208.5,False
+EV-00336,U-011,Breakdown,Hydraulic,2025-06-10 08:00:00,2025-06-10 22:26:00,5.52,6.97,1.94,11300.1,True
+EV-00337,U-011,Preventive maintenance,PM service,2025-06-16 18:00:00,2025-06-17 00:58:00,6.97,0.0,0.0,11395.2,False
+EV-00338,U-011,Breakdown,Attachment / Bucket,2025-06-26 16:00:00,2025-06-28 04:17:00,23.15,12.47,0.66,11543.6,True
+EV-00339,U-011,Preventive maintenance,PM service,2025-07-09 18:00:00,2025-07-10 03:18:00,9.31,0.0,0.0,11728.5,False
+EV-00340,U-011,Preventive maintenance,PM service,2025-07-11 18:00:00,2025-07-12 02:11:00,8.19,0.0,0.0,11753.1,False
+EV-00341,U-011,Breakdown,Engine,2025-07-20 19:42:00,2025-07-22 01:45:00,24.11,5.06,0.87,11884.2,False
+EV-00342,U-011,Preventive maintenance,PM service,2025-07-29 18:00:00,2025-07-30 03:13:00,9.21,0.0,0.0,12009.8,False
+EV-00343,U-011,Breakdown,Attachment / Bucket,2025-08-10 16:00:00,2025-08-11 21:33:00,6.95,21.32,1.28,12186.2,False
+EV-00344,U-011,Preventive maintenance,PM service,2025-08-16 18:00:00,2025-08-17 03:38:00,9.63,0.0,0.0,12266.0,False
+EV-00345,U-011,Preventive maintenance,PM service,2025-09-01 18:00:00,2025-09-02 03:00:00,9.0,0.0,0.0,12510.3,False
+EV-00346,U-011,Breakdown,Electrical,2025-09-21 12:00:00,2025-09-22 07:21:00,7.87,9.56,1.93,12805.6,True
+EV-00347,U-011,Preventive maintenance,PM service,2025-09-29 18:00:00,2025-09-30 00:56:00,6.93,0.0,0.0,12932.9,False
+EV-00348,U-011,Breakdown,Hydraulic,2025-10-01 08:00:00,2025-10-01 18:56:00,8.86,0.0,2.07,12942.4,False
+EV-00349,U-011,Preventive maintenance,PM service,2025-10-17 18:00:00,2025-10-18 03:52:00,9.87,0.0,0.0,13194.3,False
+EV-00350,U-011,Preventive maintenance,PM service,2025-10-22 18:00:00,2025-10-23 03:50:00,9.83,0.0,0.0,13265.4,False
+EV-00351,U-011,Breakdown,Engine,2025-11-01 22:15:00,2025-11-02 11:23:00,12.71,0.0,0.42,13415.6,False
+EV-00352,U-011,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 00:39:00,6.64,0.0,0.0,13505.0,False
+EV-00353,U-011,Breakdown,Hydraulic,2025-11-23 08:00:00,2025-11-23 19:22:00,8.63,1.87,0.87,13744.2,False
+EV-00354,U-011,Preventive maintenance,PM service,2025-11-24 18:00:00,2025-11-25 02:03:00,8.05,0.0,0.0,13762.0,False
+EV-00355,U-011,Preventive maintenance,PM service,2025-12-12 18:00:00,2025-12-13 03:15:00,9.26,0.0,0.0,14002.3,False
+EV-00356,U-011,Breakdown,Electrical,2025-12-16 08:00:00,2025-12-17 14:21:00,2.43,25.67,2.25,14033.6,False
+EV-00357,U-012,Preventive maintenance,PM service,2025-01-06 18:00:00,2025-01-07 00:09:00,6.15,0.0,0.0,8755.9,False
+EV-00358,U-012,Preventive maintenance,PM service,2025-01-26 18:00:00,2025-01-27 01:21:00,7.35,0.0,0.0,9001.8,False
+EV-00359,U-012,Preventive maintenance,PM service,2025-02-16 18:00:00,2025-02-17 01:47:00,7.78,0.0,0.0,9261.0,False
+EV-00360,U-012,Preventive maintenance,PM service,2025-03-08 18:00:00,2025-03-09 03:32:00,9.54,0.0,0.0,9502.3,False
+EV-00361,U-012,Breakdown,Electrical,2025-03-20 08:00:00,2025-03-20 15:39:00,6.58,0.0,1.07,9632.1,False
+EV-00362,U-012,Preventive maintenance,PM service,2025-03-29 18:00:00,2025-03-30 02:09:00,8.15,0.0,0.0,9752.6,False
+EV-00363,U-012,Preventive maintenance,PM service,2025-04-18 18:00:00,2025-04-19 02:27:00,8.45,0.0,0.0,10011.0,False
+EV-00364,U-012,Preventive maintenance,PM service,2025-05-08 18:00:00,2025-05-09 02:13:00,8.21,0.0,0.0,10253.3,False
+EV-00365,U-012,Breakdown,Hydraulic,2025-05-19 08:00:00,2025-05-19 15:56:00,7.02,0.0,0.92,10376.8,False
+EV-00366,U-012,Preventive maintenance,PM service,2025-05-28 18:00:00,2025-05-29 03:25:00,9.41,0.0,0.0,10500.5,False
+EV-00367,U-012,Preventive maintenance,PM service,2025-06-18 18:00:00,2025-06-19 00:09:00,6.16,0.0,0.0,10757.3,False
+EV-00368,U-012,Preventive maintenance,PM service,2025-07-06 18:00:00,2025-07-07 01:36:00,7.6,0.0,0.0,11002.2,False
+EV-00369,U-012,Preventive maintenance,PM service,2025-07-22 18:00:00,2025-07-23 03:08:00,9.14,0.0,0.0,11256.8,False
+EV-00370,U-012,Breakdown,Engine,2025-08-03 16:00:00,2025-08-06 07:47:00,10.48,49.71,3.59,11434.6,False
+EV-00371,U-012,Breakdown,Electrical,2025-08-10 16:00:00,2025-08-12 13:40:00,7.0,36.25,2.41,11496.2,False
+EV-00372,U-012,Preventive maintenance,PM service,2025-08-13 18:00:00,2025-08-14 02:35:00,8.59,0.0,0.0,11515.6,False
+EV-00373,U-012,Preventive maintenance,PM service,2025-08-29 18:00:00,2025-08-30 03:26:00,9.44,0.0,0.0,11764.9,False
+EV-00374,U-012,Preventive maintenance,PM service,2025-09-13 18:00:00,2025-09-14 03:13:00,9.22,0.0,0.0,12000.6,False
+EV-00375,U-012,Breakdown,Electrical,2025-09-15 08:00:00,2025-09-18 22:14:00,3.37,82.21,0.66,12008.6,False
+EV-00376,U-012,Breakdown,Hydraulic,2025-10-01 16:00:00,2025-10-02 00:54:00,7.33,0.0,1.58,12205.2,False
+EV-00377,U-012,Preventive maintenance,PM service,2025-10-04 18:00:00,2025-10-05 01:46:00,7.77,0.0,0.0,12254.3,False
+EV-00378,U-012,Breakdown,Cooling,2025-10-18 12:00:00,2025-10-20 00:45:00,9.39,25.99,1.36,12461.3,False
+EV-00379,U-012,Preventive maintenance,PM service,2025-10-22 18:00:00,2025-10-23 00:52:00,6.87,0.0,0.0,12506.1,False
+EV-00380,U-012,Breakdown,Electrical,2025-10-26 08:00:00,2025-10-26 16:27:00,6.59,0.0,1.86,12549.2,False
+EV-00381,U-012,Breakdown,Electrical,2025-10-30 20:00:00,2025-10-31 04:59:00,7.54,0.0,1.44,12613.2,False
+EV-00382,U-012,Preventive maintenance,PM service,2025-11-08 18:00:00,2025-11-09 02:45:00,8.75,0.0,0.0,12755.2,False
+EV-00383,U-012,Breakdown,Electrical,2025-11-13 16:00:00,2025-11-18 01:09:00,3.14,100.47,1.54,12820.9,False
+EV-00384,U-012,Preventive maintenance,PM service,2025-11-29 18:00:00,2025-11-30 01:13:00,7.22,0.0,0.0,13006.8,False
+EV-00385,U-012,Breakdown,Engine,2025-12-10 08:00:00,2025-12-12 06:28:00,12.82,31.71,1.93,13159.6,False
+EV-00386,U-012,Preventive maintenance,PM service,2025-12-17 18:00:00,2025-12-18 02:18:00,8.31,0.0,0.0,13250.8,False
+EV-00387,U-013,Preventive maintenance,PM service,2025-01-11 18:00:00,2025-01-12 02:39:00,8.65,0.0,0.0,8257.0,False
+EV-00388,U-013,Breakdown,Electrical,2025-01-28 12:00:00,2025-01-28 16:09:00,2.98,0.0,1.17,8451.1,False
+EV-00389,U-013,Preventive maintenance,PM service,2025-02-01 18:00:00,2025-02-02 01:39:00,7.65,0.0,0.0,8504.7,False
+EV-00390,U-013,Preventive maintenance,PM service,2025-02-21 18:00:00,2025-02-22 03:24:00,9.4,0.0,0.0,8757.1,False
+EV-00391,U-013,Breakdown,Undercarriage / Tyres,2025-02-25 16:00:00,2025-02-26 09:53:00,16.07,0.0,1.81,8798.5,False
+EV-00392,U-013,Preventive maintenance,PM service,2025-03-14 18:00:00,2025-03-15 00:05:00,6.08,0.0,0.0,9010.6,False
+EV-00393,U-013,Breakdown,Cooling,2025-03-23 16:00:00,2025-03-23 20:58:00,3.57,0.0,1.39,9118.9,False
+EV-00394,U-013,Preventive maintenance,PM service,2025-04-03 18:00:00,2025-04-04 03:21:00,9.35,0.0,0.0,9264.5,False
+EV-00395,U-013,Preventive maintenance,PM service,2025-04-19 18:00:00,2025-04-20 03:33:00,9.55,0.0,0.0,9511.8,False
+EV-00396,U-013,Breakdown,Hydraulic,2025-04-21 12:00:00,2025-04-22 01:43:00,2.06,9.32,2.34,9523.6,False
+EV-00397,U-013,Breakdown,Undercarriage / Tyres,2025-05-01 12:00:00,2025-05-04 10:54:00,25.93,41.04,3.93,9679.1,False
+EV-00398,U-013,Preventive maintenance,PM service,2025-05-09 18:00:00,2025-05-10 01:30:00,7.5,0.0,0.0,9763.3,False
+EV-00399,U-013,Breakdown,Engine,2025-05-16 16:00:00,2025-05-17 03:42:00,8.36,0.0,3.34,9860.9,False
+EV-00400,U-013,Preventive maintenance,PM service,2025-05-30 18:00:00,2025-05-31 00:32:00,6.53,0.0,0.0,10087.7,False
+EV-00401,U-013,Preventive maintenance,PM service,2025-06-10 18:00:00,2025-06-11 03:50:00,9.83,0.0,0.0,10257.7,False
+EV-00402,U-013,Preventive maintenance,PM service,2025-06-26 18:00:00,2025-06-27 02:45:00,8.75,0.0,0.0,10501.9,False
+EV-00403,U-013,Preventive maintenance,PM service,2025-07-13 18:00:00,2025-07-14 00:21:00,6.35,0.0,0.0,10765.8,False
+EV-00404,U-013,Preventive maintenance,PM service,2025-07-29 18:00:00,2025-07-30 01:50:00,7.83,0.0,0.0,11014.0,False
+EV-00405,U-013,Preventive maintenance,PM service,2025-08-14 18:00:00,2025-08-15 03:56:00,9.94,0.0,0.0,11261.2,False
+EV-00406,U-013,Breakdown,Hydraulic,2025-08-15 11:24:00,2025-08-15 22:34:00,6.97,2.57,1.63,11265.2,False
+EV-00407,U-013,Breakdown,Hydraulic,2025-08-20 16:00:00,2025-08-21 11:20:00,6.2,12.31,0.82,11331.1,False
+EV-00408,U-013,Preventive maintenance,PM service,2025-09-07 18:00:00,2025-09-08 02:28:00,8.47,0.0,0.0,11613.4,False
+EV-00409,U-013,Breakdown,Engine,2025-09-16 16:00:00,2025-09-17 00:44:00,6.44,0.0,2.29,11741.1,False
+EV-00410,U-013,Preventive maintenance,PM service,2025-09-17 18:00:00,2025-09-18 02:26:00,8.43,0.0,0.0,11757.8,False
+EV-00411,U-013,Preventive maintenance,PM service,2025-10-03 18:00:00,2025-10-04 01:14:00,7.23,0.0,0.0,12008.1,False
+EV-00412,U-013,Preventive maintenance,PM service,2025-10-19 18:00:00,2025-10-20 02:59:00,8.98,0.0,0.0,12262.2,False
+EV-00413,U-013,Breakdown,Hydraulic,2025-10-28 19:53:00,2025-10-29 00:55:00,4.07,0.0,0.95,12398.6,False
+EV-00414,U-013,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 02:27:00,8.45,0.0,0.0,12505.9,False
+EV-00415,U-013,Preventive maintenance,PM service,2025-11-25 18:00:00,2025-11-26 01:17:00,7.29,0.0,0.0,12751.3,False
+EV-00416,U-013,Preventive maintenance,PM service,2025-12-15 18:00:00,2025-12-16 02:04:00,8.06,0.0,0.0,13003.3,False
+EV-00417,U-014,Preventive maintenance,PM service,2025-01-06 18:00:00,2025-01-07 01:54:00,7.9,0.0,0.0,12757.3,False
+EV-00418,U-014,Breakdown,Hydraulic,2025-01-19 15:20:00,2025-01-19 21:27:00,5.78,0.0,0.34,12905.4,False
+EV-00419,U-014,Preventive maintenance,PM service,2025-01-27 18:00:00,2025-01-28 01:24:00,7.4,0.0,0.0,13000.9,False
+EV-00420,U-014,Breakdown,Electrical,2025-02-13 08:00:00,2025-02-13 13:03:00,2.83,0.0,2.22,13234.8,False
+EV-00421,U-014,Preventive maintenance,PM service,2025-02-14 18:00:00,2025-02-15 03:47:00,9.78,0.0,0.0,13252.0,False
+EV-00422,U-014,Breakdown,Engine,2025-02-27 16:00:00,2025-03-01 05:16:00,35.95,0.0,1.33,13441.0,False
+EV-00423,U-014,Breakdown,Engine,2025-03-04 16:00:00,2025-03-06 00:45:00,18.01,13.46,1.28,13492.0,False
+EV-00424,U-014,Preventive maintenance,PM service,2025-03-06 18:00:00,2025-03-07 00:53:00,6.88,0.0,0.0,13508.1,False
+EV-00425,U-014,Preventive maintenance,PM service,2025-03-22 18:00:00,2025-03-23 03:33:00,9.55,0.0,0.0,13757.7,False
+EV-00426,U-014,Preventive maintenance,PM service,2025-04-07 18:00:00,2025-04-08 00:34:00,6.57,0.0,0.0,14003.1,False
+EV-00427,U-014,Preventive maintenance,PM service,2025-04-23 18:00:00,2025-04-24 00:14:00,6.24,0.0,0.0,14257.3,False
+EV-00428,U-014,Breakdown,Attachment / Bucket,2025-04-30 19:25:00,2025-05-01 12:30:00,7.56,7.54,1.98,14359.4,False
+EV-00429,U-014,Preventive maintenance,PM service,2025-05-10 18:00:00,2025-05-11 03:08:00,9.13,0.0,0.0,14513.3,False
+EV-00430,U-014,Breakdown,Cooling,2025-05-12 12:00:00,2025-05-12 20:50:00,8.28,0.0,0.56,14525.3,False
+EV-00431,U-014,Breakdown,Undercarriage / Tyres,2025-05-20 12:00:00,2025-05-21 01:47:00,11.88,0.0,1.91,14637.6,False
+EV-00432,U-014,Breakdown,Electrical,2025-05-23 22:32:00,2025-05-24 06:58:00,7.05,0.0,1.38,14686.3,False
+EV-00433,U-014,Breakdown,Hydraulic,2025-05-26 08:00:00,2025-05-26 15:18:00,4.98,0.0,2.32,14712.7,False
+EV-00434,U-014,Preventive maintenance,PM service,2025-05-29 18:00:00,2025-05-30 00:12:00,6.21,0.0,0.0,14763.7,False
+EV-00435,U-014,Preventive maintenance,PM service,2025-06-14 18:00:00,2025-06-15 02:21:00,8.36,0.0,0.0,15011.7,False
+EV-00436,U-014,Preventive maintenance,PM service,2025-06-30 18:00:00,2025-07-01 00:09:00,6.14,0.0,0.0,15261.3,False
+EV-00437,U-014,Preventive maintenance,PM service,2025-07-16 18:00:00,2025-07-17 00:46:00,6.77,0.0,0.0,15508.6,False
+EV-00438,U-014,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 00:46:00,6.76,0.0,0.0,15757.4,False
+EV-00439,U-014,Breakdown,Attachment / Bucket,2025-08-12 08:00:00,2025-08-12 16:24:00,7.27,0.0,1.14,15909.7,False
+EV-00440,U-014,Preventive maintenance,PM service,2025-08-18 18:00:00,2025-08-19 02:28:00,8.47,0.0,0.0,16010.4,False
+EV-00441,U-014,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 02:47:00,8.78,0.0,0.0,16261.0,False
+EV-00442,U-014,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 00:30:00,6.51,0.0,0.0,16511.9,False
+EV-00443,U-014,Preventive maintenance,PM service,2025-10-06 18:00:00,2025-10-07 03:14:00,9.23,0.0,0.0,16754.4,False
+EV-00444,U-014,Breakdown,Electrical,2025-10-28 12:00:00,2025-10-29 17:32:00,4.2,24.53,0.81,17019.5,False
+EV-00445,U-014,Breakdown,Engine,2025-10-30 08:00:00,2025-10-31 06:55:00,14.63,5.23,3.04,17021.5,False
+EV-00446,U-014,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 00:25:00,6.42,0.0,0.0,17111.0,False
+EV-00447,U-014,Preventive maintenance,PM service,2025-11-19 18:00:00,2025-11-20 03:10:00,9.17,0.0,0.0,17259.0,False
+EV-00448,U-014,Breakdown,Cooling,2025-12-12 12:00:00,2025-12-12 21:04:00,2.3,5.76,1.01,17531.7,True
+EV-00449,U-014,Breakdown,Hydraulic,2025-12-14 15:44:00,2025-12-15 05:26:00,12.1,0.0,1.6,17555.5,True
+EV-00450,U-014,Breakdown,Hydraulic,2025-12-16 08:00:00,2025-12-16 20:08:00,3.95,6.47,1.71,17560.5,True
+EV-00451,U-014,Breakdown,Attachment / Bucket,2025-12-21 15:31:00,2025-12-22 18:12:00,7.28,17.26,2.15,17623.4,True
+EV-00452,U-014,Preventive maintenance,PM service,2025-12-24 18:00:00,2025-12-25 02:30:00,8.5,0.0,0.0,17652.3,False
+EV-00453,U-015,Breakdown,Electrical,2025-01-15 12:00:00,2025-01-15 16:42:00,2.88,0.0,1.81,14295.5,True
+EV-00454,U-015,Breakdown,Hydraulic,2025-01-17 16:00:00,2025-01-18 07:46:00,9.41,4.7,1.65,14319.0,True
+EV-00455,U-015,Breakdown,Hydraulic,2025-01-20 12:00:00,2025-01-21 10:44:00,11.65,9.73,1.36,14343.4,True
+EV-00456,U-015,Breakdown,Hydraulic,2025-01-27 08:00:00,2025-01-28 19:20:00,6.48,27.79,1.07,14410.3,True
+EV-00457,U-015,Preventive maintenance,PM service,2025-01-30 18:00:00,2025-01-31 03:14:00,9.23,0.0,0.0,14437.3,False
+EV-00458,U-015,Preventive maintenance,PM service,2025-02-05 18:00:00,2025-02-06 02:02:00,8.04,0.0,0.0,14504.8,False
+EV-00459,U-015,Breakdown,Cooling,2025-02-11 15:56:00,2025-02-11 21:05:00,4.12,0.0,1.02,14572.4,False
+EV-00460,U-015,Breakdown,Attachment / Bucket,2025-02-18 12:00:00,2025-02-19 05:24:00,8.83,7.16,1.42,14653.5,False
+EV-00461,U-015,Breakdown,Hydraulic,2025-02-25 12:00:00,2025-02-25 18:32:00,4.06,0.0,2.47,14730.5,False
+EV-00462,U-015,Preventive maintenance,PM service,2025-02-27 18:00:00,2025-02-28 01:48:00,7.81,0.0,0.0,14760.4,False
+EV-00463,U-015,Breakdown,Engine,2025-03-21 08:00:00,2025-03-21 16:52:00,7.67,0.0,1.19,15025.3,True
+EV-00464,U-015,Preventive maintenance,PM service,2025-04-02 18:00:00,2025-04-03 01:39:00,7.66,0.0,0.0,15178.5,False
+EV-00465,U-015,Breakdown,Hydraulic,2025-04-03 11:48:00,2025-04-04 03:55:00,14.68,0.0,1.42,15182.5,False
+EV-00466,U-015,Preventive maintenance,PM service,2025-04-10 18:00:00,2025-04-11 03:20:00,9.34,0.0,0.0,15258.9,False
+EV-00467,U-015,Preventive maintenance,PM service,2025-04-30 18:00:00,2025-05-01 03:50:00,9.83,0.0,0.0,15505.8,False
+EV-00468,U-015,Breakdown,Hydraulic,2025-05-08 08:00:00,2025-05-08 19:01:00,8.98,0.0,2.04,15607.8,False
+EV-00469,U-015,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 02:58:00,8.96,0.0,0.0,15816.4,False
+EV-00470,U-015,Preventive maintenance,PM service,2025-06-14 18:00:00,2025-06-15 03:32:00,9.53,0.0,0.0,16193.5,False
+EV-00471,U-015,Breakdown,Hydraulic,2025-06-15 08:00:00,2025-06-17 05:22:00,2.72,41.68,0.97,16193.5,False
+EV-00472,U-015,Breakdown,Undercarriage / Tyres,2025-06-26 16:00:00,2025-06-27 01:41:00,6.39,0.0,3.3,16329.4,True
+EV-00473,U-015,Breakdown,Cooling,2025-06-27 16:00:00,2025-06-28 07:59:00,5.36,8.91,1.71,16339.4,True
+EV-00474,U-015,Preventive maintenance,PM service,2025-07-02 18:00:00,2025-07-03 03:41:00,9.68,0.0,0.0,16416.9,False
+EV-00475,U-015,Preventive maintenance,PM service,2025-07-08 18:00:00,2025-07-09 01:54:00,7.9,0.0,0.0,16504.1,False
+EV-00476,U-015,Breakdown,Cooling,2025-07-22 16:00:00,2025-07-24 02:53:00,10.7,21.83,2.35,16714.9,False
+EV-00477,U-015,Breakdown,Hydraulic,2025-08-07 08:00:00,2025-08-08 01:53:00,3.96,12.1,1.82,16932.2,True
+EV-00478,U-015,Preventive maintenance,PM service,2025-08-08 18:00:00,2025-08-09 01:53:00,7.88,0.0,0.0,16949.7,False
+EV-00479,U-015,Breakdown,Hydraulic,2025-08-24 16:00:00,2025-08-26 03:27:00,4.2,29.77,1.47,17192.3,True
+EV-00480,U-015,Preventive maintenance,PM service,2025-08-27 18:00:00,2025-08-28 00:10:00,6.16,0.0,0.0,17220.0,False
+EV-00481,U-015,Preventive maintenance,PM service,2025-08-30 18:00:00,2025-08-31 02:13:00,8.22,0.0,0.0,17262.7,False
+EV-00482,U-015,Breakdown,Undercarriage / Tyres,2025-08-31 12:00:00,2025-09-01 03:05:00,13.21,0.0,1.87,17266.7,False
+EV-00483,U-015,Breakdown,Engine,2025-09-10 08:00:00,2025-09-11 14:31:00,28.22,0.0,2.29,17402.4,False
+EV-00484,U-015,Preventive maintenance,PM service,2025-09-17 18:00:00,2025-09-18 02:26:00,8.44,0.0,0.0,17504.8,False
+EV-00485,U-015,Breakdown,Hydraulic,2025-09-25 16:00:00,2025-09-25 23:07:00,4.54,0.0,2.59,17617.0,False
+EV-00486,U-015,Breakdown,Undercarriage / Tyres,2025-10-07 16:00:00,2025-10-08 10:09:00,8.38,9.11,0.67,17803.3,True
+EV-00487,U-015,Preventive maintenance,PM service,2025-10-12 18:00:00,2025-10-13 01:09:00,7.14,0.0,0.0,17879.2,False
+EV-00488,U-015,Breakdown,Electrical,2025-10-19 12:00:00,2025-10-19 19:46:00,1.68,5.51,0.58,17972.8,False
+EV-00489,U-015,Breakdown,Engine,2025-10-24 20:00:00,2025-10-26 14:29:00,17.72,23.58,1.18,18051.4,True
+EV-00490,U-015,Breakdown,Electrical,2025-10-28 12:00:00,2025-10-28 16:08:00,2.71,0.0,1.42,18073.5,True
+EV-00491,U-015,Breakdown,Cooling,2025-11-04 19:06:00,2025-11-05 10:15:00,13.28,0.0,1.86,18182.8,True
+EV-00492,U-015,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 01:42:00,7.69,0.0,0.0,18225.6,False
+EV-00493,U-015,Breakdown,Engine,2025-11-08 08:00:00,2025-11-09 00:19:00,14.3,0.0,2.02,18225.6,False
+EV-00494,U-015,Preventive maintenance,PM service,2025-11-10 18:00:00,2025-11-11 01:57:00,7.95,0.0,0.0,18255.8,False
+EV-00495,U-015,Breakdown,Electrical,2025-11-11 08:00:00,2025-11-11 15:42:00,3.01,3.51,1.17,18255.8,False
+EV-00496,U-015,Breakdown,Engine,2025-12-10 18:40:00,2025-12-11 06:01:00,10.22,0.0,1.13,18682.9,True
+EV-00497,U-015,Preventive maintenance,PM service,2025-12-13 18:00:00,2025-12-14 01:58:00,7.97,0.0,0.0,18715.7,False
+EV-00498,U-015,Preventive maintenance,PM service,2025-12-30 18:00:00,2025-12-31 00:59:00,6.99,0.0,0.0,18934.7,False
+EV-00499,U-016,Breakdown,Hydraulic,2025-01-03 16:00:00,2025-01-04 05:16:00,11.57,0.0,1.69,15318.6,False
+EV-00500,U-016,Preventive maintenance,PM service,2025-01-19 18:00:00,2025-01-20 01:21:00,7.35,0.0,0.0,15506.3,False
+EV-00501,U-016,Breakdown,Cooling,2025-01-28 08:00:00,2025-01-30 09:33:00,4.15,43.14,2.26,15603.2,False
+EV-00502,U-016,Preventive maintenance,PM service,2025-02-11 18:00:00,2025-02-12 03:53:00,9.88,0.0,0.0,15755.6,False
+EV-00503,U-016,Preventive maintenance,PM service,2025-03-03 18:00:00,2025-03-04 02:18:00,8.3,0.0,0.0,16004.3,False
+EV-00504,U-016,Breakdown,Engine,2025-03-24 12:00:00,2025-03-27 21:56:00,31.07,49.71,1.15,16248.5,False
+EV-00505,U-016,Preventive maintenance,PM service,2025-03-28 18:00:00,2025-03-29 00:17:00,6.29,0.0,0.0,16254.7,False
+EV-00506,U-016,Breakdown,Engine,2025-04-04 08:00:00,2025-04-06 02:27:00,38.06,0.0,4.4,16317.8,False
+EV-00507,U-016,Breakdown,Engine,2025-04-08 12:00:00,2025-04-11 06:28:00,19.48,45.3,1.69,16342.9,False
+EV-00508,U-016,Preventive maintenance,PM service,2025-04-24 18:00:00,2025-04-25 01:08:00,7.14,0.0,0.0,16512.5,False
+EV-00509,U-016,Breakdown,Engine,2025-05-11 12:00:00,2025-05-12 04:52:00,16.1,0.0,0.77,16714.0,False
+EV-00510,U-016,Breakdown,Hydraulic,2025-05-15 08:00:00,2025-05-15 14:18:00,5.55,0.0,0.75,16744.8,False
+EV-00511,U-016,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 00:26:00,6.43,0.0,0.0,16759.7,False
+EV-00512,U-016,Breakdown,Attachment / Bucket,2025-06-04 16:00:00,2025-06-10 14:15:00,12.83,128.68,0.74,16991.4,False
+EV-00513,U-016,Preventive maintenance,PM service,2025-06-20 18:00:00,2025-06-21 03:39:00,9.65,0.0,0.0,17113.3,False
+EV-00514,U-016,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 03:54:00,9.9,0.0,0.0,17250.1,False
+EV-00515,U-016,Breakdown,Electrical,2025-07-03 08:00:00,2025-07-03 15:18:00,5.13,0.0,2.17,17258.1,False
+EV-00516,U-016,Breakdown,Hydraulic,2025-07-06 16:00:00,2025-07-09 16:27:00,10.06,61.25,1.14,17300.6,False
+EV-00517,U-016,Breakdown,Engine,2025-07-21 20:00:00,2025-07-22 05:57:00,9.17,0.0,0.78,17483.6,False
+EV-00518,U-016,Preventive maintenance,PM service,2025-07-23 18:00:00,2025-07-24 01:26:00,7.44,0.0,0.0,17512.1,False
+EV-00519,U-016,Preventive maintenance,PM service,2025-08-08 18:00:00,2025-08-09 01:36:00,7.6,0.0,0.0,17763.6,False
+EV-00520,U-016,Breakdown,Attachment / Bucket,2025-08-29 12:00:00,2025-08-31 02:54:00,12.47,22.9,3.53,18084.5,True
+EV-00521,U-016,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 01:49:00,7.81,0.0,0.0,18146.3,False
+EV-00522,U-016,Preventive maintenance,PM service,2025-09-21 18:00:00,2025-09-22 02:15:00,8.24,0.0,0.0,18427.5,False
+EV-00523,U-016,Preventive maintenance,PM service,2025-09-27 18:00:00,2025-09-28 02:56:00,8.93,0.0,0.0,18515.2,False
+EV-00524,U-016,Preventive maintenance,PM service,2025-10-13 18:00:00,2025-10-14 02:34:00,8.56,0.0,0.0,18764.9,False
+EV-00525,U-016,Preventive maintenance,PM service,2025-10-29 18:00:00,2025-10-30 00:29:00,6.49,0.0,0.0,19015.7,False
+EV-00526,U-016,Preventive maintenance,PM service,2025-11-14 18:00:00,2025-11-15 01:11:00,7.18,0.0,0.0,19261.3,False
+EV-00527,U-016,Breakdown,Cooling,2025-11-17 08:00:00,2025-11-19 04:23:00,3.27,39.78,1.34,19286.3,False
+EV-00528,U-016,Preventive maintenance,PM service,2025-12-13 18:00:00,2025-12-14 02:51:00,8.85,0.0,0.0,19682.1,False
+EV-00529,U-016,Preventive maintenance,PM service,2025-12-18 18:00:00,2025-12-19 00:15:00,6.26,0.0,0.0,19752.5,False
+EV-00530,U-016,Breakdown,Undercarriage / Tyres,2025-12-29 08:00:00,2025-12-31 17:08:00,24.13,31.53,1.48,19908.2,False
+EV-00531,U-017,Breakdown,Engine,2025-01-04 12:00:00,2025-01-05 00:49:00,11.57,0.0,1.24,25936.2,False
+EV-00532,U-017,Preventive maintenance,PM service,2025-01-10 18:00:00,2025-01-11 00:28:00,6.47,0.0,0.0,26012.5,False
+EV-00533,U-017,Breakdown,Electrical,2025-01-16 16:00:00,2025-01-17 07:49:00,5.41,9.64,0.76,26078.2,False
+EV-00534,U-017,Breakdown,Attachment / Bucket,2025-02-10 15:31:00,2025-02-11 00:51:00,7.88,0.0,1.46,26384.2,True
+EV-00535,U-017,Breakdown,Attachment / Bucket,2025-02-15 12:00:00,2025-02-15 17:44:00,3.52,0.0,2.21,26438.6,True
+EV-00536,U-017,Preventive maintenance,PM service,2025-02-18 18:00:00,2025-02-19 02:06:00,8.1,0.0,0.0,26479.3,False
+EV-00537,U-017,Breakdown,Undercarriage / Tyres,2025-02-21 08:00:00,2025-02-22 06:33:00,8.62,12.75,1.18,26499.5,False
+EV-00538,U-017,Preventive maintenance,PM service,2025-03-05 18:00:00,2025-03-06 00:11:00,6.19,0.0,0.0,26642.4,False
+EV-00539,U-017,Preventive maintenance,PM service,2025-03-14 18:00:00,2025-03-15 02:29:00,8.49,0.0,0.0,26753.1,False
+EV-00540,U-017,Preventive maintenance,PM service,2025-04-03 18:00:00,2025-04-04 02:41:00,8.69,0.0,0.0,27004.1,False
+EV-00541,U-017,Preventive maintenance,PM service,2025-04-19 18:00:00,2025-04-20 00:32:00,6.53,0.0,0.0,27251.8,False
+EV-00542,U-017,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 00:58:00,6.97,0.0,0.0,27508.2,False
+EV-00543,U-017,Breakdown,Electrical,2025-05-19 20:00:00,2025-05-20 08:35:00,2.69,5.49,4.4,27727.3,False
+EV-00544,U-017,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 01:24:00,7.4,0.0,0.0,27755.8,False
+EV-00545,U-017,Preventive maintenance,PM service,2025-06-06 18:00:00,2025-06-07 00:10:00,6.17,0.0,0.0,28011.1,False
+EV-00546,U-017,Breakdown,Electrical,2025-06-09 16:00:00,2025-06-10 08:36:00,3.04,12.94,0.62,28046.0,False
+EV-00547,U-017,Preventive maintenance,PM service,2025-06-22 18:00:00,2025-06-23 03:13:00,9.21,0.0,0.0,28252.6,False
+EV-00548,U-017,Preventive maintenance,PM service,2025-07-09 18:00:00,2025-07-10 03:48:00,9.8,0.0,0.0,28509.3,False
+EV-00549,U-017,Preventive maintenance,PM service,2025-07-29 18:00:00,2025-07-30 02:22:00,8.36,0.0,0.0,28817.9,False
+EV-00550,U-017,Preventive maintenance,PM service,2025-08-10 18:00:00,2025-08-11 01:33:00,7.54,0.0,0.0,29005.5,False
+EV-00551,U-017,Breakdown,Cooling,2025-08-11 08:00:00,2025-08-11 15:35:00,3.17,3.13,1.29,29005.5,False
+EV-00552,U-017,Breakdown,Attachment / Bucket,2025-08-15 08:00:00,2025-08-15 23:03:00,4.89,8.44,1.72,29055.5,False
+EV-00553,U-017,Breakdown,Attachment / Bucket,2025-08-16 08:00:00,2025-08-17 04:29:00,7.18,11.72,1.58,29057.5,False
+EV-00554,U-017,Preventive maintenance,PM service,2025-08-29 18:00:00,2025-08-30 01:56:00,7.93,0.0,0.0,29257.7,False
+EV-00555,U-017,Breakdown,Hydraulic,2025-09-10 12:00:00,2025-09-10 21:01:00,5.7,0.0,3.33,29432.2,False
+EV-00556,U-017,Preventive maintenance,PM service,2025-09-15 18:00:00,2025-09-16 03:25:00,9.42,0.0,0.0,29513.5,False
+EV-00557,U-017,Breakdown,Hydraulic,2025-09-25 12:00:00,2025-09-25 22:03:00,8.4,0.0,1.64,29648.3,False
+EV-00558,U-017,Preventive maintenance,PM service,2025-10-01 18:00:00,2025-10-02 03:28:00,9.47,0.0,0.0,29751.1,False
+EV-00559,U-017,Breakdown,Undercarriage / Tyres,2025-10-04 08:00:00,2025-10-05 19:27:00,3.55,30.42,1.48,29774.5,False
+EV-00560,U-017,Breakdown,Hydraulic,2025-10-12 12:00:00,2025-10-12 15:39:00,2.43,0.0,1.22,29877.3,False
+EV-00561,U-017,Preventive maintenance,PM service,2025-10-20 18:00:00,2025-10-21 00:54:00,6.9,0.0,0.0,30011.4,False
+EV-00562,U-017,Breakdown,Electrical,2025-10-24 08:00:00,2025-10-24 13:20:00,1.68,0.0,3.65,30054.2,False
+EV-00563,U-017,Breakdown,Hydraulic,2025-10-25 12:00:00,2025-10-26 00:24:00,10.44,0.0,1.96,30060.2,False
+EV-00564,U-017,Preventive maintenance,PM service,2025-11-08 18:00:00,2025-11-09 03:50:00,9.83,0.0,0.0,30256.8,False
+EV-00565,U-017,Breakdown,Engine,2025-11-13 12:00:00,2025-11-14 06:17:00,8.23,8.95,1.11,30302.5,False
+EV-00566,U-017,Preventive maintenance,PM service,2025-11-29 18:00:00,2025-11-30 02:02:00,8.03,0.0,0.0,30509.5,False
+EV-00567,U-017,Breakdown,Electrical,2025-12-02 16:00:00,2025-12-03 00:18:00,5.36,0.0,2.93,30536.1,False
+EV-00568,U-017,Preventive maintenance,PM service,2025-12-19 18:00:00,2025-12-20 03:31:00,9.52,0.0,0.0,30755.3,False
+EV-00569,U-018,Breakdown,Electrical,2025-01-02 08:00:00,2025-01-02 13:30:00,3.58,0.0,1.93,21033.8,False
+EV-00570,U-018,Breakdown,Hydraulic,2025-01-16 19:29:00,2025-01-17 06:33:00,10.38,0.0,0.68,21213.7,False
+EV-00571,U-018,Preventive maintenance,PM service,2025-01-20 18:00:00,2025-01-21 03:18:00,9.3,0.0,0.0,21259.1,False
+EV-00572,U-018,Preventive maintenance,PM service,2025-02-07 18:00:00,2025-02-08 02:01:00,8.02,0.0,0.0,21505.4,False
+EV-00573,U-018,Preventive maintenance,PM service,2025-02-23 18:00:00,2025-02-24 01:55:00,7.92,0.0,0.0,21753.6,False
+EV-00574,U-018,Preventive maintenance,PM service,2025-03-12 18:00:00,2025-03-13 00:45:00,6.75,0.0,0.0,22013.0,False
+EV-00575,U-018,Breakdown,Attachment / Bucket,2025-03-22 16:00:00,2025-03-22 22:15:00,5.14,0.0,1.11,22165.0,False
+EV-00576,U-018,Preventive maintenance,PM service,2025-03-28 18:00:00,2025-03-29 02:20:00,8.34,0.0,0.0,22262.5,False
+EV-00577,U-018,Breakdown,Engine,2025-04-04 16:00:00,2025-04-05 15:09:00,17.23,4.74,1.18,22357.8,False
+EV-00578,U-018,Preventive maintenance,PM service,2025-04-14 18:00:00,2025-04-15 02:11:00,8.18,0.0,0.0,22508.2,False
+EV-00579,U-018,Preventive maintenance,PM service,2025-04-30 18:00:00,2025-05-01 02:28:00,8.47,0.0,0.0,22754.1,False
+EV-00580,U-018,Preventive maintenance,PM service,2025-05-17 18:00:00,2025-05-18 01:01:00,7.01,0.0,0.0,23013.4,False
+EV-00581,U-018,Breakdown,Engine,2025-05-18 08:00:00,2025-05-18 18:03:00,5.38,0.0,4.68,23013.4,False
+EV-00582,U-018,Breakdown,Undercarriage / Tyres,2025-05-23 19:26:00,2025-05-24 05:28:00,8.57,0.0,1.46,23091.5,False
+EV-00583,U-018,Preventive maintenance,PM service,2025-06-03 18:00:00,2025-06-04 01:06:00,7.1,0.0,0.0,23263.7,False
+EV-00584,U-018,Preventive maintenance,PM service,2025-06-19 18:00:00,2025-06-20 01:04:00,7.07,0.0,0.0,23515.4,False
+EV-00585,U-018,Breakdown,Hydraulic,2025-07-01 08:00:00,2025-07-01 17:54:00,8.31,0.0,1.59,23687.3,False
+EV-00586,U-018,Preventive maintenance,PM service,2025-07-05 18:00:00,2025-07-06 01:15:00,7.25,0.0,0.0,23755.2,False
+EV-00587,U-018,Preventive maintenance,PM service,2025-07-21 18:00:00,2025-07-22 00:04:00,6.07,0.0,0.0,24003.7,False
+EV-00588,U-018,Preventive maintenance,PM service,2025-08-06 18:00:00,2025-08-07 01:51:00,7.85,0.0,0.0,24255.0,False
+EV-00589,U-018,Breakdown,Hydraulic,2025-08-25 12:00:00,2025-08-25 19:25:00,6.93,0.0,0.49,24539.1,True
+EV-00590,U-018,Preventive maintenance,PM service,2025-08-31 18:00:00,2025-09-01 02:15:00,8.25,0.0,0.0,24634.7,False
+EV-00591,U-018,Preventive maintenance,PM service,2025-09-08 18:00:00,2025-09-09 02:01:00,8.01,0.0,0.0,24755.5,False
+EV-00592,U-018,Preventive maintenance,PM service,2025-09-24 18:00:00,2025-09-25 02:02:00,8.03,0.0,0.0,25003.3,False
+EV-00593,U-018,Breakdown,Cooling,2025-09-29 08:00:00,2025-09-29 12:39:00,3.78,0.0,0.87,25058.3,False
+EV-00594,U-018,Breakdown,Engine,2025-10-01 12:00:00,2025-10-02 20:13:00,22.06,9.25,0.91,25079.4,False
+EV-00595,U-018,Breakdown,Electrical,2025-10-06 16:00:00,2025-10-06 23:55:00,5.95,0.0,1.96,25126.1,False
+EV-00596,U-018,Preventive maintenance,PM service,2025-10-16 18:00:00,2025-10-17 00:51:00,6.86,0.0,0.0,25255.0,False
+EV-00597,U-018,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 02:06:00,8.1,0.0,0.0,25501.7,False
+EV-00598,U-018,Breakdown,Electrical,2025-11-08 12:00:00,2025-11-08 18:44:00,3.68,0.0,3.06,25526.3,False
+EV-00599,U-018,Preventive maintenance,PM service,2025-11-26 18:00:00,2025-11-27 00:50:00,6.84,0.0,0.0,25760.8,False
+EV-00600,U-018,Breakdown,Cooling,2025-12-04 12:00:00,2025-12-05 06:33:00,5.0,12.87,0.67,25843.2,False
+EV-00601,U-018,Preventive maintenance,PM service,2025-12-17 18:00:00,2025-12-18 00:48:00,6.79,0.0,0.0,26003.5,False
+EV-00602,U-018,Breakdown,Engine,2025-12-26 08:00:00,2025-12-26 21:38:00,3.15,7.79,2.68,26100.5,False
+EV-00603,U-018,Breakdown,Hydraulic,2025-12-31 12:00:00,2026-01-01 20:24:00,10.96,20.37,1.07,26155.0,False
+EV-00604,U-019,Preventive maintenance,PM service,2025-01-06 18:00:00,2025-01-07 01:14:00,7.23,0.0,0.0,17004.0,False
+EV-00605,U-019,Preventive maintenance,PM service,2025-01-27 18:00:00,2025-01-28 02:43:00,8.72,0.0,0.0,17252.1,False
+EV-00606,U-019,Preventive maintenance,PM service,2025-02-16 18:00:00,2025-02-17 02:29:00,8.48,0.0,0.0,17505.5,False
+EV-00607,U-019,Preventive maintenance,PM service,2025-03-08 18:00:00,2025-03-09 02:35:00,8.58,0.0,0.0,17750.9,False
+EV-00608,U-019,Preventive maintenance,PM service,2025-03-28 18:00:00,2025-03-29 02:16:00,8.27,0.0,0.0,18002.5,False
+EV-00609,U-019,Breakdown,Hydraulic,2025-04-16 19:02:00,2025-04-17 11:17:00,9.36,3.3,3.6,18238.6,False
+EV-00610,U-019,Preventive maintenance,PM service,2025-04-18 18:00:00,2025-04-19 02:49:00,8.81,0.0,0.0,18253.2,False
+EV-00611,U-019,Preventive maintenance,PM service,2025-05-07 18:00:00,2025-05-08 02:21:00,8.34,0.0,0.0,18513.6,False
+EV-00612,U-019,Breakdown,Hydraulic,2025-05-08 08:00:00,2025-05-08 21:47:00,4.43,8.48,0.87,18513.6,False
+EV-00613,U-019,Breakdown,Attachment / Bucket,2025-05-10 12:00:00,2025-05-11 04:36:00,3.71,11.63,1.27,18530.9,False
+EV-00614,U-019,Breakdown,Engine,2025-05-24 16:00:00,2025-05-25 18:16:00,9.49,15.75,1.03,18747.2,False
+EV-00615,U-019,Preventive maintenance,PM service,2025-05-25 18:00:00,2025-05-26 02:32:00,8.54,0.0,0.0,18751.0,False
+EV-00616,U-019,Breakdown,Undercarriage / Tyres,2025-06-10 19:58:00,2025-06-11 07:44:00,10.11,0.0,1.66,18999.6,False
+EV-00617,U-019,Preventive maintenance,PM service,2025-06-11 18:00:00,2025-06-12 00:45:00,6.75,0.0,0.0,19013.1,False
+EV-00618,U-019,Preventive maintenance,PM service,2025-06-27 18:00:00,2025-06-28 02:03:00,8.05,0.0,0.0,19258.9,False
+EV-00619,U-019,Breakdown,Electrical,2025-06-29 12:00:00,2025-06-30 13:00:00,4.77,19.21,1.03,19272.1,False
+EV-00620,U-019,Breakdown,Hydraulic,2025-07-07 12:00:00,2025-07-08 04:54:00,14.57,0.0,2.34,19378.2,False
+EV-00621,U-019,Preventive maintenance,PM service,2025-07-15 18:00:00,2025-07-16 03:13:00,9.22,0.0,0.0,19510.0,False
+EV-00622,U-019,Preventive maintenance,PM service,2025-08-05 18:00:00,2025-08-06 01:52:00,7.86,0.0,0.0,19837.5,False
+EV-00623,U-019,Preventive maintenance,PM service,2025-08-16 18:00:00,2025-08-17 01:47:00,7.79,0.0,0.0,20002.9,False
+EV-00624,U-019,Breakdown,Attachment / Bucket,2025-08-18 08:00:00,2025-08-19 02:49:00,6.77,10.64,1.42,20012.2,False
+EV-00625,U-019,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 00:03:00,6.04,0.0,0.0,20265.1,False
+EV-00626,U-019,Breakdown,Engine,2025-09-13 12:00:00,2025-09-14 17:54:00,19.5,9.12,1.29,20406.8,False
+EV-00627,U-019,Preventive maintenance,PM service,2025-09-26 18:00:00,2025-09-27 01:21:00,7.35,0.0,0.0,20601.9,False
+EV-00628,U-019,Breakdown,Electrical,2025-10-11 12:00:00,2025-10-11 14:26:00,1.38,0.0,1.05,20821.0,True
+EV-00629,U-019,Breakdown,Electrical,2025-10-16 12:00:00,2025-10-16 23:04:00,2.0,8.04,1.03,20889.2,True
+EV-00630,U-019,Preventive maintenance,PM service,2025-10-17 18:00:00,2025-10-18 00:28:00,6.47,0.0,0.0,20907.8,False
+EV-00631,U-019,Preventive maintenance,PM service,2025-10-24 18:00:00,2025-10-25 01:41:00,7.68,0.0,0.0,21012.1,False
+EV-00632,U-019,Breakdown,Electrical,2025-11-08 16:00:00,2025-11-08 20:21:00,2.82,0.0,1.53,21241.8,False
+EV-00633,U-019,Preventive maintenance,PM service,2025-11-09 18:00:00,2025-11-10 03:30:00,9.51,0.0,0.0,21259.3,False
+EV-00634,U-019,Preventive maintenance,PM service,2025-11-25 18:00:00,2025-11-26 02:28:00,8.47,0.0,0.0,21509.9,False
+EV-00635,U-019,Breakdown,Hydraulic,2025-12-16 08:00:00,2025-12-17 01:20:00,7.83,9.04,0.46,21762.4,False
+EV-00636,U-019,Breakdown,Hydraulic,2025-12-19 16:00:00,2025-12-21 01:17:00,13.57,17.68,2.04,21795.3,True
+EV-00637,U-019,Breakdown,Cooling,2025-12-24 08:00:00,2025-12-24 18:25:00,7.72,1.74,0.94,21826.6,True
+EV-00638,U-019,Preventive maintenance,PM service,2025-12-27 18:00:00,2025-12-28 00:55:00,6.92,0.0,0.0,21864.0,False
+EV-00639,U-019,Breakdown,Hydraulic,2025-12-31 12:00:00,2026-01-01 21:38:00,7.41,24.35,1.88,21904.4,False
+EV-00640,U-020,Preventive maintenance,PM service,2025-01-02 18:00:00,2025-01-03 01:32:00,7.53,0.0,0.0,25760.5,False
+EV-00641,U-020,Breakdown,Hydraulic,2025-01-12 08:00:00,2025-01-13 11:25:00,3.05,22.71,1.66,25872.6,False
+EV-00642,U-020,Preventive maintenance,PM service,2025-01-23 18:00:00,2025-01-24 00:32:00,6.54,0.0,0.0,26004.8,False
+EV-00643,U-020,Preventive maintenance,PM service,2025-02-12 18:00:00,2025-02-13 01:47:00,7.78,0.0,0.0,26253.1,False
+EV-00644,U-020,Breakdown,Engine,2025-02-19 16:00:00,2025-02-20 06:53:00,13.26,0.0,1.62,26328.7,False
+EV-00645,U-020,Preventive maintenance,PM service,2025-03-06 18:00:00,2025-03-07 00:40:00,6.67,0.0,0.0,26509.5,False
+EV-00646,U-020,Preventive maintenance,PM service,2025-03-26 18:00:00,2025-03-27 03:47:00,9.79,0.0,0.0,26755.8,False
+EV-00647,U-020,Preventive maintenance,PM service,2025-04-15 18:00:00,2025-04-16 03:20:00,9.34,0.0,0.0,27007.4,False
+EV-00648,U-020,Breakdown,Engine,2025-04-22 12:00:00,2025-04-23 02:40:00,11.92,0.0,2.75,27080.0,False
+EV-00649,U-020,Preventive maintenance,PM service,2025-05-06 18:00:00,2025-05-07 02:08:00,8.13,0.0,0.0,27255.0,False
+EV-00650,U-020,Breakdown,Hydraulic,2025-05-13 15:55:00,2025-05-14 02:32:00,9.5,0.0,1.1,27334.6,False
+EV-00651,U-020,Breakdown,Undercarriage / Tyres,2025-05-17 16:00:00,2025-05-20 05:59:00,18.27,42.46,1.24,27373.4,False
+EV-00652,U-020,Preventive maintenance,PM service,2025-05-30 18:00:00,2025-05-31 02:20:00,8.34,0.0,0.0,27502.3,False
+EV-00653,U-020,Preventive maintenance,PM service,2025-06-20 18:00:00,2025-06-21 01:48:00,7.8,0.0,0.0,27758.4,False
+EV-00654,U-020,Breakdown,Undercarriage / Tyres,2025-07-02 08:00:00,2025-07-02 17:48:00,6.36,0.0,3.44,27891.8,False
+EV-00655,U-020,Preventive maintenance,PM service,2025-07-09 18:00:00,2025-07-10 02:23:00,8.38,0.0,0.0,28006.7,False
+EV-00656,U-020,Preventive maintenance,PM service,2025-07-25 18:00:00,2025-07-26 00:37:00,6.61,0.0,0.0,28254.1,False
+EV-00657,U-020,Breakdown,Engine,2025-08-09 16:00:00,2025-08-11 04:34:00,36.02,0.0,0.54,28480.9,False
+EV-00658,U-020,Preventive maintenance,PM service,2025-08-12 18:00:00,2025-08-13 00:26:00,6.44,0.0,0.0,28508.5,False
+EV-00659,U-020,Preventive maintenance,PM service,2025-08-28 18:00:00,2025-08-29 01:16:00,7.26,0.0,0.0,28753.8,False
+EV-00660,U-020,Breakdown,Undercarriage / Tyres,2025-09-15 16:00:00,2025-09-19 04:24:00,10.69,72.74,0.97,29020.9,False
+EV-00661,U-020,Preventive maintenance,PM service,2025-09-27 18:00:00,2025-09-28 00:05:00,6.09,0.0,0.0,29151.2,False
+EV-00662,U-020,Preventive maintenance,PM service,2025-10-04 18:00:00,2025-10-05 01:30:00,7.5,0.0,0.0,29256.5,False
+EV-00663,U-020,Preventive maintenance,PM service,2025-10-20 18:00:00,2025-10-21 02:16:00,8.27,0.0,0.0,29504.0,False
+EV-00664,U-020,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 00:48:00,6.8,0.0,0.0,29752.8,False
+EV-00665,U-020,Breakdown,Engine,2025-11-06 14:55:00,2025-11-07 14:46:00,21.83,0.0,2.01,29760.8,False
+EV-00666,U-020,Preventive maintenance,PM service,2025-11-23 18:00:00,2025-11-24 03:48:00,9.81,0.0,0.0,30014.1,False
+EV-00667,U-020,Breakdown,Attachment / Bucket,2025-12-01 12:00:00,2025-12-04 18:15:00,8.07,68.1,2.08,30124.0,False
+EV-00668,U-020,Breakdown,Cooling,2025-12-05 16:00:00,2025-12-06 04:20:00,9.44,0.0,2.89,30134.0,False
+EV-00669,U-020,Preventive maintenance,PM service,2025-12-13 18:00:00,2025-12-14 03:05:00,9.09,0.0,0.0,30260.3,False
+EV-00670,U-020,Preventive maintenance,PM service,2025-12-29 18:00:00,2025-12-30 00:49:00,6.82,0.0,0.0,30505.6,False
+EV-00671,U-021,Preventive maintenance,PM service,2025-01-07 18:00:00,2025-01-08 02:29:00,8.48,0.0,0.0,7254.8,False
+EV-00672,U-021,Breakdown,Hydraulic,2025-01-18 16:00:00,2025-01-19 00:31:00,7.02,0.0,1.49,7375.4,False
+EV-00673,U-021,Preventive maintenance,PM service,2025-01-28 18:00:00,2025-01-29 00:24:00,6.39,0.0,0.0,7500.8,False
+EV-00674,U-021,Preventive maintenance,PM service,2025-02-17 18:00:00,2025-02-18 01:04:00,7.07,0.0,0.0,7752.6,False
+EV-00675,U-021,Breakdown,Hydraulic,2025-02-21 08:00:00,2025-02-21 23:11:00,4.11,7.88,3.2,7785.6,False
+EV-00676,U-021,Breakdown,Engine,2025-03-10 16:00:00,2025-03-11 13:43:00,13.57,7.13,1.01,7999.6,False
+EV-00677,U-021,Preventive maintenance,PM service,2025-03-11 18:00:00,2025-03-12 03:57:00,9.96,0.0,0.0,8001.6,False
+EV-00678,U-021,Preventive maintenance,PM service,2025-04-01 18:00:00,2025-04-02 01:42:00,7.7,0.0,0.0,8252.2,False
+EV-00679,U-021,Breakdown,Electrical,2025-04-10 16:00:00,2025-04-10 22:19:00,5.09,0.0,1.22,8381.8,False
+EV-00680,U-021,Preventive maintenance,PM service,2025-04-17 18:00:00,2025-04-18 03:44:00,9.73,0.0,0.0,8501.7,False
+EV-00681,U-021,Breakdown,Cooling,2025-04-26 08:00:00,2025-04-26 14:42:00,5.62,0.0,1.09,8619.2,False
+EV-00682,U-021,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 03:56:00,9.93,0.0,0.0,8765.2,False
+EV-00683,U-021,Breakdown,Hydraulic,2025-05-21 08:00:00,2025-05-21 16:12:00,5.2,0.0,3.01,8995.3,False
+EV-00684,U-021,Preventive maintenance,PM service,2025-05-22 18:00:00,2025-05-23 03:34:00,9.57,0.0,0.0,9012.8,False
+EV-00685,U-021,Breakdown,Engine,2025-06-07 12:00:00,2025-06-07 19:47:00,6.47,0.0,1.31,9250.2,False
+EV-00686,U-021,Preventive maintenance,PM service,2025-06-07 18:00:00,2025-06-08 00:26:00,6.43,0.0,0.0,9252.2,False
+EV-00687,U-021,Breakdown,Undercarriage / Tyres,2025-06-19 16:00:00,2025-06-20 04:21:00,10.78,0.0,1.57,9431.8,False
+EV-00688,U-021,Preventive maintenance,PM service,2025-06-24 18:00:00,2025-06-25 02:35:00,8.59,0.0,0.0,9509.6,False
+EV-00689,U-021,Breakdown,Engine,2025-06-28 16:00:00,2025-06-29 04:17:00,10.03,0.0,2.24,9556.3,False
+EV-00690,U-021,Preventive maintenance,PM service,2025-07-11 18:00:00,2025-07-12 02:21:00,8.34,0.0,0.0,9765.4,False
+EV-00691,U-021,Preventive maintenance,PM service,2025-07-27 18:00:00,2025-07-28 02:47:00,8.78,0.0,0.0,10015.9,False
+EV-00692,U-021,Breakdown,Hydraulic,2025-07-30 12:00:00,2025-07-31 22:38:00,12.97,20.08,1.58,10043.3,False
+EV-00693,U-021,Breakdown,Undercarriage / Tyres,2025-08-03 08:00:00,2025-08-04 06:45:00,21.4,0.0,1.35,10075.2,False
+EV-00694,U-021,Preventive maintenance,PM service,2025-08-15 18:00:00,2025-08-16 02:07:00,8.12,0.0,0.0,10263.0,False
+EV-00695,U-021,Breakdown,Cooling,2025-08-18 19:48:00,2025-08-19 04:57:00,7.01,0.0,2.14,10298.9,False
+EV-00696,U-021,Preventive maintenance,PM service,2025-08-31 18:00:00,2025-09-01 00:15:00,6.25,0.0,0.0,10503.2,False
+EV-00697,U-021,Preventive maintenance,PM service,2025-09-16 18:00:00,2025-09-17 01:53:00,7.88,0.0,0.0,10756.5,False
+EV-00698,U-021,Preventive maintenance,PM service,2025-10-02 18:00:00,2025-10-03 00:17:00,6.28,0.0,0.0,11006.2,False
+EV-00699,U-021,Breakdown,Engine,2025-10-06 16:00:00,2025-10-07 10:57:00,4.83,11.63,2.49,11055.5,False
+EV-00700,U-021,Preventive maintenance,PM service,2025-10-19 18:00:00,2025-10-20 01:58:00,7.97,0.0,0.0,11257.2,False
+EV-00701,U-021,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 02:18:00,8.31,0.0,0.0,11504.3,False
+EV-00702,U-021,Breakdown,Engine,2025-11-08 08:00:00,2025-11-09 06:38:00,16.18,4.87,1.59,11523.5,False
+EV-00703,U-021,Preventive maintenance,PM service,2025-11-27 18:00:00,2025-11-28 01:26:00,7.44,0.0,0.0,11759.9,False
+EV-00704,U-021,Breakdown,Engine,2025-12-16 16:00:00,2025-12-17 08:46:00,7.14,8.7,0.94,11993.7,False
+EV-00705,U-022,Preventive maintenance,PM service,2025-01-12 18:00:00,2025-01-13 00:24:00,6.41,0.0,0.0,6001.0,False
+EV-00706,U-022,Breakdown,Hydraulic,2025-01-28 12:00:00,2025-01-28 16:04:00,3.01,0.0,1.05,6193.3,False
+EV-00707,U-022,Preventive maintenance,PM service,2025-02-01 18:00:00,2025-02-02 03:45:00,9.74,0.0,0.0,6253.6,False
+EV-00708,U-022,Breakdown,Hydraulic,2025-02-02 08:00:00,2025-02-02 14:11:00,4.96,0.0,1.22,6253.6,False
+EV-00709,U-022,Breakdown,Engine,2025-02-08 22:43:00,2025-02-10 07:52:00,30.05,0.0,3.12,6351.8,False
+EV-00710,U-022,Preventive maintenance,PM service,2025-02-19 18:00:00,2025-02-20 02:14:00,8.24,0.0,0.0,6505.9,False
+EV-00711,U-022,Preventive maintenance,PM service,2025-03-07 18:00:00,2025-03-08 01:47:00,7.78,0.0,0.0,6757.5,False
+EV-00712,U-022,Preventive maintenance,PM service,2025-03-23 18:00:00,2025-03-24 02:05:00,8.09,0.0,0.0,7005.6,False
+EV-00713,U-022,Preventive maintenance,PM service,2025-04-08 18:00:00,2025-04-09 02:18:00,8.3,0.0,0.0,7255.7,False
+EV-00714,U-022,Breakdown,Electrical,2025-04-11 12:00:00,2025-04-11 16:24:00,3.88,0.0,0.51,7286.1,False
+EV-00715,U-022,Breakdown,Electrical,2025-04-22 20:00:00,2025-04-22 23:31:00,2.43,0.0,1.1,7463.1,False
+EV-00716,U-022,Preventive maintenance,PM service,2025-04-25 18:00:00,2025-04-26 00:21:00,6.35,0.0,0.0,7513.8,False
+EV-00717,U-022,Breakdown,Cooling,2025-05-21 16:00:00,2025-05-21 20:23:00,3.56,0.0,0.82,7911.2,True
+EV-00718,U-022,Preventive maintenance,PM service,2025-05-22 18:00:00,2025-05-23 02:42:00,8.71,0.0,0.0,7930.7,False
+EV-00719,U-022,Preventive maintenance,PM service,2025-05-27 18:00:00,2025-05-28 00:53:00,6.88,0.0,0.0,8002.4,False
+EV-00720,U-022,Breakdown,Cooling,2025-06-09 16:00:00,2025-06-10 03:12:00,3.42,6.6,1.18,8200.9,False
+EV-00721,U-022,Preventive maintenance,PM service,2025-06-13 18:00:00,2025-06-14 01:12:00,7.2,0.0,0.0,8264.6,False
+EV-00722,U-022,Preventive maintenance,PM service,2025-06-29 18:00:00,2025-06-30 01:19:00,7.32,0.0,0.0,8514.1,False
+EV-00723,U-022,Breakdown,Attachment / Bucket,2025-07-10 12:00:00,2025-07-10 18:21:00,5.03,0.0,1.33,8669.6,False
+EV-00724,U-022,Breakdown,Electrical,2025-07-14 16:00:00,2025-07-14 20:35:00,2.56,0.0,2.03,8726.6,False
+EV-00725,U-022,Preventive maintenance,PM service,2025-07-16 18:00:00,2025-07-17 03:20:00,9.33,0.0,0.0,8762.1,False
+EV-00726,U-022,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 03:02:00,9.03,0.0,0.0,9008.1,False
+EV-00727,U-022,Preventive maintenance,PM service,2025-08-27 18:00:00,2025-08-28 02:59:00,8.99,0.0,0.0,9421.7,False
+EV-00728,U-022,Breakdown,Hydraulic,2025-09-02 19:52:00,2025-09-03 02:36:00,6.15,0.0,0.59,9506.4,False
+EV-00729,U-022,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 00:21:00,6.34,0.0,0.0,9521.9,False
+EV-00730,U-022,Preventive maintenance,PM service,2025-09-26 18:00:00,2025-09-27 00:59:00,6.99,0.0,0.0,9881.8,False
+EV-00731,U-022,Preventive maintenance,PM service,2025-10-06 18:00:00,2025-10-07 00:27:00,6.45,0.0,0.0,10012.1,False
+EV-00732,U-022,Breakdown,Engine,2025-10-22 12:00:00,2025-10-23 12:03:00,16.95,5.48,1.61,10196.8,False
+EV-00733,U-022,Preventive maintenance,PM service,2025-10-28 18:00:00,2025-10-29 01:46:00,7.77,0.0,0.0,10263.2,False
+EV-00734,U-022,Breakdown,Hydraulic,2025-11-11 15:31:00,2025-11-12 23:52:00,10.59,21.03,0.74,10419.7,False
+EV-00735,U-022,Preventive maintenance,PM service,2025-11-19 18:00:00,2025-11-20 03:15:00,9.25,0.0,0.0,10503.7,False
+EV-00736,U-022,Breakdown,Hydraulic,2025-12-08 12:00:00,2025-12-08 18:14:00,5.59,0.0,0.64,10728.2,False
+EV-00737,U-022,Preventive maintenance,PM service,2025-12-10 18:00:00,2025-12-11 02:15:00,8.25,0.0,0.0,10754.3,False
+EV-00738,U-022,Preventive maintenance,PM service,2025-12-31 18:00:00,2026-01-01 02:53:00,8.89,0.0,0.0,11008.9,False
+EV-00739,U-023,Preventive maintenance,PM service,2025-01-04 18:00:00,2025-01-05 03:27:00,9.44,0.0,0.0,16753.2,False
+EV-00740,U-023,Preventive maintenance,PM service,2025-01-24 18:00:00,2025-01-25 02:15:00,8.26,0.0,0.0,17004.2,False
+EV-00741,U-023,Breakdown,Attachment / Bucket,2025-01-29 19:09:00,2025-01-30 00:29:00,3.81,0.0,1.53,17058.6,False
+EV-00742,U-023,Preventive maintenance,PM service,2025-02-13 18:00:00,2025-02-14 03:45:00,9.74,0.0,0.0,17250.4,False
+EV-00743,U-023,Preventive maintenance,PM service,2025-03-07 18:00:00,2025-03-08 01:12:00,7.2,0.0,0.0,17508.2,False
+EV-00744,U-023,Breakdown,Cooling,2025-04-07 12:00:00,2025-04-07 21:05:00,7.88,0.0,1.21,17890.2,True
+EV-00745,U-023,Preventive maintenance,PM service,2025-04-08 18:00:00,2025-04-09 01:04:00,7.07,0.0,0.0,17903.9,False
+EV-00746,U-023,Preventive maintenance,PM service,2025-04-16 18:00:00,2025-04-17 03:48:00,9.8,0.0,0.0,18004.2,False
+EV-00747,U-023,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 00:42:00,6.71,0.0,0.0,18258.9,False
+EV-00748,U-023,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 03:22:00,9.37,0.0,0.0,18504.3,False
+EV-00749,U-023,Breakdown,Cooling,2025-05-31 12:00:00,2025-06-01 22:15:00,9.88,19.6,4.77,18648.5,False
+EV-00750,U-023,Preventive maintenance,PM service,2025-06-08 18:00:00,2025-06-09 03:17:00,9.28,0.0,0.0,18764.3,False
+EV-00751,U-023,Breakdown,Cooling,2025-06-16 19:25:00,2025-06-17 00:26:00,3.8,0.0,1.21,18881.9,False
+EV-00752,U-023,Preventive maintenance,PM service,2025-06-24 18:00:00,2025-06-25 01:05:00,7.08,0.0,0.0,19010.4,False
+EV-00753,U-023,Breakdown,Cooling,2025-07-02 12:00:00,2025-07-03 01:12:00,3.63,8.05,1.52,19118.7,False
+EV-00754,U-023,Preventive maintenance,PM service,2025-07-11 18:00:00,2025-07-12 03:06:00,9.1,0.0,0.0,19264.6,False
+EV-00755,U-023,Breakdown,Engine,2025-07-24 16:00:00,2025-07-25 05:56:00,13.15,0.0,0.8,19458.8,False
+EV-00756,U-023,Preventive maintenance,PM service,2025-08-03 18:00:00,2025-08-04 03:50:00,9.84,0.0,0.0,19611.5,False
+EV-00757,U-023,Breakdown,Hydraulic,2025-08-11 08:00:00,2025-08-13 10:58:00,9.58,39.39,2.0,19713.4,False
+EV-00758,U-023,Preventive maintenance,PM service,2025-08-15 18:00:00,2025-08-16 02:08:00,8.13,0.0,0.0,19752.2,False
+EV-00759,U-023,Preventive maintenance,PM service,2025-08-31 18:00:00,2025-09-01 03:29:00,9.49,0.0,0.0,20000.7,False
+EV-00760,U-023,Breakdown,Engine,2025-09-03 08:00:00,2025-09-04 04:30:00,10.1,8.74,1.67,20024.7,False
+EV-00761,U-023,Preventive maintenance,PM service,2025-09-29 18:00:00,2025-09-30 01:32:00,7.54,0.0,0.0,20438.8,False
+EV-00762,U-023,Preventive maintenance,PM service,2025-10-04 18:00:00,2025-10-05 00:05:00,6.09,0.0,0.0,20512.3,False
+EV-00763,U-023,Breakdown,Cooling,2025-10-10 20:00:00,2025-10-11 04:57:00,4.52,0.0,4.42,20598.6,False
+EV-00764,U-023,Preventive maintenance,PM service,2025-10-20 18:00:00,2025-10-21 00:46:00,6.77,0.0,0.0,20760.6,False
+EV-00765,U-023,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 00:59:00,6.98,0.0,0.0,21008.4,False
+EV-00766,U-023,Breakdown,Undercarriage / Tyres,2025-11-15 08:00:00,2025-11-16 08:02:00,11.76,10.92,1.36,21145.9,False
+EV-00767,U-023,Breakdown,Electrical,2025-12-03 16:00:00,2025-12-04 20:02:00,6.86,15.68,5.49,21416.4,True
+EV-00768,U-023,Preventive maintenance,PM service,2025-12-05 18:00:00,2025-12-06 01:37:00,7.62,0.0,0.0,21428.9,False
+EV-00769,U-023,Preventive maintenance,PM service,2025-12-11 18:00:00,2025-12-12 03:04:00,9.07,0.0,0.0,21500.4,False
+EV-00770,U-023,Breakdown,Attachment / Bucket,2025-12-13 19:18:00,2025-12-14 02:30:00,5.9,0.0,1.29,21517.0,False
+EV-00771,U-023,Breakdown,Hydraulic,2025-12-31 12:00:00,2025-12-31 17:43:00,3.95,0.0,1.77,21731.6,False
+EV-00772,U-024,Breakdown,Cooling,2025-01-01 12:00:00,2025-01-01 21:29:00,7.66,0.0,1.83,3058.0,False
+EV-00773,U-024,Preventive maintenance,PM service,2025-01-17 18:00:00,2025-01-18 00:16:00,6.27,0.0,0.0,3263.0,False
+EV-00774,U-024,Breakdown,Hydraulic,2025-01-31 16:00:00,2025-02-01 00:11:00,6.58,0.0,1.6,3424.8,False
+EV-00775,U-024,Preventive maintenance,PM service,2025-02-07 18:00:00,2025-02-08 03:14:00,9.23,0.0,0.0,3509.7,False
+EV-00776,U-024,Breakdown,Attachment / Bucket,2025-02-12 16:00:00,2025-02-13 02:20:00,7.51,0.0,2.82,3560.0,False
+EV-00777,U-024,Breakdown,Hydraulic,2025-02-22 08:00:00,2025-02-23 01:38:00,16.34,0.0,1.3,3671.4,False
+EV-00778,U-024,Preventive maintenance,PM service,2025-03-01 18:00:00,2025-03-02 03:10:00,9.17,0.0,0.0,3758.9,False
+EV-00779,U-024,Preventive maintenance,PM service,2025-03-20 18:00:00,2025-03-21 02:51:00,8.85,0.0,0.0,4002.1,False
+EV-00780,U-024,Preventive maintenance,PM service,2025-04-09 18:00:00,2025-04-10 00:59:00,6.98,0.0,0.0,4254.4,False
+EV-00781,U-024,Breakdown,Electrical,2025-04-16 12:00:00,2025-04-16 17:45:00,4.4,0.0,1.34,4331.9,False
+EV-00782,U-024,Breakdown,Hydraulic,2025-04-21 16:00:00,2025-04-22 00:43:00,7.71,0.0,1.01,4394.2,False
+EV-00783,U-024,Preventive maintenance,PM service,2025-04-30 18:00:00,2025-05-01 00:21:00,6.35,0.0,0.0,4506.1,False
+EV-00784,U-024,Preventive maintenance,PM service,2025-05-20 18:00:00,2025-05-21 01:56:00,7.94,0.0,0.0,4751.2,False
+EV-00785,U-024,Preventive maintenance,PM service,2025-06-10 18:00:00,2025-06-11 03:59:00,9.98,0.0,0.0,5003.3,False
+EV-00786,U-024,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 01:46:00,7.76,0.0,0.0,5258.9,False
+EV-00787,U-024,Breakdown,Cooling,2025-07-23 12:00:00,2025-07-23 17:44:00,4.87,0.0,0.85,5592.1,True
+EV-00788,U-024,Breakdown,Cooling,2025-07-25 16:00:00,2025-07-27 06:12:00,9.47,26.74,1.98,5618.4,True
+EV-00789,U-024,Breakdown,Undercarriage / Tyres,2025-07-30 22:19:00,2025-07-31 08:01:00,8.48,0.0,1.21,5675.2,True
+EV-00790,U-024,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 02:02:00,8.03,0.0,0.0,5700.6,False
+EV-00791,U-024,Preventive maintenance,PM service,2025-08-05 18:00:00,2025-08-06 02:04:00,8.06,0.0,0.0,5756.5,False
+EV-00792,U-024,Preventive maintenance,PM service,2025-08-21 18:00:00,2025-08-22 02:55:00,8.91,0.0,0.0,6002.5,False
+EV-00793,U-024,Breakdown,Undercarriage / Tyres,2025-08-23 08:00:00,2025-08-23 18:50:00,9.88,0.0,0.96,6010.7,False
+EV-00794,U-024,Breakdown,Hydraulic,2025-08-28 19:58:00,2025-08-29 22:48:00,7.12,18.42,1.28,6090.1,False
+EV-00795,U-024,Preventive maintenance,PM service,2025-09-09 18:00:00,2025-09-10 02:12:00,8.21,0.0,0.0,6265.3,False
+EV-00796,U-024,Breakdown,Engine,2025-09-13 12:00:00,2025-09-13 23:46:00,10.93,0.0,0.83,6307.9,False
+EV-00797,U-024,Breakdown,Hydraulic,2025-09-24 08:00:00,2025-09-24 14:32:00,4.73,0.0,1.8,6471.5,False
+EV-00798,U-024,Preventive maintenance,PM service,2025-10-06 18:00:00,2025-10-07 03:39:00,9.65,0.0,0.0,6666.4,False
+EV-00799,U-024,Preventive maintenance,PM service,2025-10-12 18:00:00,2025-10-13 00:49:00,6.82,0.0,0.0,6754.0,False
+EV-00800,U-024,Breakdown,Engine,2025-11-01 16:00:00,2025-11-02 10:36:00,17.36,0.0,1.24,7057.9,True
+EV-00801,U-024,Preventive maintenance,PM service,2025-11-03 18:00:00,2025-11-04 02:54:00,8.9,0.0,0.0,7083.3,False
+EV-00802,U-024,Preventive maintenance,PM service,2025-11-14 18:00:00,2025-11-15 01:00:00,7.0,0.0,0.0,7252.3,False
+EV-00803,U-024,Preventive maintenance,PM service,2025-11-30 18:00:00,2025-12-01 03:15:00,9.25,0.0,0.0,7500.7,False
+EV-00804,U-024,Breakdown,Cooling,2025-12-11 16:00:00,2025-12-12 06:28:00,12.67,0.0,1.8,7659.7,False
+EV-00805,U-024,Preventive maintenance,PM service,2025-12-17 18:00:00,2025-12-18 03:10:00,9.17,0.0,0.0,7753.5,False
+EV-00806,U-025,Preventive maintenance,PM service,2025-01-12 18:00:00,2025-01-13 02:46:00,8.76,0.0,0.0,3005.9,False
+EV-00807,U-025,Preventive maintenance,PM service,2025-02-01 18:00:00,2025-02-02 00:29:00,6.48,0.0,0.0,3258.3,False
+EV-00808,U-025,Preventive maintenance,PM service,2025-02-22 18:00:00,2025-02-23 03:59:00,9.98,0.0,0.0,3508.3,False
+EV-00809,U-025,Preventive maintenance,PM service,2025-03-15 18:00:00,2025-03-16 01:49:00,7.82,0.0,0.0,3762.6,False
+EV-00810,U-025,Preventive maintenance,PM service,2025-04-03 18:00:00,2025-04-04 01:06:00,7.1,0.0,0.0,4011.4,False
+EV-00811,U-025,Breakdown,Undercarriage / Tyres,2025-04-08 08:00:00,2025-04-09 07:25:00,11.24,10.9,1.27,4068.6,False
+EV-00812,U-025,Breakdown,Cooling,2025-04-12 19:43:00,2025-04-13 02:41:00,5.76,0.0,1.21,4125.2,False
+EV-00813,U-025,Preventive maintenance,PM service,2025-04-20 18:00:00,2025-04-21 03:18:00,9.3,0.0,0.0,4253.7,False
+EV-00814,U-025,Breakdown,Attachment / Bucket,2025-05-04 12:00:00,2025-05-04 23:37:00,8.58,2.64,0.4,4454.3,False
+EV-00815,U-025,Preventive maintenance,PM service,2025-05-07 18:00:00,2025-05-08 01:18:00,7.3,0.0,0.0,4503.3,False
+EV-00816,U-025,Preventive maintenance,PM service,2025-05-23 18:00:00,2025-05-24 03:50:00,9.83,0.0,0.0,4752.4,False
+EV-00817,U-025,Preventive maintenance,PM service,2025-06-09 18:00:00,2025-06-10 02:32:00,8.53,0.0,0.0,5015.6,False
+EV-00818,U-025,Preventive maintenance,PM service,2025-06-25 18:00:00,2025-06-26 00:03:00,6.04,0.0,0.0,5264.4,False
+EV-00819,U-025,Breakdown,Hydraulic,2025-06-27 19:28:00,2025-06-28 22:13:00,25.06,0.0,1.69,5287.2,False
+EV-00820,U-025,Breakdown,Hydraulic,2025-07-02 12:00:00,2025-07-02 21:00:00,8.48,0.0,0.51,5338.7,False
+EV-00821,U-025,Breakdown,Electrical,2025-07-10 08:00:00,2025-07-10 15:52:00,6.1,0.0,1.77,5454.1,False
+EV-00822,U-025,Preventive maintenance,PM service,2025-07-13 18:00:00,2025-07-14 01:04:00,7.07,0.0,0.0,5505.2,False
+EV-00823,U-025,Breakdown,Electrical,2025-07-18 20:00:00,2025-07-19 10:04:00,2.66,10.61,0.8,5574.8,False
+EV-00824,U-025,Breakdown,Undercarriage / Tyres,2025-07-29 16:00:00,2025-07-31 04:55:00,11.25,24.24,1.42,5736.5,False
+EV-00825,U-025,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 01:52:00,7.86,0.0,0.0,5765.2,False
+EV-00826,U-025,Preventive maintenance,PM service,2025-08-16 18:00:00,2025-08-17 01:20:00,7.33,0.0,0.0,6007.5,False
+EV-00827,U-025,Preventive maintenance,PM service,2025-09-01 18:00:00,2025-09-02 01:26:00,7.43,0.0,0.0,6254.3,False
+EV-00828,U-025,Breakdown,Electrical,2025-09-03 12:00:00,2025-09-04 15:05:00,3.92,22.23,0.93,6268.2,False
+EV-00829,U-025,Breakdown,Hydraulic,2025-09-10 22:23:00,2025-09-12 17:42:00,6.77,35.39,1.16,6373.5,False
+EV-00830,U-025,Preventive maintenance,PM service,2025-09-21 18:00:00,2025-09-22 01:59:00,7.99,0.0,0.0,6514.4,False
+EV-00831,U-025,Preventive maintenance,PM service,2025-10-07 18:00:00,2025-10-08 02:56:00,8.94,0.0,0.0,6762.0,False
+EV-00832,U-025,Preventive maintenance,PM service,2025-10-23 18:00:00,2025-10-24 03:35:00,9.58,0.0,0.0,7007.2,False
+EV-00833,U-025,Preventive maintenance,PM service,2025-11-11 18:00:00,2025-11-12 03:31:00,9.52,0.0,0.0,7261.6,False
+EV-00834,U-025,Breakdown,Hydraulic,2025-11-13 15:49:00,2025-11-14 08:34:00,4.31,9.67,2.76,7274.8,False
+EV-00835,U-025,Breakdown,Electrical,2025-11-24 16:00:00,2025-11-25 08:40:00,8.36,7.16,1.15,7395.8,False
+EV-00836,U-025,Preventive maintenance,PM service,2025-12-03 18:00:00,2025-12-04 02:08:00,8.13,0.0,0.0,7504.4,False
+EV-00837,U-025,Breakdown,Undercarriage / Tyres,2025-12-19 08:00:00,2025-12-19 22:51:00,12.04,0.0,2.81,7691.5,False
+EV-00838,U-025,Preventive maintenance,PM service,2025-12-24 18:00:00,2025-12-25 03:04:00,9.06,0.0,0.0,7760.7,False
+EV-00839,U-026,Breakdown,Engine,2025-01-12 16:00:00,2025-01-14 00:27:00,22.91,6.99,2.55,14501.4,False
+EV-00840,U-026,Preventive maintenance,PM service,2025-01-14 18:00:00,2025-01-15 01:31:00,7.52,0.0,0.0,14509.0,False
+EV-00841,U-026,Breakdown,Electrical,2025-01-25 12:00:00,2025-01-25 20:12:00,6.8,0.0,1.4,14637.2,False
+EV-00842,U-026,Preventive maintenance,PM service,2025-02-02 18:00:00,2025-02-03 03:09:00,9.16,0.0,0.0,14750.8,False
+EV-00843,U-026,Preventive maintenance,PM service,2025-02-19 18:00:00,2025-02-20 00:26:00,6.43,0.0,0.0,15013.0,False
+EV-00844,U-026,Breakdown,Engine,2025-02-25 08:00:00,2025-02-26 01:22:00,15.58,0.0,1.79,15088.4,False
+EV-00845,U-026,Preventive maintenance,PM service,2025-03-07 18:00:00,2025-03-08 02:06:00,8.11,0.0,0.0,15252.8,False
+EV-00846,U-026,Breakdown,Hydraulic,2025-03-08 08:00:00,2025-03-08 13:26:00,4.51,0.0,0.93,15252.8,False
+EV-00847,U-026,Preventive maintenance,PM service,2025-03-24 18:00:00,2025-03-25 02:17:00,8.28,0.0,0.0,15511.6,False
+EV-00848,U-026,Breakdown,Engine,2025-04-03 20:00:00,2025-04-04 06:54:00,9.98,0.0,0.92,15656.5,False
+EV-00849,U-026,Preventive maintenance,PM service,2025-04-09 18:00:00,2025-04-10 03:23:00,9.39,0.0,0.0,15750.3,False
+EV-00850,U-026,Breakdown,Attachment / Bucket,2025-04-22 22:41:00,2025-04-24 10:16:00,8.32,26.06,1.2,15948.8,False
+EV-00851,U-026,Preventive maintenance,PM service,2025-04-27 18:00:00,2025-04-28 02:25:00,8.42,0.0,0.0,16004.4,False
+EV-00852,U-026,Preventive maintenance,PM service,2025-05-13 18:00:00,2025-05-14 03:05:00,9.08,0.0,0.0,16254.9,False
+EV-00853,U-026,Preventive maintenance,PM service,2025-05-29 18:00:00,2025-05-30 00:23:00,6.38,0.0,0.0,16504.4,False
+EV-00854,U-026,Preventive maintenance,PM service,2025-06-15 18:00:00,2025-06-16 01:37:00,7.62,0.0,0.0,16765.2,False
+EV-00855,U-026,Preventive maintenance,PM service,2025-07-06 18:00:00,2025-07-07 02:31:00,8.51,0.0,0.0,17088.5,False
+EV-00856,U-026,Breakdown,Hydraulic,2025-07-08 12:00:00,2025-07-08 20:58:00,7.07,0.0,1.9,17101.2,False
+EV-00857,U-026,Breakdown,Hydraulic,2025-07-09 08:00:00,2025-07-10 00:10:00,7.47,7.42,1.29,17103.2,False
+EV-00858,U-026,Breakdown,Hydraulic,2025-07-18 16:00:00,2025-07-19 00:40:00,2.74,4.6,1.33,17241.6,False
+EV-00859,U-026,Preventive maintenance,PM service,2025-07-19 18:00:00,2025-07-20 01:24:00,7.4,0.0,0.0,17260.3,False
+EV-00860,U-026,Preventive maintenance,PM service,2025-08-04 18:00:00,2025-08-05 02:22:00,8.37,0.0,0.0,17509.2,False
+EV-00861,U-026,Breakdown,Hydraulic,2025-08-20 12:00:00,2025-08-22 19:14:00,12.45,40.19,2.59,17747.5,False
+EV-00862,U-026,Preventive maintenance,PM service,2025-08-23 18:00:00,2025-08-24 02:57:00,8.95,0.0,0.0,17762.6,False
+EV-00863,U-026,Preventive maintenance,PM service,2025-09-08 18:00:00,2025-09-09 02:03:00,8.04,0.0,0.0,18006.1,False
+EV-00864,U-026,Breakdown,Electrical,2025-09-15 08:00:00,2025-09-15 20:06:00,4.6,4.46,3.03,18095.3,False
+EV-00865,U-026,Breakdown,Cooling,2025-09-29 12:00:00,2025-09-29 21:23:00,2.25,4.63,2.5,18304.8,True
+EV-00866,U-026,Breakdown,Hydraulic,2025-10-03 08:00:00,2025-10-04 06:29:00,9.2,12.11,1.17,18347.5,True
+EV-00867,U-026,Breakdown,Electrical,2025-10-09 15:32:00,2025-10-09 19:14:00,2.73,0.0,0.97,18410.7,True
+EV-00868,U-026,Preventive maintenance,PM service,2025-10-10 18:00:00,2025-10-11 01:03:00,7.05,0.0,0.0,18424.6,False
+EV-00869,U-026,Preventive maintenance,PM service,2025-10-17 18:00:00,2025-10-18 02:29:00,8.49,0.0,0.0,18507.2,False
+EV-00870,U-026,Preventive maintenance,PM service,2025-11-06 18:00:00,2025-11-07 03:27:00,9.45,0.0,0.0,18758.4,False
+EV-00871,U-026,Preventive maintenance,PM service,2025-12-04 18:00:00,2025-12-05 02:17:00,8.28,0.0,0.0,19113.2,False
+EV-00872,U-026,Breakdown,Hydraulic,2025-12-06 16:00:00,2025-12-07 01:12:00,7.82,0.0,1.37,19125.7,False
+EV-00873,U-026,Preventive maintenance,PM service,2025-12-16 18:00:00,2025-12-17 02:18:00,8.29,0.0,0.0,19252.1,False
+EV-00874,U-027,Preventive maintenance,PM service,2025-01-05 18:00:00,2025-01-06 03:54:00,9.91,0.0,0.0,13251.9,False
+EV-00875,U-027,Breakdown,Hydraulic,2025-01-14 08:00:00,2025-01-14 12:54:00,4.29,0.0,0.61,13344.3,False
+EV-00876,U-027,Preventive maintenance,PM service,2025-01-27 18:00:00,2025-01-28 00:26:00,6.43,0.0,0.0,13509.5,False
+EV-00877,U-027,Preventive maintenance,PM service,2025-02-16 18:00:00,2025-02-17 01:28:00,7.46,0.0,0.0,13759.6,False
+EV-00878,U-027,Preventive maintenance,PM service,2025-03-08 18:00:00,2025-03-09 01:41:00,7.68,0.0,0.0,14008.3,False
+EV-00879,U-027,Breakdown,Electrical,2025-03-22 12:00:00,2025-03-23 10:31:00,4.6,15.11,2.81,14177.3,False
+EV-00880,U-027,Preventive maintenance,PM service,2025-03-29 18:00:00,2025-03-30 00:04:00,6.07,0.0,0.0,14264.6,False
+EV-00881,U-027,Preventive maintenance,PM service,2025-04-17 18:00:00,2025-04-18 01:33:00,7.54,0.0,0.0,14500.5,False
+EV-00882,U-027,Preventive maintenance,PM service,2025-05-06 18:00:00,2025-05-07 00:51:00,6.84,0.0,0.0,14752.4,False
+EV-00883,U-027,Preventive maintenance,PM service,2025-05-22 18:00:00,2025-05-23 00:49:00,6.82,0.0,0.0,15001.2,False
+EV-00884,U-027,Breakdown,Hydraulic,2025-06-10 12:00:00,2025-06-11 19:08:00,8.34,19.29,3.51,15290.7,True
+EV-00885,U-027,Breakdown,Cooling,2025-06-13 08:00:00,2025-06-13 22:08:00,7.98,4.03,2.13,15308.4,True
+EV-00886,U-027,Breakdown,Attachment / Bucket,2025-06-15 08:00:00,2025-06-15 23:25:00,4.72,9.36,1.34,15326.0,True
+EV-00887,U-027,Breakdown,Undercarriage / Tyres,2025-06-17 12:00:00,2025-06-18 03:31:00,11.54,3.26,0.73,15349.0,True
+EV-00888,U-027,Preventive maintenance,PM service,2025-06-19 18:00:00,2025-06-20 02:21:00,8.34,0.0,0.0,15381.0,False
+EV-00889,U-027,Breakdown,Engine,2025-06-27 12:00:00,2025-06-28 01:55:00,12.5,0.0,1.41,15493.1,False
+EV-00890,U-027,Preventive maintenance,PM service,2025-06-28 18:00:00,2025-06-29 00:02:00,6.04,0.0,0.0,15511.7,False
+EV-00891,U-027,Preventive maintenance,PM service,2025-07-24 18:00:00,2025-07-25 01:45:00,7.76,0.0,0.0,15920.2,False
+EV-00892,U-027,Preventive maintenance,PM service,2025-07-30 18:00:00,2025-07-31 00:11:00,6.18,0.0,0.0,16012.3,False
+EV-00893,U-027,Breakdown,Electrical,2025-08-12 12:00:00,2025-08-13 11:27:00,2.59,17.63,3.22,16200.8,False
+EV-00894,U-027,Breakdown,Undercarriage / Tyres,2025-08-19 08:00:00,2025-08-19 23:17:00,5.03,9.01,1.24,16290.3,True
+EV-00895,U-027,Preventive maintenance,PM service,2025-08-21 18:00:00,2025-08-22 01:43:00,7.72,0.0,0.0,16323.9,False
+EV-00896,U-027,Preventive maintenance,PM service,2025-09-15 18:00:00,2025-09-16 00:45:00,6.75,0.0,0.0,16715.4,False
+EV-00897,U-027,Breakdown,Engine,2025-09-18 12:00:00,2025-09-19 12:28:00,11.68,11.61,1.18,16746.1,False
+EV-00898,U-027,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 02:02:00,8.03,0.0,0.0,16755.5,False
+EV-00899,U-027,Preventive maintenance,PM service,2025-10-05 18:00:00,2025-10-06 00:39:00,6.64,0.0,0.0,17009.1,False
+EV-00900,U-027,Breakdown,Undercarriage / Tyres,2025-10-12 08:00:00,2025-10-12 23:27:00,14.12,0.0,1.34,17102.8,False
+EV-00901,U-027,Breakdown,Hydraulic,2025-10-25 20:00:00,2025-10-26 06:51:00,3.31,4.14,3.4,17308.6,True
+EV-00902,U-027,Preventive maintenance,PM service,2025-10-27 18:00:00,2025-10-28 02:35:00,8.59,0.0,0.0,17338.2,False
+EV-00903,U-027,Breakdown,Hydraulic,2025-11-09 12:00:00,2025-11-10 02:20:00,5.64,6.73,1.97,17527.1,True
+EV-00904,U-027,Breakdown,Hydraulic,2025-11-13 16:00:00,2025-11-14 22:31:00,15.76,13.67,1.09,17586.0,True
+EV-00905,U-027,Preventive maintenance,PM service,2025-11-20 18:00:00,2025-11-21 03:56:00,9.93,0.0,0.0,17684.3,False
+EV-00906,U-027,Preventive maintenance,PM service,2025-11-25 18:00:00,2025-11-26 03:55:00,9.92,0.0,0.0,17753.2,False
+EV-00907,U-027,Breakdown,Electrical,2025-11-29 16:00:00,2025-11-30 03:19:00,4.07,6.23,1.02,17799.0,False
+EV-00908,U-027,Preventive maintenance,PM service,2025-12-21 18:00:00,2025-12-22 00:19:00,6.32,0.0,0.0,18078.5,False
+EV-00909,U-028,Breakdown,Hydraulic,2025-01-02 12:00:00,2025-01-07 23:26:00,4.9,121.59,4.95,24029.1,False
+EV-00910,U-028,Preventive maintenance,PM service,2025-02-09 18:00:00,2025-02-10 03:18:00,9.29,0.0,0.0,24442.1,False
+EV-00911,U-028,Preventive maintenance,PM service,2025-02-14 18:00:00,2025-02-15 01:44:00,7.73,0.0,0.0,24500.7,False
+EV-00912,U-028,Breakdown,Engine,2025-02-26 08:00:00,2025-02-26 16:37:00,8.03,0.0,0.59,24633.4,False
+EV-00913,U-028,Preventive maintenance,PM service,2025-03-07 18:00:00,2025-03-08 03:42:00,9.7,0.0,0.0,24753.0,False
+EV-00914,U-028,Preventive maintenance,PM service,2025-03-27 18:00:00,2025-03-28 00:56:00,6.93,0.0,0.0,25005.3,False
+EV-00915,U-028,Breakdown,Electrical,2025-04-09 12:00:00,2025-04-09 21:06:00,6.26,0.0,2.84,25149.8,False
+EV-00916,U-028,Preventive maintenance,PM service,2025-04-17 18:00:00,2025-04-18 03:05:00,9.09,0.0,0.0,25253.7,False
+EV-00917,U-028,Breakdown,Hydraulic,2025-04-25 12:00:00,2025-04-25 17:54:00,3.96,0.0,1.95,25340.6,False
+EV-00918,U-028,Breakdown,Hydraulic,2025-05-17 12:00:00,2025-05-18 15:14:00,7.39,19.09,0.76,25612.3,True
+EV-00919,U-028,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 01:26:00,7.44,0.0,0.0,25651.1,False
+EV-00920,U-028,Preventive maintenance,PM service,2025-05-30 18:00:00,2025-05-31 02:05:00,8.09,0.0,0.0,25756.3,False
+EV-00921,U-028,Breakdown,Engine,2025-06-05 08:00:00,2025-06-07 19:14:00,25.58,31.9,1.76,25813.7,False
+EV-00922,U-028,Preventive maintenance,PM service,2025-06-22 18:00:00,2025-06-23 03:56:00,9.93,0.0,0.0,26000.8,False
+EV-00923,U-028,Preventive maintenance,PM service,2025-07-10 18:00:00,2025-07-11 01:59:00,7.99,0.0,0.0,26256.6,False
+EV-00924,U-028,Preventive maintenance,PM service,2025-07-26 18:00:00,2025-07-27 02:03:00,8.05,0.0,0.0,26501.8,False
+EV-00925,U-028,Preventive maintenance,PM service,2025-08-11 18:00:00,2025-08-12 00:45:00,6.76,0.0,0.0,26751.3,False
+EV-00926,U-028,Preventive maintenance,PM service,2025-08-27 18:00:00,2025-08-28 01:54:00,7.9,0.0,0.0,27001.9,False
+EV-00927,U-028,Preventive maintenance,PM service,2025-09-13 18:00:00,2025-09-14 00:20:00,6.34,0.0,0.0,27265.2,False
+EV-00928,U-028,Preventive maintenance,PM service,2025-09-29 18:00:00,2025-09-30 00:22:00,6.37,0.0,0.0,27511.8,False
+EV-00929,U-028,Breakdown,Cooling,2025-10-04 12:00:00,2025-10-04 22:07:00,7.89,0.0,2.23,27574.0,False
+EV-00930,U-028,Preventive maintenance,PM service,2025-10-15 18:00:00,2025-10-16 01:06:00,7.1,0.0,0.0,27757.1,False
+EV-00931,U-028,Preventive maintenance,PM service,2025-10-31 18:00:00,2025-11-01 02:36:00,8.61,0.0,0.0,28006.6,False
+EV-00932,U-028,Breakdown,Cooling,2025-11-13 12:00:00,2025-11-13 17:45:00,4.83,0.0,0.93,28193.4,False
+EV-00933,U-028,Preventive maintenance,PM service,2025-11-17 18:00:00,2025-11-18 01:38:00,7.63,0.0,0.0,28261.3,False
+EV-00934,U-028,Breakdown,Hydraulic,2025-11-23 20:00:00,2025-11-24 02:57:00,5.56,0.0,1.39,28349.2,False
+EV-00935,U-028,Preventive maintenance,PM service,2025-12-03 18:00:00,2025-12-04 03:11:00,9.19,0.0,0.0,28503.7,False
+EV-00936,U-028,Breakdown,Undercarriage / Tyres,2025-12-15 16:00:00,2025-12-16 02:09:00,9.08,0.0,1.07,28678.2,False
+EV-00937,U-028,Preventive maintenance,PM service,2025-12-20 18:00:00,2025-12-21 03:15:00,9.24,0.0,0.0,28759.9,False
+EV-00938,U-029,Preventive maintenance,PM service,2025-01-12 18:00:00,2025-01-13 00:03:00,6.05,0.0,0.0,17255.0,False
+EV-00939,U-029,Breakdown,Hydraulic,2025-01-18 08:00:00,2025-01-18 14:54:00,4.66,0.0,2.25,17311.0,False
+EV-00940,U-029,Breakdown,Cooling,2025-01-31 12:00:00,2025-01-31 18:00:00,4.31,0.0,1.69,17467.5,False
+EV-00941,U-029,Preventive maintenance,PM service,2025-02-03 18:00:00,2025-02-04 01:50:00,7.84,0.0,0.0,17508.8,False
+EV-00942,U-029,Breakdown,Cooling,2025-02-11 12:00:00,2025-02-12 14:34:00,3.34,20.82,2.4,17597.2,False
+EV-00943,U-029,Preventive maintenance,PM service,2025-02-24 18:00:00,2025-02-25 03:39:00,9.64,0.0,0.0,17754.0,False
+EV-00944,U-029,Preventive maintenance,PM service,2025-03-17 18:00:00,2025-03-18 00:03:00,6.05,0.0,0.0,18011.1,False
+EV-00945,U-029,Breakdown,Undercarriage / Tyres,2025-03-25 15:11:00,2025-03-25 21:29:00,5.62,0.0,0.68,18102.1,False
+EV-00946,U-029,Breakdown,Engine,2025-04-01 20:00:00,2025-04-02 12:53:00,10.71,4.41,1.76,18187.4,False
+EV-00947,U-029,Preventive maintenance,PM service,2025-04-06 18:00:00,2025-04-07 03:39:00,9.65,0.0,0.0,18257.5,False
+EV-00948,U-029,Preventive maintenance,PM service,2025-04-22 18:00:00,2025-04-23 02:57:00,8.96,0.0,0.0,18506.7,False
+EV-00949,U-029,Preventive maintenance,PM service,2025-05-08 18:00:00,2025-05-09 02:30:00,8.49,0.0,0.0,18754.0,False
+EV-00950,U-029,Breakdown,Electrical,2025-05-14 22:43:00,2025-05-15 18:06:00,4.34,14.24,0.8,18842.8,False
+EV-00951,U-029,Breakdown,Hydraulic,2025-05-28 20:00:00,2025-05-29 03:08:00,5.28,0.0,1.85,19047.7,True
+EV-00952,U-029,Preventive maintenance,PM service,2025-05-31 18:00:00,2025-06-01 02:11:00,8.18,0.0,0.0,19095.7,False
+EV-00953,U-029,Breakdown,Engine,2025-06-05 19:46:00,2025-06-06 06:34:00,9.03,0.0,1.76,19164.7,False
+EV-00954,U-029,Breakdown,Engine,2025-06-08 12:00:00,2025-06-09 02:46:00,12.25,0.0,2.52,19198.6,False
+EV-00955,U-029,Preventive maintenance,PM service,2025-06-12 18:00:00,2025-06-13 03:24:00,9.4,0.0,0.0,19261.6,False
+EV-00956,U-029,Breakdown,Undercarriage / Tyres,2025-06-19 08:00:00,2025-06-19 19:58:00,4.04,6.35,1.58,19346.4,False
+EV-00957,U-029,Breakdown,Hydraulic,2025-07-01 16:00:00,2025-07-02 03:38:00,4.88,4.95,1.8,19531.1,True
+EV-00958,U-029,Breakdown,Hydraulic,2025-07-03 20:00:00,2025-07-04 19:21:00,8.07,13.5,1.77,19560.4,True
+EV-00959,U-029,Breakdown,Hydraulic,2025-07-07 16:00:00,2025-07-07 23:27:00,5.62,0.0,1.83,19601.4,True
+EV-00960,U-029,Preventive maintenance,PM service,2025-07-09 18:00:00,2025-07-10 00:09:00,6.15,0.0,0.0,19635.2,False
+EV-00961,U-029,Preventive maintenance,PM service,2025-07-17 18:00:00,2025-07-18 03:58:00,9.96,0.0,0.0,19758.6,False
+EV-00962,U-029,Breakdown,Hydraulic,2025-07-26 12:00:00,2025-07-26 19:34:00,5.57,0.0,2.0,19884.1,False
+EV-00963,U-029,Preventive maintenance,PM service,2025-08-03 18:00:00,2025-08-04 02:05:00,8.08,0.0,0.0,20013.5,False
+EV-00964,U-029,Preventive maintenance,PM service,2025-08-19 18:00:00,2025-08-20 03:41:00,9.69,0.0,0.0,20261.0,False
+EV-00965,U-029,Breakdown,Hydraulic,2025-08-25 12:00:00,2025-08-26 12:51:00,8.55,14.1,2.19,20334.9,False
+EV-00966,U-029,Breakdown,Attachment / Bucket,2025-09-03 12:00:00,2025-09-03 22:12:00,6.99,0.0,3.22,20462.1,False
+EV-00967,U-029,Preventive maintenance,PM service,2025-09-06 18:00:00,2025-09-07 00:08:00,6.13,0.0,0.0,20510.4,False
+EV-00968,U-029,Breakdown,Hydraulic,2025-09-11 19:24:00,2025-09-12 18:33:00,12.02,9.4,1.73,20581.1,False
+EV-00969,U-029,Preventive maintenance,PM service,2025-09-23 18:00:00,2025-09-24 03:41:00,9.68,0.0,0.0,20755.6,False
+EV-00970,U-029,Preventive maintenance,PM service,2025-10-09 18:00:00,2025-10-10 00:31:00,6.51,0.0,0.0,21008.1,False
+EV-00971,U-029,Preventive maintenance,PM service,2025-10-25 18:00:00,2025-10-26 00:10:00,6.17,0.0,0.0,21257.1,False
+EV-00972,U-029,Breakdown,Hydraulic,2025-11-09 16:00:00,2025-11-09 20:59:00,2.54,0.0,2.45,21462.2,False
+EV-00973,U-029,Preventive maintenance,PM service,2025-11-12 18:00:00,2025-11-13 02:32:00,8.53,0.0,0.0,21503.8,False
+EV-00974,U-029,Preventive maintenance,PM service,2025-12-02 18:00:00,2025-12-03 02:19:00,8.32,0.0,0.0,21757.4,False
+EV-00975,U-029,Breakdown,Cooling,2025-12-18 08:00:00,2025-12-18 14:17:00,5.49,0.0,0.79,21939.4,False
+EV-00976,U-029,Preventive maintenance,PM service,2025-12-23 18:00:00,2025-12-24 02:07:00,8.12,0.0,0.0,22003.0,False
+EV-00977,U-030,Preventive maintenance,PM service,2025-01-14 18:00:00,2025-01-15 03:23:00,9.38,0.0,0.0,14509.7,False
+EV-00978,U-030,Preventive maintenance,PM service,2025-02-02 18:00:00,2025-02-03 01:25:00,7.42,0.0,0.0,14752.2,False
+EV-00979,U-030,Preventive maintenance,PM service,2025-02-28 18:00:00,2025-03-01 02:27:00,8.45,0.0,0.0,15164.9,False
+EV-00980,U-030,Preventive maintenance,PM service,2025-03-06 18:00:00,2025-03-07 02:58:00,8.97,0.0,0.0,15252.4,False
+EV-00981,U-030,Preventive maintenance,PM service,2025-03-23 18:00:00,2025-03-24 01:26:00,7.44,0.0,0.0,15513.3,False
+EV-00982,U-030,Breakdown,Attachment / Bucket,2025-04-10 08:00:00,2025-04-10 12:24:00,3.56,0.0,0.84,15779.8,True
+EV-00983,U-030,Breakdown,Hydraulic,2025-04-11 12:00:00,2025-04-11 23:38:00,5.22,4.46,1.94,15785.8,True
+EV-00984,U-030,Preventive maintenance,PM service,2025-04-18 18:00:00,2025-04-19 02:50:00,8.83,0.0,0.0,15901.5,False
+EV-00985,U-030,Breakdown,Hydraulic,2025-04-19 08:00:00,2025-04-20 00:36:00,6.35,8.97,1.28,15901.5,False
+EV-00986,U-030,Preventive maintenance,PM service,2025-04-26 18:00:00,2025-04-27 02:32:00,8.53,0.0,0.0,16010.4,False
+EV-00987,U-030,Preventive maintenance,PM service,2025-05-12 18:00:00,2025-05-13 00:46:00,6.76,0.0,0.0,16260.7,False
+EV-00988,U-030,Breakdown,Attachment / Bucket,2025-05-14 12:00:00,2025-05-16 02:39:00,9.61,26.38,2.66,16275.5,False
+EV-00989,U-030,Breakdown,Hydraulic,2025-05-23 19:56:00,2025-05-24 04:58:00,5.64,0.0,3.39,16397.8,False
+EV-00990,U-030,Breakdown,Hydraulic,2025-05-26 12:00:00,2025-05-26 20:00:00,6.29,0.0,1.71,16432.9,False
+EV-00991,U-030,Preventive maintenance,PM service,2025-05-31 18:00:00,2025-06-01 00:10:00,6.17,0.0,0.0,16516.9,False
+EV-00992,U-030,Preventive maintenance,PM service,2025-06-15 18:00:00,2025-06-16 01:09:00,7.15,0.0,0.0,16755.0,False
+EV-00993,U-030,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 00:49:00,6.82,0.0,0.0,17003.8,False
+EV-00994,U-030,Preventive maintenance,PM service,2025-07-17 18:00:00,2025-07-18 01:12:00,7.2,0.0,0.0,17251.5,False
+EV-00995,U-030,Breakdown,Hydraulic,2025-07-18 08:00:00,2025-07-18 21:51:00,7.47,5.65,0.73,17251.5,False
+EV-00996,U-030,Breakdown,Electrical,2025-07-22 12:00:00,2025-07-22 16:41:00,3.72,0.0,0.96,17301.3,False
+EV-00997,U-030,Breakdown,Electrical,2025-07-26 12:00:00,2025-07-26 16:07:00,3.03,0.0,1.08,17355.7,False
+EV-00998,U-030,Preventive maintenance,PM service,2025-08-04 18:00:00,2025-08-05 00:47:00,6.78,0.0,0.0,17500.2,False
+EV-00999,U-030,Preventive maintenance,PM service,2025-08-21 18:00:00,2025-08-22 02:06:00,8.09,0.0,0.0,17762.8,False
+EV-01000,U-030,Breakdown,Attachment / Bucket,2025-08-22 08:00:00,2025-08-22 20:25:00,7.82,0.0,4.59,17762.8,False
+EV-01001,U-030,Breakdown,Attachment / Bucket,2025-08-23 08:00:00,2025-08-23 16:57:00,8.03,0.0,0.91,17764.8,False
+EV-01002,U-030,Preventive maintenance,PM service,2025-09-07 18:00:00,2025-09-08 03:49:00,9.81,0.0,0.0,18004.1,False
+EV-01003,U-030,Breakdown,Electrical,2025-09-15 16:00:00,2025-09-16 05:27:00,3.54,7.17,2.75,18120.3,False
+EV-01004,U-030,Breakdown,Hydraulic,2025-09-22 12:00:00,2025-09-22 17:30:00,4.06,0.0,1.44,18216.3,False
+EV-01005,U-030,Preventive maintenance,PM service,2025-09-24 18:00:00,2025-09-25 01:47:00,7.79,0.0,0.0,18250.5,False
+EV-01006,U-030,Preventive maintenance,PM service,2025-10-12 18:00:00,2025-10-13 03:35:00,9.58,0.0,0.0,18501.0,False
+EV-01007,U-030,Preventive maintenance,PM service,2025-11-02 18:00:00,2025-11-03 00:46:00,6.77,0.0,0.0,18756.4,False
+EV-01008,U-030,Preventive maintenance,PM service,2025-11-22 18:00:00,2025-11-23 03:31:00,9.51,0.0,0.0,19005.6,False
+EV-01009,U-030,Preventive maintenance,PM service,2025-12-12 18:00:00,2025-12-13 03:24:00,9.39,0.0,0.0,19256.7,False
+EV-01010,U-030,Breakdown,Undercarriage / Tyres,2025-12-17 08:00:00,2025-12-18 05:33:00,18.24,2.8,0.51,19297.2,False
+EV-01011,U-030,Breakdown,Hydraulic,2025-12-25 15:24:00,2025-12-26 04:19:00,6.11,5.88,0.93,19395.9,False
+EV-01012,U-031,Preventive maintenance,PM service,2025-01-06 18:00:00,2025-01-07 03:09:00,9.15,0.0,0.0,14002.5,False
+EV-01013,U-031,Breakdown,Hydraulic,2025-01-27 08:00:00,2025-01-27 13:44:00,4.69,0.0,1.04,14246.9,False
+EV-01014,U-031,Preventive maintenance,PM service,2025-01-28 18:00:00,2025-01-29 03:10:00,9.16,0.0,0.0,14262.7,False
+EV-01015,U-031,Breakdown,Hydraulic,2025-02-20 08:00:00,2025-02-20 19:21:00,8.77,0.0,2.58,14536.7,True
+EV-01016,U-031,Preventive maintenance,PM service,2025-02-25 18:00:00,2025-02-26 03:30:00,9.51,0.0,0.0,14602.4,False
+EV-01017,U-031,Preventive maintenance,PM service,2025-03-10 18:00:00,2025-03-11 01:26:00,7.43,0.0,0.0,14757.4,False
+EV-01018,U-031,Breakdown,Undercarriage / Tyres,2025-03-25 08:00:00,2025-03-25 22:21:00,11.16,0.0,3.18,14927.1,False
+EV-01019,U-031,Preventive maintenance,PM service,2025-03-31 18:00:00,2025-04-01 00:38:00,6.63,0.0,0.0,15005.9,False
+EV-01020,U-031,Breakdown,Undercarriage / Tyres,2025-04-17 08:00:00,2025-04-17 15:24:00,5.94,0.0,1.45,15207.1,False
+EV-01021,U-031,Preventive maintenance,PM service,2025-04-21 18:00:00,2025-04-22 03:10:00,9.16,0.0,0.0,15259.7,False
+EV-01022,U-031,Preventive maintenance,PM service,2025-05-09 18:00:00,2025-05-10 02:08:00,8.14,0.0,0.0,15509.4,False
+EV-01023,U-031,Preventive maintenance,PM service,2025-05-25 18:00:00,2025-05-26 02:04:00,8.06,0.0,0.0,15756.8,False
+EV-01024,U-031,Breakdown,Electrical,2025-06-07 19:44:00,2025-06-08 00:50:00,2.61,0.0,2.48,15953.6,False
+EV-01025,U-031,Preventive maintenance,PM service,2025-06-10 18:00:00,2025-06-11 02:35:00,8.58,0.0,0.0,16000.2,False
+EV-01026,U-031,Breakdown,Engine,2025-06-18 12:00:00,2025-06-18 19:02:00,5.51,0.0,1.51,16107.5,False
+EV-01027,U-031,Preventive maintenance,PM service,2025-06-27 18:00:00,2025-06-28 00:42:00,6.7,0.0,0.0,16259.1,False
+EV-01028,U-031,Breakdown,Electrical,2025-07-09 12:00:00,2025-07-09 15:29:00,2.04,0.0,1.44,16434.0,False
+EV-01029,U-031,Breakdown,Electrical,2025-07-19 12:00:00,2025-07-20 03:10:00,13.2,0.0,1.97,16583.7,True
+EV-01030,U-031,Preventive maintenance,PM service,2025-07-21 18:00:00,2025-07-22 02:23:00,8.39,0.0,0.0,16614.8,False
+EV-01031,U-031,Preventive maintenance,PM service,2025-07-30 18:00:00,2025-07-31 03:52:00,9.87,0.0,0.0,16750.8,False
+EV-01032,U-031,Preventive maintenance,PM service,2025-08-16 18:00:00,2025-08-17 01:34:00,7.56,0.0,0.0,17015.8,False
+EV-01033,U-031,Preventive maintenance,PM service,2025-09-06 18:00:00,2025-09-07 00:17:00,6.28,0.0,0.0,17348.5,False
+EV-01034,U-031,Breakdown,Cooling,2025-09-24 16:00:00,2025-09-25 10:23:00,6.7,10.84,0.85,17625.8,True
+EV-01035,U-031,Preventive maintenance,PM service,2025-09-25 18:00:00,2025-09-26 01:55:00,7.91,0.0,0.0,17635.6,False
+EV-01036,U-031,Breakdown,Electrical,2025-10-10 16:00:00,2025-10-10 22:50:00,5.4,0.0,1.44,17862.0,True
+EV-01037,U-031,Preventive maintenance,PM service,2025-10-10 18:00:00,2025-10-11 00:28:00,6.46,0.0,0.0,17864.0,False
+EV-01038,U-031,Preventive maintenance,PM service,2025-10-27 18:00:00,2025-10-28 02:11:00,8.19,0.0,0.0,18126.6,False
+EV-01039,U-031,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 03:37:00,9.62,0.0,0.0,18263.6,False
+EV-01040,U-031,Breakdown,Hydraulic,2025-11-12 12:00:00,2025-11-12 20:25:00,5.72,0.0,2.7,18354.8,False
+EV-01041,U-031,Breakdown,Undercarriage / Tyres,2025-11-15 08:00:00,2025-11-15 17:09:00,8.39,0.0,0.76,18389.3,False
+EV-01042,U-031,Preventive maintenance,PM service,2025-11-26 18:00:00,2025-11-27 02:26:00,8.43,0.0,0.0,18570.2,False
+EV-01043,U-031,Breakdown,Electrical,2025-12-09 08:00:00,2025-12-09 13:23:00,3.31,0.0,2.07,18727.8,False
+EV-01044,U-031,Preventive maintenance,PM service,2025-12-11 18:00:00,2025-12-12 00:58:00,6.96,0.0,0.0,18754.0,False
+EV-01045,U-031,Breakdown,Engine,2025-12-20 12:00:00,2025-12-21 07:36:00,18.45,0.0,1.15,18853.6,False
+EV-01046,U-032,Preventive maintenance,PM service,2025-01-05 18:00:00,2025-01-06 00:13:00,6.22,0.0,0.0,8004.3,False
+EV-01047,U-032,Breakdown,Hydraulic,2025-01-14 08:00:00,2025-01-17 09:58:00,7.93,65.22,0.81,8102.7,False
+EV-01048,U-032,Breakdown,Hydraulic,2025-02-01 12:00:00,2025-02-02 04:51:00,14.94,0.0,1.91,8282.0,True
+EV-01049,U-032,Breakdown,Hydraulic,2025-02-11 08:00:00,2025-02-12 17:35:00,3.91,28.19,1.49,8393.8,True
+EV-01050,U-032,Preventive maintenance,PM service,2025-02-13 18:00:00,2025-02-14 01:42:00,7.71,0.0,0.0,8407.1,False
+EV-01051,U-032,Preventive maintenance,PM service,2025-03-02 18:00:00,2025-03-03 01:35:00,7.58,0.0,0.0,8611.4,False
+EV-01052,U-032,Breakdown,Engine,2025-03-09 15:41:00,2025-03-10 02:10:00,9.5,0.0,0.98,8693.7,False
+EV-01053,U-032,Preventive maintenance,PM service,2025-03-14 18:00:00,2025-03-15 00:51:00,6.84,0.0,0.0,8753.0,False
+EV-01054,U-032,Breakdown,Hydraulic,2025-03-20 19:29:00,2025-03-21 02:18:00,5.88,0.0,0.93,8824.4,False
+EV-01055,U-032,Preventive maintenance,PM service,2025-04-04 18:00:00,2025-04-05 01:09:00,7.14,0.0,0.0,9007.2,False
+EV-01056,U-032,Breakdown,Electrical,2025-04-15 08:00:00,2025-04-15 16:26:00,6.23,0.0,2.21,9124.5,False
+EV-01057,U-032,Breakdown,Hydraulic,2025-04-30 12:00:00,2025-05-01 02:17:00,13.24,0.0,1.05,9311.4,True
+EV-01058,U-032,Preventive maintenance,PM service,2025-05-10 18:00:00,2025-05-11 03:42:00,9.69,0.0,0.0,9435.3,False
+EV-01059,U-032,Breakdown,Attachment / Bucket,2025-05-13 16:00:00,2025-05-15 01:18:00,3.69,28.76,0.85,9459.9,False
+EV-01060,U-032,Preventive maintenance,PM service,2025-05-18 18:00:00,2025-05-19 01:57:00,7.96,0.0,0.0,9503.7,False
+EV-01061,U-032,Preventive maintenance,PM service,2025-06-07 18:00:00,2025-06-08 02:12:00,8.19,0.0,0.0,9752.9,False
+EV-01062,U-032,Breakdown,Engine,2025-06-11 12:00:00,2025-06-12 22:34:00,32.13,0.0,2.45,9787.9,False
+EV-01063,U-032,Preventive maintenance,PM service,2025-06-30 18:00:00,2025-07-01 01:06:00,7.1,0.0,0.0,10007.8,False
+EV-01064,U-032,Breakdown,Cooling,2025-07-08 12:00:00,2025-07-08 17:05:00,2.92,0.0,2.17,10118.4,False
+EV-01065,U-032,Breakdown,Engine,2025-07-09 20:00:00,2025-07-11 11:22:00,12.66,25.13,1.58,10132.4,False
+EV-01066,U-032,Preventive maintenance,PM service,2025-07-19 18:00:00,2025-07-20 02:43:00,8.72,0.0,0.0,10265.3,False
+EV-01067,U-032,Preventive maintenance,PM service,2025-08-04 18:00:00,2025-08-05 00:09:00,6.15,0.0,0.0,10508.5,False
+EV-01068,U-032,Preventive maintenance,PM service,2025-08-19 18:00:00,2025-08-20 02:35:00,8.59,0.0,0.0,10753.5,False
+EV-01069,U-032,Preventive maintenance,PM service,2025-09-05 18:00:00,2025-09-06 03:19:00,9.32,0.0,0.0,11013.2,False
+EV-01070,U-032,Breakdown,Attachment / Bucket,2025-09-08 16:00:00,2025-09-10 21:51:00,8.95,43.67,1.24,11045.2,False
+EV-01071,U-032,Breakdown,Electrical,2025-09-27 08:00:00,2025-09-28 22:45:00,2.94,33.0,2.82,11299.2,True
+EV-01072,U-032,Breakdown,Attachment / Bucket,2025-10-03 20:00:00,2025-10-04 20:49:00,2.77,20.32,1.72,11379.2,True
+EV-01073,U-032,Breakdown,Hydraulic,2025-10-05 16:00:00,2025-10-05 22:39:00,5.33,0.0,1.32,11389.2,True
+EV-01074,U-032,Preventive maintenance,PM service,2025-10-07 18:00:00,2025-10-08 02:15:00,8.25,0.0,0.0,11425.2,False
+EV-01075,U-032,Preventive maintenance,PM service,2025-10-13 18:00:00,2025-10-14 01:37:00,7.62,0.0,0.0,11514.3,False
+EV-01076,U-032,Breakdown,Engine,2025-10-18 19:33:00,2025-10-20 08:20:00,6.72,29.08,0.98,11580.7,False
+EV-01077,U-032,Preventive maintenance,PM service,2025-10-31 18:00:00,2025-11-01 03:39:00,9.65,0.0,0.0,11763.9,False
+EV-01078,U-032,Breakdown,Hydraulic,2025-11-06 12:00:00,2025-11-07 15:20:00,7.19,16.08,4.06,11839.2,False
+EV-01079,U-032,Preventive maintenance,PM service,2025-11-17 18:00:00,2025-11-18 01:25:00,7.42,0.0,0.0,12006.7,False
+EV-01080,U-032,Preventive maintenance,PM service,2025-12-03 18:00:00,2025-12-04 00:27:00,6.46,0.0,0.0,12256.6,False
+EV-01081,U-032,Breakdown,Undercarriage / Tyres,2025-12-04 14:51:00,2025-12-07 00:17:00,13.11,43.62,0.7,12264.6,False
+EV-01082,U-032,Breakdown,Hydraulic,2025-12-16 20:00:00,2025-12-17 09:56:00,12.84,0.0,1.1,12410.1,False
+EV-01083,U-032,Preventive maintenance,PM service,2025-12-23 18:00:00,2025-12-24 03:08:00,9.14,0.0,0.0,12515.6,False
+EV-01084,U-033,Preventive maintenance,PM service,2025-01-18 18:00:00,2025-01-19 01:30:00,7.5,0.0,0.0,2507.9,False
+EV-01085,U-033,Breakdown,Electrical,2025-02-02 16:00:00,2025-02-02 23:31:00,1.64,4.32,1.56,2692.0,False
+EV-01086,U-033,Preventive maintenance,PM service,2025-02-07 18:00:00,2025-02-08 00:24:00,6.4,0.0,0.0,2753.7,False
+EV-01087,U-033,Preventive maintenance,PM service,2025-02-28 18:00:00,2025-03-01 03:48:00,9.8,0.0,0.0,3010.5,False
+EV-01088,U-033,Preventive maintenance,PM service,2025-03-20 18:00:00,2025-03-21 02:53:00,8.88,0.0,0.0,3250.3,False
+EV-01089,U-033,Breakdown,Engine,2025-04-04 20:00:00,2025-04-05 09:55:00,12.32,0.0,1.6,3439.0,False
+EV-01090,U-033,Preventive maintenance,PM service,2025-04-09 18:00:00,2025-04-10 00:06:00,6.11,0.0,0.0,3512.4,False
+EV-01091,U-033,Breakdown,Engine,2025-04-12 16:00:00,2025-04-13 12:45:00,6.05,13.23,1.47,3547.4,False
+EV-01092,U-033,Preventive maintenance,PM service,2025-04-26 18:00:00,2025-04-27 03:07:00,9.12,0.0,0.0,3766.0,False
+EV-01093,U-033,Preventive maintenance,PM service,2025-05-12 18:00:00,2025-05-13 02:39:00,8.65,0.0,0.0,4015.6,False
+EV-01094,U-033,Breakdown,Electrical,2025-05-15 20:00:00,2025-05-16 15:09:00,4.65,13.4,1.1,4053.0,False
+EV-01095,U-033,Preventive maintenance,PM service,2025-05-29 18:00:00,2025-05-30 02:50:00,8.83,0.0,0.0,4265.2,False
+EV-01096,U-033,Breakdown,Engine,2025-06-05 20:00:00,2025-06-06 22:13:00,17.71,7.95,0.57,4368.1,False
+EV-01097,U-033,Preventive maintenance,PM service,2025-06-15 18:00:00,2025-06-16 02:16:00,8.27,0.0,0.0,4515.2,False
+EV-01098,U-033,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 03:07:00,9.11,0.0,0.0,4757.7,False
+EV-01099,U-033,Breakdown,Cooling,2025-07-16 19:50:00,2025-07-17 00:47:00,3.21,0.0,1.74,4987.7,False
+EV-01100,U-033,Preventive maintenance,PM service,2025-07-17 18:00:00,2025-07-18 00:25:00,6.41,0.0,0.0,5004.7,False
+EV-01101,U-033,Preventive maintenance,PM service,2025-08-02 18:00:00,2025-08-03 01:39:00,7.65,0.0,0.0,5253.6,False
+EV-01102,U-033,Breakdown,Electrical,2025-08-13 12:00:00,2025-08-14 09:24:00,3.63,16.25,1.52,5409.9,False
+EV-01103,U-033,Breakdown,Attachment / Bucket,2025-08-18 16:00:00,2025-08-19 15:32:00,3.76,18.83,0.93,5475.6,False
+EV-01104,U-033,Preventive maintenance,PM service,2025-08-21 18:00:00,2025-08-22 00:20:00,6.34,0.0,0.0,5512.0,False
+EV-01105,U-033,Breakdown,Undercarriage / Tyres,2025-08-30 20:00:00,2025-08-31 09:07:00,11.08,0.0,2.04,5645.8,False
+EV-01106,U-033,Preventive maintenance,PM service,2025-09-06 18:00:00,2025-09-07 00:46:00,6.77,0.0,0.0,5753.7,False
+EV-01107,U-033,Breakdown,Undercarriage / Tyres,2025-09-10 08:00:00,2025-09-11 05:36:00,4.31,15.99,1.3,5794.8,False
+EV-01108,U-033,Breakdown,Engine,2025-09-21 08:00:00,2025-09-22 08:41:00,23.26,0.0,1.42,5958.0,False
+EV-01109,U-033,Preventive maintenance,PM service,2025-09-25 18:00:00,2025-09-26 00:14:00,6.23,0.0,0.0,6014.2,False
+EV-01110,U-033,Preventive maintenance,PM service,2025-10-11 18:00:00,2025-10-12 03:48:00,9.81,0.0,0.0,6264.1,False
+EV-01111,U-033,Breakdown,Hydraulic,2025-10-25 08:00:00,2025-10-25 21:33:00,11.9,0.0,1.65,6464.0,False
+EV-01112,U-033,Preventive maintenance,PM service,2025-10-28 18:00:00,2025-10-29 03:45:00,9.76,0.0,0.0,6514.3,False
+EV-01113,U-033,Breakdown,Cooling,2025-11-07 08:00:00,2025-11-07 16:53:00,6.98,0.0,1.9,6624.4,False
+EV-01114,U-033,Preventive maintenance,PM service,2025-11-17 18:00:00,2025-11-18 01:56:00,7.93,0.0,0.0,6755.2,False
+EV-01115,U-033,Breakdown,Engine,2025-12-07 12:00:00,2025-12-08 03:33:00,14.32,0.0,1.23,6997.7,False
+EV-01116,U-033,Preventive maintenance,PM service,2025-12-08 18:00:00,2025-12-09 02:56:00,8.94,0.0,0.0,7006.5,False
+EV-01117,U-033,Breakdown,Hydraulic,2025-12-22 18:48:00,2025-12-23 02:30:00,5.98,0.0,1.73,7184.0,False
+EV-01118,U-033,Preventive maintenance,PM service,2025-12-28 18:00:00,2025-12-29 02:06:00,8.1,0.0,0.0,7257.0,False
+EV-01119,U-034,Breakdown,Engine,2025-01-01 08:00:00,2025-01-01 14:43:00,5.81,0.0,0.91,6617.0,False
+EV-01120,U-034,Preventive maintenance,PM service,2025-01-12 18:00:00,2025-01-13 02:34:00,8.57,0.0,0.0,6758.6,False
+EV-01121,U-034,Breakdown,Undercarriage / Tyres,2025-01-14 08:00:00,2025-01-15 03:43:00,10.22,8.82,0.68,6764.7,False
+EV-01122,U-034,Breakdown,Undercarriage / Tyres,2025-01-27 12:00:00,2025-01-28 03:42:00,10.51,3.86,1.32,6918.8,False
+EV-01123,U-034,Preventive maintenance,PM service,2025-02-03 18:00:00,2025-02-04 02:51:00,8.84,0.0,0.0,7011.8,False
+EV-01124,U-034,Breakdown,Electrical,2025-02-09 08:00:00,2025-02-10 00:59:00,3.49,13.04,0.46,7085.7,False
+EV-01125,U-034,Preventive maintenance,PM service,2025-02-20 18:00:00,2025-02-21 01:33:00,7.55,0.0,0.0,7258.3,False
+EV-01126,U-034,Preventive maintenance,PM service,2025-03-08 18:00:00,2025-03-09 03:15:00,9.24,0.0,0.0,7508.3,False
+EV-01127,U-034,Preventive maintenance,PM service,2025-03-24 18:00:00,2025-03-25 02:50:00,8.84,0.0,0.0,7754.9,False
+EV-01128,U-034,Breakdown,Hydraulic,2025-03-28 20:00:00,2025-03-29 14:49:00,9.25,8.8,0.77,7806.3,False
+EV-01129,U-034,Breakdown,Cooling,2025-04-07 12:00:00,2025-04-07 20:19:00,5.46,0.0,2.86,7945.2,False
+EV-01130,U-034,Breakdown,Undercarriage / Tyres,2025-04-18 16:00:00,2025-04-18 23:53:00,6.89,0.0,1.0,8116.4,True
+EV-01131,U-034,Breakdown,Engine,2025-04-19 12:00:00,2025-04-20 07:13:00,18.02,0.0,1.2,8122.4,True
+EV-01132,U-034,Breakdown,Electrical,2025-04-21 16:00:00,2025-04-21 20:38:00,3.87,0.0,0.76,8142.4,True
+EV-01133,U-034,Breakdown,Hydraulic,2025-04-22 08:00:00,2025-04-22 16:26:00,7.39,0.0,1.03,8144.4,True
+EV-01134,U-034,Preventive maintenance,PM service,2025-04-23 18:00:00,2025-04-24 01:59:00,7.99,0.0,0.0,8163.0,False
+EV-01135,U-034,Preventive maintenance,PM service,2025-04-29 18:00:00,2025-04-30 02:27:00,8.45,0.0,0.0,8253.3,False
+EV-01136,U-034,Preventive maintenance,PM service,2025-05-23 18:00:00,2025-05-24 02:56:00,8.94,0.0,0.0,8630.1,False
+EV-01137,U-034,Preventive maintenance,PM service,2025-06-01 18:00:00,2025-06-02 02:09:00,8.15,0.0,0.0,8765.0,False
+EV-01138,U-034,Breakdown,Engine,2025-06-16 16:00:00,2025-06-17 13:28:00,19.88,0.0,1.58,8992.9,False
+EV-01139,U-034,Preventive maintenance,PM service,2025-06-18 18:00:00,2025-06-19 00:23:00,6.38,0.0,0.0,9014.1,False
+EV-01140,U-034,Preventive maintenance,PM service,2025-07-04 18:00:00,2025-07-05 02:24:00,8.41,0.0,0.0,9260.4,False
+EV-01141,U-034,Breakdown,Engine,2025-07-05 08:00:00,2025-07-05 21:36:00,10.47,2.47,0.65,9260.4,False
+EV-01142,U-034,Breakdown,Cooling,2025-07-12 12:00:00,2025-07-13 01:42:00,5.35,6.6,1.76,9360.0,False
+EV-01143,U-034,Preventive maintenance,PM service,2025-07-28 18:00:00,2025-07-29 00:42:00,6.7,0.0,0.0,9618.7,False
+EV-01144,U-034,Preventive maintenance,PM service,2025-08-06 18:00:00,2025-08-07 02:39:00,8.65,0.0,0.0,9753.2,False
+EV-01145,U-034,Breakdown,Hydraulic,2025-08-09 19:43:00,2025-08-10 02:17:00,5.74,0.0,0.84,9790.9,False
+EV-01146,U-034,Breakdown,Engine,2025-08-11 20:00:00,2025-08-12 01:42:00,5.23,0.0,0.48,9818.0,False
+EV-01147,U-034,Breakdown,Attachment / Bucket,2025-08-12 12:00:00,2025-08-13 05:06:00,6.06,9.17,1.87,9824.0,False
+EV-01148,U-034,Preventive maintenance,PM service,2025-08-24 18:00:00,2025-08-25 01:02:00,7.03,0.0,0.0,10012.8,False
+EV-01149,U-034,Breakdown,Attachment / Bucket,2025-09-04 12:00:00,2025-09-04 17:32:00,3.39,0.0,2.14,10167.7,False
+EV-01150,U-034,Preventive maintenance,PM service,2025-09-09 18:00:00,2025-09-10 03:43:00,9.72,0.0,0.0,10250.8,False
+EV-01151,U-034,Breakdown,Engine,2025-09-12 12:00:00,2025-09-13 08:32:00,19.52,0.0,1.01,10277.5,False
+EV-01152,U-034,Breakdown,Cooling,2025-09-30 12:00:00,2025-09-30 20:25:00,6.97,0.0,1.45,10543.5,True
+EV-01153,U-034,Breakdown,Cooling,2025-10-01 16:00:00,2025-10-01 22:18:00,5.09,0.0,1.21,10553.5,True
+EV-01154,U-034,Breakdown,Hydraulic,2025-10-10 16:00:00,2025-10-11 22:47:00,4.75,24.42,1.61,10660.2,True
+EV-01155,U-034,Preventive maintenance,PM service,2025-10-13 18:00:00,2025-10-14 03:10:00,9.17,0.0,0.0,10683.1,False
+EV-01156,U-034,Preventive maintenance,PM service,2025-10-19 18:00:00,2025-10-20 02:36:00,8.6,0.0,0.0,10754.3,False
+EV-01157,U-034,Preventive maintenance,PM service,2025-11-08 18:00:00,2025-11-09 00:41:00,6.69,0.0,0.0,11005.1,False
+EV-01158,U-034,Breakdown,Engine,2025-11-17 12:00:00,2025-11-18 09:59:00,14.25,5.57,2.16,11106.2,False
+EV-01159,U-034,Preventive maintenance,PM service,2025-12-05 18:00:00,2025-12-06 00:53:00,6.89,0.0,0.0,11333.2,False
+EV-01160,U-034,Breakdown,Cooling,2025-12-20 12:00:00,2025-12-21 04:36:00,2.33,13.48,0.79,11508.5,False
+EV-01161,U-035,Preventive maintenance,PM service,2025-01-12 18:00:00,2025-01-13 02:58:00,8.97,0.0,0.0,18761.5,False
+EV-01162,U-035,Preventive maintenance,PM service,2025-01-31 18:00:00,2025-02-01 02:19:00,8.31,0.0,0.0,19002.7,False
+EV-01163,U-035,Breakdown,Hydraulic,2025-02-25 08:00:00,2025-02-25 16:58:00,4.54,0.0,4.43,19286.4,True
+EV-01164,U-035,Breakdown,Electrical,2025-02-26 16:00:00,2025-02-27 05:17:00,4.57,6.7,2.01,19296.4,True
+EV-01165,U-035,Breakdown,Engine,2025-03-02 16:00:00,2025-03-03 19:25:00,10.15,16.66,0.61,19341.5,True
+EV-01166,U-035,Preventive maintenance,PM service,2025-03-12 18:00:00,2025-03-13 02:21:00,8.34,0.0,0.0,19450.1,False
+EV-01167,U-035,Preventive maintenance,PM service,2025-03-17 18:00:00,2025-03-18 01:12:00,7.2,0.0,0.0,19509.0,False
+EV-01168,U-035,Preventive maintenance,PM service,2025-04-20 18:00:00,2025-04-21 03:33:00,9.55,0.0,0.0,19942.7,False
+EV-01169,U-035,Preventive maintenance,PM service,2025-04-25 18:00:00,2025-04-26 01:49:00,7.82,0.0,0.0,20000.9,False
+EV-01170,U-035,Breakdown,Engine,2025-04-30 12:00:00,2025-05-01 11:00:00,20.81,0.0,2.2,20051.7,False
+EV-01171,U-035,Breakdown,Electrical,2025-05-15 08:00:00,2025-05-15 13:56:00,4.25,0.0,1.69,20265.8,False
+EV-01172,U-035,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 00:36:00,6.6,0.0,0.0,20362.3,False
+EV-01173,U-035,Preventive maintenance,PM service,2025-05-31 18:00:00,2025-06-01 02:31:00,8.52,0.0,0.0,20513.9,False
+EV-01174,U-035,Breakdown,Hydraulic,2025-06-11 08:00:00,2025-06-11 15:56:00,6.09,0.0,1.84,20666.0,False
+EV-01175,U-035,Preventive maintenance,PM service,2025-06-17 18:00:00,2025-06-18 02:56:00,8.93,0.0,0.0,20762.4,False
+EV-01176,U-035,Preventive maintenance,PM service,2025-07-03 18:00:00,2025-07-04 02:27:00,8.45,0.0,0.0,21008.5,False
+EV-01177,U-035,Breakdown,Engine,2025-07-18 08:00:00,2025-07-20 07:15:00,20.29,23.87,3.1,21219.8,False
+EV-01178,U-035,Preventive maintenance,PM service,2025-07-22 18:00:00,2025-07-23 03:14:00,9.23,0.0,0.0,21261.8,False
+EV-01179,U-035,Breakdown,Attachment / Bucket,2025-08-01 08:00:00,2025-08-01 19:10:00,9.61,0.0,1.55,21401.0,False
+EV-01180,U-035,Preventive maintenance,PM service,2025-08-07 18:00:00,2025-08-08 02:47:00,8.78,0.0,0.0,21500.4,False
+EV-01181,U-035,Breakdown,Hydraulic,2025-08-09 08:00:00,2025-08-10 01:46:00,4.04,12.1,1.62,21509.1,False
+EV-01182,U-035,Preventive maintenance,PM service,2025-08-24 18:00:00,2025-08-25 00:10:00,6.16,0.0,0.0,21754.2,False
+EV-01183,U-035,Preventive maintenance,PM service,2025-09-09 18:00:00,2025-09-10 01:30:00,7.5,0.0,0.0,22007.3,False
+EV-01184,U-035,Breakdown,Hydraulic,2025-09-29 19:50:00,2025-09-30 23:40:00,7.75,18.15,1.93,22316.2,True
+EV-01185,U-035,Breakdown,Engine,2025-10-03 12:00:00,2025-10-04 03:09:00,12.03,0.0,3.13,22349.9,True
+EV-01186,U-035,Breakdown,Hydraulic,2025-10-10 12:00:00,2025-10-11 02:05:00,11.12,0.0,2.97,22450.4,True
+EV-01187,U-035,Preventive maintenance,PM service,2025-10-11 18:00:00,2025-10-12 03:59:00,9.98,0.0,0.0,22467.8,False
+EV-01188,U-035,Preventive maintenance,PM service,2025-10-14 18:00:00,2025-10-15 02:59:00,8.99,0.0,0.0,22509.8,False
+EV-01189,U-035,Preventive maintenance,PM service,2025-10-30 18:00:00,2025-10-31 03:58:00,9.96,0.0,0.0,22755.4,False
+EV-01190,U-035,Preventive maintenance,PM service,2025-11-15 18:00:00,2025-11-16 02:12:00,8.2,0.0,0.0,23004.9,False
+EV-01191,U-035,Breakdown,Hydraulic,2025-12-01 12:00:00,2025-12-02 00:23:00,10.69,0.0,1.7,23242.5,False
+EV-01192,U-035,Breakdown,Hydraulic,2025-12-14 12:00:00,2025-12-15 09:08:00,15.51,4.83,0.79,23400.8,True
+EV-01193,U-035,Preventive maintenance,PM service,2025-12-17 18:00:00,2025-12-18 03:11:00,9.18,0.0,0.0,23431.0,False
+EV-01194,U-036,Preventive maintenance,PM service,2025-01-21 18:00:00,2025-01-22 00:31:00,6.52,0.0,0.0,7085.8,False
+EV-01195,U-036,Preventive maintenance,PM service,2025-02-04 18:00:00,2025-02-05 00:42:00,6.71,0.0,0.0,7259.4,False
+EV-01196,U-036,Breakdown,Undercarriage / Tyres,2025-02-20 16:00:00,2025-02-21 09:05:00,15.53,0.0,1.55,7449.8,False
+EV-01197,U-036,Preventive maintenance,PM service,2025-02-25 18:00:00,2025-02-26 02:48:00,8.8,0.0,0.0,7505.1,False
+EV-01198,U-036,Breakdown,Attachment / Bucket,2025-02-28 18:52:00,2025-03-01 00:59:00,5.6,0.0,0.5,7533.9,False
+EV-01199,U-036,Breakdown,Electrical,2025-03-14 15:28:00,2025-03-14 23:37:00,7.36,0.0,0.79,7714.6,False
+EV-01200,U-036,Preventive maintenance,PM service,2025-03-17 18:00:00,2025-03-18 00:58:00,6.96,0.0,0.0,7750.9,False
+EV-01201,U-036,Preventive maintenance,PM service,2025-04-06 18:00:00,2025-04-07 01:58:00,7.96,0.0,0.0,8000.4,False
+EV-01202,U-036,Preventive maintenance,PM service,2025-04-27 18:00:00,2025-04-28 03:15:00,9.25,0.0,0.0,8261.5,False
+EV-01203,U-036,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 01:23:00,7.39,0.0,0.0,8504.4,False
+EV-01204,U-036,Preventive maintenance,PM service,2025-06-05 18:00:00,2025-06-06 00:54:00,6.9,0.0,0.0,8754.9,False
+EV-01205,U-036,Preventive maintenance,PM service,2025-06-26 18:00:00,2025-06-27 01:34:00,7.57,0.0,0.0,9011.4,False
+EV-01206,U-036,Preventive maintenance,PM service,2025-07-12 18:00:00,2025-07-13 01:14:00,7.24,0.0,0.0,9250.5,False
+EV-01207,U-036,Breakdown,Engine,2025-08-04 12:00:00,2025-08-07 18:03:00,16.69,60.12,1.24,9600.0,True
+EV-01208,U-036,Preventive maintenance,PM service,2025-08-14 18:00:00,2025-08-15 00:53:00,6.89,0.0,0.0,9710.3,False
+EV-01209,U-036,Preventive maintenance,PM service,2025-08-17 18:00:00,2025-08-18 02:01:00,8.02,0.0,0.0,9753.5,False
+EV-01210,U-036,Preventive maintenance,PM service,2025-09-02 18:00:00,2025-09-03 02:40:00,8.67,0.0,0.0,10002.5,False
+EV-01211,U-036,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 02:26:00,8.44,0.0,0.0,10263.1,False
+EV-01212,U-036,Preventive maintenance,PM service,2025-10-05 18:00:00,2025-10-06 00:46:00,6.77,0.0,0.0,10511.0,False
+EV-01213,U-036,Breakdown,Hydraulic,2025-10-19 16:00:00,2025-10-21 06:21:00,7.85,29.74,0.76,10724.6,False
+EV-01214,U-036,Breakdown,Cooling,2025-10-29 20:00:00,2025-10-30 01:33:00,3.94,0.0,1.61,10853.6,True
+EV-01215,U-036,Preventive maintenance,PM service,2025-11-04 18:00:00,2025-11-05 03:16:00,9.27,0.0,0.0,10953.5,False
+EV-01216,U-036,Breakdown,Cooling,2025-11-14 08:00:00,2025-11-16 23:26:00,3.85,57.15,2.44,11094.6,True
+EV-01217,U-036,Preventive maintenance,PM service,2025-11-20 18:00:00,2025-11-21 00:25:00,6.42,0.0,0.0,11154.2,False
+EV-01218,U-036,Breakdown,Attachment / Bucket,2025-11-26 16:00:00,2025-11-26 19:24:00,2.69,0.0,0.72,11235.2,False
+EV-01219,U-036,Preventive maintenance,PM service,2025-11-27 18:00:00,2025-11-28 00:42:00,6.69,0.0,0.0,11254.9,False
+EV-01220,U-036,Preventive maintenance,PM service,2025-12-13 18:00:00,2025-12-14 03:19:00,9.32,0.0,0.0,11504.1,False
+EV-01221,U-036,Breakdown,Attachment / Bucket,2025-12-25 12:00:00,2025-12-29 00:51:00,5.38,78.05,1.42,11670.9,False
+EV-01222,U-037,Breakdown,Undercarriage / Tyres,2025-01-05 12:00:00,2025-01-06 18:15:00,28.03,0.0,2.22,10921.7,False
+EV-01223,U-037,Preventive maintenance,PM service,2025-01-13 18:00:00,2025-01-14 00:03:00,6.04,0.0,0.0,11012.7,False
+EV-01224,U-037,Breakdown,Attachment / Bucket,2025-01-20 16:00:00,2025-01-21 04:16:00,10.55,0.0,1.73,11094.7,False
+EV-01225,U-037,Preventive maintenance,PM service,2025-02-02 18:00:00,2025-02-03 00:26:00,6.43,0.0,0.0,11255.8,False
+EV-01226,U-037,Breakdown,Engine,2025-02-08 16:00:00,2025-02-09 04:30:00,11.45,0.0,1.05,11320.0,False
+EV-01227,U-037,Preventive maintenance,PM service,2025-02-22 18:00:00,2025-02-23 01:19:00,7.31,0.0,0.0,11501.0,False
+EV-01228,U-037,Preventive maintenance,PM service,2025-03-15 18:00:00,2025-03-16 01:47:00,7.78,0.0,0.0,11762.7,False
+EV-01229,U-037,Breakdown,Engine,2025-03-23 08:00:00,2025-03-23 22:30:00,13.52,0.0,0.98,11845.4,False
+EV-01230,U-037,Breakdown,Cooling,2025-04-02 20:00:00,2025-04-03 19:46:00,11.37,11.45,0.94,11976.4,False
+EV-01231,U-037,Preventive maintenance,PM service,2025-04-05 18:00:00,2025-04-06 00:48:00,6.8,0.0,0.0,12010.4,False
+EV-01232,U-037,Breakdown,Hydraulic,2025-04-12 16:00:00,2025-04-13 13:53:00,4.02,14.54,3.32,12106.8,False
+EV-01233,U-037,Preventive maintenance,PM service,2025-04-22 18:00:00,2025-04-23 01:12:00,7.21,0.0,0.0,12256.4,False
+EV-01234,U-037,Breakdown,Undercarriage / Tyres,2025-04-26 16:00:00,2025-04-27 02:34:00,8.87,0.0,1.7,12306.0,False
+EV-01235,U-037,Preventive maintenance,PM service,2025-05-09 18:00:00,2025-05-10 01:21:00,7.35,0.0,0.0,12511.3,False
+EV-01236,U-037,Breakdown,Hydraulic,2025-05-21 16:00:00,2025-05-23 05:41:00,16.72,19.96,1.01,12685.9,False
+EV-01237,U-037,Preventive maintenance,PM service,2025-05-27 18:00:00,2025-05-28 01:13:00,7.22,0.0,0.0,12760.3,False
+EV-01238,U-037,Breakdown,Undercarriage / Tyres,2025-06-03 20:00:00,2025-06-04 14:56:00,17.36,0.0,1.57,12859.3,False
+EV-01239,U-037,Preventive maintenance,PM service,2025-06-13 18:00:00,2025-06-14 02:52:00,8.86,0.0,0.0,13010.0,False
+EV-01240,U-037,Breakdown,Attachment / Bucket,2025-06-25 08:00:00,2025-06-26 02:18:00,4.81,11.53,1.95,13176.7,False
+EV-01241,U-037,Breakdown,Cooling,2025-06-30 19:57:00,2025-07-01 02:46:00,3.68,0.0,3.14,13255.9,False
+EV-01242,U-037,Breakdown,Engine,2025-07-01 08:00:00,2025-07-02 14:14:00,17.99,10.99,1.26,13257.9,False
+EV-01243,U-037,Preventive maintenance,PM service,2025-07-02 18:00:00,2025-07-03 03:03:00,9.05,0.0,0.0,13261.0,False
+EV-01244,U-037,Breakdown,Undercarriage / Tyres,2025-07-04 08:00:00,2025-07-04 16:46:00,6.92,0.0,1.85,13268.6,False
+EV-01245,U-037,Breakdown,Hydraulic,2025-07-19 19:24:00,2025-07-20 13:21:00,10.69,6.31,0.95,13501.7,False
+EV-01246,U-037,Preventive maintenance,PM service,2025-07-20 18:00:00,2025-07-21 00:43:00,6.71,0.0,0.0,13507.8,False
+EV-01247,U-037,Preventive maintenance,PM service,2025-08-05 18:00:00,2025-08-06 01:32:00,7.53,0.0,0.0,13753.7,False
+EV-01248,U-037,Preventive maintenance,PM service,2025-08-21 18:00:00,2025-08-22 03:45:00,9.75,0.0,0.0,14006.1,False
+EV-01249,U-037,Preventive maintenance,PM service,2025-09-06 18:00:00,2025-09-07 01:05:00,7.09,0.0,0.0,14255.0,False
+EV-01250,U-037,Breakdown,Undercarriage / Tyres,2025-09-09 20:00:00,2025-09-10 07:42:00,9.95,0.0,1.76,14295.4,False
+EV-01251,U-037,Breakdown,Hydraulic,2025-09-15 08:00:00,2025-09-15 18:49:00,7.93,0.0,2.89,14374.0,False
+EV-01252,U-037,Breakdown,Undercarriage / Tyres,2025-09-17 16:00:00,2025-09-18 05:08:00,12.16,0.0,0.98,14400.2,False
+EV-01253,U-037,Preventive maintenance,PM service,2025-10-05 18:00:00,2025-10-06 03:53:00,9.88,0.0,0.0,14684.1,False
+EV-01254,U-037,Preventive maintenance,PM service,2025-10-10 18:00:00,2025-10-11 03:36:00,9.6,0.0,0.0,14754.8,False
+EV-01255,U-037,Preventive maintenance,PM service,2025-10-26 18:00:00,2025-10-27 03:06:00,9.11,0.0,0.0,15001.6,False
+EV-01256,U-037,Breakdown,Attachment / Bucket,2025-11-02 08:00:00,2025-11-02 17:17:00,7.18,0.0,2.1,15086.6,False
+EV-01257,U-037,Preventive maintenance,PM service,2025-11-15 18:00:00,2025-11-16 00:11:00,6.19,0.0,0.0,15256.9,False
+EV-01258,U-037,Preventive maintenance,PM service,2025-12-06 18:00:00,2025-12-07 02:20:00,8.34,0.0,0.0,15513.6,False
+EV-01259,U-037,Preventive maintenance,PM service,2025-12-26 18:00:00,2025-12-27 03:31:00,9.52,0.0,0.0,15759.6,False
+EV-01260,U-037,Breakdown,Electrical,2025-12-28 12:00:00,2025-12-28 18:25:00,4.63,0.0,1.79,15768.4,False
+EV-01261,U-038,Preventive maintenance,PM service,2025-01-13 18:00:00,2025-01-14 03:36:00,9.61,0.0,0.0,2253.7,False
+EV-01262,U-038,Breakdown,Attachment / Bucket,2025-01-15 16:00:00,2025-01-16 07:37:00,5.93,8.06,1.62,2266.3,False
+EV-01263,U-038,Breakdown,Hydraulic,2025-01-27 12:00:00,2025-01-28 06:22:00,12.04,3.17,3.15,2405.4,False
+EV-01264,U-038,Preventive maintenance,PM service,2025-02-04 18:00:00,2025-02-05 01:55:00,7.92,0.0,0.0,2513.7,False
+EV-01265,U-038,Breakdown,Undercarriage / Tyres,2025-02-14 20:00:00,2025-02-15 06:43:00,9.75,0.0,0.96,2664.0,False
+EV-01266,U-038,Breakdown,Hydraulic,2025-02-18 08:00:00,2025-02-18 12:56:00,3.98,0.0,0.96,2711.6,False
+EV-01267,U-038,Breakdown,Engine,2025-02-21 16:00:00,2025-02-22 14:26:00,9.58,11.46,1.39,2752.9,False
+EV-01268,U-038,Preventive maintenance,PM service,2025-02-22 18:00:00,2025-02-23 00:32:00,6.54,0.0,0.0,2759.4,False
+EV-01269,U-038,Preventive maintenance,PM service,2025-03-10 18:00:00,2025-03-11 03:27:00,9.45,0.0,0.0,3007.5,False
+EV-01270,U-038,Breakdown,Hydraulic,2025-03-20 08:00:00,2025-03-20 14:01:00,4.56,0.0,1.45,3143.4,False
+EV-01271,U-038,Breakdown,Electrical,2025-03-25 19:45:00,2025-03-26 08:36:00,4.37,5.9,2.58,3223.7,False
+EV-01272,U-038,Preventive maintenance,PM service,2025-03-27 18:00:00,2025-03-28 02:45:00,8.75,0.0,0.0,3250.7,False
+EV-01273,U-038,Preventive maintenance,PM service,2025-04-13 18:00:00,2025-04-14 01:13:00,7.22,0.0,0.0,3513.4,False
+EV-01274,U-038,Breakdown,Cooling,2025-04-16 08:00:00,2025-04-16 14:39:00,4.79,0.0,1.86,3539.5,False
+EV-01275,U-038,Breakdown,Cooling,2025-04-25 08:00:00,2025-04-26 11:23:00,8.66,17.9,0.83,3669.2,False
+EV-01276,U-038,Breakdown,Hydraulic,2025-05-01 16:00:00,2025-05-02 09:58:00,11.21,5.44,1.31,3751.2,False
+EV-01277,U-038,Preventive maintenance,PM service,2025-05-02 18:00:00,2025-05-03 02:12:00,8.2,0.0,0.0,3763.2,False
+EV-01278,U-038,Preventive maintenance,PM service,2025-05-18 18:00:00,2025-05-19 01:53:00,7.88,0.0,0.0,4012.8,False
+EV-01279,U-038,Preventive maintenance,PM service,2025-06-03 18:00:00,2025-06-04 01:43:00,7.72,0.0,0.0,4259.2,False
+EV-01280,U-038,Breakdown,Electrical,2025-06-19 19:24:00,2025-06-19 23:35:00,2.92,0.0,1.27,4505.9,False
+EV-01281,U-038,Preventive maintenance,PM service,2025-06-19 18:00:00,2025-06-20 00:15:00,6.26,0.0,0.0,4507.3,False
+EV-01282,U-038,Breakdown,Hydraulic,2025-06-27 12:00:00,2025-06-28 01:16:00,12.67,0.0,0.6,4616.2,False
+EV-01283,U-038,Preventive maintenance,PM service,2025-07-06 18:00:00,2025-07-07 00:00:00,6.0,0.0,0.0,4764.1,False
+EV-01284,U-038,Preventive maintenance,PM service,2025-07-22 18:00:00,2025-07-23 01:28:00,7.46,0.0,0.0,5014.2,False
+EV-01285,U-038,Breakdown,Hydraulic,2025-08-03 19:27:00,2025-08-04 15:32:00,7.76,11.37,0.96,5192.2,False
+EV-01286,U-038,Preventive maintenance,PM service,2025-08-08 18:00:00,2025-08-09 01:07:00,7.11,0.0,0.0,5263.2,False
+EV-01287,U-038,Preventive maintenance,PM service,2025-08-24 18:00:00,2025-08-25 02:17:00,8.28,0.0,0.0,5507.7,False
+EV-01288,U-038,Preventive maintenance,PM service,2025-09-10 18:00:00,2025-09-11 01:38:00,7.64,0.0,0.0,5765.5,False
+EV-01289,U-038,Breakdown,Undercarriage / Tyres,2025-09-11 12:00:00,2025-09-12 00:13:00,10.6,0.0,1.63,5769.5,False
+EV-01290,U-038,Preventive maintenance,PM service,2025-09-26 18:00:00,2025-09-27 01:14:00,7.23,0.0,0.0,6010.9,False
+EV-01291,U-038,Breakdown,Hydraulic,2025-10-01 08:00:00,2025-10-01 12:11:00,3.42,0.0,0.76,6065.0,False
+EV-01292,U-038,Breakdown,Electrical,2025-10-04 12:00:00,2025-10-04 23:51:00,3.86,6.62,1.36,6094.0,False
+EV-01293,U-038,Preventive maintenance,PM service,2025-10-17 18:00:00,2025-10-18 03:57:00,9.95,0.0,0.0,6261.4,False
+EV-01294,U-038,Breakdown,Hydraulic,2025-10-19 12:00:00,2025-10-19 21:36:00,5.56,2.93,1.11,6270.8,False
+EV-01295,U-038,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 01:49:00,7.82,0.0,0.0,6510.2,False
+EV-01296,U-038,Preventive maintenance,PM service,2025-11-27 18:00:00,2025-11-28 01:10:00,7.16,0.0,0.0,6756.9,False
+EV-01297,U-038,Breakdown,Engine,2025-12-01 16:00:00,2025-12-02 01:42:00,8.97,0.0,0.73,6797.3,False
+EV-01298,U-038,Breakdown,Electrical,2025-12-14 12:00:00,2025-12-14 21:08:00,6.14,0.0,2.99,6953.7,False
+EV-01299,U-038,Breakdown,Undercarriage / Tyres,2025-12-25 12:00:00,2025-12-25 21:15:00,8.43,0.0,0.82,7088.3,True
+EV-01300,U-039,Breakdown,Engine,2025-01-06 12:00:00,2025-01-07 07:47:00,19.2,0.0,0.58,21988.7,False
+EV-01301,U-039,Preventive maintenance,PM service,2025-01-08 18:00:00,2025-01-09 01:41:00,7.69,0.0,0.0,22007.4,False
+EV-01302,U-039,Breakdown,Hydraulic,2025-01-10 08:00:00,2025-01-11 01:58:00,8.01,8.78,1.17,22012.9,False
+EV-01303,U-039,Breakdown,Hydraulic,2025-01-11 12:00:00,2025-01-11 16:28:00,3.57,0.0,0.91,22018.9,False
+EV-01304,U-039,Preventive maintenance,PM service,2025-01-30 18:00:00,2025-01-31 02:33:00,8.55,0.0,0.0,22263.8,False
+EV-01305,U-039,Preventive maintenance,PM service,2025-02-19 18:00:00,2025-02-20 02:39:00,8.65,0.0,0.0,22501.8,False
+EV-01306,U-039,Preventive maintenance,PM service,2025-03-11 18:00:00,2025-03-12 00:30:00,6.5,0.0,0.0,22751.6,False
+EV-01307,U-039,Breakdown,Hydraulic,2025-03-15 08:00:00,2025-03-16 08:54:00,5.05,17.97,1.88,22784.4,False
+EV-01308,U-039,Preventive maintenance,PM service,2025-04-03 18:00:00,2025-04-04 01:25:00,7.42,0.0,0.0,23009.8,False
+EV-01309,U-039,Preventive maintenance,PM service,2025-04-23 18:00:00,2025-04-24 01:39:00,7.65,0.0,0.0,23258.9,False
+EV-01310,U-039,Breakdown,Electrical,2025-04-25 19:25:00,2025-04-25 23:24:00,1.36,0.0,2.63,23276.2,False
+EV-01311,U-039,Breakdown,Undercarriage / Tyres,2025-05-02 08:00:00,2025-05-02 21:19:00,8.13,0.0,5.19,23357.2,False
+EV-01312,U-039,Preventive maintenance,PM service,2025-05-19 18:00:00,2025-05-20 02:56:00,8.93,0.0,0.0,23631.0,False
+EV-01313,U-039,Breakdown,Hydraulic,2025-05-20 08:00:00,2025-05-20 20:48:00,4.03,6.64,2.13,23631.0,False
+EV-01314,U-039,Preventive maintenance,PM service,2025-05-28 18:00:00,2025-05-29 00:12:00,6.21,0.0,0.0,23755.5,False
+EV-01315,U-039,Breakdown,Cooling,2025-06-16 12:00:00,2025-06-16 22:57:00,4.14,5.66,1.16,24042.8,True
+EV-01316,U-039,Preventive maintenance,PM service,2025-06-20 18:00:00,2025-06-21 01:33:00,7.56,0.0,0.0,24109.5,False
+EV-01317,U-039,Breakdown,Engine,2025-07-04 08:00:00,2025-07-05 12:55:00,12.56,15.42,0.93,24313.5,True
+EV-01318,U-039,Preventive maintenance,PM service,2025-07-06 18:00:00,2025-07-07 03:47:00,9.78,0.0,0.0,24338.3,False
+EV-01319,U-039,Breakdown,Engine,2025-07-16 16:00:00,2025-07-18 14:45:00,11.05,34.56,1.14,24485.6,False
+EV-01320,U-039,Preventive maintenance,PM service,2025-07-19 18:00:00,2025-07-20 02:47:00,8.78,0.0,0.0,24504.6,False
+EV-01321,U-039,Breakdown,Hydraulic,2025-07-20 12:00:00,2025-07-20 19:15:00,4.9,0.0,2.35,24508.6,False
+EV-01322,U-039,Breakdown,Electrical,2025-07-29 16:00:00,2025-07-30 04:55:00,12.01,0.0,0.91,24645.4,False
+EV-01323,U-039,Breakdown,Hydraulic,2025-07-31 19:34:00,2025-07-31 23:43:00,2.97,0.0,1.17,24671.6,False
+EV-01324,U-039,Preventive maintenance,PM service,2025-08-05 18:00:00,2025-08-06 02:06:00,8.1,0.0,0.0,24752.4,False
+EV-01325,U-039,Breakdown,Hydraulic,2025-08-14 08:00:00,2025-08-14 19:15:00,9.46,0.0,1.79,24878.6,False
+EV-01326,U-039,Breakdown,Electrical,2025-08-19 16:00:00,2025-08-20 02:21:00,2.66,6.12,1.57,24952.9,False
+EV-01327,U-039,Breakdown,Electrical,2025-08-21 12:00:00,2025-08-21 17:53:00,4.35,0.0,1.53,24972.3,False
+EV-01328,U-039,Breakdown,Undercarriage / Tyres,2025-08-27 16:00:00,2025-08-28 03:05:00,7.97,0.0,3.1,25061.0,True
+EV-01329,U-039,Preventive maintenance,PM service,2025-08-29 18:00:00,2025-08-30 02:20:00,8.33,0.0,0.0,25093.0,False
+EV-01330,U-039,Preventive maintenance,PM service,2025-09-14 18:00:00,2025-09-15 01:50:00,7.84,0.0,0.0,25347.8,False
+EV-01331,U-039,Preventive maintenance,PM service,2025-09-24 18:00:00,2025-09-25 03:45:00,9.75,0.0,0.0,25501.0,False
+EV-01332,U-039,Breakdown,Hydraulic,2025-10-06 20:00:00,2025-10-07 13:13:00,8.87,6.8,1.54,25679.0,False
+EV-01333,U-039,Preventive maintenance,PM service,2025-10-11 18:00:00,2025-10-12 01:43:00,7.72,0.0,0.0,25752.1,False
+EV-01334,U-039,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 02:29:00,8.49,0.0,0.0,26144.3,False
+EV-01335,U-039,Preventive maintenance,PM service,2025-11-12 18:00:00,2025-11-13 03:17:00,9.28,0.0,0.0,26251.6,False
+EV-01336,U-039,Breakdown,Electrical,2025-11-16 12:00:00,2025-11-17 02:46:00,4.83,7.27,2.67,26296.9,False
+EV-01337,U-039,Preventive maintenance,PM service,2025-12-03 18:00:00,2025-12-04 02:31:00,8.52,0.0,0.0,26563.3,False
+EV-01338,U-039,Preventive maintenance,PM service,2025-12-18 18:00:00,2025-12-19 04:00:00,10.0,0.0,0.0,26753.4,False
+EV-01339,U-039,Breakdown,Engine,2025-12-26 08:00:00,2025-12-27 06:27:00,8.98,7.78,5.69,26835.2,False
+EV-01340,U-040,Preventive maintenance,PM service,2025-01-04 18:00:00,2025-01-05 00:30:00,6.5,0.0,0.0,5757.6,False
+EV-01341,U-040,Preventive maintenance,PM service,2025-02-02 18:00:00,2025-02-03 01:50:00,7.83,0.0,0.0,6124.5,False
+EV-01342,U-040,Preventive maintenance,PM service,2025-02-13 18:00:00,2025-02-14 01:29:00,7.49,0.0,0.0,6254.7,False
+EV-01343,U-040,Breakdown,Electrical,2025-02-18 16:00:00,2025-02-20 23:30:00,3.62,50.77,1.11,6303.5,False
+EV-01344,U-040,Preventive maintenance,PM service,2025-03-08 18:00:00,2025-03-09 00:04:00,6.06,0.0,0.0,6501.9,False
+EV-01345,U-040,Preventive maintenance,PM service,2025-03-29 18:00:00,2025-03-30 01:14:00,7.23,0.0,0.0,6760.3,False
+EV-01346,U-040,Preventive maintenance,PM service,2025-04-25 18:00:00,2025-04-26 01:58:00,7.97,0.0,0.0,7096.9,False
+EV-01347,U-040,Breakdown,Attachment / Bucket,2025-05-15 12:00:00,2025-05-17 00:57:00,4.72,31.03,1.2,7341.0,True
+EV-01348,U-040,Preventive maintenance,PM service,2025-05-26 18:00:00,2025-05-27 01:00:00,7.0,0.0,0.0,7465.7,False
+EV-01349,U-040,Preventive maintenance,PM service,2025-05-29 18:00:00,2025-05-30 00:39:00,6.66,0.0,0.0,7500.1,False
+EV-01350,U-040,Breakdown,Engine,2025-05-31 12:00:00,2025-06-01 00:37:00,9.55,0.0,3.07,7512.1,False
+EV-01351,U-040,Preventive maintenance,PM service,2025-06-19 18:00:00,2025-06-20 03:28:00,9.47,0.0,0.0,7752.3,False
+EV-01352,U-040,Preventive maintenance,PM service,2025-07-08 18:00:00,2025-07-09 02:09:00,8.14,0.0,0.0,8011.0,False
+EV-01353,U-040,Preventive maintenance,PM service,2025-07-24 18:00:00,2025-07-25 02:22:00,8.36,0.0,0.0,8258.6,False
+EV-01354,U-040,Breakdown,Cooling,2025-07-30 08:00:00,2025-08-02 10:02:00,2.63,69.56,1.84,8332.1,False
+EV-01355,U-040,Preventive maintenance,PM service,2025-08-13 18:00:00,2025-08-14 00:09:00,6.14,0.0,0.0,8510.9,False
+EV-01356,U-040,Preventive maintenance,PM service,2025-08-29 18:00:00,2025-08-30 03:27:00,9.46,0.0,0.0,8757.6,False
+EV-01357,U-040,Preventive maintenance,PM service,2025-09-14 18:00:00,2025-09-15 02:49:00,8.82,0.0,0.0,9001.0,False
+EV-01358,U-040,Breakdown,Hydraulic,2025-09-16 20:00:00,2025-09-19 17:01:00,3.57,64.15,1.3,9021.4,False
+EV-01359,U-040,Breakdown,Electrical,2025-09-24 16:00:00,2025-09-26 13:01:00,7.2,32.98,4.84,9093.0,False
+EV-01360,U-040,Breakdown,Hydraulic,2025-09-30 16:00:00,2025-10-01 06:31:00,10.62,0.0,3.9,9154.1,False
+EV-01361,U-040,Preventive maintenance,PM service,2025-10-07 18:00:00,2025-10-08 02:57:00,8.95,0.0,0.0,9260.6,False
+EV-01362,U-040,Breakdown,Cooling,2025-10-11 12:00:00,2025-10-15 15:13:00,2.83,95.35,1.03,9304.1,False
+EV-01363,U-040,Breakdown,Hydraulic,2025-10-20 16:00:00,2025-10-20 23:52:00,4.48,0.0,3.38,9373.5,False
+EV-01364,U-040,Preventive maintenance,PM service,2025-10-28 18:00:00,2025-10-29 03:34:00,9.57,0.0,0.0,9502.3,False
+EV-01365,U-040,Breakdown,Hydraulic,2025-11-19 20:00:00,2025-11-21 22:12:00,12.94,35.77,1.48,9847.3,True
+EV-01366,U-040,Preventive maintenance,PM service,2025-11-22 18:00:00,2025-11-23 00:08:00,6.13,0.0,0.0,9861.0,False
+EV-01367,U-040,Preventive maintenance,PM service,2025-12-01 18:00:00,2025-12-02 02:47:00,8.78,0.0,0.0,10001.2,False
+EV-01368,U-040,Preventive maintenance,PM service,2025-12-18 18:00:00,2025-12-19 03:42:00,9.69,0.0,0.0,10262.6,False
+EV-01369,U-041,Breakdown,Undercarriage / Tyres,2025-01-07 12:00:00,2025-01-07 23:07:00,9.47,0.0,1.64,8503.5,False
+EV-01370,U-041,Preventive maintenance,PM service,2025-01-08 18:00:00,2025-01-09 02:08:00,8.13,0.0,0.0,8515.2,False
+EV-01371,U-041,Breakdown,Hydraulic,2025-01-17 16:00:00,2025-01-18 22:48:00,8.23,20.63,1.92,8620.5,False
+EV-01372,U-041,Preventive maintenance,PM service,2025-01-29 18:00:00,2025-01-30 00:17:00,6.29,0.0,0.0,8759.3,False
+EV-01373,U-041,Preventive maintenance,PM service,2025-02-18 18:00:00,2025-02-19 01:41:00,7.68,0.0,0.0,9009.9,False
+EV-01374,U-041,Breakdown,Undercarriage / Tyres,2025-03-05 08:00:00,2025-03-05 17:06:00,7.3,0.0,1.8,9179.5,False
+EV-01375,U-041,Preventive maintenance,PM service,2025-03-11 18:00:00,2025-03-12 02:33:00,8.55,0.0,0.0,9260.8,False
+EV-01376,U-041,Breakdown,Electrical,2025-03-23 12:00:00,2025-03-24 10:01:00,1.97,19.49,0.56,9398.1,False
+EV-01377,U-041,Preventive maintenance,PM service,2025-04-01 18:00:00,2025-04-02 02:29:00,8.48,0.0,0.0,9508.7,False
+EV-01378,U-041,Breakdown,Engine,2025-04-03 16:00:00,2025-04-04 02:17:00,7.97,0.0,2.32,9524.8,False
+EV-01379,U-041,Preventive maintenance,PM service,2025-04-18 18:00:00,2025-04-19 02:21:00,8.34,0.0,0.0,9762.9,False
+EV-01380,U-041,Preventive maintenance,PM service,2025-05-04 18:00:00,2025-05-05 00:57:00,6.95,0.0,0.0,10014.3,False
+EV-01381,U-041,Breakdown,Hydraulic,2025-05-14 12:00:00,2025-05-14 23:39:00,8.48,0.0,3.17,10157.0,False
+EV-01382,U-041,Preventive maintenance,PM service,2025-05-20 18:00:00,2025-05-21 01:39:00,7.66,0.0,0.0,10258.2,False
+EV-01383,U-041,Preventive maintenance,PM service,2025-06-05 18:00:00,2025-06-06 03:31:00,9.51,0.0,0.0,10506.7,False
+EV-01384,U-041,Breakdown,Attachment / Bucket,2025-06-08 08:00:00,2025-06-09 02:16:00,3.92,9.99,4.35,10531.2,False
+EV-01385,U-041,Preventive maintenance,PM service,2025-06-22 18:00:00,2025-06-23 00:08:00,6.13,0.0,0.0,10757.2,False
+EV-01386,U-041,Preventive maintenance,PM service,2025-07-08 18:00:00,2025-07-09 00:43:00,6.72,0.0,0.0,11006.0,False
+EV-01387,U-041,Preventive maintenance,PM service,2025-07-25 18:00:00,2025-07-26 03:24:00,9.41,0.0,0.0,11266.0,False
+EV-01388,U-041,Preventive maintenance,PM service,2025-08-10 18:00:00,2025-08-11 03:40:00,9.67,0.0,0.0,11506.5,False
+EV-01389,U-041,Breakdown,Undercarriage / Tyres,2025-08-30 08:00:00,2025-08-31 13:31:00,21.36,7.06,1.09,11803.3,True
+EV-01390,U-041,Preventive maintenance,PM service,2025-09-05 18:00:00,2025-09-06 01:18:00,7.29,0.0,0.0,11892.2,False
+EV-01391,U-041,Preventive maintenance,PM service,2025-09-12 18:00:00,2025-09-13 02:53:00,8.88,0.0,0.0,12000.5,False
+EV-01392,U-041,Breakdown,Attachment / Bucket,2025-09-14 08:00:00,2025-09-14 22:34:00,13.04,0.0,1.53,12008.2,False
+EV-01393,U-041,Breakdown,Hydraulic,2025-09-16 19:47:00,2025-09-17 13:42:00,4.09,11.87,1.96,12037.6,False
+EV-01394,U-041,Breakdown,Undercarriage / Tyres,2025-09-30 20:00:00,2025-10-01 17:44:00,6.35,13.12,2.27,12250.6,False
+EV-01395,U-041,Preventive maintenance,PM service,2025-10-01 18:00:00,2025-10-02 02:22:00,8.37,0.0,0.0,12253.4,False
+EV-01396,U-041,Breakdown,Engine,2025-10-03 20:00:00,2025-10-04 03:51:00,6.16,0.0,1.68,12275.2,False
+EV-01397,U-041,Preventive maintenance,PM service,2025-10-18 18:00:00,2025-10-19 01:37:00,7.62,0.0,0.0,12514.5,False
+EV-01398,U-041,Preventive maintenance,PM service,2025-11-03 18:00:00,2025-11-04 02:57:00,8.94,0.0,0.0,12756.2,False
+EV-01399,U-041,Preventive maintenance,PM service,2025-11-23 18:00:00,2025-11-24 03:21:00,9.35,0.0,0.0,13004.8,False
+EV-01400,U-041,Breakdown,Hydraulic,2025-11-28 12:00:00,2025-11-29 16:53:00,16.19,10.7,1.99,13051.6,False
+EV-01401,U-041,Breakdown,Cooling,2025-12-05 12:00:00,2025-12-06 09:56:00,9.26,10.45,2.22,13119.5,False
+EV-01402,U-041,Preventive maintenance,PM service,2025-12-16 18:00:00,2025-12-17 01:19:00,7.31,0.0,0.0,13255.9,False
+EV-01403,U-041,Breakdown,Cooling,2025-12-18 08:00:00,2025-12-18 19:21:00,2.48,7.28,1.59,13263.3,False
+EV-01404,U-042,Preventive maintenance,PM service,2025-01-10 18:00:00,2025-01-11 03:14:00,9.24,0.0,0.0,23254.5,False
+EV-01405,U-042,Preventive maintenance,PM service,2025-01-30 18:00:00,2025-01-31 02:08:00,8.13,0.0,0.0,23508.5,False
+EV-01406,U-042,Breakdown,Electrical,2025-02-04 16:00:00,2025-02-04 20:17:00,3.46,0.0,0.82,23568.5,False
+EV-01407,U-042,Preventive maintenance,PM service,2025-02-15 18:00:00,2025-02-16 02:15:00,8.25,0.0,0.0,23752.2,False
+EV-01408,U-042,Preventive maintenance,PM service,2025-03-04 18:00:00,2025-03-05 01:22:00,7.37,0.0,0.0,24015.1,False
+EV-01409,U-042,Breakdown,Electrical,2025-03-18 12:00:00,2025-03-19 12:20:00,4.91,17.16,2.26,24223.2,False
+EV-01410,U-042,Preventive maintenance,PM service,2025-03-21 18:00:00,2025-03-22 00:32:00,6.54,0.0,0.0,24263.2,False
+EV-01411,U-042,Preventive maintenance,PM service,2025-04-06 18:00:00,2025-04-07 00:08:00,6.14,0.0,0.0,24512.2,False
+EV-01412,U-042,Preventive maintenance,PM service,2025-05-05 18:00:00,2025-05-06 02:29:00,8.48,0.0,0.0,24964.8,False
+EV-01413,U-042,Preventive maintenance,PM service,2025-05-08 18:00:00,2025-05-09 01:48:00,7.81,0.0,0.0,25002.7,False
+EV-01414,U-042,Breakdown,Undercarriage / Tyres,2025-05-12 19:32:00,2025-05-13 02:51:00,2.29,1.91,3.13,25056.0,False
+EV-01415,U-042,Preventive maintenance,PM service,2025-05-25 18:00:00,2025-05-26 01:59:00,7.99,0.0,0.0,25262.2,False
+EV-01416,U-042,Breakdown,Undercarriage / Tyres,2025-06-02 16:00:00,2025-06-03 00:08:00,6.51,0.0,1.62,25377.6,False
+EV-01417,U-042,Preventive maintenance,PM service,2025-06-10 18:00:00,2025-06-11 03:37:00,9.62,0.0,0.0,25506.3,False
+EV-01418,U-042,Preventive maintenance,PM service,2025-06-26 18:00:00,2025-06-27 03:55:00,9.91,0.0,0.0,25753.7,False
+EV-01419,U-042,Preventive maintenance,PM service,2025-07-12 18:00:00,2025-07-13 02:31:00,8.52,0.0,0.0,26001.2,False
+EV-01420,U-042,Preventive maintenance,PM service,2025-07-29 18:00:00,2025-07-30 00:18:00,6.3,0.0,0.0,26265.7,False
+EV-01421,U-042,Preventive maintenance,PM service,2025-08-14 18:00:00,2025-08-15 03:42:00,9.7,0.0,0.0,26512.4,False
+EV-01422,U-042,Breakdown,Hydraulic,2025-08-21 12:00:00,2025-08-22 04:31:00,10.66,4.92,0.94,26605.0,False
+EV-01423,U-042,Preventive maintenance,PM service,2025-08-30 18:00:00,2025-08-31 01:02:00,7.04,0.0,0.0,26753.0,False
+EV-01424,U-042,Preventive maintenance,PM service,2025-09-15 18:00:00,2025-09-16 03:09:00,9.15,0.0,0.0,27004.8,False
+EV-01425,U-042,Preventive maintenance,PM service,2025-10-02 18:00:00,2025-10-03 03:06:00,9.09,0.0,0.0,27258.4,False
+EV-01426,U-042,Preventive maintenance,PM service,2025-10-22 18:00:00,2025-10-23 03:48:00,9.81,0.0,0.0,27503.4,False
+EV-01427,U-042,Breakdown,Engine,2025-11-02 08:00:00,2025-11-02 16:27:00,7.83,0.0,0.62,27623.4,False
+EV-01428,U-042,Preventive maintenance,PM service,2025-11-12 18:00:00,2025-11-13 02:44:00,8.74,0.0,0.0,27754.2,False
+EV-01429,U-042,Preventive maintenance,PM service,2025-12-03 18:00:00,2025-12-04 00:28:00,6.47,0.0,0.0,28005.6,False
+EV-01430,U-042,Preventive maintenance,PM service,2025-12-23 18:00:00,2025-12-24 00:47:00,6.79,0.0,0.0,28261.9,False
+EV-01431,U-043,Breakdown,Hydraulic,2025-01-01 12:00:00,2025-01-01 23:56:00,10.72,0.0,1.22,14238.0,False
+EV-01432,U-043,Breakdown,Hydraulic,2025-01-10 08:00:00,2025-01-11 02:49:00,6.57,10.35,1.9,14337.4,True
+EV-01433,U-043,Preventive maintenance,PM service,2025-01-19 18:00:00,2025-01-20 01:53:00,7.89,0.0,0.0,14440.6,False
+EV-01434,U-043,Breakdown,Undercarriage / Tyres,2025-01-24 08:00:00,2025-01-25 03:04:00,16.51,0.0,2.56,14482.4,False
+EV-01435,U-043,Preventive maintenance,PM service,2025-01-26 18:00:00,2025-01-27 01:15:00,7.26,0.0,0.0,14502.4,False
+EV-01436,U-043,Preventive maintenance,PM service,2025-02-15 18:00:00,2025-02-16 00:22:00,6.37,0.0,0.0,14750.1,False
+EV-01437,U-043,Breakdown,Engine,2025-02-16 11:34:00,2025-02-16 15:42:00,2.99,0.0,1.14,14754.1,False
+EV-01438,U-043,Breakdown,Engine,2025-03-14 08:00:00,2025-03-15 07:39:00,14.03,8.92,0.7,15064.7,True
+EV-01439,U-043,Breakdown,Cooling,2025-03-20 16:00:00,2025-03-21 14:49:00,10.07,11.94,0.8,15129.1,True
+EV-01440,U-043,Preventive maintenance,PM service,2025-03-21 18:00:00,2025-03-22 00:41:00,6.69,0.0,0.0,15131.1,False
+EV-01441,U-043,Breakdown,Cooling,2025-03-31 12:00:00,2025-03-31 21:54:00,8.57,0.0,1.34,15243.1,False
+EV-01442,U-043,Breakdown,Engine,2025-04-10 16:00:00,2025-04-11 12:07:00,18.75,0.0,1.36,15362.9,True
+EV-01443,U-043,Breakdown,Cooling,2025-04-13 15:38:00,2025-04-13 19:39:00,2.77,0.0,1.25,15388.0,True
+EV-01444,U-043,Preventive maintenance,PM service,2025-04-15 18:00:00,2025-04-16 03:08:00,9.13,0.0,0.0,15413.8,False
+EV-01445,U-043,Preventive maintenance,PM service,2025-04-23 18:00:00,2025-04-24 03:24:00,9.4,0.0,0.0,15510.1,False
+EV-01446,U-043,Preventive maintenance,PM service,2025-05-21 18:00:00,2025-05-22 03:45:00,9.75,0.0,0.0,15934.7,False
+EV-01447,U-043,Preventive maintenance,PM service,2025-05-26 18:00:00,2025-05-27 01:40:00,7.66,0.0,0.0,16011.9,False
+EV-01448,U-043,Breakdown,Cooling,2025-06-03 22:32:00,2025-06-04 03:40:00,3.46,0.0,1.69,16135.1,False
+EV-01449,U-043,Preventive maintenance,PM service,2025-06-11 18:00:00,2025-06-12 02:41:00,8.68,0.0,0.0,16261.1,False
+EV-01450,U-043,Breakdown,Undercarriage / Tyres,2025-06-17 20:00:00,2025-06-18 21:35:00,8.73,14.19,2.66,16342.3,False
+EV-01451,U-043,Breakdown,Attachment / Bucket,2025-06-23 19:50:00,2025-06-25 05:29:00,9.77,22.55,1.32,16418.4,False
+EV-01452,U-043,Preventive maintenance,PM service,2025-07-13 18:00:00,2025-07-14 03:16:00,9.27,0.0,0.0,16715.8,False
+EV-01453,U-043,Preventive maintenance,PM service,2025-07-16 18:00:00,2025-07-17 02:09:00,8.15,0.0,0.0,16757.2,False
+EV-01454,U-043,Preventive maintenance,PM service,2025-08-05 18:00:00,2025-08-06 03:04:00,9.06,0.0,0.0,17065.7,False
+EV-01455,U-043,Breakdown,Undercarriage / Tyres,2025-08-21 20:00:00,2025-08-22 19:57:00,11.85,10.27,1.83,17311.4,True
+EV-01456,U-043,Breakdown,Electrical,2025-08-23 16:00:00,2025-08-23 20:57:00,3.92,0.0,1.04,17321.4,True
+EV-01457,U-043,Preventive maintenance,PM service,2025-08-25 18:00:00,2025-08-26 03:41:00,9.69,0.0,0.0,17356.3,False
+EV-01458,U-043,Preventive maintenance,PM service,2025-09-04 18:00:00,2025-09-05 02:47:00,8.78,0.0,0.0,17505.7,False
+EV-01459,U-043,Preventive maintenance,PM service,2025-09-20 18:00:00,2025-09-21 00:13:00,6.21,0.0,0.0,17756.6,False
+EV-01460,U-043,Preventive maintenance,PM service,2025-10-19 18:00:00,2025-10-20 03:49:00,9.81,0.0,0.0,18217.5,False
+EV-01461,U-043,Breakdown,Engine,2025-10-27 20:00:00,2025-10-28 04:12:00,7.4,0.0,0.8,18333.9,True
+EV-01462,U-043,Preventive maintenance,PM service,2025-11-05 18:00:00,2025-11-06 01:16:00,7.26,0.0,0.0,18475.5,False
+EV-01463,U-043,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 01:55:00,7.92,0.0,0.0,18500.9,False
+EV-01464,U-043,Preventive maintenance,PM service,2025-11-23 18:00:00,2025-11-24 03:26:00,9.44,0.0,0.0,18753.6,False
+EV-01465,U-043,Preventive maintenance,PM service,2025-12-12 18:00:00,2025-12-13 00:27:00,6.44,0.0,0.0,19010.1,False
+EV-01466,U-043,Breakdown,Undercarriage / Tyres,2025-12-21 16:00:00,2025-12-22 21:57:00,14.69,13.46,1.79,19113.0,False
+EV-01467,U-044,Preventive maintenance,PM service,2025-01-13 18:00:00,2025-01-14 00:41:00,6.68,0.0,0.0,22503.7,False
+EV-01468,U-044,Breakdown,Hydraulic,2025-01-16 12:00:00,2025-01-16 19:49:00,6.69,0.0,1.13,22529.9,False
+EV-01469,U-044,Preventive maintenance,PM service,2025-02-02 18:00:00,2025-02-03 01:19:00,7.31,0.0,0.0,22757.4,False
+EV-01470,U-044,Breakdown,Hydraulic,2025-02-03 08:00:00,2025-02-03 16:20:00,6.71,0.0,1.62,22757.4,False
+EV-01471,U-044,Breakdown,Undercarriage / Tyres,2025-02-28 08:00:00,2025-02-28 21:55:00,11.38,0.0,2.54,23064.4,True
+EV-01472,U-044,Breakdown,Engine,2025-03-03 12:00:00,2025-03-04 16:34:00,3.02,22.24,3.31,23095.0,True
+EV-01473,U-044,Preventive maintenance,PM service,2025-03-13 18:00:00,2025-03-14 03:16:00,9.27,0.0,0.0,23215.7,False
+EV-01474,U-044,Preventive maintenance,PM service,2025-03-17 18:00:00,2025-03-18 01:28:00,7.47,0.0,0.0,23256.1,False
+EV-01475,U-044,Preventive maintenance,PM service,2025-04-06 18:00:00,2025-04-07 00:07:00,6.12,0.0,0.0,23503.2,False
+EV-01476,U-044,Preventive maintenance,PM service,2025-05-02 18:00:00,2025-05-03 00:51:00,6.86,0.0,0.0,23823.8,False
+EV-01477,U-044,Preventive maintenance,PM service,2025-05-16 18:00:00,2025-05-17 02:37:00,8.61,0.0,0.0,24000.7,False
+EV-01478,U-044,Preventive maintenance,PM service,2025-06-06 18:00:00,2025-06-07 00:32:00,6.54,0.0,0.0,24258.7,False
+EV-01479,U-044,Preventive maintenance,PM service,2025-06-26 18:00:00,2025-06-27 02:24:00,8.39,0.0,0.0,24504.9,False
+EV-01480,U-044,Breakdown,Engine,2025-07-15 16:00:00,2025-07-16 19:46:00,4.41,19.4,3.95,24775.8,True
+EV-01481,U-044,Preventive maintenance,PM service,2025-07-25 18:00:00,2025-07-26 02:40:00,8.67,0.0,0.0,24919.2,False
+EV-01482,U-044,Breakdown,Hydraulic,2025-08-03 19:50:00,2025-08-04 07:23:00,10.29,0.0,1.26,25055.1,True
+EV-01483,U-044,Preventive maintenance,PM service,2025-08-04 18:00:00,2025-08-05 00:39:00,6.65,0.0,0.0,25066.7,False
+EV-01484,U-044,Breakdown,Hydraulic,2025-08-09 08:00:00,2025-08-09 20:12:00,10.58,0.0,1.62,25125.2,False
+EV-01485,U-044,Preventive maintenance,PM service,2025-08-17 18:00:00,2025-08-18 01:42:00,7.7,0.0,0.0,25258.0,False
+EV-01486,U-044,Preventive maintenance,PM service,2025-09-02 18:00:00,2025-09-03 00:31:00,6.52,0.0,0.0,25508.1,False
+EV-01487,U-044,Breakdown,Attachment / Bucket,2025-09-17 20:00:00,2025-09-18 01:49:00,3.4,0.0,2.41,25732.3,False
+EV-01488,U-044,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 02:36:00,8.6,0.0,0.0,25763.8,False
+EV-01489,U-044,Preventive maintenance,PM service,2025-10-10 18:00:00,2025-10-11 01:45:00,7.75,0.0,0.0,26095.2,False
+EV-01490,U-044,Preventive maintenance,PM service,2025-10-21 18:00:00,2025-10-22 02:46:00,8.77,0.0,0.0,26264.5,False
+EV-01491,U-044,Preventive maintenance,PM service,2025-11-06 18:00:00,2025-11-07 01:33:00,7.55,0.0,0.0,26509.6,False
+EV-01492,U-044,Breakdown,Engine,2025-11-10 16:00:00,2025-11-13 09:23:00,9.95,52.16,3.27,26557.9,False
+EV-01493,U-044,Preventive maintenance,PM service,2025-11-25 18:00:00,2025-11-26 03:10:00,9.16,0.0,0.0,26752.4,False
+EV-01494,U-044,Breakdown,Cooling,2025-12-01 20:00:00,2025-12-04 17:59:00,6.09,63.09,0.8,26834.1,False
+EV-01495,U-044,Preventive maintenance,PM service,2025-12-15 18:00:00,2025-12-16 02:50:00,8.84,0.0,0.0,27009.7,False
+EV-01496,U-044,Preventive maintenance,PM service,2025-12-31 18:00:00,2026-01-01 01:51:00,7.86,0.0,0.0,27255.4,False
+EV-01497,U-045,Breakdown,Electrical,2025-01-05 16:00:00,2025-01-06 10:30:00,2.4,14.95,1.14,17413.8,False
+EV-01498,U-045,Preventive maintenance,PM service,2025-01-13 18:00:00,2025-01-14 01:10:00,7.16,0.0,0.0,17509.0,False
+EV-01499,U-045,Breakdown,Engine,2025-01-20 16:00:00,2025-01-21 12:01:00,17.97,0.0,2.05,17586.8,False
+EV-01500,U-045,Preventive maintenance,PM service,2025-02-03 18:00:00,2025-02-04 01:30:00,7.49,0.0,0.0,17757.8,False
+EV-01501,U-045,Breakdown,Undercarriage / Tyres,2025-02-18 16:00:00,2025-02-18 21:00:00,3.48,0.0,1.52,17936.6,False
+EV-01502,U-045,Preventive maintenance,PM service,2025-02-23 18:00:00,2025-02-24 01:06:00,7.09,0.0,0.0,18001.9,False
+EV-01503,U-045,Preventive maintenance,PM service,2025-03-16 18:00:00,2025-03-17 02:31:00,8.52,0.0,0.0,18262.2,False
+EV-01504,U-045,Preventive maintenance,PM service,2025-04-04 18:00:00,2025-04-05 03:24:00,9.39,0.0,0.0,18511.9,False
+EV-01505,U-045,Breakdown,Hydraulic,2025-04-12 08:00:00,2025-04-14 01:53:00,11.52,29.06,1.29,18615.3,False
+EV-01506,U-045,Preventive maintenance,PM service,2025-04-22 18:00:00,2025-04-23 02:50:00,8.83,0.0,0.0,18751.4,False
+EV-01507,U-045,Breakdown,Engine,2025-04-27 19:33:00,2025-04-28 22:05:00,16.6,9.18,0.76,18823.9,False
+EV-01508,U-045,Preventive maintenance,PM service,2025-05-09 18:00:00,2025-05-10 00:08:00,6.13,0.0,0.0,19001.8,False
+EV-01509,U-045,Breakdown,Electrical,2025-05-15 16:00:00,2025-05-16 01:38:00,6.74,0.0,2.89,19086.0,False
+EV-01510,U-045,Breakdown,Electrical,2025-05-18 16:00:00,2025-05-19 10:50:00,4.77,9.19,4.87,19126.2,False
+EV-01511,U-045,Preventive maintenance,PM service,2025-05-27 18:00:00,2025-05-28 00:41:00,6.68,0.0,0.0,19258.4,False
+EV-01512,U-045,Breakdown,Engine,2025-05-30 16:00:00,2025-05-31 08:42:00,8.39,7.27,1.04,19292.3,False
+EV-01513,U-045,Preventive maintenance,PM service,2025-06-13 18:00:00,2025-06-14 00:33:00,6.55,0.0,0.0,19515.5,False
+EV-01514,U-045,Breakdown,Electrical,2025-06-21 22:47:00,2025-06-22 05:37:00,4.94,0.0,1.9,19642.6,False
+EV-01515,U-045,Breakdown,Cooling,2025-06-22 12:00:00,2025-06-23 11:19:00,15.61,5.48,2.23,19647.4,False
+EV-01516,U-045,Preventive maintenance,PM service,2025-06-30 18:00:00,2025-07-01 00:24:00,6.4,0.0,0.0,19761.4,False
+EV-01517,U-045,Preventive maintenance,PM service,2025-07-16 18:00:00,2025-07-17 03:56:00,9.93,0.0,0.0,20013.3,False
+EV-01518,U-045,Preventive maintenance,PM service,2025-08-01 18:00:00,2025-08-02 01:06:00,7.1,0.0,0.0,20256.3,False
+EV-01519,U-045,Breakdown,Electrical,2025-08-06 12:00:00,2025-08-06 23:32:00,2.99,6.57,1.98,20318.1,False
+EV-01520,U-045,Preventive maintenance,PM service,2025-08-18 18:00:00,2025-08-19 03:24:00,9.39,0.0,0.0,20510.1,False
+EV-01521,U-045,Preventive maintenance,PM service,2025-09-03 18:00:00,2025-09-04 00:49:00,6.82,0.0,0.0,20758.6,False
+EV-01522,U-045,Preventive maintenance,PM service,2025-09-19 18:00:00,2025-09-20 01:47:00,7.79,0.0,0.0,21008.1,False
+EV-01523,U-045,Preventive maintenance,PM service,2025-10-05 18:00:00,2025-10-06 02:58:00,8.97,0.0,0.0,21256.4,False
+EV-01524,U-045,Preventive maintenance,PM service,2025-10-21 18:00:00,2025-10-22 02:17:00,8.28,0.0,0.0,21502.1,False
+EV-01525,U-045,Preventive maintenance,PM service,2025-11-08 18:00:00,2025-11-09 01:48:00,7.8,0.0,0.0,21755.2,False
+EV-01526,U-045,Preventive maintenance,PM service,2025-11-29 18:00:00,2025-11-30 02:17:00,8.28,0.0,0.0,22009.8,False
+EV-01527,U-045,Preventive maintenance,PM service,2025-12-19 18:00:00,2025-12-20 03:49:00,9.81,0.0,0.0,22259.6,False
+EV-01528,U-046,Breakdown,Undercarriage / Tyres,2025-01-05 19:16:00,2025-01-06 07:37:00,10.19,0.0,2.16,19864.5,False
+EV-01529,U-046,Breakdown,Engine,2025-01-11 08:00:00,2025-01-11 17:12:00,7.63,0.0,1.57,19922.0,False
+EV-01530,U-046,Preventive maintenance,PM service,2025-01-17 18:00:00,2025-01-18 01:47:00,7.79,0.0,0.0,20004.2,False
+EV-01531,U-046,Breakdown,Hydraulic,2025-02-05 16:00:00,2025-02-06 13:13:00,5.53,14.34,1.35,20240.0,False
+EV-01532,U-046,Preventive maintenance,PM service,2025-02-07 18:00:00,2025-02-08 03:06:00,9.1,0.0,0.0,20263.6,False
+EV-01533,U-046,Preventive maintenance,PM service,2025-02-23 18:00:00,2025-02-24 01:05:00,7.08,0.0,0.0,20511.1,False
+EV-01534,U-046,Preventive maintenance,PM service,2025-03-11 18:00:00,2025-03-12 02:36:00,8.6,0.0,0.0,20761.6,False
+EV-01535,U-046,Preventive maintenance,PM service,2025-03-27 18:00:00,2025-03-28 00:46:00,6.76,0.0,0.0,21015.9,False
+EV-01536,U-046,Preventive maintenance,PM service,2025-04-12 18:00:00,2025-04-13 03:04:00,9.07,0.0,0.0,21265.2,False
+EV-01537,U-046,Preventive maintenance,PM service,2025-04-28 18:00:00,2025-04-29 00:40:00,6.67,0.0,0.0,21514.3,False
+EV-01538,U-046,Preventive maintenance,PM service,2025-05-14 18:00:00,2025-05-15 03:09:00,9.16,0.0,0.0,21764.7,False
+EV-01539,U-046,Preventive maintenance,PM service,2025-06-05 18:00:00,2025-06-06 00:15:00,6.25,0.0,0.0,22112.2,False
+EV-01540,U-046,Breakdown,Electrical,2025-06-08 12:00:00,2025-06-09 03:59:00,3.62,10.86,1.5,22143.0,False
+EV-01541,U-046,Preventive maintenance,PM service,2025-06-15 18:00:00,2025-06-16 01:43:00,7.71,0.0,0.0,22257.8,False
+EV-01542,U-046,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 03:01:00,9.01,0.0,0.0,22505.7,False
+EV-01543,U-046,Preventive maintenance,PM service,2025-07-17 18:00:00,2025-07-18 03:08:00,9.14,0.0,0.0,22753.5,False
+EV-01544,U-046,Preventive maintenance,PM service,2025-08-03 18:00:00,2025-08-04 01:35:00,7.58,0.0,0.0,23011.2,False
+EV-01545,U-046,Breakdown,Electrical,2025-08-09 12:00:00,2025-08-09 16:27:00,2.75,0.0,1.71,23085.3,False
+EV-01546,U-046,Preventive maintenance,PM service,2025-08-20 18:00:00,2025-08-21 02:17:00,8.28,0.0,0.0,23265.1,False
+EV-01547,U-046,Preventive maintenance,PM service,2025-09-05 18:00:00,2025-09-06 02:52:00,8.86,0.0,0.0,23510.2,False
+EV-01548,U-046,Preventive maintenance,PM service,2025-09-21 18:00:00,2025-09-22 02:23:00,8.38,0.0,0.0,23760.7,False
+EV-01549,U-046,Breakdown,Undercarriage / Tyres,2025-09-30 20:00:00,2025-10-01 13:08:00,15.22,0.0,1.91,23888.0,False
+EV-01550,U-046,Preventive maintenance,PM service,2025-10-10 18:00:00,2025-10-11 00:05:00,6.08,0.0,0.0,24006.6,False
+EV-01551,U-046,Breakdown,Hydraulic,2025-10-24 08:00:00,2025-10-25 03:32:00,18.35,0.0,1.18,24158.3,False
+EV-01552,U-046,Breakdown,Undercarriage / Tyres,2025-10-27 16:00:00,2025-10-28 16:20:00,20.2,2.16,1.97,24189.1,False
+EV-01553,U-046,Preventive maintenance,PM service,2025-11-02 18:00:00,2025-11-03 01:48:00,7.8,0.0,0.0,24259.8,False
+EV-01554,U-046,Breakdown,Hydraulic,2025-11-08 12:00:00,2025-11-09 15:39:00,9.08,16.41,2.17,24321.5,False
+EV-01555,U-046,Preventive maintenance,PM service,2025-11-23 18:00:00,2025-11-24 03:21:00,9.35,0.0,0.0,24500.6,False
+EV-01556,U-046,Preventive maintenance,PM service,2025-12-14 18:00:00,2025-12-15 03:44:00,9.74,0.0,0.0,24754.9,False
+EV-01557,U-047,Breakdown,Engine,2025-01-04 12:00:00,2025-01-04 23:17:00,10.4,0.0,0.89,4240.6,False
+EV-01558,U-047,Breakdown,Hydraulic,2025-01-13 12:00:00,2025-01-13 18:38:00,5.8,0.0,0.84,4340.1,True
+EV-01559,U-047,Breakdown,Hydraulic,2025-01-18 12:00:00,2025-01-19 07:16:00,11.53,5.87,1.86,4397.1,True
+EV-01560,U-047,Preventive maintenance,PM service,2025-01-19 18:00:00,2025-01-20 01:19:00,7.32,0.0,0.0,4401.2,False
+EV-01561,U-047,Breakdown,Hydraulic,2025-01-27 08:00:00,2025-01-28 01:14:00,15.69,0.0,1.55,4487.7,False
+EV-01562,U-047,Preventive maintenance,PM service,2025-01-29 18:00:00,2025-01-30 03:34:00,9.57,0.0,0.0,4510.3,False
+EV-01563,U-047,Preventive maintenance,PM service,2025-02-18 18:00:00,2025-02-19 03:49:00,9.82,0.0,0.0,4759.6,False
+EV-01564,U-047,Breakdown,Engine,2025-02-26 16:00:00,2025-02-27 01:50:00,9.32,0.0,0.52,4854.4,False
+EV-01565,U-047,Preventive maintenance,PM service,2025-03-10 18:00:00,2025-03-11 00:52:00,6.87,0.0,0.0,5005.5,False
+EV-01566,U-047,Breakdown,Engine,2025-03-20 08:00:00,2025-03-21 01:11:00,10.57,5.88,0.73,5109.1,False
+EV-01567,U-047,Preventive maintenance,PM service,2025-03-31 18:00:00,2025-04-01 00:36:00,6.6,0.0,0.0,5250.9,False
+EV-01568,U-047,Preventive maintenance,PM service,2025-04-21 18:00:00,2025-04-22 03:32:00,9.54,0.0,0.0,5510.6,False
+EV-01569,U-047,Breakdown,Electrical,2025-05-05 19:55:00,2025-05-06 21:26:00,5.39,18.6,1.53,5691.2,False
+EV-01570,U-047,Preventive maintenance,PM service,2025-05-10 18:00:00,2025-05-11 03:47:00,9.78,0.0,0.0,5756.7,False
+EV-01571,U-047,Breakdown,Cooling,2025-06-01 20:00:00,2025-06-02 04:08:00,7.24,0.0,0.89,6095.8,True
+EV-01572,U-047,Preventive maintenance,PM service,2025-06-08 18:00:00,2025-06-09 01:01:00,7.02,0.0,0.0,6204.2,False
+EV-01573,U-047,Preventive maintenance,PM service,2025-06-12 18:00:00,2025-06-13 02:18:00,8.3,0.0,0.0,6262.0,False
+EV-01574,U-047,Preventive maintenance,PM service,2025-06-28 18:00:00,2025-06-29 00:24:00,6.4,0.0,0.0,6513.5,False
+EV-01575,U-047,Breakdown,Hydraulic,2025-07-02 20:00:00,2025-07-02 23:37:00,3.06,0.0,0.56,6566.8,False
+EV-01576,U-047,Breakdown,Electrical,2025-07-24 16:00:00,2025-07-25 17:22:00,3.86,19.92,1.59,6910.7,True
+EV-01577,U-047,Preventive maintenance,PM service,2025-07-27 18:00:00,2025-07-28 02:23:00,8.38,0.0,0.0,6946.5,False
+EV-01578,U-047,Preventive maintenance,PM service,2025-08-09 18:00:00,2025-08-10 00:02:00,6.03,0.0,0.0,7142.4,False
+EV-01579,U-047,Breakdown,Hydraulic,2025-08-10 12:00:00,2025-08-10 19:09:00,5.46,0.0,1.7,7146.4,False
+EV-01580,U-047,Preventive maintenance,PM service,2025-08-17 18:00:00,2025-08-18 03:31:00,9.51,0.0,0.0,7262.5,False
+EV-01581,U-047,Preventive maintenance,PM service,2025-09-02 18:00:00,2025-09-03 00:46:00,6.77,0.0,0.0,7512.0,False
+EV-01582,U-047,Breakdown,Cooling,2025-09-09 08:00:00,2025-09-09 15:12:00,6.1,0.0,1.11,7606.6,False
+EV-01583,U-047,Breakdown,Electrical,2025-09-28 16:00:00,2025-09-29 06:40:00,1.24,9.16,4.27,7902.5,True
+EV-01584,U-047,Breakdown,Electrical,2025-09-30 12:00:00,2025-09-30 18:14:00,5.61,0.0,0.62,7919.9,True
+EV-01585,U-047,Preventive maintenance,PM service,2025-09-30 18:00:00,2025-10-01 01:03:00,7.05,0.0,0.0,7921.9,False
+EV-01586,U-047,Preventive maintenance,PM service,2025-10-06 18:00:00,2025-10-07 00:10:00,6.17,0.0,0.0,8009.2,False
+EV-01587,U-047,Preventive maintenance,PM service,2025-10-22 18:00:00,2025-10-23 02:43:00,8.71,0.0,0.0,8261.7,False
+EV-01588,U-047,Preventive maintenance,PM service,2025-11-07 18:00:00,2025-11-08 01:47:00,7.78,0.0,0.0,8511.2,False
+EV-01589,U-047,Preventive maintenance,PM service,2025-11-23 18:00:00,2025-11-24 02:05:00,8.08,0.0,0.0,8764.7,False
+EV-01590,U-047,Preventive maintenance,PM service,2025-12-17 18:00:00,2025-12-18 03:08:00,9.14,0.0,0.0,9088.6,False
+EV-01591,U-048,Preventive maintenance,PM service,2025-01-02 18:00:00,2025-01-03 00:07:00,6.12,0.0,0.0,15010.3,False
+EV-01592,U-048,Preventive maintenance,PM service,2025-01-22 18:00:00,2025-01-23 03:50:00,9.83,0.0,0.0,15260.5,False
+EV-01593,U-048,Preventive maintenance,PM service,2025-02-10 18:00:00,2025-02-11 02:18:00,8.31,0.0,0.0,15504.4,False
+EV-01594,U-048,Breakdown,Undercarriage / Tyres,2025-02-19 12:00:00,2025-02-19 21:50:00,6.71,0.0,3.12,15602.6,False
+EV-01595,U-048,Preventive maintenance,PM service,2025-03-03 18:00:00,2025-03-04 03:30:00,9.5,0.0,0.0,15750.1,False
+EV-01596,U-048,Preventive maintenance,PM service,2025-03-23 18:00:00,2025-03-24 03:11:00,9.18,0.0,0.0,16004.5,False
+EV-01597,U-048,Preventive maintenance,PM service,2025-04-22 18:00:00,2025-04-23 02:29:00,8.49,0.0,0.0,16383.4,False
+EV-01598,U-048,Preventive maintenance,PM service,2025-05-02 18:00:00,2025-05-03 03:52:00,9.87,0.0,0.0,16507.3,False
+EV-01599,U-048,Preventive maintenance,PM service,2025-05-22 18:00:00,2025-05-23 01:11:00,7.19,0.0,0.0,16757.2,False
+EV-01600,U-048,Preventive maintenance,PM service,2025-06-10 18:00:00,2025-06-11 02:17:00,8.28,0.0,0.0,17000.8,False
+EV-01601,U-048,Breakdown,Cooling,2025-06-26 16:00:00,2025-06-27 04:02:00,11.32,0.0,0.72,17190.4,False
+EV-01602,U-048,Preventive maintenance,PM service,2025-07-01 18:00:00,2025-07-02 01:27:00,7.45,0.0,0.0,17251.8,False
+EV-01603,U-048,Breakdown,Engine,2025-07-19 08:00:00,2025-07-22 08:54:00,8.59,63.48,0.82,17511.4,False
+EV-01604,U-048,Preventive maintenance,PM service,2025-07-31 18:00:00,2025-08-01 03:38:00,9.63,0.0,0.0,17660.2,False
+EV-01605,U-048,Breakdown,Attachment / Bucket,2025-08-05 19:59:00,2025-08-06 00:10:00,2.45,0.0,1.74,17727.5,False
+EV-01606,U-048,Preventive maintenance,PM service,2025-08-07 18:00:00,2025-08-08 02:52:00,8.87,0.0,0.0,17760.7,False
+EV-01607,U-048,Breakdown,Electrical,2025-08-18 16:00:00,2025-08-19 19:59:00,3.46,22.69,1.83,17921.4,False
+EV-01608,U-048,Preventive maintenance,PM service,2025-08-24 18:00:00,2025-08-25 02:42:00,8.7,0.0,0.0,18005.0,False
+EV-01609,U-048,Breakdown,Attachment / Bucket,2025-08-26 08:00:00,2025-08-26 20:12:00,5.99,0.0,6.21,18013.8,False
+EV-01610,U-048,Preventive maintenance,PM service,2025-09-10 18:00:00,2025-09-11 00:21:00,6.34,0.0,0.0,18259.2,False
+EV-01611,U-048,Preventive maintenance,PM service,2025-10-09 18:00:00,2025-10-10 01:08:00,7.13,0.0,0.0,18714.3,False
+EV-01612,U-048,Preventive maintenance,PM service,2025-10-18 18:00:00,2025-10-19 00:45:00,6.75,0.0,0.0,18851.6,False
+EV-01613,U-048,Breakdown,Hydraulic,2025-10-21 16:00:00,2025-10-25 15:03:00,10.35,83.46,1.25,18887.4,False
+EV-01614,U-048,Preventive maintenance,PM service,2025-11-02 18:00:00,2025-11-03 01:52:00,7.87,0.0,0.0,19010.0,False
+EV-01615,U-048,Preventive maintenance,PM service,2025-11-18 18:00:00,2025-11-19 02:51:00,8.84,0.0,0.0,19256.4,False
+EV-01616,U-048,Breakdown,Hydraulic,2025-11-23 12:00:00,2025-11-23 23:23:00,11.04,0.0,0.34,19316.1,False
+EV-01617,U-048,Preventive maintenance,PM service,2025-12-05 18:00:00,2025-12-06 03:52:00,9.86,0.0,0.0,19509.3,False
+EV-01618,U-048,Breakdown,Engine,2025-12-20 12:00:00,2025-12-20 16:55:00,3.85,0.0,1.07,19726.0,False
+EV-01619,U-048,Preventive maintenance,PM service,2025-12-22 18:00:00,2025-12-23 00:53:00,6.89,0.0,0.0,19761.0,False
+EV-01620,U-048,Breakdown,Engine,2025-12-26 12:00:00,2025-12-27 06:15:00,16.8,0.0,1.45,19807.5,False

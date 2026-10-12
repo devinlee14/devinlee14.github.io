@@ -1,0 +1,395 @@
+{
+ "kpi": {
+  "orders": 97905,
+  "customers": 94703,
+  "gmv": 15688397,
+  "repeat_rate": 3.04,
+  "h1_growth": 181.0,
+  "black_friday_mom": 53.4,
+  "top10_share": 62.4,
+  "categories": 74,
+  "late_repeat": 3.19,
+  "ontime_repeat": 4.09,
+  "p_value": 0.002138765174559848
+ },
+ "monthly": {
+  "months": [
+   "2017-01",
+   "2017-02",
+   "2017-03",
+   "2017-04",
+   "2017-05",
+   "2017-06",
+   "2017-07",
+   "2017-08",
+   "2017-09",
+   "2017-10",
+   "2017-11",
+   "2017-12",
+   "2018-01",
+   "2018-02",
+   "2018-03",
+   "2018-04",
+   "2018-05",
+   "2018-06",
+   "2018-07",
+   "2018-08"
+  ],
+  "gmv": [
+   136943.0,
+   283562.0,
+   425618.0,
+   405849.0,
+   582711.0,
+   499652.0,
+   578754.0,
+   661986.0,
+   717103.0,
+   764861.0,
+   1173387.0,
+   862300.0,
+   1102475.0,
+   980155.0,
+   1152785.0,
+   1156635.0,
+   1146158.0,
+   1020606.0,
+   1039817.0,
+   997040.0
+  ],
+  "orders": [
+   787,
+   1718,
+   2617,
+   2377,
+   3640,
+   3205,
+   3946,
+   4272,
+   4227,
+   4547,
+   7421,
+   5618,
+   7187,
+   6624,
+   7168,
+   6919,
+   6833,
+   6145,
+   6233,
+   6421
+  ],
+  "aov": [
+   174.01,
+   165.05,
+   162.64,
+   170.74,
+   160.09,
+   155.9,
+   146.67,
+   154.96,
+   169.65,
+   168.21,
+   158.12,
+   153.49,
+   153.4,
+   147.97,
+   160.82,
+   167.17,
+   167.74,
+   166.09,
+   166.82,
+   155.28
+  ]
+ },
+ "cohort": {
+  "cohorts": [
+   "2017-01",
+   "2017-02",
+   "2017-03",
+   "2017-04",
+   "2017-05",
+   "2017-06",
+   "2017-07",
+   "2017-08",
+   "2017-09",
+   "2017-10",
+   "2017-11",
+   "2017-12"
+  ],
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "grid": [
+   [
+    0.4,
+    0.27,
+    0.13,
+    0.4,
+    0.13,
+    0.4
+   ],
+   [
+    0.24,
+    0.3,
+    0.12,
+    0.41,
+    0.12,
+    0.24
+   ],
+   [
+    0.51,
+    0.35,
+    0.39,
+    0.35,
+    0.16,
+    0.16
+   ],
+   [
+    0.6,
+    0.21,
+    0.17,
+    0.3,
+    0.26,
+    0.34
+   ],
+   [
+    0.48,
+    0.48,
+    0.4,
+    0.31,
+    0.34,
+    0.42
+   ],
+   [
+    0.45,
+    0.35,
+    0.39,
+    0.26,
+    0.39,
+    0.35
+   ],
+   [
+    0.52,
+    0.34,
+    0.24,
+    0.29,
+    0.21,
+    0.31
+   ],
+   [
+    0.68,
+    0.34,
+    0.27,
+    0.36,
+    0.53,
+    0.29
+   ],
+   [
+    0.69,
+    0.54,
+    0.29,
+    0.44,
+    0.22,
+    0.22
+   ],
+   [
+    0.71,
+    0.25,
+    0.09,
+    0.23,
+    0.2,
+    0.2
+   ],
+   [
+    0.56,
+    0.39,
+    0.17,
+    0.19,
+    0.18,
+    0.11
+   ],
+   [
+    0.22,
+    0.28,
+    0.35,
+    0.26,
+    0.2,
+    0.17
+   ]
+  ],
+  "sizes": [
+   753,
+   1690,
+   2571,
+   2326,
+   3541,
+   3102,
+   3823,
+   4130,
+   4076,
+   4392,
+   7191,
+   5439
+  ]
+ },
+ "rfm": [
+  {
+   "segment": "New high-value",
+   "customers": 14603,
+   "pct_customers": 15.4,
+   "pct_revenue": 28.2,
+   "avg_monetary": 303.16
+  },
+  {
+   "segment": "Lost high-value",
+   "customers": 13948,
+   "pct_customers": 14.7,
+   "pct_revenue": 27.5,
+   "avg_monetary": 308.82
+  },
+  {
+   "segment": "Cooling down",
+   "customers": 18328,
+   "pct_customers": 19.4,
+   "pct_revenue": 17.8,
+   "avg_monetary": 152.22
+  },
+  {
+   "segment": "Lost low-value",
+   "customers": 22899,
+   "pct_customers": 24.2,
+   "pct_revenue": 10.6,
+   "avg_monetary": 72.74
+  },
+  {
+   "segment": "New low-value",
+   "customers": 22051,
+   "pct_customers": 23.3,
+   "pct_revenue": 10.3,
+   "avg_monetary": 73.07
+  },
+  {
+   "segment": "Loyal - at risk",
+   "customers": 1646,
+   "pct_customers": 1.7,
+   "pct_revenue": 3.1,
+   "avg_monetary": 298.5
+  },
+  {
+   "segment": "Champions",
+   "customers": 1228,
+   "pct_customers": 1.3,
+   "pct_revenue": 2.5,
+   "avg_monetary": 322.21
+  }
+ ],
+ "pareto": {
+  "labels": [
+   "health beauty",
+   "watches gifts",
+   "bed bath table",
+   "sports leisure",
+   "computers accessories",
+   "furniture decor",
+   "housewares",
+   "cool stuff",
+   "auto",
+   "garden tools",
+   "toys",
+   "baby",
+   "perfumery",
+   "telephony",
+   "office furniture"
+  ],
+  "revenue": [
+   1251146.0,
+   1194825.0,
+   1035485.0,
+   977729.0,
+   902923.0,
+   721584.0,
+   625539.0,
+   619724.0,
+   585177.0,
+   479650.0,
+   475702.0,
+   408941.0,
+   391770.0,
+   322082.0,
+   272280.0
+  ],
+  "cum": [
+   9.3,
+   18.2,
+   25.9,
+   33.2,
+   39.9,
+   45.2,
+   49.9,
+   54.5,
+   58.8,
+   62.4,
+   65.9,
+   69.0,
+   71.9,
+   74.3,
+   76.3
+  ]
+ },
+ "repeat": [
+  {
+   "dimension": "delivery",
+   "value": "late",
+   "customers": 4257,
+   "repeat_rate_pct": 3.19
+  },
+  {
+   "dimension": "delivery",
+   "value": "not delivered",
+   "customers": 1105,
+   "repeat_rate_pct": 4.43
+  },
+  {
+   "dimension": "delivery",
+   "value": "on time",
+   "customers": 50976,
+   "repeat_rate_pct": 4.09
+  },
+  {
+   "dimension": "review_score",
+   "value": "1.0",
+   "customers": 6149,
+   "repeat_rate_pct": 3.59
+  },
+  {
+   "dimension": "review_score",
+   "value": "2.0",
+   "customers": 1839,
+   "repeat_rate_pct": 3.7
+  },
+  {
+   "dimension": "review_score",
+   "value": "3.0",
+   "customers": 4883,
+   "repeat_rate_pct": 4.12
+  },
+  {
+   "dimension": "review_score",
+   "value": "4.0",
+   "customers": 11096,
+   "repeat_rate_pct": 3.65
+  },
+  {
+   "dimension": "review_score",
+   "value": "5.0",
+   "customers": 31914,
+   "repeat_rate_pct": 4.26
+  }
+ ]
+}

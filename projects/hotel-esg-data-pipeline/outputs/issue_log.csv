@@ -1,0 +1,202 @@
+issue_id,property_id,period,utility,rule,severity,detail,action
+DQ-00001,HTL-003,2024-03,electricity,duplicate_exact,low,2 identical rows,kept one
+DQ-00002,HTL-005,2025-04,electricity,duplicate_conflicting,medium,"values [953600.0, 1033118.0]","kept first, re-checked at reconciliation"
+DQ-00003,HTL-007,2025-10,electricity,duplicate_conflicting,medium,"values [535504.3, 618255.4]",kept value closest to bill
+DQ-00004,HTL-010,2025-08,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00005,HTL-011,2025-09,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00006,HTL-012,2024-04,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00007,HTL-012,2025-11,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00008,HTL-015,2025-05,gas,duplicate_conflicting,medium,"values [85109.5, 93064.8]","kept first, re-checked at reconciliation"
+DQ-00009,HTL-016,2024-02,water,duplicate_conflicting,medium,"values [9564.4, 11230.4]",kept value closest to bill
+DQ-00010,HTL-017,2024-06,gas,duplicate_conflicting,medium,"values [78744.4, 87961.3]",kept value closest to bill
+DQ-00011,HTL-017,2024-07,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00012,HTL-018,2024-01,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00013,HTL-019,2024-05,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00014,HTL-019,2025-04,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00015,HTL-020,2025-05,water,duplicate_conflicting,medium,"values [10880.3, 11592.4]",kept value closest to bill
+DQ-00016,HTL-022,2025-12,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00017,HTL-024,2025-09,water,duplicate_conflicting,medium,"values [4019.0, 4726.1]",kept value closest to bill
+DQ-00018,HTL-025,2024-06,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00019,HTL-027,2024-09,electricity,duplicate_exact,low,2 identical rows,kept one
+DQ-00020,HTL-028,2024-02,electricity,duplicate_conflicting,medium,"values [664047.1, 761448.9]",kept value closest to bill
+DQ-00021,HTL-028,2024-05,electricity,duplicate_conflicting,medium,"values [742269.5, 748569.7]",kept value closest to bill
+DQ-00022,HTL-028,2024-06,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00023,HTL-029,2024-02,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00024,HTL-030,2024-03,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00025,HTL-030,2025-01,electricity,duplicate_exact,low,2 identical rows,kept one
+DQ-00026,HTL-031,2024-06,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00027,HTL-031,2024-07,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00028,HTL-031,2025-05,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00029,HTL-032,2025-03,gas,duplicate_exact,low,2 identical rows,kept one
+DQ-00030,HTL-032,2025-05,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00031,HTL-032,2025-09,water,duplicate_conflicting,medium,"values [6893.5, 7879.0]",kept value closest to bill
+DQ-00032,HTL-033,2025-02,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00033,HTL-035,2025-01,gas,duplicate_conflicting,medium,"values [54661.6, 55418.7]",kept value closest to bill
+DQ-00034,HTL-038,2024-12,water,duplicate_conflicting,medium,"values [6158.9, 7022.8]",kept value closest to bill
+DQ-00035,HTL-038,2025-02,water,duplicate_exact,low,2 identical rows,kept one
+DQ-00036,HTL-040,2024-01,electricity,duplicate_exact,low,2 identical rows,kept one
+DQ-00037,HTL-001,2024-11,electricity,decimal_shift,high,"submitted 6,041,145.0 vs bill 604,114.5 (+900.0%)",replaced with bill
+DQ-00038,HTL-001,2025-12,electricity,bill_mismatch,medium,"submitted 643,792.0 vs bill 611,127.5 (+5.3%)",replaced with bill
+DQ-00039,HTL-002,2024-06,electricity,zero_or_negative,high,value=0.0,replaced with bill
+DQ-00040,HTL-002,2024-11,electricity,bill_mismatch,medium,"submitted 813,110.0 vs bill 899,251.4 (-9.6%)",replaced with bill
+DQ-00041,HTL-002,2025-05,electricity,unit_mislabel,high,"submitted 953.9 vs bill 953,879.2 (-99.9%)",replaced with bill
+DQ-00042,HTL-003,2025-06,electricity,bill_mismatch,medium,"submitted 1,132,145.1 vs bill 1,095,205.3 (+3.4%)",replaced with bill
+DQ-00043,HTL-003,2025-09,water,bill_mismatch,medium,"submitted 12,193.4 vs bill 13,521.6 (-9.8%)",replaced with bill
+DQ-00044,HTL-005,2024-12,electricity,bill_mismatch,medium,"submitted 1,101,220.8 vs bill 1,043,494.2 (+5.5%)",replaced with bill
+DQ-00045,HTL-005,2024-12,water,zero_or_negative,high,value=-14620.7,replaced with bill
+DQ-00046,HTL-005,2025-12,water,bill_mismatch,medium,"submitted 15,490.7 vs bill 13,918.3 (+11.3%)",replaced with bill
+DQ-00047,HTL-007,2024-07,electricity,unit_mislabel,high,"submitted 662.1 vs bill 662,104.8 (-99.9%)",replaced with bill
+DQ-00048,HTL-007,2025-01,electricity,bill_mismatch,medium,"submitted 566,474.1 vs bill 521,502.4 (+8.6%)",replaced with bill
+DQ-00049,HTL-007,2025-06,water,decimal_shift,high,"submitted 83,722.0 vs bill 8,372.2 (+900.0%)",replaced with bill
+DQ-00050,HTL-007,2025-07,water,bill_mismatch,medium,"submitted 9,882.6 vs bill 8,626.0 (+14.6%)",replaced with bill
+DQ-00051,HTL-008,2024-12,water,zero_or_negative,high,value=0.0,replaced with bill
+DQ-00052,HTL-009,2024-10,electricity,bill_mismatch,medium,"submitted 950,196.0 vs bill 931,149.9 (+2.0%)",replaced with bill
+DQ-00053,HTL-009,2025-11,electricity,zero_or_negative,high,value=-905839.5,replaced with bill
+DQ-00054,HTL-010,2025-08,electricity,decimal_shift,high,"submitted 8,977,988.0 vs bill 897,798.8 (+900.0%)",replaced with bill
+DQ-00055,HTL-010,2025-10,electricity,unit_mislabel,high,"submitted 887.8 vs bill 887,809.3 (-99.9%)",replaced with bill
+DQ-00056,HTL-011,2024-04,electricity,bill_mismatch,medium,"submitted 472,642.0 vs bill 417,314.8 (+13.3%)",replaced with bill
+DQ-00057,HTL-011,2025-01,electricity,unit_mislabel,high,"submitted 425.5 vs bill 425,497.5 (-99.9%)",replaced with bill
+DQ-00058,HTL-012,2025-03,water,bill_mismatch,medium,"submitted 6,700.3 vs bill 6,241.3 (+7.4%)",replaced with bill
+DQ-00059,HTL-014,2024-02,electricity,unit_mislabel,high,"submitted 557.5 vs bill 557,489.2 (-99.9%)",replaced with bill
+DQ-00060,HTL-015,2024-05,electricity,unit_mislabel,high,"submitted 602.0 vs bill 601,961.2 (-99.9%)",replaced with bill
+DQ-00061,HTL-015,2024-12,electricity,bill_mismatch,medium,"submitted 591,683.3 vs bill 578,796.3 (+2.2%)",replaced with bill
+DQ-00062,HTL-015,2025-04,gas,decimal_shift,high,"submitted 684,004.0 vs bill 68,400.4 (+900.0%)",replaced with bill
+DQ-00063,HTL-015,2025-07,electricity,bill_mismatch,medium,"submitted 711,653.7 vs bill 632,522.1 (+12.5%)",replaced with bill
+DQ-00064,HTL-015,2025-11,electricity,bill_mismatch,medium,"submitted 485,700.0 vs bill 554,676.7 (-12.4%)",replaced with bill
+DQ-00065,HTL-017,2024-04,electricity,unit_mislabel,high,"submitted 688.7 vs bill 688,729.1 (-99.9%)",replaced with bill
+DQ-00066,HTL-017,2024-07,gas,bill_mismatch,medium,"submitted 71,941.1 vs bill 70,418.0 (+2.2%)",replaced with bill
+DQ-00067,HTL-017,2025-08,water,bill_mismatch,medium,"submitted 9,174.5 vs bill 9,934.8 (-7.7%)",replaced with bill
+DQ-00068,HTL-018,2025-08,electricity,bill_mismatch,medium,"submitted 645,400.0 vs bill 613,596.1 (+5.2%)",replaced with bill
+DQ-00069,HTL-018,2025-08,gas,decimal_shift,high,"submitted 724,620.0 vs bill 72,462.0 (+900.0%)",replaced with bill
+DQ-00070,HTL-019,2024-02,water,bill_mismatch,medium,"submitted 1,986.8 vs bill 2,061.6 (-3.6%)",replaced with bill
+DQ-00071,HTL-019,2024-12,electricity,zero_or_negative,high,value=-161347.9,replaced with bill
+DQ-00072,HTL-019,2025-01,gas,bill_mismatch,medium,"submitted 18,484.4 vs bill 19,554.1 (-5.5%)",replaced with bill
+DQ-00073,HTL-019,2025-06,gas,bill_mismatch,medium,"submitted 25,218.7 vs bill 22,568.8 (+11.7%)",replaced with bill
+DQ-00074,HTL-020,2024-01,electricity,bill_mismatch,medium,"submitted 722,365.1 vs bill 827,163.1 (-12.7%)",replaced with bill
+DQ-00075,HTL-021,2024-08,electricity,bill_mismatch,medium,"submitted 733,997.5 vs bill 658,187.1 (+11.5%)",replaced with bill
+DQ-00076,HTL-021,2024-12,electricity,bill_mismatch,medium,"submitted 552,589.9 vs bill 650,057.8 (-15.0%)",replaced with bill
+DQ-00077,HTL-021,2025-10,gas,decimal_shift,high,"submitted 587,506.0 vs bill 58,750.6 (+900.0%)",replaced with bill
+DQ-00078,HTL-021,2025-12,electricity,bill_mismatch,medium,"submitted 616,179.8 vs bill 652,410.9 (-5.6%)",replaced with bill
+DQ-00079,HTL-022,2025-11,electricity,bill_mismatch,medium,"submitted 434,105.4 vs bill 419,624.1 (+3.5%)",replaced with bill
+DQ-00080,HTL-022,2025-12,electricity,unit_mislabel,high,"submitted 443.8 vs bill 443,836.6 (-99.9%)",replaced with bill
+DQ-00081,HTL-024,2024-02,water,bill_mismatch,medium,"submitted 5,290.9 vs bill 5,083.6 (+4.1%)",replaced with bill
+DQ-00082,HTL-024,2024-10,electricity,bill_mismatch,medium,"submitted 373,600.0 vs bill 348,766.1 (+7.1%)",replaced with bill
+DQ-00083,HTL-024,2025-01,electricity,zero_or_negative,high,value=0.0,replaced with bill
+DQ-00084,HTL-025,2024-03,electricity,bill_mismatch,medium,"submitted 815,271.0 vs bill 916,124.2 (-11.0%)",replaced with bill
+DQ-00085,HTL-025,2025-02,water,bill_mismatch,medium,"submitted 11,974.1 vs bill 12,223.1 (-2.0%)",replaced with bill
+DQ-00086,HTL-025,2025-04,electricity,unit_mislabel,high,"submitted 903.9 vs bill 903,890.6 (-99.9%)",replaced with bill
+DQ-00087,HTL-026,2024-09,electricity,zero_or_negative,high,value=0.0,replaced with bill
+DQ-00088,HTL-026,2025-02,water,zero_or_negative,high,value=-5783.7,replaced with bill
+DQ-00089,HTL-026,2025-03,electricity,decimal_shift,high,"submitted 4,309,466.0 vs bill 430,946.8 (+900.0%)",replaced with bill
+DQ-00090,HTL-027,2025-10,water,bill_mismatch,medium,"submitted 3,652.6 vs bill 3,773.8 (-3.2%)",replaced with bill
+DQ-00091,HTL-028,2024-07,electricity,bill_mismatch,medium,"submitted 801,130.9 vs bill 763,894.8 (+4.9%)",replaced with bill
+DQ-00092,HTL-028,2025-04,electricity,bill_mismatch,medium,"submitted 692,846.1 vs bill 797,029.1 (-13.1%)",replaced with bill
+DQ-00093,HTL-028,2025-06,electricity,unit_mislabel,high,"submitted 745.0 vs bill 745,484.8 (-99.9%)",replaced with bill
+DQ-00094,HTL-029,2024-04,electricity,unit_mislabel,high,"submitted 740.6 vs bill 740,618.6 (-99.9%)",replaced with bill
+DQ-00095,HTL-030,2024-01,electricity,unit_mislabel,high,"submitted 416.3 vs bill 416,253.3 (-99.9%)",replaced with bill
+DQ-00096,HTL-030,2024-07,electricity,unit_mislabel,high,"submitted 497.9 vs bill 497,865.5 (-99.9%)",replaced with bill
+DQ-00097,HTL-030,2024-08,water,decimal_shift,high,"submitted 64,207.0 vs bill 6,420.7 (+900.0%)",replaced with bill
+DQ-00098,HTL-030,2024-12,electricity,bill_mismatch,medium,"submitted 377,366.8 vs bill 434,904.9 (-13.2%)",replaced with bill
+DQ-00099,HTL-031,2024-11,electricity,bill_mismatch,medium,"submitted 258,016.9 vs bill 272,468.6 (-5.3%)",replaced with bill
+DQ-00100,HTL-031,2025-01,electricity,bill_mismatch,medium,"submitted 289,200.0 vs bill 279,420.1 (+3.5%)",replaced with bill
+DQ-00101,HTL-032,2024-07,electricity,unit_mislabel,high,"submitted 522.5 vs bill 522,459.8 (-99.9%)",replaced with bill
+DQ-00102,HTL-032,2025-12,electricity,unit_mislabel,high,"submitted 441.4 vs bill 441,430.5 (-99.9%)",replaced with bill
+DQ-00103,HTL-032,2025-12,gas,bill_mismatch,medium,"submitted 47,299.1 vs bill 44,843.5 (+5.5%)",replaced with bill
+DQ-00104,HTL-033,2024-09,water,bill_mismatch,medium,"submitted 7,682.7 vs bill 6,691.7 (+14.8%)",replaced with bill
+DQ-00105,HTL-034,2024-12,water,decimal_shift,high,"submitted 81,857.0 vs bill 8,185.7 (+900.0%)",replaced with bill
+DQ-00106,HTL-034,2025-03,water,decimal_shift,high,"submitted 86,809.0 vs bill 8,680.9 (+900.0%)",replaced with bill
+DQ-00107,HTL-034,2025-10,electricity,unit_mislabel,high,"submitted 611.4 vs bill 611,373.7 (-99.9%)",replaced with bill
+DQ-00108,HTL-035,2024-03,electricity,bill_mismatch,medium,"submitted 486,091.7 vs bill 451,914.0 (+7.6%)",replaced with bill
+DQ-00109,HTL-035,2024-05,electricity,unit_mislabel,high,"submitted 463.2 vs bill 463,190.9 (-99.9%)",replaced with bill
+DQ-00110,HTL-035,2024-06,gas,decimal_shift,high,"submitted 522,127.0 vs bill 52,212.7 (+900.0%)",replaced with bill
+DQ-00111,HTL-035,2024-06,water,bill_mismatch,medium,"submitted 5,909.0 vs bill 6,470.5 (-8.7%)",replaced with bill
+DQ-00112,HTL-035,2024-12,electricity,bill_mismatch,medium,"submitted 498,170.3 vs bill 451,472.0 (+10.3%)",replaced with bill
+DQ-00113,HTL-035,2025-03,electricity,unit_mislabel,high,"submitted 461.6 vs bill 461,560.9 (-99.9%)",replaced with bill
+DQ-00114,HTL-035,2025-08,water,bill_mismatch,medium,"submitted 5,505.6 vs bill 5,806.6 (-5.2%)",replaced with bill
+DQ-00115,HTL-035,2025-11,water,bill_mismatch,medium,"submitted 6,480.7 vs bill 6,083.0 (+6.5%)",replaced with bill
+DQ-00116,HTL-036,2024-01,electricity,decimal_shift,high,"submitted 9,232,260.0 vs bill 923,225.8 (+900.0%)",replaced with bill
+DQ-00117,HTL-036,2025-01,water,decimal_shift,high,"submitted 111,939.0 vs bill 11,193.9 (+900.0%)",replaced with bill
+DQ-00118,HTL-036,2025-06,gas,decimal_shift,high,"submitted 712,557.0 vs bill 71,255.7 (+900.0%)",replaced with bill
+DQ-00119,HTL-036,2025-11,electricity,bill_mismatch,medium,"submitted 785,017.8 vs bill 855,393.0 (-8.2%)",replaced with bill
+DQ-00120,HTL-037,2024-07,gas,bill_mismatch,medium,"submitted 65,232.1 vs bill 62,534.0 (+4.3%)",replaced with bill
+DQ-00121,HTL-037,2024-11,gas,bill_mismatch,medium,"submitted 72,487.8 vs bill 84,119.2 (-13.8%)",replaced with bill
+DQ-00122,HTL-037,2025-10,water,bill_mismatch,medium,"submitted 9,949.8 vs bill 10,510.7 (-5.3%)",replaced with bill
+DQ-00123,HTL-038,2024-10,water,bill_mismatch,medium,"submitted 6,333.3 vs bill 6,471.2 (-2.1%)",replaced with bill
+DQ-00124,HTL-038,2025-08,electricity,zero_or_negative,high,value=-562154.5,replaced with bill
+DQ-00125,HTL-039,2024-01,electricity,unit_mislabel,high,"submitted 509.9 vs bill 509,942.4 (-99.9%)",replaced with bill
+DQ-00126,HTL-040,2024-07,water,decimal_shift,high,"submitted 86,350.0 vs bill 8,635.0 (+900.0%)",replaced with bill
+DQ-00127,HTL-001,2024-04,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00128,HTL-002,2025-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00129,HTL-003,2025-07,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00130,HTL-003,2025-12,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00131,HTL-004,2025-03,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00132,HTL-004,2025-10,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00133,HTL-005,2024-10,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00134,HTL-005,2024-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00135,HTL-006,2025-07,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00136,HTL-007,2024-10,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00137,HTL-007,2025-02,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00138,HTL-008,2024-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00139,HTL-009,2024-01,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00140,HTL-009,2024-08,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00141,HTL-009,2024-11,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00142,HTL-009,2025-05,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00143,HTL-010,2024-11,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00144,HTL-010,2025-07,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00145,HTL-011,2024-11,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00146,HTL-011,2024-12,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00147,HTL-012,2024-01,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00148,HTL-012,2024-01,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00149,HTL-012,2025-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00150,HTL-013,2024-01,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00151,HTL-013,2024-10,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00152,HTL-013,2025-03,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00153,HTL-015,2024-03,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00154,HTL-015,2025-03,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00155,HTL-016,2024-12,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00156,HTL-016,2025-06,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00157,HTL-016,2025-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00158,HTL-017,2025-11,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00159,HTL-017,2025-12,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00160,HTL-018,2024-11,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00161,HTL-021,2025-07,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00162,HTL-022,2024-09,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00163,HTL-022,2024-11,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00164,HTL-023,2024-06,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00165,HTL-023,2025-04,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00166,HTL-023,2025-06,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00167,HTL-024,2025-03,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00168,HTL-025,2025-05,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00169,HTL-026,2025-12,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00170,HTL-027,2025-04,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00171,HTL-027,2025-06,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00172,HTL-027,2025-09,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00173,HTL-027,2025-11,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00174,HTL-028,2024-03,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00175,HTL-029,2024-05,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00176,HTL-029,2024-06,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00177,HTL-029,2024-07,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00178,HTL-031,2024-05,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00179,HTL-031,2024-06,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00180,HTL-031,2025-08,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00181,HTL-032,2024-08,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00182,HTL-032,2025-02,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00183,HTL-032,2025-04,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00184,HTL-033,2024-01,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00185,HTL-033,2024-07,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00186,HTL-033,2024-07,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00187,HTL-033,2025-03,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00188,HTL-033,2025-06,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00189,HTL-033,2025-12,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00190,HTL-035,2024-05,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00191,HTL-036,2024-05,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00192,HTL-036,2024-09,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00193,HTL-036,2025-12,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00194,HTL-037,2025-07,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00195,HTL-037,2025-08,gas,missing_submission,medium,no portal submission,filled from bill
+DQ-00196,HTL-038,2025-09,electricity,missing_submission,medium,no portal submission,filled from bill
+DQ-00197,HTL-040,2024-09,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00198,HTL-040,2025-04,water,missing_submission,medium,no portal submission,filled from bill
+DQ-00199,HTL-002,2024-09,electricity,intensity_outlier,high,1356.00 kWh/room-night (robust z=+134.1),implausible: quarantined and estimated
+DQ-00200,HTL-017,2025-06,water,intensity_outlier,medium,3.28 m3/room-night (robust z=+36.2),"confirmed by bill, flag to operations"
+DQ-00201,HTL-017,2025-07,water,intensity_outlier,medium,3.58 m3/room-night (robust z=+41.6),"confirmed by bill, flag to operations"

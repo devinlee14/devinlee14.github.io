@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Hotel Utility Data Pipeline | Devin Lee</title>
+<meta content="Validation, bill reconciliation and gap-filling for 40 hotels' utility data, with a full audit trail and Scope 1 &amp; 2 emissions." name="description"/>
+<meta content="#0c1620" name="theme-color"/>
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="font" crossorigin="" href="../../assets/fonts/bricolage-grotesque.woff2" rel="preload" type="font/woff2"/>
+<link href="../../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="case">
+<header class="nav">
+<div class="wrap">
+<a aria-label="Home" class="brand" href="../../">DL<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-btn">Menu</button>
+<nav aria-label="Main" class="nav-links" id="nav-links">
+<a data-id="Project" href="../../#projects">Projects</a>
+<a data-id="Kode" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/hotel-esg-data-pipeline" rel="noopener" target="_blank">Code</a>
+<button aria-label="Ganti bahasa ke Bahasa Indonesia" class="lang-toggle" type="button"><span class="on">EN</span><span>ID</span></button>
+      <a class="cta" data-id="Kontak" href="../../#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="case-hero">
+<div class="wrap">
+<a class="back" data-id='&lt;svg aria-hidden="true" fill="none" viewbox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"&gt;&lt;/path&gt;&lt;/svg&gt;Semua project' href="../../#projects"><svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg>All projects</a>
+<h1 class="fade-in" data-id="Pipeline data utilitas hotel dan pelaporan ESG">Hotel utility data pipeline and ESG reporting</h1>
+<p class="lede fade-in" data-id="Empat puluh hotel mengetik data listrik, air, dan gas bulanan ke sebuah portal secara manual. Sebelum jejak karbon bisa dilaporkan, angka-angka itu harus cocok dengan tagihan. Saya membangun pipeline yang memeriksa setiap nilai, memperbaiki yang bisa dibuktikan, menandai yang tidak bisa, dan mencatat setiap perubahan.">Forty hotels type their monthly electricity, water and gas figures into a portal by hand. Before anyone can report a carbon footprint, those numbers have to match the bills. I built a pipeline that checks every value, fixes what it can prove, flags what it can't, and records every change.</p>
+<dl class="facts fade-in">
+<div><dt>Data</dt><dd data-id="Simulasi: 40 hotel, 8 negara, 24 bulan, 2.364 input + register tagihan">Simulated: 40 hotels, 8 countries, 24 months, 2,364 submissions + bill register</dd></div>
+<div><dt>Tools</dt><dd>Python, pandas, NumPy</dd></div>
+<div><dt data-id="Metode">Methods</dt><dd data-id="Validasi berbasis aturan, rekonsiliasi tagihan, robust z-score">Rule-based validation, bill reconciliation, robust z-scores</dd></div>
+<div><dt data-id="Output">Outputs</dt><dd data-id="Dataset bersih, issue log, change log, laporan invoice yang hilang, emisi">Clean dataset, issue log, change log, invoice gap report, emissions</dd></div>
+</dl>
+</div>
+</div>
+<section aria-label="Results">
+<div class="wrap">
+<div class="kpis">
+<div class="kpi accent reveal"><b class="num" id="k-recall">99.5%</b><span data-id="kesalahan yang disisipkan terdeteksi (199 dari 200)">of injected errors detected (199 of 200)</span></div>
+<div class="kpi reveal"><b class="num" id="k-fa">0</b><span data-id="nilai benar yang ikut terubah">correct values changed by mistake</span></div>
+<div class="kpi reveal"><b class="num"><span id="k-before">93.0</span>→<span id="k-after">100</span>%</b><span data-id="record dalam rentang ±2% dari nilai sebenarnya, sebelum vs sesudah">of records within ±2% of the true value, before vs after</span></div>
+<div class="kpi reveal"><b class="num" id="k-inv">35</b><span data-id="invoice utilitas yang hilang ditemukan untuk ditagih ke penyedia">missing utility invoices found to chase with providers</span></div>
+</div>
+<p class="note reveal" data-id="Datanya simulasi karena data utilitas hotel yang asli bersifat rahasia. Ada sisi baiknya: saya sengaja menyisipkan kesalahan yang realistis dan menyimpan kunci jawaban yang tidak bisa dilihat pipeline, sehingga akurasinya benar-benar diukur, bukan sekadar diklaim.">The data is simulated because real hotel utility data is confidential. That has an upside: I injected realistic errors on purpose and kept an answer key hidden from the pipeline, so its accuracy is measured, not claimed.</p>
+</div>
+</section>
+<section aria-labelledby="problem">
+<div class="wrap split">
+<div class="prose reveal from-left">
+<h2 data-id="Masalahnya" id="problem">The problem</h2>
+<p data-id="Laporan keberlanjutan merangkum ratusan angka utilitas bulanan. Setiap angka diketik oleh engineer hotel, dan setiap kesalahan langsung terbawa ke emisi yang dilaporkan.">Sustainability reports roll up hundreds of monthly utility figures. Each one is typed by a hotel engineer, and each mistake flows straight into the reported emissions.</p>
+<p data-id="Kesalahannya sepele tapi mahal: &lt;strong&gt;MWh diisi sebagai kWh&lt;/strong&gt; (terlalu kecil 1.000&amp;times;), &lt;strong&gt;desimal bergeser&lt;/strong&gt;, &lt;strong&gt;bulan yang hilang atau terkirim dua kali&lt;/strong&gt;, ID properti ditulis dengan tiga cara berbeda, dan angka yang tidak cocok dengan tagihan.">The errors are mundane but costly: <strong>MWh entered as kWh</strong> (a 1,000× understatement), <strong>decimals shifted</strong>, <strong>months missing or submitted twice</strong>, property IDs typed three different ways, and figures that simply don't match the bill.</p>
+<p data-id="Selain itu, sebagian penyedia menagih dari &lt;strong&gt;tanggal 15 ke tanggal 14&lt;/strong&gt;, sehingga tagihan tidak pernah sejajar dengan bulan kalender. Pro-rata sederhana mengaburkan perubahan antarbulan dan memicu alarm palsu.">On top of that, some providers bill <strong>15th to 14th</strong>, so a bill never lines up with a calendar month. Naive pro-rating blurs month-to-month changes and raises false alarms.</p>
+</div>
+<div class="reveal from-right">
+<div class="table-wrap">
+<table class="data">
+<thead><tr><th data-id="File input">Input file</th><th class="r" data-id="Baris">Rows</th><th data-id="Isinya">What it holds</th></tr></thead>
+<tbody>
+<tr><td>properties.csv</td><td class="r">40</td><td>country, segment, rooms, floor area, billing cycle</td></tr>
+<tr><td>occupancy.csv</td><td class="r">960</td><td>occupied room nights per month</td></tr>
+<tr><td>portal_submissions.csv</td><td class="r">2,364</td><td>values typed by properties (contains the errors)</td></tr>
+<tr><td>utility_bills.csv</td><td class="r">2,333</td><td>invoice register, the source of truth; ~1.5% never arrived</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="approach">
+<div class="wrap split">
+<div class="reveal from-left">
+<h2 data-id="Cara kerja pipeline" id="approach">How the pipeline works</h2>
+<p class="prose" data-id="Setiap tahap menulis ke dua log: &lt;code&gt;issue_log.csv&lt;/code&gt; (apa yang ditemukan, oleh aturan apa, dan tindakannya) dan &lt;code&gt;change_log.csv&lt;/code&gt; (nilai lama, nilai baru, alasan, sumber). Setiap angka di laporan akhir bisa ditelusuri sampai ke asalnya." style="color:var(--text-2)">Each stage writes to two logs: <code>issue_log.csv</code> (what was found, by which rule, what was done) and <code>change_log.csv</code> (old value, new value, reason, source). Any number in the final report can be traced back to its origin.</p>
+</div>
+<ol class="steps reveal from-right">
+<li><div><h3 data-id="Standarisasi">Standardise</h3><p data-id="Perbaiki ID (&lt;code&gt;htl-001&lt;/code&gt;, &lt;code&gt;HTL001&lt;/code&gt; &amp;rarr; &lt;code&gt;HTL-001&lt;/code&gt;), seragamkan format periode, konversi MWh dan liter ke satuan dasar.">Repair IDs (<code>htl-001</code>, <code>HTL001</code> → <code>HTL-001</code>), unify period formats, convert MWh and litres to base units.</p></div></li>
+<li><div><h3 data-id="Hapus duplikat">De-duplicate</h3><p data-id="Hapus duplikat yang identik; untuk duplikat yang berbeda nilai, simpan nilai yang paling dekat dengan tagihan.">Drop exact duplicates; for conflicting ones keep the value closest to the bill.</p></div></li>
+<li><div><h3 data-id="Bangun nilai acuan">Build reference values</h3><p data-id="Pro-rata tagihan yang sejajar bulan kalender. Untuk siklus tagihan yang tidak sejajar, hitung nilai tiap bulan dari kedua tagihan yang mencakupnya, dan tandai hanya jika semua hasil hitungan tidak cocok.">Pro-rate calendar bills. For offset billing cycles, infer each month from both bills that touch it and flag it only when every inference disagrees.</p></div></li>
+<li><div><h3 data-id="Rekonsiliasi dan klasifikasi">Reconcile and classify</h3><p data-id="Toleransi &amp;plusmn;2% terhadap tagihan. Rasio &amp;asymp; 0,001 berarti salah satuan, &amp;asymp; 10&amp;times; berarti desimal bergeser, selain itu berarti salah ketik.">±2% tolerance vs the bill. Ratio ≈ 0.001 means a unit mislabel, ≈ 10× a decimal shift, anything else a transcription mismatch.</p></div></li>
+<li><div><h3 data-id="Isi data yang hilang">Fill gaps</h3><p data-id="Bandingkan record yang seharusnya ada dengan yang diterima. Isi dari tagihan, atau estimasi dari median intensitas &amp;times; room night dan tandai sebagai estimasi.">Compare expected vs received records. Fill from the bill, or estimate from median intensity × room nights and mark it estimated.</p></div></li>
+<li><div><h3 data-id="Cek kewajaran">Check plausibility</h3><p data-id="Robust z-score (median / MAD) atas konsumsi per room night terisi. Outlier yang dikonfirmasi tagihan tetap disimpan dan dieskalasi.">Robust z-score (median / MAD) on consumption per occupied room night. Outliers the bill confirms are kept and escalated.</p></div></li>
+<li><div><h3 data-id="Tagih invoice yang hilang">Chase missing invoices</h3><p data-id="Daftar setiap tagihan yang seharusnya ada tapi tidak pernah diterima.">List every expected bill that never arrived.</p></div></li>
+<li><div><h3 data-id="Hitung emisi">Calculate emissions</h3><p data-id="Scope 2 dari listrik &amp;times; faktor emisi jaringan, Scope 1 dari gas alam, ditambah intensitas per room night terisi.">Scope 2 from electricity × grid factor, Scope 1 from natural gas, plus intensity per occupied room night.</p></div></li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="results">
+<div class="wrap">
+<h2 class="reveal" data-id="Hasil temuannya" id="results">What it found</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Kesalahan terdeteksi per jenis">Errors caught by type</h3>
+<p class="sub" data-id="Dinilai terhadap kunci jawaban tersembunyi">Scored against the hidden answer key</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Terdeteksi'><i style="background:var(--c1)"></i>Caught</span><span data-id='&lt;i style="background:var(--c2)"&gt;&lt;/i&gt;Terlewat'><i style="background:var(--c2)"></i>Missed</span></div>
+<div class="chart-box"><canvas id="c-recall"></canvas></div>
+<p class="takeaway" data-id="Satu-satunya yang terlewat adalah &lt;strong&gt;salah ketik sebesar 2,0%&lt;/strong&gt;, tepat di batas toleransi. Itu konsekuensi wajar dari ambang &amp;plusmn;2%.">The single miss was a <strong>2.0% transcription error</strong>, right at the tolerance limit. That's the expected trade-off of a ±2% threshold.</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Status setiap record setelah pipeline">Status of every record after the pipeline</h3>
+<p class="sub" data-id="2.400 record properti-bulan-utilitas">2,400 property-month-utility records</p>
+<ul class="bars" id="c-status" style="margin:22px 0 8px"></ul>
+<p class="takeaway" data-id="&lt;strong&gt;93%&lt;/strong&gt; lolos sejak awal. Sisanya dikoreksi atau diambil dari tagihan, dan hanya &lt;strong&gt;satu&lt;/strong&gt; yang perlu diestimasi."><strong>93%</strong> passed first time. The rest were corrected or sourced from bills, and only <strong>one</strong> needed an estimate.</p>
+</div>
+</div>
+<div class="chart-card reveal" style="margin-top:18px">
+<h3 data-id="Tidak semua outlier adalah kesalahan">Not every outlier is an error</h3>
+<p class="sub" data-id="Konsumsi air HTL-017, m&amp;sup3; per bulan">HTL-017 water consumption, m³ per month</p>
+<div class="chart-box"><canvas id="c-leak"></canvas></div>
+<p class="takeaway" data-id='Juni dan Juli 2025 mencapai 2,6&amp;times; normal. Aturan outlier yang asal pakai akan "memperbaikinya". Karena tagihan mengonfirmasi nilainya, pipeline &lt;strong&gt;tetap menyimpannya dan mengeskalasi dugaan kebocoran air&lt;/strong&gt; ke tim operasional.'>June and July 2025 are 2.6× normal. A blind outlier rule would "fix" them. Because the bill confirms the values, the pipeline <strong>keeps them and escalates a likely water leak</strong> to operations instead.</p>
+</div>
+<div class="grid-2" style="margin-top:18px">
+<div class="chart-card reveal">
+<h3 data-id="Emisi portofolio per bulan">Portfolio emissions by month</h3>
+<p class="sub" data-id="tCO&amp;#8322;e, dari dataset yang sudah dibersihkan">tCO₂e, from the cleaned dataset</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Scope 2, listrik'><i style="background:var(--c1)"></i>Scope 2, electricity</span><span data-id='&lt;i style="background:var(--c3)"&gt;&lt;/i&gt;Scope 1, gas alam'><i style="background:var(--c3)"></i>Scope 1, natural gas</span></div>
+<div class="chart-box"><canvas id="c-em"></canvas></div>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Intensitas karbon per negara">Carbon intensity by country</h3>
+<p class="sub" data-id="kgCO&amp;#8322;e per room night terisi">kgCO₂e per occupied room night</p>
+<div class="chart-box"><canvas id="c-int"></canvas></div>
+<p class="takeaway" data-id="Intensitas karbon jaringan listrik, bukan efisiensi hotel, yang menjelaskan sebagian besar selisihnya: hotel di Indonesia mengeluarkan emisi &lt;strong&gt;2,3&amp;times;&lt;/strong&gt; lebih banyak per room night dibanding hotel di Singapura.">Grid carbon intensity, not hotel efficiency, explains most of the gap: Indonesian hotels emit <strong>2.3×</strong> more per room night than those in Singapore.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="log">
+<div class="wrap">
+<h2 class="reveal" data-id="Beberapa baris dari issue log" id="log">A few lines from the issue log</h2>
+<div class="chart-card reveal">
+<div class="table-wrap">
+<table class="data" id="t-issues">
+<thead><tr><th data-id="Isu">Issue</th><th data-id="Properti">Property</th><th data-id="Periode">Period</th><th data-id="Utilitas">Utility</th><th data-id="Aturan">Rule</th><th>Detail</th><th data-id="Tindakan">Action</th></tr></thead>
+<tbody></tbody>
+</table>
+</div>
+</div>
+<p class="note reveal" data-id="Faktor emisi di sini adalah perkiraan ilustratif dari rata-rata jaringan listrik nasional. Pada project nyata, dipakai faktor emisi yang disetujui klien untuk setiap tahun pelaporan.">Emission factors are illustrative approximations of national grid averages. A real engagement would use the client-approved factor set for each reporting year.</p>
+</div>
+</section>
+<section aria-labelledby="practice">
+<div class="wrap">
+<h2 class="reveal" data-id="Artinya bagi tim data" id="practice">What this means for a data team</h2>
+<ul class="recs">
+<li class="reveal"><h3 data-id="Perbaiki jika ada bukti, tandai jika tidak">Fix with proof, flag without it</h3><p data-id="Nilai hanya diganti jika tagihan membuktikan angka yang benar. Selebihnya ditandai untuk diputuskan oleh orang.">Values are only overwritten when a bill proves the right number. Everything else is flagged for a person to decide.</p></li>
+<li class="reveal"><h3 data-id="Siap diaudit sejak awal">Audit-ready by default</h3><p data-id='Change log menjawab pertanyaan "kenapa angka ini berbeda dari yang dikirim hotel?" dalam sekali cek.'>The change log answers "why is this number different from what the hotel sent?" in one lookup.</p></li>
+<li class="reveal"><h3 data-id="Daftar tindak lanjut, bukan sekadar dashboard">Follow-up lists, not just dashboards</h3><p data-id="Laporan invoice yang hilang dan daftar properti yang perlu dihubungi mengubah pengecekan data menjadi antrean kerja harian tim.">The invoice gap report and the list of properties to chase turn data checks into the team's daily work queue.</p></li>
+<li class="reveal"><h3 data-id="Aturan yang bisa dijelaskan">Rules you can explain</h3><p data-id="Setiap pengecekan adalah aturan yang mudah dibaca dengan toleransi yang jelas, sehingga klien dan auditor bisa menyepakatinya sebelum angka dilaporkan.">Every check is a readable rule with a tolerance, so clients and auditors can agree on it before the numbers are reported.</p></li>
+</ul>
+<a class="next-case reveal" href="../ecommerce-customer-analytics/">
+<div><small data-id="Project berikutnya">Next project</small><strong data-id="Pertumbuhan e-commerce dan retensi pelanggan">E-commerce growth and customer retention</strong></div>
+<svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></svg>
+</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Devin Lee</span><a data-id="Kode dan README di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/hotel-esg-data-pipeline" rel="noopener" target="_blank">Code and README on GitHub</a></div></footer>
+<script src="../../assets/vendor/lenis.min.js"></script>
+<script src="../../assets/vendor/chart.umd.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+<script>
+(async () => {
+  const { c, fmt, load, whenVisible } = Viz;
+  const d = await load("../../assets/data/hotel-esg.json");
+  const k = d.kpi;
+  document.getElementById("k-recall").textContent = k.recall + "%";
+  document.getElementById("k-fa").textContent = k.false_alarms;
+  document.getElementById("k-before").textContent = k.within2_before.toFixed(1);
+  document.getElementById("k-inv").textContent = k.invoices_to_chase;
+
+  whenVisible(document.getElementById("c-recall"), () => new Chart("c-recall", {
+    type: "bar",
+    data: { labels: d.recall.map(r => r.label), datasets: [
+      { label: "Caught", data: d.recall.map(r => r.caught), backgroundColor: c.teal, barThickness: 16 },
+      { label: "Missed", data: d.recall.map(r => r.total - r.caught), backgroundColor: c.amber, barThickness: 16 }] },
+    options: { indexAxis: "y", scales: { x: { stacked: true }, y: { stacked: true, grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { footer: it => { const r = d.recall[it[0].dataIndex]; return `${r.caught} of ${r.total} caught (${(100 * r.caught / r.total).toFixed(1)}%)`; } } } } },
+  }));
+
+  const statusLabels = { validated: "Validated first time", corrected_from_bill: "Corrected from bill", sourced_from_bill: "Missing, filled from bill", verified_anomaly: "Real anomaly, escalated", estimated: "Estimated" };
+  const st = Object.entries(d.status);
+  const total = st.reduce((a, b) => a + b[1], 0);
+  const colorOf = k => k === "validated" ? c.teal : k === "verified_anomaly" ? c.rose : k === "estimated" ? c.amber : c.blue;
+  const ul = document.getElementById("c-status");
+  ul.innerHTML = st.map(([k, v]) => `<li><span>${statusLabels[k] || k}</span><span class="track"><span class="fill" data-w="${100 * v / total}" style="background:${colorOf(k)}"></span></span><span class="val">${fmt(v)} (${(100 * v / total).toFixed(1)}%)</span></li>`).join("");
+  whenVisible(ul, () => ul.querySelectorAll(".fill").forEach(f => f.style.width = f.dataset.w + "%"));
+
+  whenVisible(document.getElementById("c-leak"), () => new Chart("c-leak", {
+    type: "line",
+    data: { labels: d.leak.periods, datasets: [{ label: "Water", data: d.leak.values, borderColor: c.teal, tension: 0.25,
+      pointRadius: d.leak.periods.map(p => ["2025-06", "2025-07"].includes(p) ? 6 : 0),
+      pointBackgroundColor: c.amber, pointBorderColor: "#132029", pointBorderWidth: 2,
+      segment: { borderColor: ctx => ["2025-06", "2025-07", "2025-08"].includes(d.leak.periods[ctx.p1DataIndex]) ? c.amber : c.teal } }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } }, y: { beginAtZero: true, ticks: { callback: v => fmt(v) } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${fmt(i.raw)} m³`, afterLabel: i => ["2025-06", "2025-07"].includes(i.label) ? " confirmed by bill, escalated" : "" } } } },
+  }));
+
+  whenVisible(document.getElementById("c-em"), () => new Chart("c-em", {
+    type: "bar",
+    data: { labels: d.monthly.periods, datasets: [
+      { label: "Scope 2", data: d.monthly.scope2, backgroundColor: c.teal, borderColor: "#132029", borderWidth: { top: 2 } },
+      { label: "Scope 1", data: d.monthly.scope1, backgroundColor: c.blue }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { stacked: true, grid: { display: false }, ticks: { maxTicksLimit: 8 } }, y: { stacked: true, ticks: { callback: v => fmt(v) } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.dataset.label}: ${fmt(i.raw)} tCO₂e` } } } },
+  }));
+
+  whenVisible(document.getElementById("c-int"), () => new Chart("c-int", {
+    type: "bar",
+    data: { labels: d.intensity_by_country.labels.map(l => l === "United Arab Emirates" ? "UAE" : l), datasets: [{ data: d.intensity_by_country.values, backgroundColor: c.teal, barThickness: 16 }] },
+    options: { indexAxis: "y", scales: { y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.raw} kgCO₂e per occupied room night` } } } },
+  }));
+
+  const rules = { unit_mislabel: "Unit mislabel", decimal_shift: "Decimal shift", bill_mismatch: "Mismatch vs bill", duplicate_conflicting: "Conflicting duplicate", intensity_outlier: "Intensity outlier" };
+  document.querySelector("#t-issues tbody").innerHTML = d.issue_sample.map(r =>
+    `<tr><td>${r.issue_id}</td><td>${r.property_id}</td><td>${r.period}</td><td>${r.utility}</td><td>${rules[r.rule] || r.rule}</td><td>${r.detail}</td><td>${r.action}</td></tr>`).join("");
+})();
+</script>
+</body>
+</html>

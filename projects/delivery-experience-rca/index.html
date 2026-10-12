@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Delivery Experience RCA | Devin Lee</title>
+<meta content="Root cause analysis of 95k real deliveries: how much lateness drives bad reviews, and where in the fulfilment chain it comes from." name="description"/>
+<meta content="#0c1620" name="theme-color"/>
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="font" crossorigin="" href="../../assets/fonts/bricolage-grotesque.woff2" rel="preload" type="font/woff2"/>
+<link href="../../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="case">
+<header class="nav">
+<div class="wrap">
+<a aria-label="Home" class="brand" href="../../">DL<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-btn">Menu</button>
+<nav aria-label="Main" class="nav-links" id="nav-links">
+<a data-id="Project" href="../../#projects">Projects</a>
+<a data-id="Kode" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/delivery-experience-rca" rel="noopener" target="_blank">Code</a>
+<button aria-label="Ganti bahasa ke Bahasa Indonesia" class="lang-toggle" type="button"><span class="on">EN</span><span>ID</span></button>
+      <a class="cta" data-id="Kontak" href="../../#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="case-hero">
+<div class="wrap">
+<a class="back" data-id='&lt;svg aria-hidden="true" fill="none" viewbox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"&gt;&lt;/path&gt;&lt;/svg&gt;Semua project' href="../../#projects"><svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg>All projects</a>
+<h1 class="fade-in" data-id="Root cause analysis pengalaman pengiriman">Delivery experience root cause analysis</h1>
+<p class="lede fade-in" data-id="Review menentukan peringkat di marketplace dan apakah pelanggan akan kembali. Saya mengukur seberapa besar keterlambatan pengiriman memicu review bintang 1–2, lalu menelusuri setiap pesanan melalui tahap persetujuan, penanganan seller, dan pengiriman kurir untuk menemukan tahap mana yang perlu diperbaiki lebih dulu.">Reviews decide marketplace ranking and whether customers come back. I measured how much late delivery drives 1–2 star reviews, then traced each order through approval, seller handling and carrier transit to find which step to fix first.</p>
+<dl class="facts fade-in">
+<div><dt>Data</dt><dd data-id="Asli: dataset publik Olist, 94.819 pesanan terkirim, Jan 2017 – Agu 2018">Real: Olist public dataset, 94,819 delivered orders, Jan 2017 – Aug 2018</dd></div>
+<div><dt>Tools</dt><dd>Python, pandas, statsmodels</dd></div>
+<div><dt data-id="Metode">Methods</dt><dd data-id="Dekomposisi tahap proses, regresi logistik, segmentasi">Process-stage decomposition, logistic regression, segmentation</dd></div>
+<div><dt data-id="Pertanyaan">Question</dt><dd data-id="Bagian fulfilment mana yang perlu diperbaiki operasional lebih dulu?">Which part of fulfilment should operations fix first?</dd></div>
+</dl>
+</div>
+</div>
+<section aria-label="Key numbers">
+<div class="wrap">
+<div class="kpis">
+<div class="kpi reveal"><b class="num"><span id="k-late">8.2</span>%</b><span data-id="pesanan tiba setelah tanggal yang dijanjikan">of delivered orders arrived after the promised date</span></div>
+<div class="kpi reveal"><b class="num"><span id="k-r1">4.29</span>→<span id="k-r2">2.56</span>★</b><span data-id="rata-rata review, tepat waktu vs terlambat">average review, on time vs late</span></div>
+<div class="kpi accent reveal"><b class="num"><span id="k-or">13.9</span>×</b><span data-id="peluang review bintang 1–2 saat terlambat, setelah faktor lain dikontrol">odds of a 1–2 star review when late, controlling for other factors</span></div>
+<div class="kpi reveal"><b class="num">~<span id="k-excess">3,400</span></b><span data-id='review buruk akibat keterlambatan, &lt;span id="k-share"&gt;28&lt;/span&gt;% dari semua review bintang 1–2'>bad reviews caused by lateness, <span id="k-share">28</span>% of all 1–2 star reviews</span></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="impact">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Terlambat beberapa hari mengubah segalanya" id="impact">A few days late changes everything</h2>
+<p data-id="Pesanan tepat waktu mendapat review bintang 1–2 hanya &lt;strong&gt;9% dari waktu&lt;/strong&gt;. Terlambat satu sampai tiga hari menggandakannya. Pada &lt;strong&gt;keterlambatan 4+ hari, mayoritas review adalah bintang 1–2&lt;/strong&gt;.">On-time orders get a 1–2 star review <strong>9% of the time</strong>. One to three days late doubles that. At <strong>4+ days late, the majority of reviews are 1–2 stars</strong>.</p>
+<p data-id="Keterlambatan saja belum membuktikan sebab-akibat: pesanan yang terlambat bisa jadi lebih besar, lebih mahal, atau lebih jauh. Karena itu saya memakai regresi logistik yang mengontrol faktor-faktor tersebut.">Lateness alone doesn't prove cause: late orders might also be bigger, pricier or longer-haul. So I fitted a logistic regression controlling for those factors.</p>
+</div>
+<div class="chart-card reveal from-right">
+<h3 data-id="Porsi review bintang 1–2 berdasarkan hari keterlambatan">Share of 1–2 star reviews by days late</h3>
+<p class="sub" data-id="Arahkan kursor untuk melihat rata-rata rating dan jumlah pesanan">Hover for average rating and order count</p>
+<div class="chart-box"><canvas id="c-impact"></canvas></div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="model">
+<div class="wrap">
+<div class="split">
+<div class="chart-card reveal from-left">
+<h3 data-id="Apa yang menaikkan peluang review bintang 1–2">What raises the odds of a 1–2 star review</h3>
+<p class="sub" data-id="Odds ratio dari regresi logistik (skala log; 1 = tidak berpengaruh). Arahkan kursor untuk melihat interval kepercayaan 95%.">Odds ratios from logistic regression (log scale; 1 = no effect). Hover for 95% confidence intervals.</p>
+<div class="chart-box"><canvas id="c-odds"></canvas></div>
+</div>
+<div class="prose reveal from-right">
+<h2 data-id="Keterlambatan adalah faktor terkuat" id="model">Lateness is the strongest driver</h2>
+<p data-id="Jika faktor lain sama, pesanan terlambat punya &lt;strong&gt;peluang 13,9&amp;times;&lt;/strong&gt; mendapat review buruk (CI 95% 13,2–14,7).">Holding everything else equal, a late order has <strong>13.9× the odds</strong> of a bad review (95% CI 13.2–14.7).</p>
+<p data-id="Faktor terkuat kedua adalah pesanan yang terbagi ke &lt;strong&gt;beberapa seller&lt;/strong&gt; (5,0&amp;times;). Biasanya itu berarti beberapa paket datang di hari yang berbeda.">The second-strongest factor is an order split across <strong>multiple sellers</strong> (5.0×). That usually means several parcels arriving on different days.</p>
+<p data-id="Pengiriman antarnegara bagian &lt;strong&gt;tidak berpengaruh signifikan dengan sendirinya&lt;/strong&gt; (p = 0,18) setelah keterlambatan diperhitungkan. Jarak baru berpengaruh jika membuat pesanan terlambat.">Shipping across state lines has <strong>no significant effect of its own</strong> (p = 0.18) once lateness is included. Distance matters only when it makes the order late.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="where">
+<div class="wrap">
+<h2 class="reveal" data-id="Di mana keterlambatan terjadi" id="where">Where the delay happens</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Median hari di setiap tahap">Median days spent in each stage</h3>
+<p class="sub" data-id="Pesanan terlambat vs tepat waktu">Late vs on-time orders</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Tepat waktu'><i style="background:var(--c1)"></i>On time</span><span data-id='&lt;i style="background:var(--c2)"&gt;&lt;/i&gt;Terlambat'><i style="background:var(--c2)"></i>Late</span></div>
+<div class="chart-box"><canvas id="c-stage"></canvas></div>
+<p class="takeaway" data-id="Pesanan terlambat menghabiskan &lt;strong&gt;23,9 hari di kurir&lt;/strong&gt;, dibanding 6,9 hari untuk pesanan tepat waktu. Penanganan seller juga molor (3,0 vs 1,8 hari), tapi waktu paling banyak habis di pengiriman kurir.">Late orders spend <strong>23.9 days with the carrier</strong> vs 6.9 for on-time orders. Seller handling slips too (3.0 vs 1.8 days), but carrier transit is where most of the time goes.</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Saat seller melewati tenggat serah terima">When the seller misses the handover deadline</h3>
+<p class="sub" data-id="Tingkat keterlambatan berdasarkan apakah seller menyerahkan barang ke kurir sebelum &lt;code&gt;shipping_limit_date&lt;/code&gt;">Late rate by whether the seller reached the carrier before <code>shipping_limit_date</code></p>
+<ul class="bars" id="c-handover" style="margin:34px 0 26px"></ul>
+<p class="takeaway" data-id="Melewati tenggat serah terima membuat keterlambatan &lt;strong&gt;3,8&amp;times; lebih mungkin&lt;/strong&gt;. Meski begitu, &lt;strong&gt;73% pesanan terlambat&lt;/strong&gt; diserahkan tepat waktu, jadi seller bukan penyebab utamanya.">Missing the handover deadline makes lateness <strong>3.8× more likely</strong>. Still, <strong>73% of late orders</strong> were handed over on time, so sellers aren't the main cause.</p>
+</div>
+</div>
+<div class="grid-2" style="margin-top:18px">
+<div class="chart-card reveal">
+<h3 data-id="Tingkat keterlambatan per bulan">Late rate by month</h3>
+<p class="sub" data-id="% pesanan yang tiba setelah estimasi, berdasarkan bulan pembelian">% of orders delivered after the estimate, by purchase month</p>
+<div class="chart-box"><canvas id="c-month"></canvas></div>
+<p class="takeaway" data-id="Masalahnya sistemik dan musiman: &lt;strong&gt;14% sekitar Black Friday&lt;/strong&gt; dan &lt;strong&gt;16–21% pada Feb–Mar 2018&lt;/strong&gt;, dibanding 3–5% di bulan biasa. Seller dengan pesanan terlambat terbanyak hanyalah seller terbesar (9,6% terlambat vs rata-rata 8,2%).">It's systemic and seasonal: <strong>14% around Black Friday</strong> and <strong>16–21% in Feb–Mar 2018</strong>, vs 3–5% in normal months. The sellers with the most late orders are just the biggest sellers (9.6% late vs 8.2% on average).</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Negara bagian dengan tingkat keterlambatan tertinggi">States with the highest late rate</h3>
+<p class="sub" data-id="Negara bagian pelanggan, minimal 300 pesanan. Rata-rata keseluruhan 8,2%.">Customer state, minimum 300 orders. Overall average is 8.2%.</p>
+<div class="chart-box"><canvas id="c-state"></canvas></div>
+<p class="takeaway" data-id="Wilayah timur laut (AL, MA, PI, CE, SE, BA) dan Rio de Janeiro terlambat &lt;strong&gt;hingga 3&amp;times; lebih sering&lt;/strong&gt; dari rata-rata.">The north-east (AL, MA, PI, CE, SE, BA) and Rio de Janeiro are late <strong>up to 3× as often</strong> as the average.</p>
+</div>
+</div>
+<p class="note reveal" data-id='Estimasinya sangat longgar: median pesanan tepat waktu tiba &lt;strong id="k-early"&gt;12.3&lt;/strong&gt; hari lebih awal. Saat ada masalah, keterlambatannya tetap melampaui cadangan waktu itu.'>Estimates are very conservative: the median on-time order arrives <strong id="k-early">12.3</strong> days early. When something goes wrong, the delay still overruns that buffer.</p>
+</div>
+</section>
+<section aria-labelledby="recs">
+<div class="wrap">
+<h2 class="reveal" data-id="Rekomendasi" id="recs">Recommendations</h2>
+<ul class="recs">
+<li class="reveal"><h3 data-id="Rencanakan kapasitas kurir untuk masa puncak">Plan carrier capacity for peaks</h3><p data-id="Pesan kapasitas lebih awal dan siapkan kurir cadangan sebelum Black Friday dan Q1, saat tingkat keterlambatan naik tiga kali lipat. Waktu pesanan terlambat paling banyak hilang di pengiriman kurir.">Pre-book capacity and add backup carriers before Black Friday and Q1, when late rates triple. Carrier transit is where late orders lose most of their time.</p></li>
+<li class="reveal"><h3 data-id="Peringatan saat seller melewati serah terima">Alert on missed seller handover</h3><p data-id="Tandai pesanan yang belum diserahkan sebelum &lt;code&gt;shipping_limit_date&lt;/code&gt; dan ingatkan seller di hari yang sama. Risiko terlambat 3,8&amp;times; lebih tinggi setelah tenggat lewat.">Flag orders not handed over by <code>shipping_limit_date</code> and nudge the seller the same day. Late risk is 3.8× higher once the deadline passes.</p></li>
+<li class="reveal"><h3 data-id="Hubungi pelanggan sebelum mereka komplain">Contact customers before they complain</h3><p data-id="Saat pesanan melewati tanggal estimasi, kirim permintaan maaf dan voucher. Sasar kelompok yang terlambat 4+ hari, tempat sebagian besar review berubah negatif.">When an order crosses its estimated date, send an apology and a voucher. Target the 4+ days-late group, where most reviews turn negative.</p></li>
+<li class="reveal"><h3 data-id="Perbaiki pengiriman terpisah dan estimasi">Fix split shipments and estimates</h3><p data-id="Gabungkan pesanan dari beberapa seller atau sampaikan ekspektasi dengan jelas. Kalibrasi ulang estimasi pengiriman per rute: cadangan 12 hari bisa mengurangi konversi tanpa benar-benar melindungi pelanggan.">Consolidate multi-seller orders or set expectations clearly. Recalibrate delivery estimates per route: 12 days of padding may cost conversions without protecting customers.</p></li>
+</ul>
+<a class="next-case reveal" href="../equipment-utilization-rca/">
+<div><small data-id="Project berikutnya">Next project</small><strong data-id="Ketersediaan dan downtime alat berat">Heavy equipment availability and downtime</strong></div>
+<svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></svg>
+</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span data-id="&amp;copy; 2026 Devin Lee. Data: Olist, CC BY-NC-SA 4.0.">© 2026 Devin Lee. Data: Olist, CC BY-NC-SA 4.0.</span><a data-id="Kode dan README di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/delivery-experience-rca" rel="noopener" target="_blank">Code and README on GitHub</a></div></footer>
+<script src="../../assets/vendor/lenis.min.js"></script>
+<script src="../../assets/vendor/chart.umd.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+<script>
+(async () => {
+  const { c, fmt, load, whenVisible } = Viz;
+  const d = await load("../../assets/data/delivery.json");
+  const k = d.kpi;
+  const set = (id, v) => (document.getElementById(id).textContent = v);
+  set("k-late", k.late_rate); set("k-r1", k.avg_review_ontime.toFixed(2)); set("k-r2", k.avg_review_late.toFixed(2));
+  set("k-or", k.late_odds_ratio.toFixed(1)); set("k-excess", fmt(Math.round(k.excess_bad_reviews / 100) * 100));
+  set("k-share", Math.round(k.share_bad_from_late)); set("k-early", k.median_early_days);
+
+  whenVisible(document.getElementById("c-impact"), () => new Chart("c-impact", {
+    type: "bar",
+    data: { labels: d.impact.map(r => r.late_bucket), datasets: [{ data: d.impact.map(r => r.bad_review_pct),
+      backgroundColor: d.impact.map((_, i) => (i === 0 ? c.teal : c.amber)), maxBarThickness: 52 }] },
+    options: { scales: { x: { grid: { display: false } }, y: { max: 100, ticks: { callback: v => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.raw}% are 1–2 stars`,
+        afterLabel: i => [` average ${d.impact[i.dataIndex].avg_review}★`, ` ${fmt(d.impact[i.dataIndex].orders)} orders`] } } } },
+  }));
+
+  const names = { late: "Delivered late", multi_seller: "Multiple sellers", log_promised: "Longer promised lead time (log)", n_items: "Each extra item", freight_ratio: "Freight / price ratio", log_price: "Higher price (log)", interstate: "Interstate shipment" };
+  const od = d.odds;
+  whenVisible(document.getElementById("c-odds"), () => new Chart("c-odds", {
+    type: "bar",
+    data: { labels: od.map(o => names[o.factor] || o.factor), datasets: [{ data: od.map(o => o.odds_ratio), base: 1,
+      backgroundColor: od.map(o => (o.p_value > 0.05 ? "#3a4f5c" : o.factor === "late" ? c.amber : c.teal)), barThickness: 16 }] },
+    options: { indexAxis: "y", scales: { x: { type: "logarithmic", min: 0.8, max: 20, ticks: { autoSkip: false, maxRotation: 0, callback: v => [1, 2, 5, 10, 20].includes(v) ? v + "×" : "" } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` odds ratio ${od[i.dataIndex].odds_ratio.toFixed(2)}×`,
+        afterLabel: i => [` 95% CI ${od[i.dataIndex].ci_low.toFixed(2)}–${od[i.dataIndex].ci_high.toFixed(2)}`, od[i.dataIndex].p_value > 0.05 ? " not significant" : ` p ${od[i.dataIndex].p_value < 0.001 ? "< 0.001" : "= " + od[i.dataIndex].p_value}`] } } } },
+  }));
+
+  whenVisible(document.getElementById("c-stage"), () => new Chart("c-stage", {
+    type: "bar",
+    data: { labels: d.stage.labels, datasets: [
+      { label: "On time", data: d.stage.on_time, backgroundColor: c.teal, barThickness: 16 },
+      { label: "Late", data: d.stage.late, backgroundColor: c.amber, barThickness: 16 }] },
+    options: { indexAxis: "y", interaction: { mode: "index", intersect: false },
+      scales: { x: { ticks: { callback: v => v + " d" } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.dataset.label}: ${i.raw} days (median)` } } } },
+  }));
+
+  const ho = document.getElementById("c-handover");
+  const rows = [["Seller missed handover deadline", k.late_if_missed_handover, c.amber], ["Seller handed over on time", k.late_if_handover_ok, c.teal]];
+  ho.innerHTML = rows.map(([l, v, col]) => `<li><span>${l}</span><span class="track"><span class="fill" data-w="${v / 30 * 100}" style="background:${col}"></span></span><span class="val">${v}% late</span></li>`).join("");
+  whenVisible(ho, () => ho.querySelectorAll(".fill").forEach(f => (f.style.width = f.dataset.w + "%")));
+
+  const mo = d.monthly;
+  whenVisible(document.getElementById("c-month"), () => new Chart("c-month", {
+    type: "line",
+    data: { labels: mo.month, datasets: [{ data: mo.late_rate, borderColor: c.teal, tension: 0.3,
+      pointRadius: mo.late_rate.map(v => (v >= 14 ? 5 : 0)), pointBackgroundColor: c.amber, pointBorderColor: "#132029", pointBorderWidth: 2 }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } }, y: { beginAtZero: true, ticks: { callback: v => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.raw}% late`, afterLabel: i => ` ${fmt(mo.orders[i.dataIndex])} orders` } } } },
+  }));
+
+  const s = d.state;
+  whenVisible(document.getElementById("c-state"), () => new Chart("c-state", {
+    type: "bar",
+    data: { labels: s.customer_state, datasets: [{ data: s.late_rate, backgroundColor: c.amber, maxBarThickness: 30 }] },
+    options: { scales: { x: { grid: { display: false } }, y: { beginAtZero: true, ticks: { callback: v => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.raw}% late`, afterLabel: i => [` ${fmt(s.orders[i.dataIndex])} orders`, ` avg ${s.avg_delivery_days[i.dataIndex].toFixed(1)} days to deliver`] } } } },
+  }));
+})();
+</script>
+</body>
+</html>

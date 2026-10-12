@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Equipment Availability &amp; Downtime | Devin Lee</title>
+<meta content="SQL analysis of a 48-unit heavy-equipment fleet: availability, utilisation, MTBF/MTTR and the root causes of lost machine hours." name="description"/>
+<meta content="#0c1620" name="theme-color"/>
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="font" crossorigin="" href="../../assets/fonts/bricolage-grotesque.woff2" rel="preload" type="font/woff2"/>
+<link href="../../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="case">
+<header class="nav">
+<div class="wrap">
+<a aria-label="Home" class="brand" href="../../">DL<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-btn">Menu</button>
+<nav aria-label="Main" class="nav-links" id="nav-links">
+<a data-id="Project" href="../../#projects">Projects</a>
+<a data-id="Kode" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/equipment-utilization-rca" rel="noopener" target="_blank">Code</a>
+<button aria-label="Ganti bahasa ke Bahasa Indonesia" class="lang-toggle" type="button"><span class="on">EN</span><span>ID</span></button>
+      <a class="cta" data-id="Kontak" href="../../#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="case-hero">
+<div class="wrap">
+<a class="back" data-id='&lt;svg aria-hidden="true" fill="none" viewbox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"&gt;&lt;/path&gt;&lt;/svg&gt;Semua project' href="../../#projects"><svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg>All projects</a>
+<h1 class="fade-in" data-id="Ketersediaan dan downtime alat berat">Heavy equipment availability and downtime</h1>
+<p class="lede fade-in" data-id='Manajer site melihat mesin diam, padahal "tidak bekerja" punya empat penyebab yang sangat berbeda: hujan, kerusakan, menunggu suku cadang, dan servis yang terlewat. Masing-masing butuh solusi berbeda. Saya memakai SQL untuk memisahkannya dan menghitung berapa jam yang hilang karena masing-masing penyebab.'>Site managers see machines standing still, but "not working" has four very different causes: rain, breakdowns, waiting for parts and skipped maintenance. Each needs a different fix. I used SQL to separate them and size the hours each one costs.</p>
+<dl class="facts fade-in">
+<div><dt>Data</dt><dd data-id="Simulasi: 48 unit, 4 site, 17.520 unit-hari, 1.620 work order (2025)">Simulated: 48 units, 4 sites, 17,520 unit-days, 1,620 work orders (2025)</dd></div>
+<div><dt>Tools</dt><dd>SQL (DuckDB), Python</dd></div>
+<div><dt data-id="Metode">Methods</dt><dd data-id="PA / UA, MTBF / MTTR, Pareto, tingkat kerusakan berbasis jam operasi">PA / UA, MTBF / MTTR, Pareto, exposure-based failure rates</dd></div>
+<div><dt data-id="Latar belakang">Background</dt><dd data-id="Dimodelkan dari data armada yang saya tangani di perusahaan alat berat">Modelled on the fleet data I worked with at a heavy-equipment company</dd></div>
+</dl>
+</div>
+</div>
+<section aria-label="Key numbers">
+<div class="wrap">
+<div class="kpis">
+<div class="kpi reveal"><b class="num"><span id="k-pa">94.2</span>%</b><span data-id="physical availability: mesin umumnya siap bekerja">physical availability: machines are usually ready to work</span></div>
+<div class="kpi reveal"><b class="num"><span id="k-ua">72.5</span>%</b><span data-id="use of availability: mesin yang siap sering tidak dipakai">use of availability: ready machines are often not used</span></div>
+<div class="kpi accent reveal"><b class="num">~<span id="k-papua">2,170</span> h</b><span data-id="per tahun bisa dipulihkan di Papua dengan menyetok suku cadang penting">per year recoverable at Papua by stocking critical spares</span></div>
+<div class="kpi reveal"><b class="num">~<span id="k-bd">45</span></b><span data-id="kerusakan per tahun bisa dicegah di Sulawesi dengan servis tepat waktu">breakdowns a year avoidable at Sulawesi by servicing on time</span></div>
+</div>
+<p class="note reveal" data-id="Data armada bersifat rahasia, jadi dataset ini simulasi. Isinya sama dengan data yang dipakai kontraktor sungguhan (hour-meter, jam shift, work order kerusakan dan PM), dan analisisnya dikerjakan seolah-olah penyebabnya belum diketahui.">Fleet data is confidential, so this dataset is simulated. It records the same fields real contractors use (hour-meters, shift hours, breakdown and PM work orders), and the analysis was written as if the causes were unknown.</p>
+</div>
+</section>
+<section aria-labelledby="hours">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Ke mana setiap jam terjadwal pergi" id="hours">Where every scheduled hour went</h2>
+<p data-id="Dua KPI memisahkan masalahnya:">Two KPIs separate the problem:</p>
+<ul>
+<li data-id="&lt;strong&gt;Physical availability (PA)&lt;/strong&gt; = (jam terjadwal &amp;minus; downtime) / jam terjadwal. Apakah mesin siap?"><strong>Physical availability (PA)</strong> = (scheduled − downtime) / scheduled. Is the machine ready?</li>
+<li data-id="&lt;strong&gt;Use of availability (UA)&lt;/strong&gt; = jam operasi / jam tersedia. Saat siap, apakah dipakai?"><strong>Use of availability (UA)</strong> = operating / available hours. When ready, is it used?</li>
+</ul>
+<p data-id="PA-nya sehat. Kerugian yang lebih besar adalah mesin siap yang menganggur, dan sebagian besar karena &lt;strong&gt;standby akibat hujan&lt;/strong&gt;.">PA is healthy. The bigger loss is ready machines standing idle, and most of that is <strong>rain standby</strong>.</p>
+</div>
+<div class="chart-card reveal from-right">
+<h3 data-id="Porsi dari 210.240 jam mesin terjadwal">Share of 210,240 scheduled machine-hours</h3>
+<p class="sub" data-id="Semua unit, semua site, 2025">All units, all sites, 2025</p>
+<ul class="bars" id="c-split" style="margin:26px 0 10px"></ul>
+<p class="takeaway" data-id="Standby karena cuaca (&lt;strong&gt;13,8%&lt;/strong&gt;) lebih besar daripada gabungan semua kerusakan dan maintenance (&lt;strong&gt;5,8%&lt;/strong&gt;).">Weather standby (<strong>13.8%</strong>) costs more than all breakdowns and maintenance combined (<strong>5.8%</strong>).</p>
+</div>
+</div>
+<div class="chart-card reveal" style="margin-top:28px">
+<h3 data-id="Use of availability per bulan dan site">Use of availability by month and site</h3>
+<p class="sub" data-id="Penurunan di tiap site sejalan dengan musim hujannya masing-masing, sementara physical availability tetap di antara 90% dan 97%">Each site's dip lines up with its own rainy season, while physical availability stays between 90% and 97%</p>
+<div class="legend" id="l-season"></div>
+<div class="chart-box"><canvas id="c-season"></canvas></div>
+<p class="takeaway" data-id='UA turun dari &lt;strong&gt;&lt;span id="k-dry"&gt;79.5&lt;/span&gt;%&lt;/strong&gt; di bulan kemarau menjadi &lt;strong&gt;&lt;span id="k-rain"&gt;62.8&lt;/span&gt;%&lt;/strong&gt; di bulan hujan. Menilai site dengan satu target UA tahunan sama saja menghukum mereka karena cuaca.'>UA drops from <strong><span id="k-dry">79.5</span>%</strong> in dry months to <strong><span id="k-rain">62.8</span>%</strong> in rainy months. Judging sites on one annual UA target punishes them for the weather.</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="breakdowns">
+<div class="wrap">
+<h2 class="reveal" data-id="Apa yang rusak, dan kenapa perbaikannya lama" id="breakdowns">What breaks, and why repairs take so long</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Downtime tak terencana per sistem">Unplanned downtime by system</h3>
+<p class="sub" data-id="Jam, 670 kerusakan. Arahkan kursor untuk melihat porsi kumulatif.">Hours, 670 breakdowns. Hover for the cumulative share.</p>
+<div class="chart-box"><canvas id="c-pareto"></canvas></div>
+<p class="takeaway" data-id="&lt;strong&gt;Hidraulik menyebabkan 30,5%&lt;/strong&gt; downtime, dan tiga sistem teratas menyebabkan 66%. Kerusakan hidraulik juga &lt;strong&gt;berulang dalam 30 hari pada 29% kasus&lt;/strong&gt;."><strong>Hydraulics cause 30.5%</strong> of downtime, and the top three systems cause 66%. Hydraulic failures also <strong>repeat within 30 days 29% of the time</strong>.</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Rata-rata jam pemulihan kerusakan">Average hours to restore a breakdown</h3>
+<p class="sub" data-id="Dipecah menjadi waktu perbaikan langsung dan waktu menunggu">Split into hands-on repair and waiting time</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Perbaikan'><i style="background:var(--c1)"></i>Repair</span><span data-id='&lt;i style="background:var(--c2)"&gt;&lt;/i&gt;Menunggu suku cadang'><i style="background:var(--c2)"></i>Waiting for parts</span><span data-id='&lt;i style="background:var(--c3)"&gt;&lt;/i&gt;Menunggu mekanik'><i style="background:var(--c3)"></i>Waiting for mechanic</span></div>
+<div class="chart-box"><canvas id="c-mttr"></canvas></div>
+<p class="takeaway" data-id="Mekanik di Papua memperbaiki secepat mekanik di site lain. Bedanya ada pada &lt;strong&gt;20,7 jam menunggu suku cadang&lt;/strong&gt;, dibanding 5,6 jam di site lain, atau 66% dari downtime-nya.">Papua's mechanics repair as fast as everyone else's. The difference is <strong>20.7 h waiting for parts</strong> vs 5.6 h elsewhere, which is 66% of its downtime.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="pm">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Servis yang terlewat berujung kerusakan" id="pm">Skipped maintenance shows up as breakdowns</h2>
+<p data-id="Unit seharusnya diservis setiap 250 jam hour-meter. Dengan window function atas hour-meter harian, saya menandai setiap jam operasi yang &lt;strong&gt;melewati jadwal PM&lt;/strong&gt;, lalu membandingkan tingkat kerusakan per 1.000 jam.">Units should be serviced every 250 hour-meter hours. Using window functions over the daily hour-meter, I marked every operating hour run <strong>past the PM due point</strong>, then compared breakdown rates per 1,000 hours.</p>
+<p data-id='Di semua site, jam operasi yang lewat jadwal servis &lt;strong&gt;&lt;span id="k-r1"&gt;2.6&lt;/span&gt;–&lt;span id="k-r2"&gt;3.5&lt;/span&gt;&amp;times; lebih sering rusak&lt;/strong&gt;. Sulawesi hanya menyelesaikan &lt;strong&gt;63%&lt;/strong&gt; servis tepat waktu, sehingga 17% jam operasinya berjalan melewati jadwal.'>At every site, overdue hours fail <strong><span id="k-r1">2.6</span>–<span id="k-r2">3.5</span>× more often</strong>. Sulawesi completes only <strong>63%</strong> of services on time, so 17% of its operating hours run overdue.</p>
+</div>
+<div class="chart-card reveal from-right">
+<h3 data-id="Kerusakan per 1.000 jam operasi">Breakdowns per 1,000 operating hours</h3>
+<p class="sub" data-id="Sesuai jadwal vs melewati jadwal PM. Label site menunjukkan kepatuhan PM tepat waktu.">On schedule vs past PM due. Site label shows on-time PM compliance.</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;PM sesuai jadwal'><i style="background:var(--c1)"></i>PM on schedule</span><span data-id='&lt;i style="background:var(--c2)"&gt;&lt;/i&gt;PM terlambat'><i style="background:var(--c2)"></i>PM overdue</span></div>
+<div class="chart-box"><canvas id="c-pm"></canvas></div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="sql">
+<div class="wrap">
+<div class="split">
+<div class="reveal from-left">
+<div class="code-head"><span>06_repeat_failures.sql</span><a data-id="Ketujuh file SQL di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/equipment-utilization-rca/sql" rel="noopener" target="_blank">All 7 SQL files on GitHub</a></div>
+<pre class="code"><code><span class="k">WITH</span> seq <span class="k">AS</span> (
+    <span class="k">SELECT</span> unit_id, site, model, system, start_time,
+           <span class="f">LAG</span>(end_time) <span class="k">OVER</span> (<span class="k">PARTITION BY</span> unit_id, system <span class="k">ORDER BY</span> start_time) <span class="k">AS</span> prev_end
+    <span class="k">FROM</span> events <span class="k">WHERE</span> event_type = 'Breakdown'
+)
+<span class="k">SELECT</span> system,
+       <span class="f">COUNT</span>(*)                                                         <span class="k">AS</span> breakdowns,
+       <span class="f">SUM</span>(<span class="k">CASE</span> <span class="k">WHEN</span> <span class="f">DATE_DIFF</span>('day', prev_end, start_time) &lt;= 30 <span class="k">THEN</span> 1 <span class="k">ELSE</span> 0 <span class="k">END</span>) <span class="k">AS</span> repeat_within_30d,
+       <span class="f">ROUND</span>(100.0 * <span class="f">AVG</span>(<span class="k">CASE</span> <span class="k">WHEN</span> <span class="f">DATE_DIFF</span>('day', prev_end, start_time) &lt;= 30 <span class="k">THEN</span> 1 <span class="k">ELSE</span> 0 <span class="k">END</span>), 1) <span class="k">AS</span> repeat_pct
+<span class="k">FROM</span> seq
+<span class="k">GROUP BY</span> system
+<span class="k">ORDER BY</span> repeat_pct DESC;</code></pre>
+</div>
+<div class="reveal from-right">
+<h2 data-id="Unit paling bermasalah" id="sql">Bad actors</h2>
+<div class="table-wrap">
+<table class="data" id="t-bad"><thead><tr><th>#</th><th>Unit</th><th>Site</th><th>Model</th><th class="r" data-id="Kerusakan">Breakdowns</th><th class="r" data-id="Downtime (jam)">Downtime h</th></tr></thead><tbody></tbody></table>
+</div>
+<p class="note" data-id="6 dari 7 unit teratas ada di Papua: masalah menunggu suku cadang, terlihat unit per unit.">6 of the top 7 units are at Papua: the parts-wait problem, seen unit by unit.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="recs">
+<div class="wrap">
+<h2 class="reveal" data-id="Rekomendasi" id="recs">Recommendations</h2>
+<ul class="recs">
+<li class="reveal"><h3 data-id="Stok suku cadang penting di Papua">Stock critical spares at Papua</h3><p data-id="Stok konsinyasi atau level min/maks untuk suku cadang hidraulik dan mesin. Menurunkan waktu tunggu suku cadang ke rata-rata site lain memulihkan sekitar 2.170 jam mesin per tahun.">Consignment stock or min/max levels for hydraulic and engine parts. Bringing parts wait to the other sites' average recovers about 2,170 machine-hours a year.</p></li>
+<li class="reveal"><h3 data-id="Tegakkan jadwal PM di Sulawesi">Enforce PM scheduling at Sulawesi</h3><p data-id="Hentikan unit saat mencapai jam jatuh tempo + 25 jam dan terbitkan laporan kepatuhan mingguan. Menghilangkan operasi yang lewat jadwal mencegah sekitar 45 kerusakan dan 750 jam downtime per tahun.">Lock units out at due hour + 25 h and publish a weekly compliance report. Removing overdue running avoids about 45 breakdowns and 750 downtime hours a year.</p></li>
+<li class="reveal"><h3 data-id="Jalankan program RCA hidraulik">Run a hydraulic RCA programme</h3><p data-id="Tinjau spesifikasi selang dan seal serta kebiasaan operator. Pantau tingkat kerusakan berulang 30 hari setiap bulan untuk melihat apakah perbaikan sudah menyentuh akar masalah.">Review hose and seal specs and operator practices. Track the 30-day repeat-failure rate monthly to see whether repairs fix the root cause.</p></li>
+<li class="reveal"><h3 data-id="Rencanakan musim hujan">Plan the rainy season</h3><p data-id="Pindahkan PM, pelatihan, dan penggantian komponen ke bulan hujan, dan tetapkan target UA musiman agar setiap site dinilai secara adil.">Move PM, training and component change-outs into rainy months, and set seasonal UA targets so sites are judged fairly.</p></li>
+</ul>
+<a class="next-case reveal" href="../hotel-esg-data-pipeline/">
+<div><small data-id="Project berikutnya">Next project</small><strong data-id="Pipeline data utilitas hotel dan pelaporan ESG">Hotel utility data pipeline and ESG reporting</strong></div>
+<svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></svg>
+</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Devin Lee</span><a data-id="Kode dan README di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/equipment-utilization-rca" rel="noopener" target="_blank">Code and README on GitHub</a></div></footer>
+<script src="../../assets/vendor/lenis.min.js"></script>
+<script src="../../assets/vendor/chart.umd.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+<script>
+(async () => {
+  const { c, fmt, load, whenVisible } = Viz;
+  const d = await load("../../assets/data/equipment.json");
+  const k = d.kpi;
+  const set = (id, v) => (document.getElementById(id).textContent = v);
+  set("k-pa", k.pa); set("k-ua", k.ua); set("k-papua", fmt(k.papua_saved_h)); set("k-bd", k.sulawesi_avoidable_bd);
+  set("k-dry", k.dry_ua); set("k-rain", k.rainy_ua); set("k-r1", k.overdue_ratio_min); set("k-r2", k.overdue_ratio_max);
+
+  const sp = document.getElementById("c-split");
+  const rows = [["Operating", d.split.op, c.teal], ["Weather standby", d.split.standby, c.blue], ["Idle (ready, not used)", d.split.idle, "#5d7383"], ["Downtime (breakdown + PM)", d.split.down, c.amber]];
+  sp.innerHTML = rows.map(([l, v, col]) => `<li><span>${l}</span><span class="track"><span class="fill" data-w="${v}" style="background:${col}"></span></span><span class="val">${v}%</span></li>`).join("");
+  whenVisible(sp, () => sp.querySelectorAll(".fill").forEach(f => (f.style.width = f.dataset.w + "%")));
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const cols = [c.teal, c.amber, c.blue, c.rose];
+  const sites = Object.keys(d.season);
+  document.getElementById("l-season").innerHTML = sites.map((s, i) => `<span><i style="background:${cols[i]}"></i>${s.split(" - ")[1]}</span>`).join("");
+  whenVisible(document.getElementById("c-season"), () => new Chart("c-season", {
+    type: "line",
+    data: { labels: months, datasets: sites.map((s, i) => ({ label: s.split(" - ")[1], data: d.season[s].ua, borderColor: cols[i], backgroundColor: cols[i], tension: 0.3 })) },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: { display: false } }, y: { min: 50, max: 90, ticks: { callback: v => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.dataset.label}: UA ${i.raw}% · PA ${d.season[sites[i.datasetIndex]].pa[i.dataIndex]}%` } } } },
+  }));
+
+  const p = d.pareto;
+  whenVisible(document.getElementById("c-pareto"), () => new Chart("c-pareto", {
+    type: "bar",
+    data: { labels: p.system, datasets: [{ data: p.downtime_h, backgroundColor: p.system.map((_, i) => (i === 0 ? c.amber : c.teal)), barThickness: 18 }] },
+    options: { indexAxis: "y", scales: { x: { ticks: { maxTicksLimit: 5, callback: v => fmt(v) + " h" } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${fmt(i.raw)} h downtime`, afterLabel: i => [` ${p.breakdowns[i.dataIndex]} breakdowns, avg ${p.avg_h[i.dataIndex]} h`, ` cumulative ${p.cumulative_pct[i.dataIndex]}%`] } } } },
+  }));
+
+  const m = d.mttr;
+  whenVisible(document.getElementById("c-mttr"), () => new Chart("c-mttr", {
+    type: "bar",
+    data: { labels: m.site.map(s => s.split(" - ")[1]), datasets: [
+      { label: "Repair", data: m.repair_h, backgroundColor: c.teal, maxBarThickness: 46 },
+      { label: "Waiting for parts", data: m.waiting_parts_h, backgroundColor: c.amber, maxBarThickness: 46 },
+      { label: "Waiting for mechanic", data: m.waiting_mechanic_h, backgroundColor: c.blue, maxBarThickness: 46 }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, ticks: { callback: v => v + " h" } } },
+      plugins: { tooltip: { callbacks: { label: i => ` ${i.dataset.label}: ${i.raw} h` } } } },
+  }));
+
+  const pm = [...d.pm].sort((a, b) => a.pm_compliance_pct - b.pm_compliance_pct);
+  whenVisible(document.getElementById("c-pm"), () => new Chart("c-pm", {
+    type: "bar",
+    data: { labels: pm.map(r => [r.site.split(" - ")[1], `${r.pm_compliance_pct}% on time`]), datasets: [
+      { label: "PM on schedule", data: pm.map(r => r.bd_per_1000h_on_schedule), backgroundColor: c.teal, maxBarThickness: 34 },
+      { label: "PM overdue", data: pm.map(r => r.bd_per_1000h_overdue), backgroundColor: c.amber, maxBarThickness: 34 }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: { display: false } }, y: { beginAtZero: true } },
+      plugins: { tooltip: { callbacks: { title: it => it[0].label.replace(",", " · "), label: i => ` ${i.dataset.label}: ${i.raw} per 1,000 h`,
+        footer: it => `${pm[it[0].dataIndex].pct_hours_overdue}% of hours run overdue` } } } },
+  }));
+
+  document.querySelector("#t-bad tbody").innerHTML = d.bad.slice(0, 8).map((r, i) =>
+    `<tr><td>${i + 1}</td><td>${r.unit_id}</td><td>${r.site.split(" - ")[1]}</td><td>${r.model.split(" ")[0]}</td><td class="r">${r.breakdowns}</td><td class="r">${fmt(r.downtime_h)}</td></tr>`).join("");
+})();
+</script>
+</body>
+</html>

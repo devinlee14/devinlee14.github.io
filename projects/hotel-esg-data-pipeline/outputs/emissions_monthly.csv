@@ -1,0 +1,1441 @@
+property_id,property_name,country,segment,period,scope,tco2e
+HTL-001,Azure Singapore,Singapore,Midscale,2024-01,Scope 2,241.06154999999998
+HTL-001,Azure Singapore,Singapore,Midscale,2024-02,Scope 2,248.99299999999997
+HTL-001,Azure Singapore,Singapore,Midscale,2024-03,Scope 2,249.335063
+HTL-001,Azure Singapore,Singapore,Midscale,2024-04,Scope 2,244.87373
+HTL-001,Azure Singapore,Singapore,Midscale,2024-05,Scope 2,252.71456999999998
+HTL-001,Azure Singapore,Singapore,Midscale,2024-06,Scope 2,228.79107
+HTL-001,Azure Singapore,Singapore,Midscale,2024-07,Scope 2,255.82384599999997
+HTL-001,Azure Singapore,Singapore,Midscale,2024-08,Scope 2,258.57006699999994
+HTL-001,Azure Singapore,Singapore,Midscale,2024-09,Scope 2,245.86265
+HTL-001,Azure Singapore,Singapore,Midscale,2024-10,Scope 2,254.76965399999997
+HTL-001,Azure Singapore,Singapore,Midscale,2024-11,Scope 2,247.68694499999998
+HTL-001,Azure Singapore,Singapore,Midscale,2024-12,Scope 2,246.78560099999996
+HTL-001,Azure Singapore,Singapore,Midscale,2025-01,Scope 2,241.079221
+HTL-001,Azure Singapore,Singapore,Midscale,2025-02,Scope 2,227.03061199999996
+HTL-001,Azure Singapore,Singapore,Midscale,2025-03,Scope 2,265.193535
+HTL-001,Azure Singapore,Singapore,Midscale,2025-04,Scope 2,231.75545199999996
+HTL-001,Azure Singapore,Singapore,Midscale,2025-05,Scope 2,239.59567699999997
+HTL-001,Azure Singapore,Singapore,Midscale,2025-06,Scope 2,247.67403
+HTL-001,Azure Singapore,Singapore,Midscale,2025-07,Scope 2,245.344123
+HTL-001,Azure Singapore,Singapore,Midscale,2025-08,Scope 2,255.495805
+HTL-001,Azure Singapore,Singapore,Midscale,2025-09,Scope 2,233.87843199999998
+HTL-001,Azure Singapore,Singapore,Midscale,2025-10,Scope 2,249.986184
+HTL-001,Azure Singapore,Singapore,Midscale,2025-11,Scope 2,242.794415
+HTL-001,Azure Singapore,Singapore,Midscale,2025-12,Scope 2,250.562275
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-01,Scope 2,740.9115330000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-02,Scope 2,674.600987
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-03,Scope 2,718.9131140000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-04,Scope 2,708.339043
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-05,Scope 2,771.120896
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-06,Scope 2,739.7794795645162
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-07,Scope 2,711.604903
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-08,Scope 2,724.630344
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-09,Scope 2,716.318201
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-10,Scope 2,721.112
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-11,Scope 2,710.4086060000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2024-12,Scope 2,763.36989
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-01,Scope 2,744.964154
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-02,Scope 2,670.7554250000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-03,Scope 2,802.269253
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-04,Scope 2,687.75662
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-05,Scope 2,753.564568
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-06,Scope 2,731.3932970000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-07,Scope 2,732.6176389999999
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-08,Scope 2,723.417062
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-09,Scope 2,736.8200439999999
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-10,Scope 2,730.103464
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-11,Scope 2,667.3033620000001
+HTL-002,Meridian Bay Jakarta,Indonesia,Luxury,2025-12,Scope 2,719.2697200000001
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-01,Scope 2,500.605836
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-02,Scope 2,505.370696
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-03,Scope 2,539.71087
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-04,Scope 2,524.4450820000001
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-05,Scope 2,515.8884499999999
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-06,Scope 2,511.301391
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-07,Scope 2,546.6658829999999
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-08,Scope 2,503.499626
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-09,Scope 2,485.40942
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-10,Scope 2,511.54188999999997
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-11,Scope 2,481.21753699999994
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2024-12,Scope 2,536.567087
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-01,Scope 2,502.60305399999993
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-02,Scope 2,495.70580399999994
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-03,Scope 2,526.8902099999999
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-04,Scope 2,525.976906
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-05,Scope 2,534.245052
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-06,Scope 2,514.746491
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-07,Scope 2,515.0985679999999
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-08,Scope 2,541.229581
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-09,Scope 2,523.95647
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-10,Scope 2,513.227733
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-11,Scope 2,519.1695199999999
+HTL-003,Palm Court Bangkok,Thailand,Luxury,2025-12,Scope 2,531.7684810000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-01,Scope 1,11.290496099999999
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-01,Scope 2,390.400089
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-02,Scope 1,12.2031354
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-02,Scope 2,350.931126
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-03,Scope 1,12.718756199999998
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-03,Scope 2,387.146234
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-04,Scope 1,11.292984899999999
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-04,Scope 2,340.23538
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-05,Scope 1,13.7465208
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-05,Scope 2,395.370015
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-06,Scope 1,12.206923499999998
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-06,Scope 2,376.975768
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-07,Scope 1,12.698004
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-07,Scope 2,390.23748000000006
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-08,Scope 1,10.584244199999999
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-08,Scope 2,374.99699000000004
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-09,Scope 1,10.1209248
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-09,Scope 2,341.69149100000004
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-10,Scope 1,13.2729534
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-10,Scope 2,379.145697
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-11,Scope 1,12.930615300000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-11,Scope 2,374.352048
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-12,Scope 1,11.3292372
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2024-12,Scope 2,370.33231600000005
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-01,Scope 1,11.7063636
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-01,Scope 2,391.543109
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-02,Scope 1,12.050092499999998
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-02,Scope 2,340.01736200000005
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-03,Scope 1,11.385491400000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-03,Scope 2,386.36756
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-04,Scope 1,11.725688400000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-04,Scope 2,360.346837
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-05,Scope 1,12.9120774
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-05,Scope 2,390.6357280000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-06,Scope 1,11.5792701
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-06,Scope 2,372.75718000000006
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-07,Scope 1,13.749521999999999
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-07,Scope 2,380.4720960000001
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-08,Scope 1,14.4088161
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-08,Scope 2,391.175748
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-09,Scope 1,11.0041194
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-09,Scope 2,363.81174200000004
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-10,Scope 1,10.661031
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-10,Scope 2,355.143818
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-11,Scope 1,12.089345999999999
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-11,Scope 2,361.55699100000004
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-12,Scope 1,11.5866267
+HTL-004,Riverstone Kuala Lumpur,Malaysia,Upscale,2025-12,Scope 2,380.23471500000005
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-01,Scope 2,716.239172
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-02,Scope 2,663.1511640000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-03,Scope 2,758.9201200000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-04,Scope 2,712.1121840000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-05,Scope 2,737.7942200000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-06,Scope 2,745.3208000000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-07,Scope 2,746.2432200000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-08,Scope 2,704.641704
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-09,Scope 2,657.1441120000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-10,Scope 2,718.4262560000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-11,Scope 2,657.0602000000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2024-12,Scope 2,709.576056
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-01,Scope 2,695.2968720000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-02,Scope 2,665.223736
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-03,Scope 2,717.016956
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-04,Scope 2,702.52024
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-05,Scope 2,745.468156
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-06,Scope 2,742.0234800000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-07,Scope 2,776.5469440000002
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-08,Scope 2,716.8550480000001
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-09,Scope 2,705.399496
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-10,Scope 2,683.9057840000002
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-11,Scope 2,663.58038
+HTL-005,Cedar House Ho Chi Minh City,Vietnam,Upscale,2025-12,Scope 2,710.041992
+HTL-006,Azure Tokyo,Japan,Midscale,2024-01,Scope 2,270.07533
+HTL-006,Azure Tokyo,Japan,Midscale,2024-02,Scope 2,258.256215
+HTL-006,Azure Tokyo,Japan,Midscale,2024-03,Scope 2,286.08723000000003
+HTL-006,Azure Tokyo,Japan,Midscale,2024-04,Scope 2,270.51178500000003
+HTL-006,Azure Tokyo,Japan,Midscale,2024-05,Scope 2,301.916115
+HTL-006,Azure Tokyo,Japan,Midscale,2024-06,Scope 2,301.216095
+HTL-006,Azure Tokyo,Japan,Midscale,2024-07,Scope 2,326.15666999999996
+HTL-006,Azure Tokyo,Japan,Midscale,2024-08,Scope 2,327.53533500000003
+HTL-006,Azure Tokyo,Japan,Midscale,2024-09,Scope 2,306.969795
+HTL-006,Azure Tokyo,Japan,Midscale,2024-10,Scope 2,289.29010500000004
+HTL-006,Azure Tokyo,Japan,Midscale,2024-11,Scope 2,280.698615
+HTL-006,Azure Tokyo,Japan,Midscale,2024-12,Scope 2,255.67164
+HTL-006,Azure Tokyo,Japan,Midscale,2025-01,Scope 2,269.860545
+HTL-006,Azure Tokyo,Japan,Midscale,2025-02,Scope 2,233.33175
+HTL-006,Azure Tokyo,Japan,Midscale,2025-03,Scope 2,274.609755
+HTL-006,Azure Tokyo,Japan,Midscale,2025-04,Scope 2,275.249565
+HTL-006,Azure Tokyo,Japan,Midscale,2025-05,Scope 2,299.74968
+HTL-006,Azure Tokyo,Japan,Midscale,2025-06,Scope 2,292.616235
+HTL-006,Azure Tokyo,Japan,Midscale,2025-07,Scope 2,334.52946000000003
+HTL-006,Azure Tokyo,Japan,Midscale,2025-08,Scope 2,325.94175
+HTL-006,Azure Tokyo,Japan,Midscale,2025-09,Scope 2,291.15405
+HTL-006,Azure Tokyo,Japan,Midscale,2025-10,Scope 2,299.4678
+HTL-006,Azure Tokyo,Japan,Midscale,2025-11,Scope 2,272.827125
+HTL-006,Azure Tokyo,Japan,Midscale,2025-12,Scope 2,279.96345
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-01,Scope 1,14.7758226
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-01,Scope 2,373.7745
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-02,Scope 1,16.4417631
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-02,Scope 2,350.929656
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-03,Scope 1,16.5040929
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-03,Scope 2,353.875764
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-04,Scope 1,13.7537859
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-04,Scope 2,365.6560380000001
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-05,Scope 1,13.8585351
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-05,Scope 2,405.398532
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-06,Scope 1,11.094210299999999
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-06,Scope 2,419.498112
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-07,Scope 1,10.591326299999999
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-07,Scope 2,436.98916800000006
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-08,Scope 1,11.659991400000001
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-08,Scope 2,435.06672000000003
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-09,Scope 1,13.092259199999999
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-09,Scope 2,411.62048400000003
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-10,Scope 1,11.7631851
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-10,Scope 2,410.06651400000004
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-11,Scope 1,11.6151564
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-11,Scope 2,373.06196400000005
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-12,Scope 1,15.1499844
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2024-12,Scope 2,362.949642
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-01,Scope 1,15.3725673
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-01,Scope 2,344.19158400000003
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-02,Scope 1,14.0302623
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-02,Scope 2,324.05828400000007
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-03,Scope 1,17.8241451
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-03,Scope 2,408.80235000000005
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-04,Scope 1,14.658849
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-04,Scope 2,403.322436
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-05,Scope 1,14.285053199999998
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-05,Scope 2,411.80337
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-06,Scope 1,11.6811645
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-06,Scope 2,412.06275
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-07,Scope 1,12.1309785
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-07,Scope 2,417.02430000000004
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-08,Scope 1,9.6796752
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-08,Scope 2,411.825414
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-09,Scope 1,12.407784300000001
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-09,Scope 2,419.12725800000004
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-10,Scope 1,14.012621099999999
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-10,Scope 2,408.048564
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-11,Scope 1,13.5983274
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-11,Scope 2,389.92984800000005
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-12,Scope 1,13.020980699999999
+HTL-007,Meridian Bay Sydney,Australia,Midscale,2025-12,Scope 2,376.1939280000001
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-01,Scope 2,459.04823999999996
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-02,Scope 2,445.40076
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-03,Scope 2,446.065872
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-04,Scope 2,478.02518399999997
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-05,Scope 2,492.01374599999997
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-06,Scope 2,487.66821600000003
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-07,Scope 2,520.358832
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-08,Scope 2,460.799346
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-09,Scope 2,474.35875200000004
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-10,Scope 2,499.95283799999993
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-11,Scope 2,456.36003
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2024-12,Scope 2,459.522336
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-01,Scope 2,498.75088200000005
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-02,Scope 2,421.33182
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-03,Scope 2,489.92832
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-04,Scope 2,479.33377799999994
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-05,Scope 2,482.09238
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-06,Scope 2,502.26539999999994
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-07,Scope 2,520.782276
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-08,Scope 2,508.51445399999994
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-09,Scope 2,484.907514
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-10,Scope 2,484.15705799999995
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-11,Scope 2,464.19991799999997
+HTL-008,Palm Court Dubai,United Arab Emirates,Luxury,2025-12,Scope 2,461.08112399999993
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-01,Scope 1,18.7123905
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-01,Scope 2,370.623559
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-02,Scope 1,17.0644206
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-02,Scope 2,354.59875
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-03,Scope 1,20.193391199999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-03,Scope 2,398.96124199999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-04,Scope 1,20.6873631
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-04,Scope 2,385.25895999999995
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-05,Scope 1,19.4095839
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-05,Scope 2,374.35078699999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-06,Scope 1,17.501095199999998
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-06,Scope 2,367.03146699999996
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-07,Scope 1,17.6262306
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-07,Scope 2,384.415303
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-08,Scope 1,19.565591400000002
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-08,Scope 2,371.471931
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-09,Scope 1,15.629060099999998
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-09,Scope 2,339.9398969999999
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-10,Scope 1,15.5247135
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-10,Scope 2,381.771459
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-11,Scope 1,17.8734087
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-11,Scope 2,392.250403
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-12,Scope 1,19.063549199999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2024-12,Scope 2,372.2946369999999
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-01,Scope 1,21.955040699999998
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-01,Scope 2,396.98963399999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-02,Scope 1,20.4232392
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-02,Scope 2,362.376778
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-03,Scope 1,25.497444899999998
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-03,Scope 2,422.316154
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-04,Scope 1,18.6942369
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-04,Scope 2,371.16151999999994
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-05,Scope 1,20.1868398
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-05,Scope 2,391.56512899999996
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-06,Scope 1,14.5105641
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-06,Scope 2,370.394574
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-07,Scope 1,18.9556158
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-07,Scope 2,385.34583899999996
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-08,Scope 1,15.988856400000001
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-08,Scope 2,370.066
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-09,Scope 1,17.5828596
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-09,Scope 2,360.36277599999994
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-10,Scope 1,15.0977928
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-10,Scope 2,349.4225
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-11,Scope 1,18.3832833
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-11,Scope 2,371.39419499999997
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-12,Scope 1,17.549626800000002
+HTL-009,Riverstone Singapore,Singapore,Upscale,2025-12,Scope 2,366.97345199999995
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-01,Scope 2,667.3740670000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-02,Scope 2,662.4466
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-03,Scope 2,725.44989
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-04,Scope 2,680.75169
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-05,Scope 2,716.13263
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-06,Scope 2,730.0760510000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-07,Scope 2,737.441458
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-08,Scope 2,691.152356
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-09,Scope 2,705.3664310000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-10,Scope 2,750.7691530000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-11,Scope 2,728.8188450000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2024-12,Scope 2,699.302865
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-01,Scope 2,716.1961460000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-02,Scope 2,666.06875
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-03,Scope 2,732.8879770000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-04,Scope 2,756.5277000000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-05,Scope 2,708.822444
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-06,Scope 2,728.32865
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-07,Scope 2,738.6632720000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-08,Scope 2,709.2610520000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-09,Scope 2,661.441404
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-10,Scope 2,701.3693470000001
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-11,Scope 2,665.391641
+HTL-010,Cedar House Bali,Indonesia,Luxury,2025-12,Scope 2,764.10538
+HTL-011,Azure Phuket,Thailand,Upscale,2024-01,Scope 1,10.025380499999999
+HTL-011,Azure Phuket,Thailand,Upscale,2024-01,Scope 2,200.946949
+HTL-011,Azure Phuket,Thailand,Upscale,2024-02,Scope 1,8.398272599999999
+HTL-011,Azure Phuket,Thailand,Upscale,2024-02,Scope 2,176.15035999999998
+HTL-011,Azure Phuket,Thailand,Upscale,2024-03,Scope 1,9.8201277
+HTL-011,Azure Phuket,Thailand,Upscale,2024-03,Scope 2,200.25384
+HTL-011,Azure Phuket,Thailand,Upscale,2024-04,Scope 1,8.5755447
+HTL-011,Azure Phuket,Thailand,Upscale,2024-04,Scope 2,196.13795599999997
+HTL-011,Azure Phuket,Thailand,Upscale,2024-05,Scope 1,9.7963194
+HTL-011,Azure Phuket,Thailand,Upscale,2024-05,Scope 2,199.571635
+HTL-011,Azure Phuket,Thailand,Upscale,2024-06,Scope 1,8.9715201
+HTL-011,Azure Phuket,Thailand,Upscale,2024-06,Scope 2,184.99397399999998
+HTL-011,Azure Phuket,Thailand,Upscale,2024-07,Scope 1,8.778949200000001
+HTL-011,Azure Phuket,Thailand,Upscale,2024-07,Scope 2,203.47757
+HTL-011,Azure Phuket,Thailand,Upscale,2024-08,Scope 1,8.713545
+HTL-011,Azure Phuket,Thailand,Upscale,2024-08,Scope 2,194.107133
+HTL-011,Azure Phuket,Thailand,Upscale,2024-09,Scope 1,9.089097599999999
+HTL-011,Azure Phuket,Thailand,Upscale,2024-09,Scope 2,203.05128
+HTL-011,Azure Phuket,Thailand,Upscale,2024-10,Scope 1,9.1641093
+HTL-011,Azure Phuket,Thailand,Upscale,2024-10,Scope 2,198.755245
+HTL-011,Azure Phuket,Thailand,Upscale,2024-11,Scope 1,8.577063599999999
+HTL-011,Azure Phuket,Thailand,Upscale,2024-11,Scope 2,184.69495999999998
+HTL-011,Azure Phuket,Thailand,Upscale,2024-12,Scope 1,8.749760700000001
+HTL-011,Azure Phuket,Thailand,Upscale,2024-12,Scope 2,197.19132
+HTL-011,Azure Phuket,Thailand,Upscale,2025-01,Scope 1,10.292999700000001
+HTL-011,Azure Phuket,Thailand,Upscale,2025-01,Scope 2,199.983825
+HTL-011,Azure Phuket,Thailand,Upscale,2025-02,Scope 1,7.767105599999999
+HTL-011,Azure Phuket,Thailand,Upscale,2025-02,Scope 2,167.397973
+HTL-011,Azure Phuket,Thailand,Upscale,2025-03,Scope 1,9.6795471
+HTL-011,Azure Phuket,Thailand,Upscale,2025-03,Scope 2,195.968568
+HTL-011,Azure Phuket,Thailand,Upscale,2025-04,Scope 1,9.389565300000001
+HTL-011,Azure Phuket,Thailand,Upscale,2025-04,Scope 2,194.721705
+HTL-011,Azure Phuket,Thailand,Upscale,2025-05,Scope 1,7.842629700000001
+HTL-011,Azure Phuket,Thailand,Upscale,2025-05,Scope 2,190.90333099999998
+HTL-011,Azure Phuket,Thailand,Upscale,2025-06,Scope 1,8.493762
+HTL-011,Azure Phuket,Thailand,Upscale,2025-06,Scope 2,198.66665
+HTL-011,Azure Phuket,Thailand,Upscale,2025-07,Scope 1,8.163959400000001
+HTL-011,Azure Phuket,Thailand,Upscale,2025-07,Scope 2,200.097424
+HTL-011,Azure Phuket,Thailand,Upscale,2025-08,Scope 1,9.1052016
+HTL-011,Azure Phuket,Thailand,Upscale,2025-08,Scope 2,197.228544
+HTL-011,Azure Phuket,Thailand,Upscale,2025-09,Scope 1,7.5288579
+HTL-011,Azure Phuket,Thailand,Upscale,2025-09,Scope 2,193.33778999999998
+HTL-011,Azure Phuket,Thailand,Upscale,2025-10,Scope 1,8.1839613
+HTL-011,Azure Phuket,Thailand,Upscale,2025-10,Scope 2,188.738746
+HTL-011,Azure Phuket,Thailand,Upscale,2025-11,Scope 1,7.7555583
+HTL-011,Azure Phuket,Thailand,Upscale,2025-11,Scope 2,188.82814
+HTL-011,Azure Phuket,Thailand,Upscale,2025-12,Scope 1,9.6361944
+HTL-011,Azure Phuket,Thailand,Upscale,2025-12,Scope 2,209.837375
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-01,Scope 1,10.1472768
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-01,Scope 2,289.008386
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-02,Scope 1,10.022251200000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-02,Scope 2,271.420752
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-03,Scope 1,10.9172127
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-03,Scope 2,278.41046
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-04,Scope 1,9.6645411
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-04,Scope 2,276.181102
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-05,Scope 1,9.5503308
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-05,Scope 2,271.079856
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-06,Scope 1,11.2539144
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-06,Scope 2,282.5851630000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-07,Scope 1,9.416027099999999
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-07,Scope 2,285.333168
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-08,Scope 1,9.311589
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-08,Scope 2,267.42694900000004
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-09,Scope 1,9.0881643
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-09,Scope 2,265.40442
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-10,Scope 1,10.1308434
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-10,Scope 2,276.31403
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-11,Scope 1,9.9918366
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-11,Scope 2,283.53194
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-12,Scope 1,9.547476000000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2024-12,Scope 2,292.23014800000004
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-01,Scope 1,11.087549099999999
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-01,Scope 2,277.55942600000003
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-02,Scope 1,9.0922269
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-02,Scope 2,274.873195
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-03,Scope 1,10.638412200000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-03,Scope 2,287.70610700000003
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-04,Scope 1,9.8184624
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-04,Scope 2,279.46584400000006
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-05,Scope 1,9.876930900000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-05,Scope 2,279.667447
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-06,Scope 1,9.121689900000002
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-06,Scope 2,288.40351
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-07,Scope 1,7.8559155
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-07,Scope 2,265.360133
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-08,Scope 1,10.180326599999999
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-08,Scope 2,286.00109100000003
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-09,Scope 1,9.700537200000001
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-09,Scope 2,270.91992700000003
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-10,Scope 1,7.8139719
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-10,Scope 2,254.05408400000005
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-11,Scope 1,10.0651098
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-11,Scope 2,280.28357900000003
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-12,Scope 1,10.5060666
+HTL-012,Meridian Bay Penang,Malaysia,Midscale,2025-12,Scope 2,290.598899
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-01,Scope 1,19.661703000000003
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-01,Scope 2,472.91341200000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-02,Scope 1,13.9097568
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-02,Scope 2,401.62860400000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-03,Scope 1,16.8243795
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-03,Scope 2,448.12816000000004
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-04,Scope 1,19.2011469
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-04,Scope 2,504.40836
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-05,Scope 1,14.954210999999999
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-05,Scope 2,441.216096
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-06,Scope 1,15.844945199999998
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-06,Scope 2,439.96408
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-07,Scope 1,16.882299
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-07,Scope 2,486.41304400000007
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-08,Scope 1,13.6456329
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-08,Scope 2,477.571616
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-09,Scope 1,14.5656654
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-09,Scope 2,459.10472000000004
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-10,Scope 1,18.0991575
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-10,Scope 2,495.301052
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-11,Scope 1,17.0263749
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-11,Scope 2,493.37801200000007
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-12,Scope 1,18.1635735
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2024-12,Scope 2,461.75896400000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-01,Scope 1,17.398304099999997
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-01,Scope 2,467.679452
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-02,Scope 1,15.6498855
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-02,Scope 2,406.60185200000006
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-03,Scope 1,18.1661172
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-03,Scope 2,471.49833200000006
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-04,Scope 1,12.5771325
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-04,Scope 2,420.65684000000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-05,Scope 1,16.702300199999996
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-05,Scope 2,486.22312000000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-06,Scope 1,16.6633395
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-06,Scope 2,476.953632
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-07,Scope 1,17.0411979
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-07,Scope 2,474.9477
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-08,Scope 1,14.981514599999999
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-08,Scope 2,454.8254120000001
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-09,Scope 1,15.76728
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-09,Scope 2,448.21764800000005
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-10,Scope 1,15.639857099999999
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-10,Scope 2,495.47098400000004
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-11,Scope 1,17.6495265
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-11,Scope 2,456.634076
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-12,Scope 1,15.2372205
+HTL-013,Palm Court Da Nang,Vietnam,Upscale,2025-12,Scope 2,436.61984
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-01,Scope 2,275.36211000000003
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-02,Scope 2,250.87014
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-03,Scope 2,299.49048000000005
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-04,Scope 2,293.32993500000003
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-05,Scope 2,309.39196499999997
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-06,Scope 2,315.522675
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-07,Scope 2,347.37214500000005
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-08,Scope 2,330.03045000000003
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-09,Scope 2,304.060995
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-10,Scope 2,306.562455
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-11,Scope 2,257.335965
+HTL-014,Riverstone Osaka,Japan,Midscale,2024-12,Scope 2,283.588965
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-01,Scope 2,291.704985
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-02,Scope 2,247.21416000000002
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-03,Scope 2,277.344
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-04,Scope 2,275.666265
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-05,Scope 2,308.00610000000006
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-06,Scope 2,322.84017
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-07,Scope 2,308.697165
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-08,Scope 2,312.259545
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-09,Scope 2,306.700335
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-10,Scope 2,326.538045
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-11,Scope 2,272.29293
+HTL-014,Riverstone Osaka,Japan,Midscale,2025-12,Scope 2,273.102075
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-01,Scope 1,15.22194
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-01,Scope 2,368.986926
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-02,Scope 1,14.581549800000001
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-02,Scope 2,342.5207940000001
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-03,Scope 1,18.740590800000003
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-03,Scope 2,377.2615440000001
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-04,Scope 1,15.144896999999998
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-04,Scope 2,380.542866
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-05,Scope 1,13.1193432
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-05,Scope 2,397.294392
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-06,Scope 1,11.374182
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-06,Scope 2,416.857782
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-07,Scope 1,13.451451599999999
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-07,Scope 2,420.501246
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-08,Scope 1,11.2636317
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-08,Scope 2,409.28005800000005
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-09,Scope 1,11.5388637
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-09,Scope 2,382.98961800000006
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-10,Scope 1,13.417907699999997
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-10,Scope 2,398.37567
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-11,Scope 1,14.394670199999998
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-11,Scope 2,364.57806
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-12,Scope 1,17.401836
+HTL-015,Cedar House Melbourne,Australia,Upscale,2024-12,Scope 2,382.00555800000006
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-01,Scope 1,17.0227881
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-01,Scope 2,342.436578
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-02,Scope 1,16.6621134
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-02,Scope 2,329.400852
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-03,Scope 1,17.3573487
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-03,Scope 2,344.202804
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-04,Scope 1,12.517273199999998
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-04,Scope 2,359.68343400000003
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-05,Scope 1,15.5750385
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-05,Scope 2,388.93008000000003
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-06,Scope 1,13.350874800000001
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-06,Scope 2,398.495064
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-07,Scope 1,11.9190462
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-07,Scope 2,417.464586
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-08,Scope 1,12.7395084
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-08,Scope 2,417.59652
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-09,Scope 1,11.893902
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-09,Scope 2,395.656536
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-10,Scope 1,14.6703963
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-10,Scope 2,396.22011000000003
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-11,Scope 1,11.8618953
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-11,Scope 2,366.086622
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-12,Scope 1,17.7318765
+HTL-015,Cedar House Melbourne,Australia,Upscale,2025-12,Scope 2,389.25202800000005
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-01,Scope 2,325.063704
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-02,Scope 2,295.491756
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-03,Scope 2,340.39529999999996
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-04,Scope 2,315.71534399999996
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-05,Scope 2,339.227952
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-06,Scope 2,307.94047199999994
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-07,Scope 2,352.656024
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-08,Scope 2,360.590034
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-09,Scope 2,361.115034
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-10,Scope 2,332.01084
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-11,Scope 2,322.222698
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2024-12,Scope 2,331.414566
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-01,Scope 2,340.112976
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-02,Scope 2,290.434368
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-03,Scope 2,341.339208
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-04,Scope 2,306.75120000000004
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-05,Scope 2,337.267812
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-06,Scope 2,316.92969
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-07,Scope 2,375.570384
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-08,Scope 2,368.66600399999993
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-09,Scope 2,340.05783
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-10,Scope 2,335.154414
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-11,Scope 2,317.13217199999997
+HTL-016,Azure Dubai,United Arab Emirates,Upscale,2025-12,Scope 2,321.80883
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-01,Scope 1,14.7993564
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-01,Scope 2,288.826878
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-02,Scope 1,15.4637013
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-02,Scope 2,275.045015
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-03,Scope 1,18.2270013
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-03,Scope 2,311.098529
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-04,Scope 1,13.8721869
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-04,Scope 2,282.37893099999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-05,Scope 1,14.513784900000001
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-05,Scope 2,305.553812
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-06,Scope 1,14.4102252
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-06,Scope 2,283.36576
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-07,Scope 1,12.886494
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-07,Scope 2,278.16876399999995
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-08,Scope 1,15.523176300000001
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-08,Scope 2,292.693998
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-09,Scope 1,16.0179351
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-09,Scope 2,289.133763
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-10,Scope 1,14.614563
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-10,Scope 2,300.66119999999995
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-11,Scope 1,15.300172499999999
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-11,Scope 2,287.35301
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-12,Scope 1,15.343031099999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2024-12,Scope 2,307.729477
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-01,Scope 1,16.1012916
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-01,Scope 2,300.42298999999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-02,Scope 1,13.4174136
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-02,Scope 2,258.825825
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-03,Scope 1,14.616539399999999
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-03,Scope 2,288.66213999999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-04,Scope 1,15.049755300000001
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-04,Scope 2,280.535038
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-05,Scope 1,16.9858953
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-05,Scope 2,302.61361999999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-06,Scope 1,13.904962199999998
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-06,Scope 2,275.525535
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-07,Scope 1,12.972705300000001
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-07,Scope 2,292.917038
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-08,Scope 1,14.978861099999998
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-08,Scope 2,293.5723
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-09,Scope 1,13.636428
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-09,Scope 2,268.53737199999995
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-10,Scope 1,12.6498384
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-10,Scope 2,288.44074
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-11,Scope 1,14.056742400000001
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-11,Scope 2,283.42844899999994
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-12,Scope 1,13.007987699999997
+HTL-017,Meridian Bay Singapore,Singapore,Upscale,2025-12,Scope 2,296.15169199999997
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-01,Scope 1,13.2584232
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-01,Scope 2,475.526833
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-02,Scope 1,15.2166513
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-02,Scope 2,468.316898
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-03,Scope 1,14.5910658
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-03,Scope 2,483.35913
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-04,Scope 1,13.1802273
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-04,Scope 2,460.496846
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-05,Scope 1,14.759883300000002
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-05,Scope 2,488.087754
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-06,Scope 1,12.8440929
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-06,Scope 2,468.062913
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-07,Scope 1,14.335067099999998
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-07,Scope 2,530.083443
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-08,Scope 1,13.0685424
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-08,Scope 2,482.580348
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-09,Scope 1,12.2505324
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-09,Scope 2,476.4236410000001
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-10,Scope 1,13.9349376
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-10,Scope 2,499.35505000000006
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-11,Scope 1,12.5652192
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-11,Scope 2,462.86581900000004
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-12,Scope 1,15.025288199999999
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2024-12,Scope 2,469.1125860000001
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-01,Scope 1,12.456993
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-01,Scope 2,466.45131299999997
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-02,Scope 1,13.704247800000001
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-02,Scope 2,429.201233
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-03,Scope 1,15.464177099999999
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-03,Scope 2,499.963113
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-04,Scope 1,15.167845199999999
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-04,Scope 2,494.22526400000004
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-05,Scope 1,13.3473246
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-05,Scope 2,482.29168200000004
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-06,Scope 1,13.577684999999999
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-06,Scope 2,505.48695100000003
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-07,Scope 1,15.4906023
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-07,Scope 2,515.731355
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-08,Scope 1,13.260546
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-08,Scope 2,484.740919
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-09,Scope 1,11.179836
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-09,Scope 2,453.341421
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-10,Scope 1,11.3424864
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-10,Scope 2,481.147841
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-11,Scope 1,12.5521896
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-11,Scope 2,444.29916000000003
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-12,Scope 1,14.7472929
+HTL-018,Palm Court Surabaya,Indonesia,Luxury,2025-12,Scope 2,486.99384100000003
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-01,Scope 1,3.6278652
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-01,Scope 2,81.802795
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-02,Scope 1,3.4796901000000005
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-02,Scope 2,72.022471
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-03,Scope 1,3.9820067999999997
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-03,Scope 2,85.81955599999999
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-04,Scope 1,3.144855
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-04,Scope 2,75.7123
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-05,Scope 1,4.0169049
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-05,Scope 2,86.302528
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-06,Scope 1,3.4727544
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-06,Scope 2,79.67411799999999
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-07,Scope 1,3.8210948999999994
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-07,Scope 2,81.52431999999999
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-08,Scope 1,3.121614
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-08,Scope 2,78.18215
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-09,Scope 1,4.0491495
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-09,Scope 2,75.590758
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-10,Scope 1,3.8017334999999997
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-10,Scope 2,81.568782
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-11,Scope 1,3.5842562999999994
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-11,Scope 2,77.095792
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-12,Scope 1,3.9468525
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2024-12,Scope 2,75.833513
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-01,Scope 1,3.5784002999999998
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-01,Scope 2,77.359697
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-02,Scope 1,3.3336012
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-02,Scope 2,75.250854
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-03,Scope 1,4.3578888
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-03,Scope 2,79.97816099999999
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-04,Scope 1,3.6297501000000003
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-04,Scope 2,79.890224
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-05,Scope 1,3.812439
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-05,Scope 2,78.890957
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-06,Scope 1,4.1300904
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-06,Scope 2,86.609344
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-07,Scope 1,3.0847577999999998
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-07,Scope 2,77.135977
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-08,Scope 1,3.3426047999999997
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-08,Scope 2,78.37955
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-09,Scope 1,3.137718
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-09,Scope 2,82.34776
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-10,Scope 1,3.2226849
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-10,Scope 2,81.535741
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-11,Scope 1,3.4045869
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-11,Scope 2,75.34941299999998
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-12,Scope 1,3.8860782000000005
+HTL-019,Riverstone Bangkok,Thailand,Midscale,2025-12,Scope 2,81.080217
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-01,Scope 2,554.199277
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-02,Scope 2,512.324277
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-03,Scope 2,534.226175
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-04,Scope 2,493.007842
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-05,Scope 2,516.724234
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-06,Scope 2,513.140873
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-07,Scope 2,518.662142
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-08,Scope 2,521.908694
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-09,Scope 2,478.19307000000003
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-10,Scope 2,520.200529
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-11,Scope 2,510.11106600000005
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2024-12,Scope 2,523.30953
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-01,Scope 2,552.3938280000001
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-02,Scope 2,481.15246
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-03,Scope 2,527.988475
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-04,Scope 2,518.6255600000001
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-05,Scope 2,539.259483
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-06,Scope 2,504.46645
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-07,Scope 2,504.307727
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-08,Scope 2,501.50464800000003
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-09,Scope 2,485.519654
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-10,Scope 2,525.326766
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-11,Scope 2,500.9015810000001
+HTL-020,Cedar House Kuala Lumpur,Malaysia,Luxury,2025-12,Scope 2,516.4338560000001
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-01,Scope 1,13.726683599999998
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-01,Scope 2,423.963408
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-02,Scope 1,14.735379599999998
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-02,Scope 2,434.4642400000001
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-03,Scope 1,14.4136107
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-03,Scope 2,452.727816
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-04,Scope 1,13.546446900000001
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-04,Scope 2,431.826112
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-05,Scope 1,14.011010699999998
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-05,Scope 2,420.59530000000007
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-06,Scope 1,14.9139144
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-06,Scope 2,425.32755599999996
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-07,Scope 1,12.614043599999999
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-07,Scope 2,451.815596
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-08,Scope 1,12.0398994
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-08,Scope 2,447.567228
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-09,Scope 1,11.5812282
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-09,Scope 2,429.655688
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-10,Scope 1,12.892240199999998
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-10,Scope 2,435.459216
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-11,Scope 1,13.127395199999999
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-11,Scope 2,411.150168
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-12,Scope 1,13.4285034
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2024-12,Scope 2,442.0393040000001
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-01,Scope 1,14.517463199999998
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-01,Scope 2,442.24058400000007
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-02,Scope 1,10.6200939
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-02,Scope 2,400.830148
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-03,Scope 1,16.2163254
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-03,Scope 2,410.94562400000007
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-04,Scope 1,14.139000900000001
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-04,Scope 2,413.14794
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-05,Scope 1,11.4200784
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-05,Scope 2,454.623588
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-06,Scope 1,12.7992945
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-06,Scope 2,421.91368400000005
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-07,Scope 1,12.1688961
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-07,Scope 2,437.31412000000006
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-08,Scope 1,10.8243402
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-08,Scope 2,464.47685600000005
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-09,Scope 1,11.7002514
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-09,Scope 2,419.537356
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-10,Scope 1,10.7513598
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-10,Scope 2,408.67564799999997
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-11,Scope 1,13.438604999999999
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-11,Scope 2,411.525256
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-12,Scope 1,13.3424751
+HTL-021,Azure Ho Chi Minh City,Vietnam,Upscale,2025-12,Scope 2,443.63941200000005
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-01,Scope 1,9.6685854
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-01,Scope 2,195.42204
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-02,Scope 1,9.5199711
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-02,Scope 2,180.933975
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-03,Scope 1,10.445823
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-03,Scope 2,194.9229
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-04,Scope 1,9.3838923
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-04,Scope 2,199.55232
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-05,Scope 1,8.2930659
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-05,Scope 2,218.976165
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-06,Scope 1,9.1354332
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-06,Scope 2,209.77164000000002
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-07,Scope 1,8.0804199
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-07,Scope 2,234.407475
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-08,Scope 1,7.5822207
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-08,Scope 2,224.65206
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-09,Scope 1,7.336982400000001
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-09,Scope 2,210.32136
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-10,Scope 1,8.7833046
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-10,Scope 2,219.07111500000002
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-11,Scope 1,8.876415
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-11,Scope 2,202.191705
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-12,Scope 1,11.6800116
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2024-12,Scope 2,201.55230000000003
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-01,Scope 1,10.6437192
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-01,Scope 2,185.93905500000002
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-02,Scope 1,8.420671800000001
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-02,Scope 2,178.544205
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-03,Scope 1,12.604655699999999
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-03,Scope 2,209.48598
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-04,Scope 1,9.930165599999999
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-04,Scope 2,202.72351500000002
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-05,Scope 1,9.4177656
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-05,Scope 2,220.768065
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-06,Scope 1,8.237946299999999
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-06,Scope 2,211.13757
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-07,Scope 1,6.8099973
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-07,Scope 2,225.20808000000002
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-08,Scope 1,7.4190762
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-08,Scope 2,233.88318
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-09,Scope 1,7.615673099999999
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-09,Scope 2,216.89617500000003
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-10,Scope 1,9.419833500000001
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-10,Scope 2,222.804
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-11,Scope 1,8.6854362
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-11,Scope 2,188.830845
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-12,Scope 1,10.6729809
+HTL-022,Meridian Bay Tokyo,Japan,Luxury,2025-12,Scope 2,199.72647
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-01,Scope 2,737.5163400000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-02,Scope 2,622.80075
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-03,Scope 2,656.257998
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-04,Scope 2,716.541276
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-05,Scope 2,734.01702
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-06,Scope 2,751.5732180000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-07,Scope 2,739.2413819999999
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-08,Scope 2,770.46684
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-09,Scope 2,731.2444260000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-10,Scope 2,725.32416
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-11,Scope 2,665.7973740000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2024-12,Scope 2,683.798742
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-01,Scope 2,666.1218960000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-02,Scope 2,613.2770160000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-03,Scope 2,703.4097180000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-04,Scope 2,643.228674
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-05,Scope 2,706.6023360000002
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-06,Scope 2,743.23425
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-07,Scope 2,768.7024620000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-08,Scope 2,784.169892
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-09,Scope 2,745.93992
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-10,Scope 2,726.1514700000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-11,Scope 2,694.9724100000001
+HTL-023,Palm Court Sydney,Australia,Luxury,2025-12,Scope 2,660.15378
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-01,Scope 2,156.302202
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-02,Scope 2,142.823436
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-03,Scope 2,153.472158
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-04,Scope 2,144.30486
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-05,Scope 2,159.976614
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-06,Scope 2,152.124672
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-07,Scope 2,157.68597599999998
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-08,Scope 2,161.428344
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-09,Scope 2,151.9434
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-10,Scope 2,146.48176199999997
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-11,Scope 2,148.06709400000003
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2024-12,Scope 2,145.64050199999997
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-01,Scope 2,149.316888
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-02,Scope 2,139.04965199999998
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-03,Scope 2,141.716568
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-04,Scope 2,141.003828
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-05,Scope 2,154.75042800000003
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-06,Scope 2,157.44036
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-07,Scope 2,169.341144
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-08,Scope 2,150.016272
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-09,Scope 2,151.411974
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-10,Scope 2,161.256018
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-11,Scope 2,138.54258599999997
+HTL-024,Riverstone Dubai,United Arab Emirates,Upscale,2025-12,Scope 2,139.45596
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-01,Scope 2,359.0299069999999
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-02,Scope 2,347.211001
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-03,Scope 2,375.61092199999996
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-04,Scope 2,368.68266
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-05,Scope 2,385.50147499999997
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-06,Scope 2,356.572859
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-07,Scope 2,363.22933199999994
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-08,Scope 2,353.725491
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-09,Scope 2,342.168739
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-10,Scope 2,365.50064999999995
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-11,Scope 2,369.18798499999997
+HTL-025,Cedar House Singapore,Singapore,Upscale,2024-12,Scope 2,345.96456
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-01,Scope 2,352.05019
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-02,Scope 2,325.76660699999996
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-03,Scope 2,370.729544
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-04,Scope 2,370.59514599999994
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-05,Scope 2,351.153356
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-06,Scope 2,350.99771999999996
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-07,Scope 2,342.260784
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-08,Scope 2,358.239468
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-09,Scope 2,362.659104
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-10,Scope 2,358.75004099999995
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-11,Scope 2,363.88139599999994
+HTL-025,Cedar House Singapore,Singapore,Upscale,2025-12,Scope 2,345.18875799999995
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-01,Scope 2,332.512817
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-02,Scope 2,284.789391
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-03,Scope 2,340.559046
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-04,Scope 2,330.87412
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-05,Scope 2,338.99626800000004
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-06,Scope 2,345.84256600000003
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-07,Scope 2,323.012435
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-08,Scope 2,329.146548
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-09,Scope 2,345.203800874136
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-10,Scope 2,320.36506600000007
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-11,Scope 2,286.50377000000003
+HTL-026,Azure Jakarta,Indonesia,Midscale,2024-12,Scope 2,327.663244
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-01,Scope 2,345.730702
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-02,Scope 2,309.08362900000003
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-03,Scope 2,340.447972
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-04,Scope 2,325.96585000000005
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-05,Scope 2,335.33525
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-06,Scope 2,326.36559
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-07,Scope 2,309.046104
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-08,Scope 2,337.14450800000003
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-09,Scope 2,308.73121000000003
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-10,Scope 2,324.24523000000005
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-11,Scope 2,332.37748999999997
+HTL-026,Azure Jakarta,Indonesia,Midscale,2025-12,Scope 2,337.1957
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-01,Scope 1,6.5763612
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-01,Scope 2,147.05595
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-02,Scope 1,7.043853
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-02,Scope 2,147.24620599999997
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-03,Scope 1,5.8409025
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-03,Scope 2,151.78090699999998
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-04,Scope 1,6.8325429
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-04,Scope 2,148.580019
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-05,Scope 1,7.2039963
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-05,Scope 2,151.33111699999998
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-06,Scope 1,6.8799033
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-06,Scope 2,160.07405699999998
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-07,Scope 1,5.314210200000001
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-07,Scope 2,152.86233
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-08,Scope 1,4.9225353
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-08,Scope 2,157.71287099999998
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-09,Scope 1,5.6665583999999996
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-09,Scope 2,143.306666
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-10,Scope 1,5.457609
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-10,Scope 2,152.13232599999998
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-11,Scope 1,6.270421799999999
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-11,Scope 2,143.097751
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-12,Scope 1,6.975209700000001
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2024-12,Scope 2,151.59285999999997
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-01,Scope 1,5.255631899999999
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-01,Scope 2,146.583882
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-02,Scope 1,5.8888851
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-02,Scope 2,133.88227300000003
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-03,Scope 1,6.1341051
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-03,Scope 2,154.268758
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-04,Scope 1,5.745651
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-04,Scope 2,137.51748800000001
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-05,Scope 1,5.5138449000000005
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-05,Scope 2,143.725953
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-06,Scope 1,5.3731545
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-06,Scope 2,136.764313
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-07,Scope 1,4.8102648
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-07,Scope 2,146.83175999999997
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-08,Scope 1,4.661742
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-08,Scope 2,144.89442
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-09,Scope 1,5.3443137
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-09,Scope 2,150.342613
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-10,Scope 1,6.0217248
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-10,Scope 2,157.412447
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-11,Scope 1,5.0051964
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-11,Scope 2,142.07446699999997
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-12,Scope 1,5.6543889
+HTL-027,Meridian Bay Phuket,Thailand,Midscale,2025-12,Scope 2,147.706524
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-01,Scope 1,19.8565431
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-01,Scope 2,520.2294730000001
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-02,Scope 1,20.617365599999996
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-02,Scope 2,510.170763
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-03,Scope 1,20.3187096
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-03,Scope 2,532.35051
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-04,Scope 1,18.1486956
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-04,Scope 2,503.700908
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-05,Scope 1,16.6668897
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-05,Scope 2,501.541699
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-06,Scope 1,15.4764015
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-06,Scope 2,498.521808
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-07,Scope 1,17.281861199999998
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-07,Scope 2,511.8095160000001
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-08,Scope 1,17.555739000000003
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-08,Scope 2,515.4221560000001
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-09,Scope 1,15.454697699999999
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-09,Scope 2,495.48530100000005
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-10,Scope 1,19.0724979
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-10,Scope 2,536.1869300000001
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-11,Scope 1,15.994694099999998
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-11,Scope 2,504.372114
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-12,Scope 1,19.1200047
+HTL-028,Palm Court Penang,Malaysia,Luxury,2024-12,Scope 2,528.84842
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-01,Scope 1,19.1538963
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-01,Scope 2,544.246695
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-02,Scope 1,16.1024445
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-02,Scope 2,492.056509
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-03,Scope 1,16.9446837
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-03,Scope 2,508.41141000000005
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-04,Scope 1,19.5491946
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-04,Scope 2,534.009497
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-05,Scope 1,20.3363508
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-05,Scope 2,563.22545
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-06,Scope 1,17.2912491
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-06,Scope 2,499.47481600000003
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-07,Scope 1,18.465102599999998
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-07,Scope 2,533.280202
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-08,Scope 1,18.6229218
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-08,Scope 2,542.91641
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-09,Scope 1,20.2183158
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-09,Scope 2,515.312343
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-10,Scope 1,18.9753981
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-10,Scope 2,526.876409
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-11,Scope 1,16.6342974
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-11,Scope 2,521.076554
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-12,Scope 1,17.383938599999997
+HTL-028,Palm Court Penang,Malaysia,Luxury,2025-12,Scope 2,526.444192
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-01,Scope 2,535.1062800000001
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-02,Scope 2,487.30704000000003
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-03,Scope 2,517.859168
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-04,Scope 2,503.620648
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-05,Scope 2,515.1646000000001
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-06,Scope 2,503.33396000000005
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-07,Scope 2,525.9500800000001
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-08,Scope 2,550.090828
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-09,Scope 2,547.782568
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-10,Scope 2,516.586548
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-11,Scope 2,493.02482000000003
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2024-12,Scope 2,547.63664
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-01,Scope 2,524.585864
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-02,Scope 2,480.94774800000005
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-03,Scope 2,531.5811600000001
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-04,Scope 2,522.98766
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-05,Scope 2,556.083736
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-06,Scope 2,509.29722000000004
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-07,Scope 2,548.82936
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-08,Scope 2,541.7269640000001
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-09,Scope 2,507.09544800000003
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-10,Scope 2,534.345292
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-11,Scope 2,499.72030400000006
+HTL-029,Riverstone Da Nang,Vietnam,Upscale,2025-12,Scope 2,529.3528
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-01,Scope 2,187.31398499999997
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-02,Scope 2,167.499585
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-03,Scope 2,193.01049000000003
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-04,Scope 2,190.24065
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-05,Scope 2,209.4345
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-06,Scope 2,226.62778500000002
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-07,Scope 2,224.039475
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-08,Scope 2,222.445935
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-09,Scope 2,211.905945
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-10,Scope 2,207.11646
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-11,Scope 2,187.012935
+HTL-030,Cedar House Osaka,Japan,Midscale,2024-12,Scope 2,195.70720500000002
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-01,Scope 2,187.915455
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-02,Scope 2,157.968
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-03,Scope 2,191.58340500000003
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-04,Scope 2,191.67579
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-05,Scope 2,207.29475
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-06,Scope 2,202.50864
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-07,Scope 2,221.28831
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-08,Scope 2,218.14910999999998
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-09,Scope 2,211.769055
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-10,Scope 2,210.0726
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-11,Scope 2,184.197285
+HTL-030,Cedar House Osaka,Japan,Midscale,2025-12,Scope 2,194.61519
+HTL-031,Azure Melbourne,Australia,Upscale,2024-01,Scope 1,7.826818499999999
+HTL-031,Azure Melbourne,Australia,Upscale,2024-01,Scope 2,176.69539799999998
+HTL-031,Azure Melbourne,Australia,Upscale,2024-02,Scope 1,8.473229400000001
+HTL-031,Azure Melbourne,Australia,Upscale,2024-02,Scope 2,164.476356
+HTL-031,Azure Melbourne,Australia,Upscale,2024-03,Scope 1,9.060549599999998
+HTL-031,Azure Melbourne,Australia,Upscale,2024-03,Scope 2,184.43172
+HTL-031,Azure Melbourne,Australia,Upscale,2024-04,Scope 1,7.825025099999999
+HTL-031,Azure Melbourne,Australia,Upscale,2024-04,Scope 2,189.917178
+HTL-031,Azure Melbourne,Australia,Upscale,2024-05,Scope 1,8.4592482
+HTL-031,Azure Melbourne,Australia,Upscale,2024-05,Scope 2,197.33247599999999
+HTL-031,Azure Melbourne,Australia,Upscale,2024-06,Scope 1,5.8836512999999995
+HTL-031,Azure Melbourne,Australia,Upscale,2024-06,Scope 2,200.133318
+HTL-031,Azure Melbourne,Australia,Upscale,2024-07,Scope 1,6.969372
+HTL-031,Azure Melbourne,Australia,Upscale,2024-07,Scope 2,210.389916
+HTL-031,Azure Melbourne,Australia,Upscale,2024-08,Scope 1,6.4696172999999995
+HTL-031,Azure Melbourne,Australia,Upscale,2024-08,Scope 2,201.65818200000004
+HTL-031,Azure Melbourne,Australia,Upscale,2024-09,Scope 1,6.134178299999999
+HTL-031,Azure Melbourne,Australia,Upscale,2024-09,Scope 2,199.174536
+HTL-031,Azure Melbourne,Australia,Upscale,2024-10,Scope 1,7.2279693
+HTL-031,Azure Melbourne,Australia,Upscale,2024-10,Scope 2,205.691706
+HTL-031,Azure Melbourne,Australia,Upscale,2024-11,Scope 1,7.0828869
+HTL-031,Azure Melbourne,Australia,Upscale,2024-11,Scope 2,179.829276
+HTL-031,Azure Melbourne,Australia,Upscale,2024-12,Scope 1,8.6171955
+HTL-031,Azure Melbourne,Australia,Upscale,2024-12,Scope 2,183.052848
+HTL-031,Azure Melbourne,Australia,Upscale,2025-01,Scope 1,9.4346199
+HTL-031,Azure Melbourne,Australia,Upscale,2025-01,Scope 2,184.417266
+HTL-031,Azure Melbourne,Australia,Upscale,2025-02,Scope 1,8.0804565
+HTL-031,Azure Melbourne,Australia,Upscale,2025-02,Scope 2,160.37221200000002
+HTL-031,Azure Melbourne,Australia,Upscale,2025-03,Scope 1,7.5070077
+HTL-031,Azure Melbourne,Australia,Upscale,2025-03,Scope 2,187.32186000000002
+HTL-031,Azure Melbourne,Australia,Upscale,2025-04,Scope 1,8.2287414
+HTL-031,Azure Melbourne,Australia,Upscale,2025-04,Scope 2,197.47761000000003
+HTL-031,Azure Melbourne,Australia,Upscale,2025-05,Scope 1,7.3647252
+HTL-031,Azure Melbourne,Australia,Upscale,2025-05,Scope 2,205.13684400000002
+HTL-031,Azure Melbourne,Australia,Upscale,2025-06,Scope 1,5.7273327
+HTL-031,Azure Melbourne,Australia,Upscale,2025-06,Scope 2,195.77771400000003
+HTL-031,Azure Melbourne,Australia,Upscale,2025-07,Scope 1,7.1731059
+HTL-031,Azure Melbourne,Australia,Upscale,2025-07,Scope 2,214.37262
+HTL-031,Azure Melbourne,Australia,Upscale,2025-08,Scope 1,6.4603758
+HTL-031,Azure Melbourne,Australia,Upscale,2025-08,Scope 2,196.64099400000003
+HTL-031,Azure Melbourne,Australia,Upscale,2025-09,Scope 1,6.7536515999999995
+HTL-031,Azure Melbourne,Australia,Upscale,2025-09,Scope 2,191.95242000000002
+HTL-031,Azure Melbourne,Australia,Upscale,2025-10,Scope 1,7.6813518
+HTL-031,Azure Melbourne,Australia,Upscale,2025-10,Scope 2,204.90393000000003
+HTL-031,Azure Melbourne,Australia,Upscale,2025-11,Scope 1,8.268672
+HTL-031,Azure Melbourne,Australia,Upscale,2025-11,Scope 2,182.09195400000002
+HTL-031,Azure Melbourne,Australia,Upscale,2025-12,Scope 1,8.1224184
+HTL-031,Azure Melbourne,Australia,Upscale,2025-12,Scope 2,183.27144
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-01,Scope 1,10.3957176
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-01,Scope 2,190.08574199999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-02,Scope 1,9.9996507
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-02,Scope 2,178.48706399999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-03,Scope 1,10.073418
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-03,Scope 2,200.699436
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-04,Scope 1,9.9835101
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-04,Scope 2,196.508214
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-05,Scope 1,9.520337099999999
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-05,Scope 2,205.69071599999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-06,Scope 1,9.1628649
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-06,Scope 2,208.47040199999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-07,Scope 1,8.9775225
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-07,Scope 2,219.43311599999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-08,Scope 1,7.5039699
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-08,Scope 2,198.90444
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-09,Scope 1,7.4620263
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-09,Scope 2,195.82541999999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-10,Scope 1,8.865947400000001
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-10,Scope 2,206.59035599999999
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-11,Scope 1,9.5206299
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-11,Scope 2,193.189038
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-12,Scope 1,9.289812
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2024-12,Scope 2,201.165636
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-01,Scope 1,13.238695800000002
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-01,Scope 2,192.25672199999997
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-02,Scope 1,9.4375662
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-02,Scope 2,171.522666
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-03,Scope 1,10.9070013
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-03,Scope 2,201.39180599999997
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-04,Scope 1,10.4934213
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-04,Scope 2,198.779532
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-05,Scope 1,9.4462038
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-05,Scope 2,196.20934199999996
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-06,Scope 1,10.2324267
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-06,Scope 2,202.21991999999997
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-07,Scope 1,8.9161443
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-07,Scope 2,203.914158
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-08,Scope 1,8.032418999999999
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-08,Scope 2,205.59907199999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-09,Scope 1,8.3420733
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-09,Scope 2,194.82014999999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-10,Scope 1,8.1950328
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-10,Scope 2,198.29354999999998
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-11,Scope 1,9.1876797
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-11,Scope 2,179.69674799999999
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-12,Scope 1,8.2063605
+HTL-032,Meridian Bay Dubai,United Arab Emirates,Luxury,2025-12,Scope 2,185.40081
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-01,Scope 2,191.311002
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-02,Scope 2,187.03215999999998
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-03,Scope 2,194.75041
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-04,Scope 2,184.654324
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-05,Scope 2,191.49972499999998
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-06,Scope 2,178.61813999999998
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-07,Scope 2,192.746658
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-08,Scope 2,187.60517599999997
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-09,Scope 2,182.0031
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-10,Scope 2,194.8074
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-11,Scope 2,182.261892
+HTL-033,Palm Court Singapore,Singapore,Luxury,2024-12,Scope 2,196.488441
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-01,Scope 2,204.12079599999998
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-02,Scope 2,173.824748
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-03,Scope 2,191.97225
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-04,Scope 2,180.71057499999998
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-05,Scope 2,195.905954
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-06,Scope 2,179.230721
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-07,Scope 2,199.051433
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-08,Scope 2,169.927001
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-09,Scope 2,176.50032599999997
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-10,Scope 2,192.411565
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-11,Scope 2,183.890084
+HTL-033,Palm Court Singapore,Singapore,Luxury,2025-12,Scope 2,195.973604
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-01,Scope 1,10.8353385
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-01,Scope 2,486.838843
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-02,Scope 1,10.2358122
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-02,Scope 2,456.278799
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-03,Scope 1,13.716764999999999
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-03,Scope 2,483.985679
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-04,Scope 1,11.4843846
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-04,Scope 2,467.04326000000003
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-05,Scope 1,11.439311700000001
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-05,Scope 2,509.703655
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-06,Scope 1,10.7839704
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-06,Scope 2,466.146926
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-07,Scope 1,10.7148513
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-07,Scope 2,470.57140000000004
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-08,Scope 1,12.3950292
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-08,Scope 2,493.23176
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-09,Scope 1,10.4187939
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-09,Scope 2,444.68333700000005
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-10,Scope 1,12.2809104
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-10,Scope 2,492.486869
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-11,Scope 1,11.5094373
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-11,Scope 2,475.021075
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-12,Scope 1,10.8867066
+HTL-034,Riverstone Bali,Indonesia,Upscale,2024-12,Scope 2,459.47537600000004
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-01,Scope 1,12.279007199999999
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-01,Scope 2,501.113669
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-02,Scope 1,8.451269400000001
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-02,Scope 2,426.619276
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-03,Scope 1,14.2402548
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-03,Scope 2,492.434255
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-04,Scope 1,11.5954473
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-04,Scope 2,463.4944220000001
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-05,Scope 1,11.187888
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-05,Scope 2,472.17826
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-06,Scope 1,9.2305566
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-06,Scope 2,435.52494600000006
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-07,Scope 1,10.4864124
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-07,Scope 2,471.39213100000006
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-08,Scope 1,9.2979738
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-08,Scope 2,455.382781
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-09,Scope 1,11.151288000000001
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-09,Scope 2,448.15380700000003
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-10,Scope 1,10.4871993
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-10,Scope 2,482.985223
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-11,Scope 1,9.9069612
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-11,Scope 2,481.05691200000007
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-12,Scope 1,10.955661
+HTL-034,Riverstone Bali,Indonesia,Upscale,2025-12,Scope 2,481.72272399999997
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-01,Scope 1,9.1265577
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-01,Scope 2,226.910689
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-02,Scope 1,7.6138430999999995
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-02,Scope 2,198.667684
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-03,Scope 1,8.8064907
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-03,Scope 2,212.39958
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-04,Scope 1,9.5810016
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-04,Scope 2,215.795753
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-05,Scope 1,8.829237599999999
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-05,Scope 2,217.699723
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-06,Scope 1,9.5549241
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-06,Scope 2,212.512803
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-07,Scope 1,6.9545673
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-07,Scope 2,218.18481
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-08,Scope 1,8.4581502
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-08,Scope 2,206.037895
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-09,Scope 1,7.285907099999999
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-09,Scope 2,200.85365399999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-10,Scope 1,7.5015543
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-10,Scope 2,218.365196
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-11,Scope 1,7.952667599999999
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-11,Scope 2,214.050079
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-12,Scope 1,8.78217
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2024-12,Scope 2,212.19183999999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-01,Scope 1,10.1416221
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-01,Scope 2,214.70022999999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-02,Scope 1,8.137442700000001
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-02,Scope 2,188.92204599999997
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-03,Scope 1,9.240237299999999
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-03,Scope 2,216.93362299999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-04,Scope 1,8.499380099999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-04,Scope 2,201.86156899999997
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-05,Scope 1,10.1808756
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-05,Scope 2,228.954343
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-06,Scope 1,7.3465899
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-06,Scope 2,208.64569
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-07,Scope 1,8.6532465
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-07,Scope 2,220.52447
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-08,Scope 1,8.358525
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-08,Scope 2,221.723346
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-09,Scope 1,7.0827588
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-09,Scope 2,209.26326999999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-10,Scope 1,7.7192877
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-10,Scope 2,211.261663
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-11,Scope 1,9.7713582
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-11,Scope 2,218.17587999999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-12,Scope 1,8.714862599999998
+HTL-035,Cedar House Bangkok,Thailand,Midscale,2025-12,Scope 2,233.167846
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-01,Scope 1,17.896155599999997
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-01,Scope 2,618.5612860000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-02,Scope 1,15.8675823
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-02,Scope 2,570.314251
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-03,Scope 1,18.4979877
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-03,Scope 2,591.57516
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-04,Scope 1,15.4943172
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-04,Scope 2,555.842251
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-05,Scope 1,16.095710099999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-05,Scope 2,614.936184
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-06,Scope 1,14.7299994
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-06,Scope 2,565.2879110000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-07,Scope 1,14.468657099999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-07,Scope 2,602.74339
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-08,Scope 1,15.481049699999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-08,Scope 2,605.5421140000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-09,Scope 1,13.684355699999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-09,Scope 2,583.682091
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-10,Scope 1,13.573988400000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-10,Scope 2,566.78985
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-11,Scope 1,12.920202599999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-11,Scope 2,547.232282
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-12,Scope 1,14.1095013
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2024-12,Scope 2,560.9568300000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-01,Scope 1,13.741945800000002
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-01,Scope 2,588.660191
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-02,Scope 1,14.1391839
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-02,Scope 2,559.613949
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-03,Scope 1,18.1506903
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-03,Scope 2,607.565782
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-04,Scope 1,16.236949499999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-04,Scope 2,588.9744210000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-05,Scope 1,15.9488343
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-05,Scope 2,596.631382
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-06,Scope 1,13.039793099999999
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-06,Scope 2,587.0942000000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-07,Scope 1,17.6515761
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-07,Scope 2,644.190394
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-08,Scope 1,15.082548899999999
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-08,Scope 2,562.617492
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-09,Scope 1,13.980541199999998
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-09,Scope 2,551.261997
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-10,Scope 1,12.4630869
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-10,Scope 2,571.7237299999999
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-11,Scope 1,16.4330706
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-11,Scope 2,573.1133100000001
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-12,Scope 1,17.3153685
+HTL-036,Azure Kuala Lumpur,Malaysia,Upscale,2025-12,Scope 2,619.636971
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-01,Scope 1,17.8330206
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-01,Scope 2,554.9637759999999
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-02,Scope 1,15.5617161
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-02,Scope 2,487.442428
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-03,Scope 1,20.010940199999997
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-03,Scope 2,565.1613960000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-04,Scope 1,17.5739292
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-04,Scope 2,543.4104400000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-05,Scope 1,14.690398199999997
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-05,Scope 2,548.743476
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-06,Scope 1,16.1408013
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-06,Scope 2,575.490596
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-07,Scope 1,11.443722
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-07,Scope 2,536.789212
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-08,Scope 1,16.003514699999997
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-08,Scope 2,565.24558
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-09,Scope 1,10.8708588
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-09,Scope 2,503.404816
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-10,Scope 1,14.849699699999999
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-10,Scope 2,538.547352
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-11,Scope 1,15.3938136
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-11,Scope 2,546.7911280000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-12,Scope 1,14.0427795
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2024-12,Scope 2,551.889768
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-01,Scope 1,17.3845059
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-01,Scope 2,550.7398880000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-02,Scope 1,15.1465074
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-02,Scope 2,501.88365600000003
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-03,Scope 1,18.7844742
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-03,Scope 2,553.4039240000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-04,Scope 1,18.3202398
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-04,Scope 2,565.951556
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-05,Scope 1,16.8732588
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-05,Scope 2,579.187008
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-06,Scope 1,14.920520699999999
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-06,Scope 2,551.8096640000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-07,Scope 1,16.1222817
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-07,Scope 2,588.5100120000001
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-08,Scope 1,16.1209092
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-08,Scope 2,584.602256
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-09,Scope 1,14.871330300000002
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-09,Scope 2,552.739224
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-10,Scope 1,15.794473800000002
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-10,Scope 2,558.90526
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-11,Scope 1,15.061705199999999
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-11,Scope 2,530.9052399999999
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-12,Scope 1,17.0437233
+HTL-037,Meridian Bay Ho Chi Minh City,Vietnam,Upscale,2025-12,Scope 2,543.420572
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-01,Scope 2,207.406395
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-02,Scope 2,212.36418000000003
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-03,Scope 2,223.62565500000002
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-04,Scope 2,221.14089
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-05,Scope 2,252.174465
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-06,Scope 2,224.93358
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-07,Scope 2,249.37272000000002
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-08,Scope 2,240.35620500000002
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-09,Scope 2,243.76743000000002
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-10,Scope 2,239.01664499999998
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-11,Scope 2,220.76784
+HTL-038,Palm Court Tokyo,Japan,Upscale,2024-12,Scope 2,211.22901000000002
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-01,Scope 2,217.04283
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-02,Scope 2,190.633725
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-03,Scope 2,236.41663500000004
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-04,Scope 2,228.2724
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-05,Scope 2,231.66980999999998
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-06,Scope 2,229.85365500000003
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-07,Scope 2,259.94547
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-08,Scope 2,252.969525
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-09,Scope 2,244.57527
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-10,Scope 2,246.07485
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-11,Scope 2,222.618105
+HTL-038,Palm Court Tokyo,Japan,Upscale,2025-12,Scope 2,221.39325
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-01,Scope 2,336.56198400000005
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-02,Scope 2,320.74779
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-03,Scope 2,363.93337199999996
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-04,Scope 2,362.33412599999997
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-05,Scope 2,400.56178800000004
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-06,Scope 2,401.714016
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-07,Scope 2,401.08120800000006
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-08,Scope 2,378.86574
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-09,Scope 2,369.112062
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-10,Scope 2,406.17291000000006
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-11,Scope 2,341.57969999999995
+HTL-039,Riverstone Sydney,Australia,Luxury,2024-12,Scope 2,338.53670400000004
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-01,Scope 2,335.54466
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-02,Scope 2,330.515988
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-03,Scope 2,350.400402
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-04,Scope 2,343.61316000000005
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-05,Scope 2,362.63495400000005
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-06,Scope 2,373.87468800000005
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-07,Scope 2,380.956686
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-08,Scope 2,380.80185000000006
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-09,Scope 2,385.11759
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-10,Scope 2,350.877648
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-11,Scope 2,352.31723999999997
+HTL-039,Riverstone Sydney,Australia,Luxury,2025-12,Scope 2,360.9631080000001
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-01,Scope 2,262.962
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-02,Scope 2,236.58167399999996
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-03,Scope 2,252.898632
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-04,Scope 2,261.13899
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-05,Scope 2,273.489174
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-06,Scope 2,277.316718
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-07,Scope 2,275.7888
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-08,Scope 2,280.84232399999996
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-09,Scope 2,265.019916
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-10,Scope 2,273.562968
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-11,Scope 2,254.62655399999997
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2024-12,Scope 2,260.707608
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-01,Scope 2,251.0655
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-02,Scope 2,237.327804
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-03,Scope 2,241.95687600000002
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-04,Scope 2,260.427636
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-05,Scope 2,276.560718
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-06,Scope 2,268.26055199999996
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-07,Scope 2,277.324152
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-08,Scope 2,280.58881199999996
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-09,Scope 2,275.048088
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-10,Scope 2,269.023902
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-11,Scope 2,255.79705199999998
+HTL-040,Cedar House Dubai,United Arab Emirates,Luxury,2025-12,Scope 2,257.10745199999997

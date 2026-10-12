@@ -1,0 +1,6 @@
+# raw Olist CSVs are downloaded by src/get_data.py (not committed)
+projects/ecommerce-customer-analytics/data/*.csv
+projects/delivery-experience-rca/data/*.csv
+__pycache__/
+.DS_Store
+projects/delivery-experience-rca/outputs/*.csv.gz

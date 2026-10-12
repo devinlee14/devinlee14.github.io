@@ -1,0 +1,11 @@
+rank,unit_id,site,model,breakdowns,downtime_h,commission_year,pct_of_fleet_downtime
+1,U-016,Site D - Papua,DT-60 Dump Truck,14,649.0,2022,5.1
+2,U-032,Site D - Papua,DT-60 Dump Truck,19,536.0,2020,4.2
+3,U-008,Site D - Papua,EX-360 Excavator,12,527.0,2021,4.2
+4,U-015,Site C - Sulawesi,DT-60 Dump Truck,27,479.0,2021,3.8
+5,U-040,Site D - Papua,EX-360 Excavator,10,465.0,2022,3.7
+6,U-012,Site D - Papua,WL-50 Wheel Loader,11,426.0,2020,3.4
+7,U-020,Site D - Papua,EX-200 Excavator,11,375.0,2020,3.0
+8,U-037,Site A - Kalimantan,EX-360 Excavator,19,316.0,2023,2.5
+9,U-034,Site B - Sumatra,EX-200 Excavator,23,315.0,2017,2.5
+10,U-011,Site C - Sulawesi,WL-50 Wheel Loader,14,309.0,2023,2.4

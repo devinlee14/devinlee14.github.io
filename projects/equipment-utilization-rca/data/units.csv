@@ -1,0 +1,49 @@
+unit_id,model,unit_type,site,commission_year,hour_meter_start
+U-001,EX-200 Excavator,Excavator,Site A - Kalimantan,2024,17002
+U-002,EX-200 Excavator,Excavator,Site B - Sumatra,2022,23533
+U-003,EX-200 Excavator,Excavator,Site C - Sulawesi,2022,20616
+U-004,EX-200 Excavator,Excavator,Site D - Papua,2023,7404
+U-005,EX-360 Excavator,Excavator,Site A - Kalimantan,2017,9203
+U-006,EX-360 Excavator,Excavator,Site B - Sumatra,2019,22965
+U-007,EX-360 Excavator,Excavator,Site C - Sulawesi,2024,2126
+U-008,EX-360 Excavator,Excavator,Site D - Papua,2021,21709
+U-009,WL-50 Wheel Loader,Wheel Loader,Site A - Kalimantan,2017,21129
+U-010,WL-50 Wheel Loader,Wheel Loader,Site B - Sumatra,2017,13230
+U-011,WL-50 Wheel Loader,Wheel Loader,Site C - Sulawesi,2023,9272
+U-012,WL-50 Wheel Loader,Wheel Loader,Site D - Papua,2020,8682
+U-013,DT-60 Dump Truck,Dump Truck,Site A - Kalimantan,2023,8116
+U-014,DT-60 Dump Truck,Dump Truck,Site B - Sumatra,2024,12681
+U-015,DT-60 Dump Truck,Dump Truck,Site C - Sulawesi,2021,14109
+U-016,DT-60 Dump Truck,Dump Truck,Site D - Papua,2022,15283
+U-017,EX-200 Excavator,Excavator,Site A - Kalimantan,2021,25892
+U-018,EX-200 Excavator,Excavator,Site B - Sumatra,2023,21023
+U-019,EX-200 Excavator,Excavator,Site C - Sulawesi,2022,16932
+U-020,EX-200 Excavator,Excavator,Site D - Papua,2020,25735
+U-021,EX-360 Excavator,Excavator,Site A - Kalimantan,2021,7167
+U-022,EX-360 Excavator,Excavator,Site B - Sumatra,2023,5845
+U-023,EX-360 Excavator,Excavator,Site C - Sulawesi,2024,16700
+U-024,EX-360 Excavator,Excavator,Site D - Papua,2017,3054
+U-025,WL-50 Wheel Loader,Wheel Loader,Site A - Kalimantan,2021,2856
+U-026,WL-50 Wheel Loader,Wheel Loader,Site B - Sumatra,2017,14357
+U-027,WL-50 Wheel Loader,Wheel Loader,Site C - Sulawesi,2024,13188
+U-028,WL-50 Wheel Loader,Wheel Loader,Site D - Papua,2023,24012
+U-029,DT-60 Dump Truck,Dump Truck,Site A - Kalimantan,2023,17101
+U-030,DT-60 Dump Truck,Dump Truck,Site B - Sumatra,2021,14338
+U-031,DT-60 Dump Truck,Dump Truck,Site C - Sulawesi,2019,13924
+U-032,DT-60 Dump Truck,Dump Truck,Site D - Papua,2020,7940
+U-033,EX-200 Excavator,Excavator,Site A - Kalimantan,2024,2283
+U-034,EX-200 Excavator,Excavator,Site B - Sumatra,2017,6617
+U-035,EX-200 Excavator,Excavator,Site C - Sulawesi,2024,18608
+U-036,EX-200 Excavator,Excavator,Site D - Papua,2024,6814
+U-037,EX-360 Excavator,Excavator,Site A - Kalimantan,2023,10868
+U-038,EX-360 Excavator,Excavator,Site B - Sumatra,2021,2089
+U-039,EX-360 Excavator,Excavator,Site C - Sulawesi,2022,21921
+U-040,EX-360 Excavator,Excavator,Site D - Papua,2022,5707
+U-041,WL-50 Wheel Loader,Wheel Loader,Site A - Kalimantan,2021,8422
+U-042,WL-50 Wheel Loader,Wheel Loader,Site B - Sumatra,2024,23127
+U-043,WL-50 Wheel Loader,Wheel Loader,Site C - Sulawesi,2019,14234
+U-044,WL-50 Wheel Loader,Wheel Loader,Site D - Papua,2024,22331
+U-045,DT-60 Dump Truck,Dump Truck,Site A - Kalimantan,2022,17353
+U-046,DT-60 Dump Truck,Dump Truck,Site B - Sumatra,2017,19802
+U-047,DT-60 Dump Truck,Dump Truck,Site C - Sulawesi,2021,4195
+U-048,DT-60 Dump Truck,Dump Truck,Site D - Papua,2019,14987

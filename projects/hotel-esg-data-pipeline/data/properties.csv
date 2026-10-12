@@ -1,0 +1,41 @@
+property_id,property_name,city,country,segment,rooms,floor_area_m2,has_gas,billing_cycle_offset_days
+HTL-001,Azure Singapore,Singapore,Singapore,Midscale,355,25802,False,0
+HTL-002,Meridian Bay Jakarta,Jakarta,Indonesia,Luxury,309,38481,False,20
+HTL-003,Palm Court Bangkok,Bangkok,Thailand,Luxury,422,44646,False,0
+HTL-004,Riverstone Kuala Lumpur,Kuala Lumpur,Malaysia,Upscale,264,22539,True,20
+HTL-005,Cedar House Ho Chi Minh City,Ho Chi Minh City,Vietnam,Upscale,439,43806,False,0
+HTL-006,Azure Tokyo,Tokyo,Japan,Midscale,372,28163,False,0
+HTL-007,Meridian Bay Sydney,Sydney,Australia,Midscale,393,24405,True,0
+HTL-008,Palm Court Dubai,Dubai,United Arab Emirates,Luxury,387,47890,False,14
+HTL-009,Riverstone Singapore,Singapore,Singapore,Upscale,445,38429,True,0
+HTL-010,Cedar House Bali,Bali,Indonesia,Luxury,367,36293,False,0
+HTL-011,Azure Phuket,Phuket,Thailand,Upscale,177,16816,True,20
+HTL-012,Meridian Bay Penang,Penang,Malaysia,Midscale,276,16549,True,20
+HTL-013,Palm Court Da Nang,Da Nang,Vietnam,Upscale,349,26610,True,0
+HTL-014,Riverstone Osaka,Osaka,Japan,Midscale,400,27415,False,14
+HTL-015,Cedar House Melbourne,Melbourne,Australia,Upscale,302,22345,True,0
+HTL-016,Azure Dubai,Dubai,United Arab Emirates,Upscale,355,31930,False,0
+HTL-017,Meridian Bay Singapore,Singapore,Singapore,Upscale,323,28979,True,0
+HTL-018,Palm Court Surabaya,Surabaya,Indonesia,Luxury,245,24083,True,0
+HTL-019,Riverstone Bangkok,Bangkok,Thailand,Midscale,132,6741,True,0
+HTL-020,Cedar House Kuala Lumpur,Kuala Lumpur,Malaysia,Luxury,276,31667,False,14
+HTL-021,Azure Ho Chi Minh City,Ho Chi Minh City,Vietnam,Upscale,267,26506,True,0
+HTL-022,Meridian Bay Tokyo,Tokyo,Japan,Luxury,158,19382,True,0
+HTL-023,Palm Court Sydney,Sydney,Australia,Luxury,444,42318,False,0
+HTL-024,Riverstone Dubai,Dubai,United Arab Emirates,Upscale,179,14330,False,0
+HTL-025,Cedar House Singapore,Singapore,Singapore,Upscale,465,34026,False,0
+HTL-026,Azure Jakarta,Jakarta,Indonesia,Midscale,298,16890,False,14
+HTL-027,Meridian Bay Phuket,Phuket,Thailand,Midscale,214,13189,True,14
+HTL-028,Palm Court Penang,Penang,Malaysia,Luxury,280,30765,True,20
+HTL-029,Riverstone Da Nang,Da Nang,Vietnam,Upscale,411,30980,False,0
+HTL-030,Cedar House Osaka,Osaka,Japan,Midscale,297,18166,False,14
+HTL-031,Azure Melbourne,Melbourne,Australia,Upscale,154,11075,True,14
+HTL-032,Meridian Bay Dubai,Dubai,United Arab Emirates,Luxury,184,19105,True,0
+HTL-033,Palm Court Singapore,Singapore,Singapore,Luxury,183,17602,False,0
+HTL-034,Riverstone Bali,Bali,Indonesia,Upscale,280,25454,True,0
+HTL-035,Cedar House Bangkok,Bangkok,Thailand,Midscale,270,19071,True,0
+HTL-036,Azure Kuala Lumpur,Kuala Lumpur,Malaysia,Upscale,361,37514,True,0
+HTL-037,Meridian Bay Ho Chi Minh City,Ho Chi Minh City,Vietnam,Upscale,410,33285,True,0
+HTL-038,Palm Court Tokyo,Tokyo,Japan,Upscale,222,22141,False,0
+HTL-039,Riverstone Sydney,Sydney,Australia,Luxury,228,21252,False,0
+HTL-040,Cedar House Dubai,Dubai,United Arab Emirates,Luxury,207,25439,False,14
