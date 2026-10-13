@@ -91,9 +91,9 @@ ID = {
   "Bekerja sama dengan engineer dan geolog senior untuk menerjemahkan temuan analisis menjadi strategi operasional dan eksplorasi.",
 
 # ---------------------------------------------------------------- home: achievements
-"Measured results from my work at Sany and Kawan Lama.": "Hasil terukur dari pekerjaan saya di Sany dan Kawan Lama.",
-"less manual reporting work after automating data collection and reports at Sany":
-  "pekerjaan laporan manual berkurang setelah pengumpulan data dan laporan di Sany diotomasi",
+"Measurable results from my work in data.": "Hasil terukur dari pekerjaan saya di bidang data.",
+"less manual reporting work after automating data collection and reports":
+  "pekerjaan laporan manual berkurang setelah pengumpulan data dan laporan diotomasi",
 "reporting accuracy, lifted from 60–65% to 85–90% with automated validation pipelines":
   "akurasi laporan, naik dari 60–65% menjadi 85–90% berkat pipeline validasi otomatis",
 "internal web apps shipped to standardise how operational data is captured":
