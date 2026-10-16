@@ -6,6 +6,7 @@ Data analyst in Jakarta with 3+ years in operational, commercial and performance
 
 | Project | Data | What it shows |
 |---|---|---|
+| [Heavy equipment spare parts procurement analytics](projects/procurement-spend-analytics) | Simulated, USD 51M spend | SQL + Python: spend and ABC analysis, supplier scorecard (OTIF, lead-time variability, rejects), cost of urgent and off-contract buying, 3-way match, safety stock. **~USD 522k/year savings identified.** |
 | [Hotel utility data pipeline & ESG reporting](projects/hotel-esg-data-pipeline) | Simulated, 40 hotels | Python data-quality pipeline: validation, bill reconciliation (incl. offset billing cycles), gap-filling, audit logs, Scope 1 & 2 emissions. Scored against a hidden answer key: **99.5% of errors caught, 0 false corrections**. |
 | [E-commerce growth & customer retention](projects/ecommerce-customer-analytics) | Real, Olist (98k orders) | SQL (DuckDB): window-function KPIs, cohort retention, RFM, category Pareto, repeat-purchase drivers with a significance test. |
 | [Delivery experience root cause analysis](projects/delivery-experience-rca) | Real, Olist (95k deliveries) | Python: fulfilment-stage decomposition and logistic regression. **Late orders have 13.9× the odds of a 1–2★ review**; carrier transit is the main source of delay. |
@@ -14,6 +15,8 @@ Data analyst in Jakarta with 3+ years in operational, commercial and performance
 ## Reproduce
 ```bash
 pip install pandas numpy duckdb statsmodels
+# Procurement
+cd projects/procurement-spend-analytics && python src/generate_data.py && python src/run_analysis.py && python src/analysis.py
 # Hotel ESG
 cd projects/hotel-esg-data-pipeline && python src/generate_data.py && python src/pipeline.py && python src/evaluate.py
 # E-commerce (downloads the public Olist data first)

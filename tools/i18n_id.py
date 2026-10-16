@@ -462,4 +462,114 @@ ID = {
 "Plan the rainy season": "Rencanakan musim hujan",
 "Move PM, training and component change-outs into rainy months, and set seasonal UA targets so sites are judged fairly.":
   "Pindahkan PM, pelatihan, dan penggantian komponen ke bulan hujan, dan tetapkan target UA musiman agar setiap site dinilai secara adil.",
+
+# ---------------------------------------------------------------- procurement case study + home card
+"Five end-to-end analyses, from raw data to recommendation. Every number on this site is produced by code you can read and rerun on GitHub.":
+  "Lima analisis end-to-end, dari data mentah sampai rekomendasi. Setiap angka di situs ini dihasilkan oleh kode yang bisa Anda baca dan jalankan ulang di GitHub.",
+"Procurement": "Procurement",
+"Inventory": "Inventori",
+"Heavy equipment spare parts procurement analytics": "Analitik procurement suku cadang alat berat",
+"Two years of spare-parts purchasing (USD 51M, 14 suppliers, 420 parts, 4 sites) for a heavy-equipment contractor. I analysed spend and ABC classes, scored suppliers on OTIF, quality and lead-time reliability, measured the cost of urgent and off-contract buying, ran a 3-way match on invoices, and set safety stock for critical parts.":
+  "Dua tahun pembelian suku cadang (USD 51 juta, 14 supplier, 420 part, 4 site) di sebuah kontraktor alat berat. Saya menganalisis spend dan kelas ABC, menilai supplier dari OTIF, kualitas, dan keandalan lead time, mengukur biaya pembelian mendesak dan di luar kontrak, menjalankan 3-way match pada invoice, serta menetapkan safety stock untuk part kritis.",
+"savings identified per year, from contract compliance, invoice checks and fewer urgent orders":
+  "penghematan per tahun yang teridentifikasi, dari kepatuhan kontrak, pengecekan invoice, dan berkurangnya pesanan mendesak",
+"Supplier performance score": "Skor kinerja supplier",
+"out of 100": "dari 100",
+"A contractor running fleets at four remote sites spends tens of millions of dollars a year on hydraulics, engines, undercarriage, tyres and wear parts. I analysed two years of purchasing to answer the questions a procurement manager actually asks: where the money goes, which suppliers can be trusted, what urgent buying really costs, where the process stalls, and how much stock of critical parts to keep.":
+  "Sebuah kontraktor yang mengoperasikan armada di empat site terpencil membelanjakan puluhan juta dolar per tahun untuk komponen hidraulik, mesin, undercarriage, ban, dan wear parts. Saya menganalisis dua tahun data pembelian untuk menjawab pertanyaan yang benar-benar diajukan manajer procurement: ke mana uangnya pergi, supplier mana yang bisa diandalkan, berapa sebenarnya biaya pembelian mendesak, di mana prosesnya tersendat, dan berapa stok part kritis yang perlu disimpan.",
+"Simulated ERP extract: 6,591 PO lines, 14 suppliers, 420 parts, 4 sites (2024–2025)": "Simulasi data ERP: 6.591 baris PO, 14 supplier, 420 part, 4 site (2024–2025)",
+"SQL (DuckDB), Python, pandas, SciPy": "SQL (DuckDB), Python, pandas, SciPy",
+"Spend and ABC analysis, supplier scorecard, 3-way match, safety stock": "Analisis spend dan ABC, scorecard supplier, 3-way match, safety stock",
+"Built on my experience with operational and parts data in the heavy-equipment industry": "Berdasarkan pengalaman saya dengan data operasional dan suku cadang di industri alat berat",
+"spare-parts spend analysed over two years": "spend suku cadang yang dianalisis selama dua tahun",
+"of order lines delivered on time and in full": "baris pesanan dikirim tepat waktu dan lengkap",
+"of order lines placed as urgent, at a price and freight premium": "baris pesanan dibuat mendesak, dengan tambahan harga dan ongkos kirim",
+"savings identified per year, about 2% of annual spend": "penghematan per tahun yang teridentifikasi, sekitar 2% dari spend tahunan",
+"Procurement data is commercially sensitive, so this dataset is simulated. It mirrors an ERP (SAP MM-style) export: supplier and part masters, requisition, PO and goods-receipt dates, invoices and daily part usage. The analysis was written as if the patterns were unknown.":
+  "Data procurement bersifat sensitif secara komersial, jadi dataset ini simulasi. Strukturnya mengikuti ekspor ERP (seperti SAP MM): master supplier dan part, tanggal requisition, PO, dan goods receipt, invoice, serta pemakaian part harian. Analisisnya dikerjakan seolah-olah polanya belum diketahui.",
+"Where the money goes": "Ke mana uangnya pergi",
+"Engine parts are the biggest category at 25% of spend, followed by tyres and rims (17%) and hydraulics (17%). Authorised distributors supply 44% of spend, OEMs 35% and aftermarket suppliers 21%.":
+  "Part mesin adalah kategori terbesar dengan <strong>25%</strong> spend, diikuti ban dan velg (17%) serta hidraulik (17%). Distributor resmi memasok 44% spend, OEM 35%, dan supplier aftermarket 21%.",
+"Spend is highly concentrated: just 98 of 420 part numbers (23%) make up 80% of spend. These A-class parts deserve negotiated contracts, close supplier management and careful stock planning. The long tail of C-class parts (46% of part numbers, only 5% of spend) should be bought as simply and cheaply as possible.":
+  "Spend sangat terkonsentrasi: hanya <strong>98 dari 420 part number (23%) yang menyumbang 80% spend</strong>. Part kelas A ini layak mendapat kontrak hasil negosiasi, pengelolaan supplier yang ketat, dan perencanaan stok yang cermat. Ekor panjang part kelas C (46% part number, hanya 5% spend) sebaiknya dibeli sesederhana dan semurah mungkin.",
+"ABC (Pareto) curve of part spend": "Kurva ABC (Pareto) spend per part",
+"Cumulative share of spend by part number, ranked from highest to lowest": "Porsi kumulatif spend per part number, diurutkan dari tertinggi ke terendah",
+"Spend by category and supplier type": "Spend per kategori dan jenis supplier",
+"USD, 2024–2025": "USD, 2024–2025",
+"Authorised distributor": "Distributor resmi",
+"Which suppliers can be trusted": "Supplier mana yang bisa diandalkan",
+"Delivery reliability vs lead-time variability": "Keandalan pengiriman vs variasi lead time",
+"Each bubble is a supplier; bubble size = spend. Top-left is best.": "Setiap gelembung adalah supplier; ukuran gelembung = spend. Kiri atas adalah yang terbaik.",
+"Each supplier gets a composite score out of 100: on-time-in-full (OTIF) 40%, quality (reject rate) 30% and lead-time reliability 30%. Price is compared separately against the contract price for the same part, on planned orders only.":
+  "Setiap supplier mendapat skor gabungan dari 100: <strong>on-time-in-full (OTIF) 40%</strong>, <strong>kualitas (tingkat reject) 30%</strong>, dan <strong>keandalan lead time 30%</strong>. Harga dibandingkan terpisah dengan harga kontrak untuk part yang sama, hanya pada pesanan terencana.",
+"Authorised distributors lead. The best scores 89, with 93.8% OTIF, 0.75% rejects and lead times that vary by less than 2 days.":
+  "<strong>Distributor resmi memimpin.</strong> Yang terbaik mendapat skor 89, dengan OTIF 93,8%, reject 0,75%, dan lead time yang bervariasi kurang dari 2 hari.",
+"Cheap is not cheap. Aftermarket suppliers are only 0–2.5% below contract price, yet they deliver on time and in full just 60–85% of the time and reject up to 5.8% of parts. The two weakest score 45–46.":
+  "<strong>Murah belum tentu murah.</strong> Supplier aftermarket hanya 0–2,5% di bawah harga kontrak, tapi hanya mengirim tepat waktu dan lengkap 60–85% dari waktu, dan reject hingga <strong>5,8%</strong> part. Dua yang terlemah mendapat skor 45–46.",
+"OEM imports are reliable in quality but slow. The Singapore OEM hub averages 32 days with ±7.4 days variability. That uncertainty is what forces buffer stock for critical engine parts.":
+  "<strong>Impor OEM andal dari sisi kualitas tapi lambat.</strong> Hub OEM Singapura rata-rata <strong>32 hari</strong> dengan variasi &plusmn;7,4 hari. Ketidakpastian inilah yang memaksa adanya stok cadangan untuk part mesin yang kritis.",
+"Supplier scorecard": "Scorecard supplier",
+"Sorted by composite score. Price index = price paid / contract price on planned orders.": "Diurutkan berdasarkan skor gabungan. Indeks harga = harga dibayar / harga kontrak pada pesanan terencana.",
+"Supplier": "Supplier",
+"Type": "Jenis",
+"Spend": "Spend",
+"Lead time": "Lead time",
+"± days": "± hari",
+"Rejects": "Reject",
+"Price index": "Indeks harga",
+"Score": "Skor",
+"Urgent buying is a planning problem": "Pembelian mendesak adalah masalah perencanaan",
+"Share of order lines placed as urgent": "Porsi baris pesanan yang dibuat mendesak",
+"By site": "Per site",
+"Sulawesi (26%) and Papua (23%) buy urgently twice as often as Kalimantan and Sumatra (~12%). Urgent lines pay 10–18% more and carry air-freight expediting, and almost half of them go to a non-contract supplier.":
+  "Sulawesi (<strong>26%</strong>) dan Papua (<strong>23%</strong>) membeli secara mendesak dua kali lebih sering dibanding Kalimantan dan Sumatra (~12%). Pesanan mendesak membayar <strong>10–18% lebih mahal</strong> ditambah ongkos kirim udara, dan hampir setengahnya dibeli dari supplier di luar kontrak.",
+"What urgent and off-contract buying costs": "Biaya pembelian mendesak dan di luar kontrak",
+"Price paid above contract + expedite charges, USD, 2 years": "Harga di atas kontrak + biaya expedite, USD, 2 tahun",
+"Price premium": "Selisih harga",
+"Expedite (freight)": "Expedite (ongkos kirim)",
+"Across all sites this adds up to about USD 1.37M over two years, money spent on speed and convenience rather than on parts.":
+  "Di semua site, totalnya sekitar <strong>USD 1,37 juta</strong> selama dua tahun, uang yang habis untuk kecepatan dan kemudahan, bukan untuk part.",
+"Where the process slows down": "Di mana prosesnya melambat",
+"Days from requisition to approved PO": "Hari dari requisition sampai PO disetujui",
+"Planned (non-urgent) orders, by PO value. Hover for the 90th percentile.": "Pesanan terencana (tidak mendesak), per nilai PO. Arahkan kursor untuk melihat persentil ke-90.",
+"POs above USD 5,000 need a second approval and wait a median 7 days (p90: 12), against 2 days for smaller orders. For a critical part, those 5 extra days can mean 5 extra days of a machine standing still.":
+  "PO di atas <strong>USD 5.000</strong> butuh persetujuan kedua dan menunggu median <strong>7 hari</strong> (p90: 12), dibanding 2 hari untuk pesanan yang lebih kecil. Untuk part kritis, 5 hari tambahan itu bisa berarti 5 hari tambahan mesin berhenti.",
+"3-way match: PO vs goods receipt vs invoice": "3-way match: PO vs goods receipt vs invoice",
+"6,591 supplier invoices": "6.591 invoice supplier",
+"3.3% of invoices don't match: prices above the PO and duplicate billing. Paid without checks, that's USD 370k of overbilling in two years. Checking data against its source is exactly the habit this catches.":
+  "<strong>3,3% invoice</strong> tidak cocok: harga di atas PO dan tagihan ganda. Kalau dibayar tanpa pengecekan, itu berarti <strong>USD 370 ribu</strong> kelebihan bayar dalam dua tahun. Kebiasaan mencocokkan data dengan sumbernya yang menangkap hal seperti ini.",
+"How much stock of critical parts to hold": "Berapa stok part kritis yang perlu disimpan",
+"For the 45 critical A- and B-class parts, I calculated a reorder point with safety stock at a 95% service level, using each part's daily usage and the lead time of its contract supplier:":
+  "Untuk <strong>45 part kritis kelas A dan B</strong>, saya menghitung reorder point dengan safety stock pada <strong>service level 95%</strong>, berdasarkan pemakaian harian tiap part dan lead time supplier kontraknya:",
+"Here d is average daily usage, L the average lead time, and σ their variability. Reordering at average lead-time demand, with no buffer, runs out of stock in roughly half of replenishment cycles. The recommended buffer cuts that to about 5%, for roughly USD 156k of one-off stock across all 45 parts. That's small next to the cost of a haul truck or excavator waiting for a part.":
+  "Di sini <code>d</code> adalah rata-rata pemakaian harian, <code>L</code> rata-rata lead time, dan <code>σ</code> variasinya. Memesan ulang saat stok setara rata-rata kebutuhan selama lead time, tanpa cadangan, menyebabkan kehabisan stok di sekitar <strong>setengah</strong> siklus pengisian. Cadangan yang direkomendasikan menurunkannya menjadi sekitar 5%, dengan stok satu kali senilai sekitar <strong>USD 156 ribu</strong> untuk ke-45 part. Angka ini kecil dibanding biaya haul truck atau excavator yang berhenti menunggu part.",
+"Recommended reorder points, top 10 by buffer value": "Reorder point yang direkomendasikan, 10 teratas berdasarkan nilai cadangan",
+"Units. Current = average demand during lead time; recommended adds safety stock.": "Unit. Saat ini = rata-rata kebutuhan selama lead time; rekomendasi menambahkan safety stock.",
+"Part": "Part",
+"Category": "Kategori",
+"Use/day": "Pakai/hari",
+"Current ROP": "ROP saat ini",
+"New ROP": "ROP baru",
+"Buffer value": "Nilai cadangan",
+"Savings identified, USD per year": "Penghematan yang teridentifikasi, USD per tahun",
+"Total about USD 522k, 2.0% of annual spend": "Total sekitar USD 522 ribu, 2,0% dari spend tahunan",
+"Savings and how they were sized": "Penghematan dan cara menghitungnya",
+"Off-contract buying (~USD 194k/yr): the premium paid above the contract price on planned, non-urgent orders bought from a non-contract supplier. This is fully avoidable through purchasing discipline.":
+  "<strong>Pembelian di luar kontrak (~USD 194 ribu/tahun):</strong> selisih harga di atas harga kontrak pada pesanan terencana dan tidak mendesak yang dibeli dari supplier di luar kontrak. Ini sepenuhnya bisa dihindari dengan disiplin pembelian.",
+"Invoice checks (~USD 185k/yr): overbilling found by the 3-way match, recovered if every invoice is matched before payment.":
+  "<strong>Pengecekan invoice (~USD 185 ribu/tahun):</strong> kelebihan tagihan yang ditemukan lewat 3-way match, bisa diselamatkan jika setiap invoice dicocokkan sebelum dibayar.",
+"Urgent orders (~USD 144k/yr): the premium saved if every site cut its urgent share to the best site's level (11.5%). This is conservative, because it assumes no site does better than today's best.":
+  "<strong>Pesanan mendesak (~USD 144 ribu/tahun):</strong> selisih biaya yang dihemat jika setiap site menurunkan porsi pesanan mendesaknya ke level site terbaik (11,5%). Perhitungan ini konservatif, karena mengasumsikan tidak ada site yang lebih baik dari yang terbaik saat ini.",
+"Enforce contract buying": "Tegakkan pembelian sesuai kontrak",
+"Use catalogue-based ordering that defaults to the contract supplier and requires a reason for any exception. Review off-contract spend monthly by buyer and site.":
+  "Gunakan pemesanan berbasis katalog yang otomatis memilih supplier kontrak dan mewajibkan alasan untuk setiap pengecualian. Tinjau spend di luar kontrak setiap bulan per buyer dan site.",
+"Plan parts with maintenance": "Rencanakan part bersama maintenance",
+"Kit parts for scheduled PM and set reorder points with safety stock for the 45 critical parts, starting with Sulawesi and Papua, where urgent buying is twice the norm.":
+  "Siapkan paket part untuk PM terjadwal dan tetapkan reorder point dengan safety stock untuk 45 part kritis, dimulai dari Sulawesi dan Papua, di mana pembelian mendesak dua kali lipat dari normal.",
+"Speed up approvals for contract items": "Percepat persetujuan untuk item kontrak",
+"Auto-approve contract-priced POs within budget, or run approvals in parallel, to remove the 5-day wait on orders above USD 5,000.":
+  "Setujui otomatis PO dengan harga kontrak yang masih dalam anggaran, atau jalankan persetujuan secara paralel, untuk menghilangkan waktu tunggu 5 hari pada pesanan di atas USD 5.000.",
+"Manage suppliers by score, not price": "Kelola supplier berdasarkan skor, bukan harga",
+"Concentrate volume with the top-scoring distributors. Put suppliers below 70% OTIF or above 5% rejects on an improvement plan, and automate the 3-way match before every payment.":
+  "Pusatkan volume pada distributor dengan skor tertinggi. Masukkan supplier dengan OTIF di bawah 70% atau reject di atas 5% ke program perbaikan, dan otomatiskan 3-way match sebelum setiap pembayaran.",
 }

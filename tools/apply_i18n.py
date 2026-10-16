@@ -10,7 +10,7 @@ from i18n_id import ID
 
 TAGS = {"a", "p", "li", "dt", "dd", "h1", "h2", "h3", "span", "small", "strong", "th", "button"}
 PAGES = ["index.html"] + [f"projects/{p}/index.html" for p in
-         ["hotel-esg-data-pipeline", "ecommerce-customer-analytics", "delivery-experience-rca", "equipment-utilization-rca"]]
+         ["procurement-spend-analytics", "hotel-esg-data-pipeline", "ecommerce-customer-analytics", "delivery-experience-rca", "equipment-utilization-rca"]]
 
 def candidates(soup):
     out = []

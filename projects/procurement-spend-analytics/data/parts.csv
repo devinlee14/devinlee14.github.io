@@ -1,0 +1,421 @@
+part_no,category,description,oem_list_price_usd,annual_demand,critical,contract_supplier,contract_price_2024
+P-0001,Hydraulic,Hydraulic part 0001,1818.61,253,False,SUP-02,1782.24
+P-0002,Hydraulic,Hydraulic part 0002,161.45,129,True,SUP-02,158.22
+P-0003,Hydraulic,Hydraulic part 0003,1081.56,435,False,SUP-02,1059.93
+P-0004,Hydraulic,Hydraulic part 0004,312.83,17,False,SUP-01,312.83
+P-0005,Hydraulic,Hydraulic part 0005,682.58,149,False,SUP-01,682.58
+P-0006,Hydraulic,Hydraulic part 0006,178.73,39,True,SUP-07,139.41
+P-0007,Hydraulic,Hydraulic part 0007,147.88,60,True,SUP-04,139.01
+P-0008,Hydraulic,Hydraulic part 0008,765.68,18,True,SUP-07,597.23
+P-0009,Hydraulic,Hydraulic part 0009,520.67,103,True,SUP-04,489.43
+P-0010,Hydraulic,Hydraulic part 0010,688.0,87,False,SUP-03,653.6
+P-0011,Hydraulic,Hydraulic part 0011,3410.64,7,False,SUP-03,3240.11
+P-0012,Hydraulic,Hydraulic part 0012,249.4,467,True,SUP-07,194.53
+P-0013,Hydraulic,Hydraulic part 0013,441.13,9,False,SUP-07,344.08
+P-0014,Hydraulic,Hydraulic part 0014,202.7,295,True,SUP-02,198.64
+P-0015,Hydraulic,Hydraulic part 0015,579.51,12,True,SUP-03,550.53
+P-0016,Hydraulic,Hydraulic part 0016,500.29,61,False,SUP-02,490.28
+P-0017,Hydraulic,Hydraulic part 0017,2304.05,62,False,SUP-04,2165.81
+P-0018,Hydraulic,Hydraulic part 0018,1187.84,26,False,SUP-02,1164.08
+P-0019,Hydraulic,Hydraulic part 0019,302.35,34,False,SUP-02,296.3
+P-0020,Hydraulic,Hydraulic part 0020,2043.97,8,True,SUP-02,2003.09
+P-0021,Hydraulic,Hydraulic part 0021,986.89,48,False,SUP-01,986.89
+P-0022,Hydraulic,Hydraulic part 0022,4677.54,17,False,SUP-02,4583.99
+P-0023,Hydraulic,Hydraulic part 0023,1261.43,143,False,SUP-04,1185.75
+P-0024,Hydraulic,Hydraulic part 0024,612.38,37,False,SUP-01,612.38
+P-0025,Hydraulic,Hydraulic part 0025,785.71,63,False,SUP-02,769.99
+P-0026,Hydraulic,Hydraulic part 0026,377.79,37,True,SUP-01,377.79
+P-0027,Hydraulic,Hydraulic part 0027,584.39,89,False,SUP-03,555.17
+P-0028,Hydraulic,Hydraulic part 0028,1001.05,6,False,SUP-01,1001.05
+P-0029,Hydraulic,Hydraulic part 0029,992.31,828,False,SUP-02,972.46
+P-0030,Hydraulic,Hydraulic part 0030,279.15,144,False,SUP-02,273.57
+P-0031,Hydraulic,Hydraulic part 0031,618.59,33,True,SUP-04,581.47
+P-0032,Hydraulic,Hydraulic part 0032,54.79,219,False,SUP-07,42.73
+P-0033,Hydraulic,Hydraulic part 0033,1037.22,4,False,SUP-02,1016.48
+P-0034,Hydraulic,Hydraulic part 0034,572.12,72,False,SUP-07,446.26
+P-0035,Hydraulic,Hydraulic part 0035,533.24,74,False,SUP-01,533.24
+P-0036,Hydraulic,Hydraulic part 0036,666.6,4,False,SUP-04,626.61
+P-0037,Hydraulic,Hydraulic part 0037,918.32,12,False,SUP-04,863.22
+P-0038,Hydraulic,Hydraulic part 0038,621.07,176,True,SUP-03,590.02
+P-0039,Hydraulic,Hydraulic part 0039,420.67,77,False,SUP-03,399.63
+P-0040,Hydraulic,Hydraulic part 0040,560.9,2,True,SUP-02,549.68
+P-0041,Hydraulic,Hydraulic part 0041,835.99,178,True,SUP-03,794.19
+P-0042,Hydraulic,Hydraulic part 0042,2995.69,2,True,SUP-01,2995.69
+P-0043,Hydraulic,Hydraulic part 0043,556.01,63,True,SUP-07,433.69
+P-0044,Hydraulic,Hydraulic part 0044,1369.23,4,False,SUP-04,1287.07
+P-0045,Hydraulic,Hydraulic part 0045,340.16,314,False,SUP-02,333.36
+P-0046,Hydraulic,Hydraulic part 0046,4747.37,51,False,SUP-07,3702.95
+P-0047,Hydraulic,Hydraulic part 0047,833.75,1151,False,SUP-01,833.75
+P-0048,Hydraulic,Hydraulic part 0048,806.09,96,False,SUP-02,789.97
+P-0049,Hydraulic,Hydraulic part 0049,141.34,423,False,SUP-04,132.86
+P-0050,Hydraulic,Hydraulic part 0050,341.94,53,False,SUP-03,324.85
+P-0051,Hydraulic,Hydraulic part 0051,3662.25,18,True,SUP-01,3662.25
+P-0052,Hydraulic,Hydraulic part 0052,549.43,5,True,SUP-03,521.95
+P-0053,Hydraulic,Hydraulic part 0053,224.22,161,False,SUP-04,210.77
+P-0054,Hydraulic,Hydraulic part 0054,490.72,77,True,SUP-01,490.72
+P-0055,Hydraulic,Hydraulic part 0055,1159.67,8,False,SUP-07,904.54
+P-0056,Hydraulic,Hydraulic part 0056,89.99,130,False,SUP-02,88.19
+P-0057,Hydraulic,Hydraulic part 0057,2136.97,4,True,SUP-04,2008.75
+P-0058,Hydraulic,Hydraulic part 0058,163.81,54,False,SUP-01,163.81
+P-0059,Hydraulic,Hydraulic part 0059,246.5,9,False,SUP-03,234.17
+P-0060,Hydraulic,Hydraulic part 0060,1304.62,11,False,SUP-02,1278.53
+P-0061,Hydraulic,Hydraulic part 0061,1586.4,7,True,SUP-03,1507.08
+P-0062,Hydraulic,Hydraulic part 0062,151.62,103,True,SUP-02,148.59
+P-0063,Hydraulic,Hydraulic part 0063,6050.24,1,False,SUP-04,5687.22
+P-0064,Hydraulic,Hydraulic part 0064,2171.78,13,False,SUP-07,1693.99
+P-0065,Hydraulic,Hydraulic part 0065,349.8,156,False,SUP-02,342.8
+P-0066,Hydraulic,Hydraulic part 0066,804.38,142,True,SUP-03,764.16
+P-0067,Hydraulic,Hydraulic part 0067,332.71,482,False,SUP-03,316.08
+P-0068,Hydraulic,Hydraulic part 0068,671.68,127,False,SUP-07,523.91
+P-0069,Hydraulic,Hydraulic part 0069,181.8,33,True,SUP-01,181.8
+P-0070,Hydraulic,Hydraulic part 0070,952.69,25,True,SUP-03,905.05
+P-0071,Hydraulic,Hydraulic part 0071,2403.24,202,False,SUP-07,1874.53
+P-0072,Hydraulic,Hydraulic part 0072,747.25,56,True,SUP-02,732.3
+P-0073,Hydraulic,Hydraulic part 0073,190.3,47,False,SUP-07,148.43
+P-0074,Hydraulic,Hydraulic part 0074,403.5,48,False,SUP-07,314.73
+P-0075,Hydraulic,Hydraulic part 0075,2875.3,93,False,SUP-03,2731.54
+P-0076,Hydraulic,Hydraulic part 0076,789.21,29,False,SUP-03,749.75
+P-0077,Hydraulic,Hydraulic part 0077,1808.77,11,False,SUP-03,1718.34
+P-0078,Hydraulic,Hydraulic part 0078,711.2,22,False,SUP-03,675.64
+P-0079,Hydraulic,Hydraulic part 0079,713.7,37,True,SUP-02,699.42
+P-0080,Hydraulic,Hydraulic part 0080,4986.97,11,True,SUP-03,4737.62
+P-0081,Hydraulic,Hydraulic part 0081,702.32,1,True,SUP-01,702.32
+P-0082,Hydraulic,Hydraulic part 0082,374.41,421,False,SUP-01,374.41
+P-0083,Hydraulic,Hydraulic part 0083,367.49,23,False,SUP-04,345.44
+P-0084,Hydraulic,Hydraulic part 0084,765.27,134,True,SUP-04,719.36
+P-0085,Engine,Engine part 0085,512.17,69,False,SUP-01,512.17
+P-0086,Engine,Engine part 0086,1423.59,67,False,SUP-10,1081.93
+P-0087,Engine,Engine part 0087,567.47,5,False,SUP-01,567.47
+P-0088,Engine,Engine part 0088,397.16,232,True,SUP-02,389.21
+P-0089,Engine,Engine part 0089,830.25,43,False,SUP-02,813.65
+P-0090,Engine,Engine part 0090,953.09,53,False,SUP-05,914.96
+P-0091,Engine,Engine part 0091,1371.34,14,True,SUP-05,1316.48
+P-0092,Engine,Engine part 0092,540.67,14,True,SUP-01,540.67
+P-0093,Engine,Engine part 0093,415.28,79,True,SUP-06,386.21
+P-0094,Engine,Engine part 0094,427.8,40,True,SUP-02,419.24
+P-0095,Engine,Engine part 0095,150.32,388,True,SUP-06,139.8
+P-0096,Engine,Engine part 0096,80.79,253,False,SUP-02,79.18
+P-0097,Engine,Engine part 0097,2461.53,1,False,SUP-06,2289.23
+P-0098,Engine,Engine part 0098,184.08,2,False,SUP-01,184.08
+P-0099,Engine,Engine part 0099,1437.66,6,False,SUP-01,1437.66
+P-0100,Engine,Engine part 0100,880.31,224,False,SUP-02,862.71
+P-0101,Engine,Engine part 0101,608.62,19,True,SUP-01,608.62
+P-0102,Engine,Engine part 0102,263.41,161,True,SUP-02,258.14
+P-0103,Engine,Engine part 0103,159.51,267,False,SUP-10,121.23
+P-0104,Engine,Engine part 0104,590.09,28,False,SUP-01,590.09
+P-0105,Engine,Engine part 0105,542.83,7,True,SUP-02,531.98
+P-0106,Engine,Engine part 0106,1033.82,94,True,SUP-01,1033.82
+P-0107,Engine,Engine part 0107,1431.33,1,False,SUP-01,1431.33
+P-0108,Engine,Engine part 0108,2218.62,6,False,SUP-01,2218.62
+P-0109,Engine,Engine part 0109,6025.47,1,True,SUP-05,5784.45
+P-0110,Engine,Engine part 0110,568.1,33,True,SUP-05,545.38
+P-0111,Engine,Engine part 0111,2568.3,1457,False,SUP-02,2516.93
+P-0112,Engine,Engine part 0112,1194.65,149,True,SUP-02,1170.75
+P-0113,Engine,Engine part 0113,740.88,82,True,SUP-06,689.01
+P-0114,Engine,Engine part 0114,202.7,127,False,SUP-06,188.51
+P-0115,Engine,Engine part 0115,1234.9,105,True,SUP-01,1234.9
+P-0116,Engine,Engine part 0116,3203.3,17,True,SUP-05,3075.17
+P-0117,Engine,Engine part 0117,700.03,14,False,SUP-05,672.03
+P-0118,Engine,Engine part 0118,668.48,55,False,SUP-02,655.11
+P-0119,Engine,Engine part 0119,1539.94,51,False,SUP-05,1478.34
+P-0120,Engine,Engine part 0120,2550.53,7,False,SUP-10,1938.4
+P-0121,Engine,Engine part 0121,478.21,39,False,SUP-10,363.44
+P-0122,Engine,Engine part 0122,665.55,24,False,SUP-05,638.93
+P-0123,Engine,Engine part 0123,680.18,190,False,SUP-06,632.57
+P-0124,Engine,Engine part 0124,27469.3,8,False,SUP-02,26919.91
+P-0125,Engine,Engine part 0125,233.14,20,False,SUP-02,228.47
+P-0126,Engine,Engine part 0126,881.83,96,False,SUP-10,670.19
+P-0127,Engine,Engine part 0127,539.42,26,True,SUP-05,517.85
+P-0128,Engine,Engine part 0128,1468.0,142,False,SUP-02,1438.64
+P-0129,Engine,Engine part 0129,846.67,24,True,SUP-01,846.67
+P-0130,Engine,Engine part 0130,696.5,36,False,SUP-02,682.57
+P-0131,Engine,Engine part 0131,208.52,6,False,SUP-10,158.48
+P-0132,Engine,Engine part 0132,673.15,156,False,SUP-05,646.22
+P-0133,Engine,Engine part 0133,703.73,65,True,SUP-05,675.58
+P-0134,Engine,Engine part 0134,583.56,149,False,SUP-01,583.56
+P-0135,Engine,Engine part 0135,1943.71,8,False,SUP-06,1807.65
+P-0136,Engine,Engine part 0136,925.94,93,False,SUP-05,888.9
+P-0137,Engine,Engine part 0137,289.8,957,False,SUP-10,220.25
+P-0138,Engine,Engine part 0138,199.8,434,False,SUP-01,199.8
+P-0139,Engine,Engine part 0139,187.07,21,True,SUP-10,142.18
+P-0140,Engine,Engine part 0140,1820.03,14,True,SUP-02,1783.63
+P-0141,Engine,Engine part 0141,2573.63,291,False,SUP-10,1955.96
+P-0142,Engine,Engine part 0142,835.73,456,False,SUP-02,819.01
+P-0143,Engine,Engine part 0143,209.81,363,False,SUP-01,209.81
+P-0144,Engine,Engine part 0144,260.23,326,False,SUP-05,249.82
+P-0145,Engine,Engine part 0145,313.83,101,False,SUP-05,301.28
+P-0146,Engine,Engine part 0146,361.39,303,False,SUP-01,361.39
+P-0147,Engine,Engine part 0147,1037.78,79,False,SUP-02,1017.03
+P-0148,Engine,Engine part 0148,126.85,6,False,SUP-02,124.31
+P-0149,Engine,Engine part 0149,1356.5,229,False,SUP-05,1302.24
+P-0150,Engine,Engine part 0150,178.51,197,True,SUP-01,178.51
+P-0151,Engine,Engine part 0151,596.45,104,False,SUP-05,572.59
+P-0152,Engine,Engine part 0152,2603.15,92,False,SUP-06,2420.93
+P-0153,Engine,Engine part 0153,118.6,244,True,SUP-05,113.85
+P-0154,Engine,Engine part 0154,492.68,7,False,SUP-05,472.97
+P-0155,Engine,Engine part 0155,454.75,17,False,SUP-10,345.61
+P-0156,Engine,Engine part 0156,245.18,21,False,SUP-02,240.28
+P-0157,Engine,Engine part 0157,5508.97,86,False,SUP-06,5123.34
+P-0158,Engine,Engine part 0158,1550.59,23,False,SUP-06,1442.05
+P-0159,Engine,Engine part 0159,1819.35,30,False,SUP-01,1819.35
+P-0160,Engine,Engine part 0160,911.86,4,False,SUP-01,911.86
+P-0161,Undercarriage,Undercarriage part 0161,9188.29,6,False,SUP-09,7350.63
+P-0162,Undercarriage,Undercarriage part 0162,2340.77,16,False,SUP-04,2200.32
+P-0163,Undercarriage,Undercarriage part 0163,2774.47,22,False,SUP-09,2219.58
+P-0164,Undercarriage,Undercarriage part 0164,6902.24,4,False,SUP-03,6557.13
+P-0165,Undercarriage,Undercarriage part 0165,3020.16,15,False,SUP-04,2838.95
+P-0166,Undercarriage,Undercarriage part 0166,1803.16,12,False,SUP-09,1442.53
+P-0167,Undercarriage,Undercarriage part 0167,686.38,89,False,SUP-09,549.11
+P-0168,Undercarriage,Undercarriage part 0168,5839.19,102,True,SUP-03,5547.23
+P-0169,Undercarriage,Undercarriage part 0169,1536.81,1,False,SUP-04,1444.6
+P-0170,Undercarriage,Undercarriage part 0170,5358.36,8,False,SUP-03,5090.45
+P-0171,Undercarriage,Undercarriage part 0171,2866.62,45,False,SUP-03,2723.29
+P-0172,Undercarriage,Undercarriage part 0172,691.04,70,False,SUP-03,656.49
+P-0173,Undercarriage,Undercarriage part 0173,2999.39,1,False,SUP-01,2999.39
+P-0174,Undercarriage,Undercarriage part 0174,2018.0,9,True,SUP-01,2018.0
+P-0175,Undercarriage,Undercarriage part 0175,1238.65,90,False,SUP-01,1238.65
+P-0176,Undercarriage,Undercarriage part 0176,4306.73,41,True,SUP-09,3445.39
+P-0177,Undercarriage,Undercarriage part 0177,1802.45,7,True,SUP-04,1694.3
+P-0178,Undercarriage,Undercarriage part 0178,404.52,53,True,SUP-01,404.52
+P-0179,Undercarriage,Undercarriage part 0179,6003.32,60,True,SUP-03,5703.15
+P-0180,Undercarriage,Undercarriage part 0180,948.58,38,False,SUP-04,891.67
+P-0181,Undercarriage,Undercarriage part 0181,4797.4,8,False,SUP-04,4509.56
+P-0182,Undercarriage,Undercarriage part 0182,491.68,104,True,SUP-01,491.68
+P-0183,Undercarriage,Undercarriage part 0183,1799.41,195,False,SUP-01,1799.41
+P-0184,Undercarriage,Undercarriage part 0184,295.51,138,False,SUP-01,295.51
+P-0185,Undercarriage,Undercarriage part 0185,968.17,80,True,SUP-03,919.76
+P-0186,Undercarriage,Undercarriage part 0186,2250.08,19,False,SUP-01,2250.08
+P-0187,Undercarriage,Undercarriage part 0187,1779.3,18,False,SUP-01,1779.3
+P-0188,Undercarriage,Undercarriage part 0188,1727.46,16,True,SUP-01,1727.46
+P-0189,Undercarriage,Undercarriage part 0189,3315.91,100,True,SUP-04,3116.96
+P-0190,Undercarriage,Undercarriage part 0190,7950.07,6,False,SUP-03,7552.57
+P-0191,Undercarriage,Undercarriage part 0191,26588.57,3,False,SUP-09,21270.86
+P-0192,Undercarriage,Undercarriage part 0192,2123.31,3,True,SUP-03,2017.15
+P-0193,Undercarriage,Undercarriage part 0193,2570.45,3,False,SUP-04,2416.22
+P-0194,Undercarriage,Undercarriage part 0194,1984.41,25,True,SUP-09,1587.53
+P-0195,Undercarriage,Undercarriage part 0195,7190.07,3,False,SUP-03,6830.57
+P-0196,Undercarriage,Undercarriage part 0196,1509.04,14,False,SUP-04,1418.49
+P-0197,Undercarriage,Undercarriage part 0197,3783.58,8,True,SUP-03,3594.4
+P-0198,Undercarriage,Undercarriage part 0198,995.87,31,False,SUP-03,946.08
+P-0199,Undercarriage,Undercarriage part 0199,2014.65,13,False,SUP-03,1913.92
+P-0200,Undercarriage,Undercarriage part 0200,9842.92,6,False,SUP-01,9842.92
+P-0201,Undercarriage,Undercarriage part 0201,3833.3,13,True,SUP-03,3641.63
+P-0202,Undercarriage,Undercarriage part 0202,544.08,115,False,SUP-09,435.26
+P-0203,Undercarriage,Undercarriage part 0203,1239.68,31,False,SUP-04,1165.3
+P-0204,Undercarriage,Undercarriage part 0204,3714.82,371,False,SUP-01,3714.82
+P-0205,Undercarriage,Undercarriage part 0205,1286.91,344,False,SUP-01,1286.91
+P-0206,Undercarriage,Undercarriage part 0206,6837.22,3,False,SUP-03,6495.36
+P-0207,Undercarriage,Undercarriage part 0207,1153.56,8,True,SUP-03,1095.89
+P-0208,Undercarriage,Undercarriage part 0208,1107.55,19,False,SUP-01,1107.55
+P-0209,Undercarriage,Undercarriage part 0209,1173.1,9,False,SUP-09,938.48
+P-0210,Undercarriage,Undercarriage part 0210,1590.89,3,False,SUP-03,1511.34
+P-0211,Filters & Lubricants,Filters & Lubricants part 0211,40.81,1663,True,SUP-01,40.81
+P-0212,Filters & Lubricants,Filters & Lubricants part 0212,25.02,1824,False,SUP-08,18.01
+P-0213,Filters & Lubricants,Filters & Lubricants part 0213,42.15,55,False,SUP-01,42.15
+P-0214,Filters & Lubricants,Filters & Lubricants part 0214,66.98,109,False,SUP-03,63.63
+P-0215,Filters & Lubricants,Filters & Lubricants part 0215,37.21,1454,False,SUP-03,35.35
+P-0216,Filters & Lubricants,Filters & Lubricants part 0216,34.95,18,True,SUP-08,25.16
+P-0217,Filters & Lubricants,Filters & Lubricants part 0217,29.32,1382,False,SUP-08,21.11
+P-0218,Filters & Lubricants,Filters & Lubricants part 0218,56.99,24,False,SUP-01,56.99
+P-0219,Filters & Lubricants,Filters & Lubricants part 0219,66.75,65,False,SUP-08,48.06
+P-0220,Filters & Lubricants,Filters & Lubricants part 0220,320.64,33,False,SUP-03,304.61
+P-0221,Filters & Lubricants,Filters & Lubricants part 0221,28.77,2671,False,SUP-01,28.77
+P-0222,Filters & Lubricants,Filters & Lubricants part 0222,105.44,36,True,SUP-05,101.23
+P-0223,Filters & Lubricants,Filters & Lubricants part 0223,37.46,28,False,SUP-03,35.59
+P-0224,Filters & Lubricants,Filters & Lubricants part 0224,30.63,1046,False,SUP-03,29.09
+P-0225,Filters & Lubricants,Filters & Lubricants part 0225,51.9,442,False,SUP-05,49.82
+P-0226,Filters & Lubricants,Filters & Lubricants part 0226,26.55,2943,False,SUP-08,19.12
+P-0227,Filters & Lubricants,Filters & Lubricants part 0227,54.44,44,False,SUP-01,54.44
+P-0228,Filters & Lubricants,Filters & Lubricants part 0228,15.13,256,False,SUP-08,10.89
+P-0229,Filters & Lubricants,Filters & Lubricants part 0229,26.74,2332,False,SUP-05,25.67
+P-0230,Filters & Lubricants,Filters & Lubricants part 0230,11.57,62,False,SUP-01,11.57
+P-0231,Filters & Lubricants,Filters & Lubricants part 0231,19.2,303,True,SUP-08,13.82
+P-0232,Filters & Lubricants,Filters & Lubricants part 0232,88.99,191,False,SUP-08,64.07
+P-0233,Filters & Lubricants,Filters & Lubricants part 0233,33.16,59,False,SUP-08,23.87
+P-0234,Filters & Lubricants,Filters & Lubricants part 0234,138.39,91,False,SUP-03,131.47
+P-0235,Filters & Lubricants,Filters & Lubricants part 0235,47.26,502,True,SUP-01,47.26
+P-0236,Filters & Lubricants,Filters & Lubricants part 0236,21.98,190,False,SUP-05,21.11
+P-0237,Filters & Lubricants,Filters & Lubricants part 0237,120.99,578,False,SUP-05,116.15
+P-0238,Filters & Lubricants,Filters & Lubricants part 0238,104.18,674,False,SUP-05,100.01
+P-0239,Filters & Lubricants,Filters & Lubricants part 0239,9.23,62,False,SUP-05,8.86
+P-0240,Filters & Lubricants,Filters & Lubricants part 0240,62.85,244,False,SUP-01,62.85
+P-0241,Filters & Lubricants,Filters & Lubricants part 0241,58.64,30,False,SUP-01,58.64
+P-0242,Filters & Lubricants,Filters & Lubricants part 0242,36.65,231,False,SUP-08,26.39
+P-0243,Filters & Lubricants,Filters & Lubricants part 0243,57.94,104,False,SUP-01,57.94
+P-0244,Filters & Lubricants,Filters & Lubricants part 0244,13.46,329,False,SUP-03,12.79
+P-0245,Filters & Lubricants,Filters & Lubricants part 0245,95.65,4042,False,SUP-03,90.87
+P-0246,Filters & Lubricants,Filters & Lubricants part 0246,31.86,136,False,SUP-03,30.27
+P-0247,Filters & Lubricants,Filters & Lubricants part 0247,58.21,510,False,SUP-08,41.91
+P-0248,Filters & Lubricants,Filters & Lubricants part 0248,97.99,1042,False,SUP-01,97.99
+P-0249,Filters & Lubricants,Filters & Lubricants part 0249,35.83,1153,False,SUP-05,34.4
+P-0250,Filters & Lubricants,Filters & Lubricants part 0250,63.77,62,False,SUP-05,61.22
+P-0251,Filters & Lubricants,Filters & Lubricants part 0251,63.96,128,True,SUP-05,61.4
+P-0252,Filters & Lubricants,Filters & Lubricants part 0252,132.77,1079,False,SUP-03,126.13
+P-0253,Filters & Lubricants,Filters & Lubricants part 0253,19.26,49,False,SUP-01,19.26
+P-0254,Filters & Lubricants,Filters & Lubricants part 0254,21.79,1975,False,SUP-01,21.79
+P-0255,Filters & Lubricants,Filters & Lubricants part 0255,65.72,39,True,SUP-08,47.32
+P-0256,Filters & Lubricants,Filters & Lubricants part 0256,58.24,157,False,SUP-03,55.33
+P-0257,Filters & Lubricants,Filters & Lubricants part 0257,38.89,137,False,SUP-08,28.0
+P-0258,Filters & Lubricants,Filters & Lubricants part 0258,119.21,790,False,SUP-05,114.45
+P-0259,Filters & Lubricants,Filters & Lubricants part 0259,44.43,621,True,SUP-03,42.21
+P-0260,Filters & Lubricants,Filters & Lubricants part 0260,135.41,741,False,SUP-05,130.0
+P-0261,Filters & Lubricants,Filters & Lubricants part 0261,24.88,22,False,SUP-08,17.92
+P-0262,Filters & Lubricants,Filters & Lubricants part 0262,41.78,262,False,SUP-05,40.11
+P-0263,Filters & Lubricants,Filters & Lubricants part 0263,93.04,21,False,SUP-01,93.04
+P-0264,Filters & Lubricants,Filters & Lubricants part 0264,74.23,2294,False,SUP-08,53.45
+P-0265,Filters & Lubricants,Filters & Lubricants part 0265,63.05,110,False,SUP-05,60.53
+P-0266,Filters & Lubricants,Filters & Lubricants part 0266,141.22,127,False,SUP-05,135.57
+P-0267,Filters & Lubricants,Filters & Lubricants part 0267,72.01,230,False,SUP-08,51.85
+P-0268,Filters & Lubricants,Filters & Lubricants part 0268,56.77,469,False,SUP-08,40.88
+P-0269,Filters & Lubricants,Filters & Lubricants part 0269,35.03,736,False,SUP-05,33.63
+P-0270,Filters & Lubricants,Filters & Lubricants part 0270,46.13,8049,False,SUP-08,33.21
+P-0271,Filters & Lubricants,Filters & Lubricants part 0271,26.88,643,False,SUP-01,26.88
+P-0272,Filters & Lubricants,Filters & Lubricants part 0272,39.16,163,False,SUP-05,37.59
+P-0273,Filters & Lubricants,Filters & Lubricants part 0273,42.96,1187,True,SUP-01,42.96
+P-0274,Filters & Lubricants,Filters & Lubricants part 0274,14.03,267,False,SUP-08,10.1
+P-0275,Filters & Lubricants,Filters & Lubricants part 0275,7.0,190,False,SUP-08,5.04
+P-0276,Filters & Lubricants,Filters & Lubricants part 0276,25.07,3973,False,SUP-08,18.05
+P-0277,Filters & Lubricants,Filters & Lubricants part 0277,111.0,906,False,SUP-08,79.92
+P-0278,Electrical,Electrical part 0278,339.89,557,True,SUP-06,316.1
+P-0279,Electrical,Electrical part 0279,255.27,121,False,SUP-06,237.4
+P-0280,Electrical,Electrical part 0280,1014.5,146,False,SUP-06,943.49
+P-0281,Electrical,Electrical part 0281,1106.25,3,False,SUP-05,1062.0
+P-0282,Electrical,Electrical part 0282,110.83,64,True,SUP-01,110.83
+P-0283,Electrical,Electrical part 0283,592.71,1141,False,SUP-11,486.02
+P-0284,Electrical,Electrical part 0284,375.46,46,False,SUP-05,360.44
+P-0285,Electrical,Electrical part 0285,589.28,311,False,SUP-05,565.71
+P-0286,Electrical,Electrical part 0286,251.67,182,False,SUP-05,241.6
+P-0287,Electrical,Electrical part 0287,82.75,88,False,SUP-01,82.75
+P-0288,Electrical,Electrical part 0288,152.9,401,False,SUP-05,146.78
+P-0289,Electrical,Electrical part 0289,37.34,500,False,SUP-05,35.85
+P-0290,Electrical,Electrical part 0290,562.64,16,False,SUP-06,523.26
+P-0291,Electrical,Electrical part 0291,59.86,176,False,SUP-05,57.46
+P-0292,Electrical,Electrical part 0292,162.01,396,False,SUP-11,132.85
+P-0293,Electrical,Electrical part 0293,248.18,31,False,SUP-11,203.51
+P-0294,Electrical,Electrical part 0294,303.91,84,False,SUP-05,291.76
+P-0295,Electrical,Electrical part 0295,37.79,828,False,SUP-01,37.79
+P-0296,Electrical,Electrical part 0296,104.43,82,False,SUP-01,104.43
+P-0297,Electrical,Electrical part 0297,159.63,184,False,SUP-06,148.46
+P-0298,Electrical,Electrical part 0298,118.92,959,False,SUP-01,118.92
+P-0299,Electrical,Electrical part 0299,151.08,124,False,SUP-06,140.51
+P-0300,Electrical,Electrical part 0300,253.09,115,False,SUP-05,242.97
+P-0301,Electrical,Electrical part 0301,196.34,154,False,SUP-11,161.0
+P-0302,Electrical,Electrical part 0302,164.47,1556,False,SUP-01,164.47
+P-0303,Electrical,Electrical part 0303,743.63,32,False,SUP-11,609.78
+P-0304,Electrical,Electrical part 0304,362.66,341,True,SUP-06,337.28
+P-0305,Electrical,Electrical part 0305,257.57,31,False,SUP-05,247.27
+P-0306,Electrical,Electrical part 0306,68.21,15,True,SUP-01,68.21
+P-0307,Electrical,Electrical part 0307,417.71,12,False,SUP-05,401.0
+P-0308,Electrical,Electrical part 0308,115.74,26,False,SUP-05,111.11
+P-0309,Electrical,Electrical part 0309,417.01,59,False,SUP-06,387.82
+P-0310,Electrical,Electrical part 0310,1756.38,39,True,SUP-05,1686.12
+P-0311,Electrical,Electrical part 0311,726.38,23,False,SUP-11,595.63
+P-0312,Electrical,Electrical part 0312,20.42,983,False,SUP-05,19.6
+P-0313,Electrical,Electrical part 0313,136.07,27,False,SUP-11,111.57
+P-0314,Electrical,Electrical part 0314,140.94,337,False,SUP-05,135.3
+P-0315,Electrical,Electrical part 0315,124.74,405,False,SUP-05,119.75
+P-0316,Electrical,Electrical part 0316,353.48,66,False,SUP-11,289.86
+P-0317,Electrical,Electrical part 0317,191.99,1043,False,SUP-06,178.55
+P-0318,Electrical,Electrical part 0318,112.2,205,False,SUP-06,104.34
+P-0319,Electrical,Electrical part 0319,256.06,41,False,SUP-05,245.82
+P-0320,Electrical,Electrical part 0320,488.96,23,False,SUP-11,400.95
+P-0321,Electrical,Electrical part 0321,141.44,64,False,SUP-06,131.54
+P-0322,Electrical,Electrical part 0322,168.23,23,False,SUP-06,156.45
+P-0323,Electrical,Electrical part 0323,185.4,65,False,SUP-11,152.03
+P-0324,Electrical,Electrical part 0324,259.22,84,False,SUP-01,259.22
+P-0325,Electrical,Electrical part 0325,51.95,144,False,SUP-05,49.88
+P-0326,Electrical,Electrical part 0326,431.54,840,False,SUP-06,401.34
+P-0327,Electrical,Electrical part 0327,257.77,7,False,SUP-11,211.37
+P-0328,Electrical,Electrical part 0328,322.5,41,False,SUP-01,322.5
+P-0329,Electrical,Electrical part 0329,374.54,332,False,SUP-01,374.54
+P-0330,Electrical,Electrical part 0330,300.85,12,True,SUP-11,246.7
+P-0331,Electrical,Electrical part 0331,203.46,15,True,SUP-01,203.46
+P-0332,Electrical,Electrical part 0332,399.29,9,False,SUP-11,327.42
+P-0333,Electrical,Electrical part 0333,94.85,246,False,SUP-05,91.06
+P-0334,Electrical,Electrical part 0334,1934.42,9,False,SUP-01,1934.42
+P-0335,Electrical,Electrical part 0335,322.08,350,False,SUP-06,299.54
+P-0336,Electrical,Electrical part 0336,67.2,108,False,SUP-11,55.11
+P-0337,Ground Engaging Tools,Ground Engaging Tools part 0337,164.22,744,False,SUP-12,129.74
+P-0338,Ground Engaging Tools,Ground Engaging Tools part 0338,301.22,324,False,SUP-12,237.97
+P-0339,Ground Engaging Tools,Ground Engaging Tools part 0339,293.63,24,False,SUP-03,278.95
+P-0340,Ground Engaging Tools,Ground Engaging Tools part 0340,1109.99,15,False,SUP-14,932.39
+P-0341,Ground Engaging Tools,Ground Engaging Tools part 0341,192.88,1454,False,SUP-12,152.37
+P-0342,Ground Engaging Tools,Ground Engaging Tools part 0342,166.16,380,False,SUP-03,157.86
+P-0343,Ground Engaging Tools,Ground Engaging Tools part 0343,178.15,25,False,SUP-12,140.74
+P-0344,Ground Engaging Tools,Ground Engaging Tools part 0344,897.53,21,False,SUP-04,843.68
+P-0345,Ground Engaging Tools,Ground Engaging Tools part 0345,406.2,801,False,SUP-04,381.82
+P-0346,Ground Engaging Tools,Ground Engaging Tools part 0346,407.06,113,False,SUP-12,321.58
+P-0347,Ground Engaging Tools,Ground Engaging Tools part 0347,327.93,19,False,SUP-03,311.53
+P-0348,Ground Engaging Tools,Ground Engaging Tools part 0348,235.23,108,False,SUP-14,197.6
+P-0349,Ground Engaging Tools,Ground Engaging Tools part 0349,156.68,320,True,SUP-12,123.78
+P-0350,Ground Engaging Tools,Ground Engaging Tools part 0350,527.14,329,False,SUP-14,442.79
+P-0351,Ground Engaging Tools,Ground Engaging Tools part 0351,823.64,64,False,SUP-04,774.23
+P-0352,Ground Engaging Tools,Ground Engaging Tools part 0352,79.71,581,False,SUP-12,62.97
+P-0353,Ground Engaging Tools,Ground Engaging Tools part 0353,871.98,179,False,SUP-14,732.46
+P-0354,Ground Engaging Tools,Ground Engaging Tools part 0354,576.69,160,False,SUP-14,484.42
+P-0355,Ground Engaging Tools,Ground Engaging Tools part 0355,122.27,66,False,SUP-14,102.71
+P-0356,Ground Engaging Tools,Ground Engaging Tools part 0356,401.9,427,False,SUP-12,317.5
+P-0357,Ground Engaging Tools,Ground Engaging Tools part 0357,183.88,29,False,SUP-12,145.27
+P-0358,Ground Engaging Tools,Ground Engaging Tools part 0358,1211.96,42,False,SUP-04,1139.24
+P-0359,Ground Engaging Tools,Ground Engaging Tools part 0359,577.09,37,False,SUP-04,542.47
+P-0360,Ground Engaging Tools,Ground Engaging Tools part 0360,712.3,20,False,SUP-04,669.56
+P-0361,Ground Engaging Tools,Ground Engaging Tools part 0361,2220.29,37,True,SUP-12,1754.03
+P-0362,Ground Engaging Tools,Ground Engaging Tools part 0362,184.91,1293,True,SUP-12,146.08
+P-0363,Ground Engaging Tools,Ground Engaging Tools part 0363,112.1,353,False,SUP-04,105.37
+P-0364,Ground Engaging Tools,Ground Engaging Tools part 0364,161.79,180,False,SUP-14,135.9
+P-0365,Ground Engaging Tools,Ground Engaging Tools part 0365,339.65,31,False,SUP-04,319.27
+P-0366,Ground Engaging Tools,Ground Engaging Tools part 0366,897.15,1696,False,SUP-04,843.32
+P-0367,Ground Engaging Tools,Ground Engaging Tools part 0367,572.76,11,False,SUP-14,481.12
+P-0368,Ground Engaging Tools,Ground Engaging Tools part 0368,630.09,267,False,SUP-04,592.28
+P-0369,Ground Engaging Tools,Ground Engaging Tools part 0369,87.41,17,False,SUP-14,73.42
+P-0370,Ground Engaging Tools,Ground Engaging Tools part 0370,96.37,393,False,SUP-04,90.59
+P-0371,Ground Engaging Tools,Ground Engaging Tools part 0371,1272.16,21,False,SUP-04,1195.83
+P-0372,Ground Engaging Tools,Ground Engaging Tools part 0372,261.54,31,True,SUP-04,245.85
+P-0373,Ground Engaging Tools,Ground Engaging Tools part 0373,473.45,1665,False,SUP-14,397.69
+P-0374,Ground Engaging Tools,Ground Engaging Tools part 0374,162.01,450,False,SUP-03,153.91
+P-0375,Ground Engaging Tools,Ground Engaging Tools part 0375,826.35,78,False,SUP-03,785.03
+P-0376,Ground Engaging Tools,Ground Engaging Tools part 0376,522.74,30,False,SUP-12,412.96
+P-0377,Ground Engaging Tools,Ground Engaging Tools part 0377,210.34,94,False,SUP-04,197.72
+P-0378,Ground Engaging Tools,Ground Engaging Tools part 0378,478.3,85,False,SUP-14,401.77
+P-0379,Tyres & Rims,Tyres & Rims part 0379,628.99,259,False,SUP-13,610.12
+P-0380,Tyres & Rims,Tyres & Rims part 0380,4640.7,10,False,SUP-04,4362.26
+P-0381,Tyres & Rims,Tyres & Rims part 0381,2091.2,150,False,SUP-04,1965.73
+P-0382,Tyres & Rims,Tyres & Rims part 0382,3946.43,9,False,SUP-13,3828.04
+P-0383,Tyres & Rims,Tyres & Rims part 0383,1676.43,21,False,SUP-04,1575.85
+P-0384,Tyres & Rims,Tyres & Rims part 0384,6360.15,7,False,SUP-04,5978.54
+P-0385,Tyres & Rims,Tyres & Rims part 0385,3843.42,9,False,SUP-14,3228.47
+P-0386,Tyres & Rims,Tyres & Rims part 0386,1441.76,39,False,SUP-14,1211.08
+P-0387,Tyres & Rims,Tyres & Rims part 0387,3019.47,24,False,SUP-14,2536.36
+P-0388,Tyres & Rims,Tyres & Rims part 0388,911.15,52,False,SUP-04,856.48
+P-0389,Tyres & Rims,Tyres & Rims part 0389,2200.65,66,False,SUP-13,2134.63
+P-0390,Tyres & Rims,Tyres & Rims part 0390,2144.69,458,False,SUP-13,2080.34
+P-0391,Tyres & Rims,Tyres & Rims part 0391,1824.3,16,False,SUP-04,1714.84
+P-0392,Tyres & Rims,Tyres & Rims part 0392,4177.08,11,True,SUP-04,3926.46
+P-0393,Tyres & Rims,Tyres & Rims part 0393,1848.37,206,False,SUP-04,1737.47
+P-0394,Tyres & Rims,Tyres & Rims part 0394,4878.67,14,False,SUP-14,4098.09
+P-0395,Tyres & Rims,Tyres & Rims part 0395,6069.22,39,False,SUP-13,5887.15
+P-0396,Tyres & Rims,Tyres & Rims part 0396,909.67,21,False,SUP-04,855.09
+P-0397,Tyres & Rims,Tyres & Rims part 0397,1574.19,10,False,SUP-14,1322.32
+P-0398,Tyres & Rims,Tyres & Rims part 0398,482.31,311,False,SUP-13,467.84
+P-0399,Tyres & Rims,Tyres & Rims part 0399,2309.46,44,False,SUP-13,2240.17
+P-0400,Tyres & Rims,Tyres & Rims part 0400,1809.98,110,False,SUP-14,1520.38
+P-0401,Tyres & Rims,Tyres & Rims part 0401,2583.18,7,False,SUP-14,2169.87
+P-0402,Tyres & Rims,Tyres & Rims part 0402,2989.91,551,False,SUP-04,2810.52
+P-0403,Tyres & Rims,Tyres & Rims part 0403,2674.12,24,False,SUP-14,2246.26
+P-0404,Tyres & Rims,Tyres & Rims part 0404,3704.65,6,False,SUP-04,3482.37
+P-0405,Tyres & Rims,Tyres & Rims part 0405,2181.02,50,False,SUP-13,2115.59
+P-0406,Tyres & Rims,Tyres & Rims part 0406,1783.49,13,False,SUP-14,1498.13
+P-0407,Tyres & Rims,Tyres & Rims part 0407,2587.96,43,False,SUP-14,2173.89
+P-0408,Tyres & Rims,Tyres & Rims part 0408,5663.99,15,False,SUP-14,4757.75
+P-0409,Tyres & Rims,Tyres & Rims part 0409,912.1,10,False,SUP-14,766.16
+P-0410,Tyres & Rims,Tyres & Rims part 0410,2819.09,36,False,SUP-14,2368.04
+P-0411,Tyres & Rims,Tyres & Rims part 0411,508.07,46,False,SUP-14,426.78
+P-0412,Tyres & Rims,Tyres & Rims part 0412,2500.1,17,False,SUP-14,2100.09
+P-0413,Tyres & Rims,Tyres & Rims part 0413,2804.24,61,False,SUP-14,2355.57
+P-0414,Tyres & Rims,Tyres & Rims part 0414,2395.8,6,False,SUP-14,2012.47
+P-0415,Tyres & Rims,Tyres & Rims part 0415,9941.69,1,False,SUP-04,9345.19
+P-0416,Tyres & Rims,Tyres & Rims part 0416,790.99,150,False,SUP-14,664.43
+P-0417,Tyres & Rims,Tyres & Rims part 0417,1720.78,2,False,SUP-14,1445.45
+P-0418,Tyres & Rims,Tyres & Rims part 0418,3182.26,147,False,SUP-13,3086.79
+P-0419,Tyres & Rims,Tyres & Rims part 0419,4239.15,56,True,SUP-13,4111.98
+P-0420,Tyres & Rims,Tyres & Rims part 0420,3855.13,1,True,SUP-14,3238.31

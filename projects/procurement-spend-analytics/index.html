@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Spare Parts Procurement Analytics | Devin Lee</title>
+<meta content="Spend, supplier performance, savings and safety-stock analysis of USD 51M of heavy-equipment spare-parts purchasing." name="description"/>
+<meta content="#0c1620" name="theme-color"/>
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="font" crossorigin="" href="../../assets/fonts/bricolage-grotesque.woff2" rel="preload" type="font/woff2"/>
+<link href="../../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="case">
+<header class="nav">
+<div class="wrap">
+<a aria-label="Home" class="brand" href="../../">DL<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-btn">Menu</button>
+<nav aria-label="Main" class="nav-links" id="nav-links">
+<a data-id="Project" href="../../#projects">Projects</a>
+<a data-id="Kode" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/procurement-spend-analytics" rel="noopener" target="_blank">Code</a>
+<button aria-label="Ganti bahasa ke Bahasa Indonesia" class="lang-toggle" type="button"><span class="on">EN</span><span>ID</span></button>
+<a class="cta" data-id="Kontak" href="../../#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="case-hero">
+<div class="wrap">
+<a class="back" data-id='&lt;svg aria-hidden="true" fill="none" viewbox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"&gt;&lt;/path&gt;&lt;/svg&gt;Semua project' href="../../#projects"><svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg>All projects</a>
+<h1 class="fade-in" data-id="Analitik procurement suku cadang alat berat">Heavy equipment spare parts procurement analytics</h1>
+<p class="lede fade-in" data-id="Sebuah kontraktor yang mengoperasikan armada di empat site terpencil membelanjakan puluhan juta dolar per tahun untuk komponen hidraulik, mesin, undercarriage, ban, dan wear parts. Saya menganalisis dua tahun data pembelian untuk menjawab pertanyaan yang benar-benar diajukan manajer procurement: ke mana uangnya pergi, supplier mana yang bisa diandalkan, berapa sebenarnya biaya pembelian mendesak, di mana prosesnya tersendat, dan berapa stok part kritis yang perlu disimpan.">A contractor running fleets at four remote sites spends tens of millions of dollars a year on hydraulics, engines, undercarriage, tyres and wear parts. I analysed two years of purchasing to answer the questions a procurement manager actually asks: where the money goes, which suppliers can be trusted, what urgent buying really costs, where the process stalls, and how much stock of critical parts to keep.</p>
+<dl class="facts fade-in">
+<div><dt>Data</dt><dd data-id="Simulasi data ERP: 6.591 baris PO, 14 supplier, 420 part, 4 site (2024–2025)">Simulated ERP extract: 6,591 PO lines, 14 suppliers, 420 parts, 4 sites (2024–2025)</dd></div>
+<div><dt>Tools</dt><dd>SQL (DuckDB), Python, pandas, SciPy</dd></div>
+<div><dt data-id="Metode">Methods</dt><dd data-id="Analisis spend dan ABC, scorecard supplier, 3-way match, safety stock">Spend and ABC analysis, supplier scorecard, 3-way match, safety stock</dd></div>
+<div><dt data-id="Latar belakang">Background</dt><dd data-id="Berdasarkan pengalaman saya dengan data operasional dan suku cadang di industri alat berat">Built on my experience with operational and parts data in the heavy-equipment industry</dd></div>
+</dl>
+</div>
+</div>
+<section aria-label="Key numbers">
+<div class="wrap">
+<div class="kpis">
+<div class="kpi reveal"><b class="num">$<span id="k-spend">51.0M</span></b><span data-id="spend suku cadang yang dianalisis selama dua tahun">spare-parts spend analysed over two years</span></div>
+<div class="kpi reveal"><b class="num"><span id="k-otif">82.5</span>%</b><span data-id="baris pesanan dikirim tepat waktu dan lengkap">of order lines delivered on time and in full</span></div>
+<div class="kpi reveal"><b class="num"><span id="k-urgent">17.5</span>%</b><span data-id="baris pesanan dibuat mendesak, dengan tambahan harga dan ongkos kirim">of order lines placed as urgent, at a price and freight premium</span></div>
+<div class="kpi accent reveal"><b class="num">~$<span id="k-save">522k</span></b><span data-id="penghematan per tahun yang teridentifikasi, sekitar 2% dari spend tahunan">savings identified per year, about 2% of annual spend</span></div>
+</div>
+<p class="note reveal" data-id="Data procurement bersifat sensitif secara komersial, jadi dataset ini simulasi. Strukturnya mengikuti ekspor ERP (seperti SAP MM): master supplier dan part, tanggal requisition, PO, dan goods receipt, invoice, serta pemakaian part harian. Analisisnya dikerjakan seolah-olah polanya belum diketahui.">Procurement data is commercially sensitive, so this dataset is simulated. It mirrors an ERP (SAP MM-style) export: supplier and part masters, requisition, PO and goods-receipt dates, invoices and daily part usage. The analysis was written as if the patterns were unknown.</p>
+</div>
+</section>
+<section aria-labelledby="spend">
+<div class="wrap">
+<div class="split">
+<div class="prose reveal from-left">
+<h2 data-id="Ke mana uangnya pergi" id="spend">Where the money goes</h2>
+<p data-id="Part mesin adalah kategori terbesar dengan &lt;strong&gt;25%&lt;/strong&gt; spend, diikuti ban dan velg (17%) serta hidraulik (17%). Distributor resmi memasok 44% spend, OEM 35%, dan supplier aftermarket 21%.">Engine parts are the biggest category at <strong>25%</strong> of spend, followed by tyres and rims (17%) and hydraulics (17%). Authorised distributors supply 44% of spend, OEMs 35% and aftermarket suppliers 21%.</p>
+<p data-id="Spend sangat terkonsentrasi: hanya &lt;strong&gt;98 dari 420 part number (23%) yang menyumbang 80% spend&lt;/strong&gt;. Part kelas A ini layak mendapat kontrak hasil negosiasi, pengelolaan supplier yang ketat, dan perencanaan stok yang cermat. Ekor panjang part kelas C (46% part number, hanya 5% spend) sebaiknya dibeli sesederhana dan semurah mungkin.">Spend is highly concentrated: just <strong>98 of 420 part numbers (23%) make up 80% of spend</strong>. These A-class parts deserve negotiated contracts, close supplier management and careful stock planning. The long tail of C-class parts (46% of part numbers, only 5% of spend) should be bought as simply and cheaply as possible.</p>
+</div>
+<div class="chart-card reveal from-right">
+<h3 data-id="Kurva ABC (Pareto) spend per part">ABC (Pareto) curve of part spend</h3>
+<p class="sub" data-id="Porsi kumulatif spend per part number, diurutkan dari tertinggi ke terendah">Cumulative share of spend by part number, ranked from highest to lowest</p>
+<div class="chart-box"><canvas id="c-pareto"></canvas></div>
+</div>
+</div>
+<div class="chart-card reveal" style="margin-top:18px">
+<h3 data-id="Spend per kategori dan jenis supplier">Spend by category and supplier type</h3>
+<p class="sub">USD, 2024–2025</p>
+<div class="legend"><span><i style="background:var(--c3)"></i>OEM</span><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Distributor resmi'><i style="background:var(--c1)"></i>Authorised distributor</span><span><i style="background:var(--c2)"></i>Aftermarket</span></div>
+<div class="chart-box"><canvas id="c-spend"></canvas></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="suppliers">
+<div class="wrap">
+<h2 class="reveal" data-id="Supplier mana yang bisa diandalkan" id="suppliers">Which suppliers can be trusted</h2>
+<div class="split">
+<div class="chart-card reveal from-left">
+<h3 data-id="Keandalan pengiriman vs variasi lead time">Delivery reliability vs lead-time variability</h3>
+<p class="sub" data-id="Setiap gelembung adalah supplier; ukuran gelembung = spend. Kiri atas adalah yang terbaik.">Each bubble is a supplier; bubble size = spend. Top-left is best.</p>
+<div class="legend"><span><i style="background:var(--c3)"></i>OEM</span><span data-id='&lt;i style="background:var(--c1)"&gt;&lt;/i&gt;Distributor resmi'><i style="background:var(--c1)"></i>Authorised distributor</span><span><i style="background:var(--c2)"></i>Aftermarket</span></div>
+<div class="chart-box tall"><canvas id="c-bubble"></canvas></div>
+</div>
+<div class="prose reveal from-right">
+<p data-id="Setiap supplier mendapat skor gabungan dari 100: &lt;strong&gt;on-time-in-full (OTIF) 40%&lt;/strong&gt;, &lt;strong&gt;kualitas (tingkat reject) 30%&lt;/strong&gt;, dan &lt;strong&gt;keandalan lead time 30%&lt;/strong&gt;. Harga dibandingkan terpisah dengan harga kontrak untuk part yang sama, hanya pada pesanan terencana.">Each supplier gets a composite score out of 100: <strong>on-time-in-full (OTIF) 40%</strong>, <strong>quality (reject rate) 30%</strong> and <strong>lead-time reliability 30%</strong>. Price is compared separately against the contract price for the same part, on planned orders only.</p>
+<p data-id="&lt;strong&gt;Distributor resmi memimpin.&lt;/strong&gt; Yang terbaik mendapat skor 89, dengan OTIF 93,8%, reject 0,75%, dan lead time yang bervariasi kurang dari 2 hari."><strong>Authorised distributors lead.</strong> The best scores 89, with 93.8% OTIF, 0.75% rejects and lead times that vary by less than 2 days.</p>
+<p data-id="&lt;strong&gt;Murah belum tentu murah.&lt;/strong&gt; Supplier aftermarket hanya 0–2,5% di bawah harga kontrak, tapi hanya mengirim tepat waktu dan lengkap 60–85% dari waktu, dan reject hingga &lt;strong&gt;5,8%&lt;/strong&gt; part. Dua yang terlemah mendapat skor 45–46."><strong>Cheap is not cheap.</strong> Aftermarket suppliers are only 0–2.5% below contract price, yet they deliver on time and in full just 60–85% of the time and reject up to <strong>5.8%</strong> of parts. The two weakest score 45–46.</p>
+<p data-id="&lt;strong&gt;Impor OEM andal dari sisi kualitas tapi lambat.&lt;/strong&gt; Hub OEM Singapura rata-rata &lt;strong&gt;32 hari&lt;/strong&gt; dengan variasi &amp;plusmn;7,4 hari. Ketidakpastian inilah yang memaksa adanya stok cadangan untuk part mesin yang kritis."><strong>OEM imports are reliable in quality but slow.</strong> The Singapore OEM hub averages <strong>32 days</strong> with ±7.4 days variability. That uncertainty is what forces buffer stock for critical engine parts.</p>
+<div class="code-head" style="margin-top:18px"><span>03_supplier_scorecard.sql</span><a data-id="File lengkap di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/blob/main/projects/procurement-spend-analytics/sql/03_supplier_scorecard.sql" rel="noopener" target="_blank">Full file on GitHub</a></div>
+<pre class="code"><code><span class="k">WITH</span> base <span class="k">AS</span> (
+    <span class="k">SELECT</span> supplier_id, supplier_name, supplier_type,
+           <span class="f">COUNT</span>(*)                                                      <span class="k">AS</span> po_lines,
+           <span class="f">SUM</span>(po_value)                                                 <span class="k">AS</span> spend,
+           <span class="f">AVG</span>(<span class="k">CASE</span> <span class="k">WHEN</span> on_time <span class="k">AND</span> in_full <span class="k">THEN</span> 1 <span class="k">ELSE</span> 0 <span class="k">END</span>)          <span class="k">AS</span> otif,
+           <span class="f">AVG</span>(lead_time_days)                                           <span class="k">AS</span> avg_lead_time,
+           <span class="f">STDDEV_SAMP</span>(lead_time_days)                                   <span class="k">AS</span> sd_lead_time,
+           <span class="f">SUM</span>(qty_rejected) / <span class="f">NULLIF</span>(<span class="f">SUM</span>(qty_received), 0)              <span class="k">AS</span> reject_rate,
+           <span class="f">AVG</span>(<span class="k">CASE</span> <span class="k">WHEN</span> <span class="k">NOT</span> urgent <span class="k">THEN</span> unit_price_usd / contract_price <span class="k">END</span>) <span class="k">AS</span> price_vs_contract
+    <span class="k">FROM</span> po <span class="k">GROUP BY ALL</span>
+)
+<span class="k">SELECT</span> supplier_id, supplier_name, supplier_type, po_lines,
+       <span class="f">ROUND</span>(spend, 0)                     <span class="k">AS</span> spend_usd,
+       <span class="f">ROUND</span>(100 * otif, 1)                <span class="k">AS</span> otif_pct,
+       <span class="f">ROUND</span>(avg_lead_time, 1)             <span class="k">AS</span> avg_lead_time_days,
+       <span class="f">ROUND</span>(sd_lead_time, 1)              <span class="k">AS</span> sd_lead_time_days,
+       <span class="f">ROUND</span>(100 * reject_rate, 2)         <span class="k">AS</span> reject_pct,
+       <span class="f">ROUND</span>(price_vs_contract, 3)         <span class="k">AS</span> price_vs_contract,
+<span class="c">       -- composite score (0-100): delivery 40, quality 30, lead-time reliability 30</span>
+       <span class="f">ROUND</span>(40 * otif
+           + 30 * <span class="f">GREATEST</span>(0, 1 - reject_rate / 0.06)
+           + 30 * <span class="f">GREATEST</span>(0, 1 - sd_lead_time / 12), 1) <span class="k">AS</span> score
+<span class="k">FROM</span> base
+<span class="k">ORDER BY</span> score <span class="k">DESC</span>;</code></pre>
+</div>
+</div>
+<div class="chart-card reveal" style="margin-top:18px">
+<h3 data-id="Scorecard supplier">Supplier scorecard</h3>
+<p class="sub" data-id="Diurutkan berdasarkan skor gabungan. Indeks harga = harga dibayar / harga kontrak pada pesanan terencana.">Sorted by composite score. Price index = price paid / contract price on planned orders.</p>
+<div class="table-wrap"><table class="data" id="t-sup"><thead><tr><th>Supplier</th><th data-id="Jenis">Type</th><th class="r">Spend</th><th class="r">OTIF</th><th class="r">Lead time</th><th class="r" data-id="± hari">± days</th><th class="r" data-id="Reject">Rejects</th><th class="r" data-id="Indeks harga">Price index</th><th class="r" data-id="Skor">Score</th></tr></thead><tbody></tbody></table></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="urgent">
+<div class="wrap">
+<h2 class="reveal" data-id="Pembelian mendesak adalah masalah perencanaan" id="urgent">Urgent buying is a planning problem</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Porsi baris pesanan yang dibuat mendesak">Share of order lines placed as urgent</h3>
+<p class="sub" data-id="Per site">By site</p>
+<div class="chart-box"><canvas id="c-urgent"></canvas></div>
+<p class="takeaway" data-id="Sulawesi (&lt;strong&gt;26%&lt;/strong&gt;) dan Papua (&lt;strong&gt;23%&lt;/strong&gt;) membeli secara mendesak dua kali lebih sering dibanding Kalimantan dan Sumatra (~12%). Pesanan mendesak membayar &lt;strong&gt;10–18% lebih mahal&lt;/strong&gt; ditambah ongkos kirim udara, dan hampir setengahnya dibeli dari supplier di luar kontrak.">Sulawesi (<strong>26%</strong>) and Papua (<strong>23%</strong>) buy urgently twice as often as Kalimantan and Sumatra (~12%). Urgent lines pay <strong>10–18% more</strong> and carry air-freight expediting, and almost half of them go to a non-contract supplier.</p>
+</div>
+<div class="chart-card reveal">
+<h3 data-id="Biaya pembelian mendesak dan di luar kontrak">What urgent and off-contract buying costs</h3>
+<p class="sub" data-id="Harga di atas kontrak + biaya expedite, USD, 2 tahun">Price paid above contract + expedite charges, USD, 2 years</p>
+<div class="legend"><span data-id='&lt;i style="background:var(--c2)"&gt;&lt;/i&gt;Selisih harga'><i style="background:var(--c2)"></i>Price premium</span><span data-id='&lt;i style="background:var(--c4)"&gt;&lt;/i&gt;Expedite (ongkos kirim)'><i style="background:var(--c4)"></i>Expedite (freight)</span></div>
+<div class="chart-box"><canvas id="c-premium"></canvas></div>
+<p class="takeaway" data-id="Di semua site, totalnya sekitar &lt;strong&gt;USD 1,37 juta&lt;/strong&gt; selama dua tahun, uang yang habis untuk kecepatan dan kemudahan, bukan untuk part.">Across all sites this adds up to about <strong>USD 1.37M</strong> over two years, money spent on speed and convenience rather than on parts.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="process">
+<div class="wrap">
+<h2 class="reveal" data-id="Di mana prosesnya melambat" id="process">Where the process slows down</h2>
+<div class="grid-2">
+<div class="chart-card reveal">
+<h3 data-id="Hari dari requisition sampai PO disetujui">Days from requisition to approved PO</h3>
+<p class="sub" data-id="Pesanan terencana (tidak mendesak), per nilai PO. Arahkan kursor untuk melihat persentil ke-90.">Planned (non-urgent) orders, by PO value. Hover for the 90th percentile.</p>
+<div class="chart-box"><canvas id="c-approval"></canvas></div>
+<p class="takeaway" data-id="PO di atas &lt;strong&gt;USD 5.000&lt;/strong&gt; butuh persetujuan kedua dan menunggu median &lt;strong&gt;7 hari&lt;/strong&gt; (p90: 12), dibanding 2 hari untuk pesanan yang lebih kecil. Untuk part kritis, 5 hari tambahan itu bisa berarti 5 hari tambahan mesin berhenti.">POs above <strong>USD 5,000</strong> need a second approval and wait a median <strong>7 days</strong> (p90: 12), against 2 days for smaller orders. For a critical part, those 5 extra days can mean 5 extra days of a machine standing still.</p>
+</div>
+<div class="chart-card reveal">
+<h3>3-way match: PO vs goods receipt vs invoice</h3>
+<p class="sub" data-id="6.591 invoice supplier">6,591 supplier invoices</p>
+<ul class="bars" id="c-match" style="margin:26px 0 18px"></ul>
+<p class="takeaway" data-id="&lt;strong&gt;3,3% invoice&lt;/strong&gt; tidak cocok: harga di atas PO dan tagihan ganda. Kalau dibayar tanpa pengecekan, itu berarti &lt;strong&gt;USD 370 ribu&lt;/strong&gt; kelebihan bayar dalam dua tahun. Kebiasaan mencocokkan data dengan sumbernya yang menangkap hal seperti ini."><strong>3.3% of invoices</strong> don't match: prices above the PO and duplicate billing. Paid without checks, that's <strong>USD 370k</strong> of overbilling in two years. Checking data against its source is exactly the habit this catches.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="stock">
+<div class="wrap">
+<div>
+<div class="prose reveal" style="max-width:820px">
+<h2 data-id="Berapa stok part kritis yang perlu disimpan" id="stock">How much stock of critical parts to hold</h2>
+<p data-id="Untuk &lt;strong&gt;45 part kritis kelas A dan B&lt;/strong&gt;, saya menghitung reorder point dengan safety stock pada &lt;strong&gt;service level 95%&lt;/strong&gt;, berdasarkan pemakaian harian tiap part dan lead time supplier kontraknya:">For the <strong>45 critical A- and B-class parts</strong>, I calculated a reorder point with safety stock at a <strong>95% service level</strong>, using each part's daily usage and the lead time of its contract supplier:</p>
+<p><code>ROP = d × L + z × √(L × σd² + d² × σL²)</code></p>
+<p data-id="Di sini &lt;code&gt;d&lt;/code&gt; adalah rata-rata pemakaian harian, &lt;code&gt;L&lt;/code&gt; rata-rata lead time, dan &lt;code&gt;σ&lt;/code&gt; variasinya. Memesan ulang saat stok setara rata-rata kebutuhan selama lead time, tanpa cadangan, menyebabkan kehabisan stok di sekitar &lt;strong&gt;setengah&lt;/strong&gt; siklus pengisian. Cadangan yang direkomendasikan menurunkannya menjadi sekitar 5%, dengan stok satu kali senilai sekitar &lt;strong&gt;USD 156 ribu&lt;/strong&gt; untuk ke-45 part. Angka ini kecil dibanding biaya haul truck atau excavator yang berhenti menunggu part.">Here <code>d</code> is average daily usage, <code>L</code> the average lead time, and <code>σ</code> their variability. Reordering at average lead-time demand, with no buffer, runs out of stock in roughly <strong>half</strong> of replenishment cycles. The recommended buffer cuts that to about 5%, for roughly <strong>USD 156k</strong> of one-off stock across all 45 parts. That's small next to the cost of a haul truck or excavator waiting for a part.</p>
+</div>
+<div class="chart-card reveal" style="margin-top:24px">
+<h3 data-id="Reorder point yang direkomendasikan, 10 teratas berdasarkan nilai cadangan">Recommended reorder points, top 10 by buffer value</h3>
+<p class="sub" data-id="Unit. Saat ini = rata-rata kebutuhan selama lead time; rekomendasi menambahkan safety stock.">Units. Current = average demand during lead time; recommended adds safety stock.</p>
+<div class="table-wrap"><table class="data" id="t-ss"><thead><tr><th>Part</th><th data-id="Kategori">Category</th><th class="r" data-id="Pakai/hari">Use/day</th><th class="r">Lead time</th><th class="r" data-id="ROP saat ini">Current ROP</th><th class="r" data-id="ROP baru">New ROP</th><th class="r" data-id="Nilai cadangan">Buffer value</th></tr></thead><tbody></tbody></table></div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="savings">
+<div class="wrap">
+<div class="split">
+<div class="chart-card reveal from-left">
+<h3 data-id="Penghematan yang teridentifikasi, USD per tahun">Savings identified, USD per year</h3>
+<p class="sub" data-id="Total sekitar USD 522 ribu, 2,0% dari spend tahunan">Total about USD 522k, 2.0% of annual spend</p>
+<div class="chart-box"><canvas id="c-savings"></canvas></div>
+</div>
+<div class="prose reveal from-right">
+<h2 data-id="Penghematan dan cara menghitungnya" id="savings">Savings and how they were sized</h2>
+<p data-id="&lt;strong&gt;Pembelian di luar kontrak (~USD 194 ribu/tahun):&lt;/strong&gt; selisih harga di atas harga kontrak pada pesanan terencana dan tidak mendesak yang dibeli dari supplier di luar kontrak. Ini sepenuhnya bisa dihindari dengan disiplin pembelian."><strong>Off-contract buying (~USD 194k/yr):</strong> the premium paid above the contract price on planned, non-urgent orders bought from a non-contract supplier. This is fully avoidable through purchasing discipline.</p>
+<p data-id="&lt;strong&gt;Pengecekan invoice (~USD 185 ribu/tahun):&lt;/strong&gt; kelebihan tagihan yang ditemukan lewat 3-way match, bisa diselamatkan jika setiap invoice dicocokkan sebelum dibayar."><strong>Invoice checks (~USD 185k/yr):</strong> overbilling found by the 3-way match, recovered if every invoice is matched before payment.</p>
+<p data-id="&lt;strong&gt;Pesanan mendesak (~USD 144 ribu/tahun):&lt;/strong&gt; selisih biaya yang dihemat jika setiap site menurunkan porsi pesanan mendesaknya ke level site terbaik (11,5%). Perhitungan ini konservatif, karena mengasumsikan tidak ada site yang lebih baik dari yang terbaik saat ini."><strong>Urgent orders (~USD 144k/yr):</strong> the premium saved if every site cut its urgent share to the best site's level (11.5%). This is conservative, because it assumes no site does better than today's best.</p>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="recs">
+<div class="wrap">
+<h2 class="reveal" data-id="Rekomendasi" id="recs">Recommendations</h2>
+<ul class="recs">
+<li class="reveal"><h3 data-id="Tegakkan pembelian sesuai kontrak">Enforce contract buying</h3><p data-id="Gunakan pemesanan berbasis katalog yang otomatis memilih supplier kontrak dan mewajibkan alasan untuk setiap pengecualian. Tinjau spend di luar kontrak setiap bulan per buyer dan site.">Use catalogue-based ordering that defaults to the contract supplier and requires a reason for any exception. Review off-contract spend monthly by buyer and site.</p></li>
+<li class="reveal"><h3 data-id="Rencanakan part bersama maintenance">Plan parts with maintenance</h3><p data-id="Siapkan paket part untuk PM terjadwal dan tetapkan reorder point dengan safety stock untuk 45 part kritis, dimulai dari Sulawesi dan Papua, di mana pembelian mendesak dua kali lipat dari normal.">Kit parts for scheduled PM and set reorder points with safety stock for the 45 critical parts, starting with Sulawesi and Papua, where urgent buying is twice the norm.</p></li>
+<li class="reveal"><h3 data-id="Percepat persetujuan untuk item kontrak">Speed up approvals for contract items</h3><p data-id="Setujui otomatis PO dengan harga kontrak yang masih dalam anggaran, atau jalankan persetujuan secara paralel, untuk menghilangkan waktu tunggu 5 hari pada pesanan di atas USD 5.000.">Auto-approve contract-priced POs within budget, or run approvals in parallel, to remove the 5-day wait on orders above USD 5,000.</p></li>
+<li class="reveal"><h3 data-id="Kelola supplier berdasarkan skor, bukan harga">Manage suppliers by score, not price</h3><p data-id="Pusatkan volume pada distributor dengan skor tertinggi. Masukkan supplier dengan OTIF di bawah 70% atau reject di atas 5% ke program perbaikan, dan otomatiskan 3-way match sebelum setiap pembayaran.">Concentrate volume with the top-scoring distributors. Put suppliers below 70% OTIF or above 5% rejects on an improvement plan, and automate the 3-way match before every payment.</p></li>
+</ul>
+<a class="next-case reveal" href="../hotel-esg-data-pipeline/">
+<div><small data-id="Project berikutnya">Next project</small><strong data-id="Pipeline data utilitas hotel dan pelaporan ESG">Hotel utility data pipeline and ESG reporting</strong></div>
+<svg aria-hidden="true" fill="none" viewbox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></svg>
+</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Devin Lee</span><a data-id="Kode dan README di GitHub" href="https://github.com/devinlee14/devinlee14.github.io/tree/main/projects/procurement-spend-analytics" rel="noopener" target="_blank">Code and README on GitHub</a></div></footer>
+<script src="../../assets/vendor/lenis.min.js"></script>
+<script src="../../assets/vendor/chart.umd.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+<script>
+(async () => {
+  const { c, fmt, compact, load, whenVisible } = Viz;
+  const d = await load("../../assets/data/procurement.json");
+  const k = d.kpi;
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set("k-spend", compact(k.spend)); set("k-otif", k.otif); set("k-urgent", k.urgent_pct); set("k-save", compact(k.savings_per_year));
+  const typeColor = { "OEM": c.blue, "Authorised distributor": c.teal, "Aftermarket": c.amber };
+  const usd = (v) => "$" + compact(v);
+
+  whenVisible(document.getElementById("c-pareto"), () => new Chart("c-pareto", {
+    type: "line",
+    data: { labels: d.pareto.rank, datasets: [{ data: d.pareto.cum, borderColor: c.teal, tension: 0.2 }] },
+    options: { interaction: { mode: "index", intersect: false },
+      scales: { x: { type: "linear", min: 1, max: d.pareto.n, title: { display: true, text: "Part numbers ranked by spend" }, grid: { display: false } },
+                y: { min: 0, max: 100, ticks: { callback: (v) => v + "%" } } },
+      plugins: { tooltip: { callbacks: { title: (it) => `Top ${it[0].label} parts`, label: (i) => ` ${i.raw}% of spend` } } } },
+    plugins: [{ id: "a80", afterDatasetsDraw(ch) {
+      const { ctx, scales: { x, y } } = ch, px = x.getPixelForValue(k.a_parts_n), py = y.getPixelForValue(80);
+      ctx.save(); ctx.strokeStyle = "rgba(232,176,79,.8)"; ctx.setLineDash([4, 4]); ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(x.left, py); ctx.lineTo(px, py); ctx.lineTo(px, y.bottom); ctx.stroke();
+      ctx.setLineDash([]); ctx.fillStyle = "#e8b04f"; ctx.font = "12px IBM Plex Sans"; ctx.fillText(`${k.a_parts_n} parts = 80% of spend`, px + 8, py + 16); ctx.restore(); } }],
+  }));
+
+  whenVisible(document.getElementById("c-spend"), () => new Chart("c-spend", {
+    type: "bar",
+    data: { labels: d.spend.categories, datasets: ["OEM", "Authorised distributor", "Aftermarket"].map((t) => ({ label: t, data: d.spend.matrix[t], backgroundColor: typeColor[t], barThickness: 18 })) },
+    options: { indexAxis: "y", interaction: { mode: "index", intersect: false },
+      scales: { x: { stacked: true, ticks: { callback: usd } }, y: { stacked: true, grid: { display: false }, ticks: { color: "#b0c0cb" } } },
+      plugins: { tooltip: { callbacks: { label: (i) => ` ${i.dataset.label}: $${fmt(i.raw)}` } } } },
+  }));
+
+  const sup = d.suppliers;
+  const maxSpend = Math.max(...sup.map((s) => s.spend_usd));
+  whenVisible(document.getElementById("c-bubble"), () => new Chart("c-bubble", {
+    type: "bubble",
+    data: { datasets: ["OEM", "Authorised distributor", "Aftermarket"].map((t) => ({
+      label: t, backgroundColor: typeColor[t] + "cc", borderColor: "#132029", borderWidth: 2,
+      data: sup.filter((s) => s.supplier_type === t).map((s) => ({ x: s.sd_lead_time_days, y: s.otif_pct, r: 6 + 18 * Math.sqrt(s.spend_usd / maxSpend), s })) })) },
+    options: { scales: { x: { title: { display: true, text: "Lead-time variability (± days)" }, min: 0 }, y: { title: { display: true, text: "OTIF %" }, min: 55, max: 100, ticks: { callback: (v) => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: (i) => { const s = i.raw.s; return [` ${s.supplier_name}`, ` OTIF ${s.otif_pct}% · ±${s.sd_lead_time_days} d · rejects ${s.reject_pct}%`, ` spend $${fmt(s.spend_usd)} · score ${s.score}`]; } } } } },
+  }));
+
+  document.querySelector("#t-sup tbody").innerHTML = sup.map((s) =>
+    `<tr><td>${s.supplier_name}</td><td>${s.supplier_type}</td><td class="r">$${compact(s.spend_usd)}</td><td class="r">${s.otif_pct}%</td><td class="r">${s.avg_lead_time_days} d</td><td class="r">${s.sd_lead_time_days}</td><td class="r">${s.reject_pct}%</td><td class="r">${s.price_vs_contract.toFixed(3)}</td><td class="r"><strong style="color:${s.score >= 80 ? "var(--teal)" : s.score < 60 ? "var(--amber)" : "var(--text)"}">${s.score}</strong></td></tr>`).join("");
+
+  const sites = [...d.sites].sort((a, b) => b.urgent_pct - a.urgent_pct);
+  const sname = (s) => s.split(" - ")[1];
+  whenVisible(document.getElementById("c-urgent"), () => new Chart("c-urgent", {
+    type: "bar",
+    data: { labels: sites.map((s) => sname(s.site)), datasets: [{ data: sites.map((s) => s.urgent_pct), backgroundColor: sites.map((s) => (s.urgent_pct > 20 ? c.amber : c.teal)), maxBarThickness: 48 }] },
+    options: { scales: { x: { grid: { display: false } }, y: { beginAtZero: true, ticks: { callback: (v) => v + "%" } } },
+      plugins: { tooltip: { callbacks: { label: (i) => ` ${i.raw}% urgent`, afterLabel: (i) => ` off-contract ${sites[i.dataIndex].off_contract_pct}% · ${fmt(sites[i.dataIndex].po_lines)} lines` } } } },
+  }));
+  whenVisible(document.getElementById("c-premium"), () => new Chart("c-premium", {
+    type: "bar",
+    data: { labels: sites.map((s) => sname(s.site)), datasets: [
+      { label: "Price premium", data: sites.map((s) => s.price_premium_usd), backgroundColor: c.amber, maxBarThickness: 48 },
+      { label: "Expedite", data: sites.map((s) => s.expedite_usd), backgroundColor: c.rose, maxBarThickness: 48 }] },
+    options: { interaction: { mode: "index", intersect: false }, scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, ticks: { callback: usd } } },
+      plugins: { tooltip: { callbacks: { label: (i) => ` ${i.dataset.label}: $${fmt(i.raw)}` } } } },
+  }));
+
+  const planned = d.cycle.filter((r) => !r.urgent);
+  whenVisible(document.getElementById("c-approval"), () => new Chart("c-approval", {
+    type: "bar",
+    data: { labels: planned.map((r) => r.value_band.slice(3)), datasets: [{ data: planned.map((r) => r.median_approval_days), backgroundColor: planned.map((r) => (r.median_approval_days > 4 ? c.amber : c.teal)), maxBarThickness: 52 }] },
+    options: { scales: { x: { grid: { display: false } }, y: { beginAtZero: true, ticks: { callback: (v) => v + " d" } } },
+      plugins: { tooltip: { callbacks: { label: (i) => ` median ${i.raw} days`, afterLabel: (i) => [` p90 ${planned[i.dataIndex].p90_approval_days} days`, ` ${fmt(planned[i.dataIndex].po_lines)} PO lines`] } } } },
+  }));
+
+  const m = document.getElementById("c-match");
+  const total = d.match.reduce((a, b) => a + b.invoices, 0);
+  const mcol = { "Matched": c.teal, "Price above PO": c.amber, "Duplicate billing": c.rose, "Billed for undelivered qty": c.blue };
+  m.innerHTML = d.match.map((r) => `<li><span>${r.match_status}</span><span class="track"><span class="fill" data-w="${Math.max(0.6, 100 * r.invoices / total)}" style="background:${mcol[r.match_status] || c.blue}"></span></span><span class="val">${fmt(r.invoices)}${r.overbilled_usd ? " · $" + compact(r.overbilled_usd) : ""}</span></li>`).join("");
+  whenVisible(m, () => m.querySelectorAll(".fill").forEach((f) => (f.style.width = f.dataset.w + "%")));
+
+  document.querySelector("#t-ss tbody").innerHTML = d.safety.map((r) =>
+    `<tr><td>${r.part_no}</td><td>${r.category}</td><td class="r">${r.avg_daily_use}</td><td class="r">${r.avg_lead_time} ± ${r.sd_lead_time} d</td><td class="r">${r.current_rop}</td><td class="r"><strong style="color:var(--teal)">${r.recommended_rop}</strong></td><td class="r">$${fmt(r.ss_value_usd)}</td></tr>`).join("");
+
+  const sv = d.savings;
+  whenVisible(document.getElementById("c-savings"), () => new Chart("c-savings", {
+    type: "bar",
+    data: { labels: sv.map((s) => s.lever), datasets: [{ data: sv.map((s) => s.usd_per_year), backgroundColor: c.teal, barThickness: 22 }] },
+    options: { indexAxis: "y", scales: { x: { ticks: { callback: usd } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb", callback(v) { const l = this.getLabelForValue(v); return l.length > 26 ? l.match(/.{1,26}(\s|$)/g).map((x) => x.trim()) : l; } } } },
+      plugins: { tooltip: { callbacks: { label: (i) => ` $${fmt(i.raw)} per year` } } } },
+  }));
+})();
+</script>
+</body>
+</html>

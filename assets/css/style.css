@@ -419,3 +419,5 @@ main > section:not(.hero) .section-head h2::before,
 .lang-toggle span.on { background: var(--surface-2); color: var(--text); }
 .lang-toggle:hover span:not(.on) { color: var(--text); }
 @media (max-width: 720px) { .lang-toggle { align-self: flex-start; margin: 14px 0 0; } }
+pre.code code { background: none; padding: 0; border-radius: 0; font-size: inherit; color: inherit; }
+table.data td.r, table.data th.r { white-space: nowrap; }

@@ -4,6 +4,25 @@
   const base = "assets/data/";
   const axisPct = { ticks: { callback: (v) => v + "%" } };
 
+  whenVisible(document.getElementById("mini-proc"), async () => {
+    const d = await load(base + "procurement.json");
+    const col = { "OEM": c.blue, "Authorised distributor": c.teal, "Aftermarket": c.amber };
+    const s = d.suppliers;
+    new Chart(document.getElementById("mini-proc"), {
+      type: "bar",
+      data: { labels: s.map((r) => r.supplier_name), datasets: [{ data: s.map((r) => r.score), backgroundColor: s.map((r) => col[r.supplier_type]), barThickness: 10 }] },
+      options: {
+        indexAxis: "y",
+        scales: { x: { min: 0, max: 100, grid: { color: c.grid } }, y: { grid: { display: false }, ticks: { color: "#b0c0cb", font: { size: 10 } } } },
+        plugins: {
+          legend: { display: true, position: "bottom", labels: { color: "#b0c0cb", boxWidth: 10, boxHeight: 10, padding: 12,
+            generateLabels: () => Object.entries(col).map(([t, cc]) => ({ text: t, fillStyle: cc, strokeStyle: cc, lineWidth: 0, fontColor: "#b0c0cb" })) } },
+          tooltip: { callbacks: { label: (i) => ` score ${i.raw}`, afterLabel: (i) => ` OTIF ${s[i.dataIndex].otif_pct}% · rejects ${s[i.dataIndex].reject_pct}%` } },
+        },
+      },
+    });
+  });
+
   whenVisible(document.getElementById("mini-hotel"), async () => {
     const d = await load(base + "hotel-esg.json");
     new Chart(document.getElementById("mini-hotel"), {

@@ -1,0 +1,9 @@
+value_band,urgent,po_lines,median_approval_days,p90_approval_days,median_lead_time_days
+1. up to $1k,False,1273,2.0,4.0,8.0
+1. up to $1k,True,639,0.0,1.0,4.0
+2. $1k-5k,False,2187,2.0,4.0,10.0
+2. $1k-5k,True,397,0.0,1.0,5.0
+3. $5k-20k,False,1452,7.0,12.0,10.0
+3. $5k-20k,True,112,2.0,4.0,5.0
+4. above $20k,False,523,7.0,12.0,11.0
+4. above $20k,True,8,2.0,3.6,8.0

@@ -1,0 +1,20 @@
+category,supplier_type,po_lines,spend_usd,pct_of_total
+Engine,OEM,521,8405819.0,16.5
+Tyres & Rims,Authorised distributor,352,6848251.0,13.4
+Hydraulic,OEM,529,4804920.0,9.4
+Ground Engaging Tools,Authorised distributor,325,3552401.0,7.0
+Ground Engaging Tools,Aftermarket,416,3139307.0,6.2
+Engine,Authorised distributor,457,3022498.0,5.9
+Undercarriage,OEM,150,2797180.0,5.5
+Electrical,Authorised distributor,550,2516119.0,4.9
+Hydraulic,Authorised distributor,469,2470173.0,4.8
+Undercarriage,Authorised distributor,241,2238300.0,4.4
+Filters & Lubricants,Authorised distributor,609,1850563.0,3.6
+Tyres & Rims,Aftermarket,243,1803879.0,3.5
+Engine,Aftermarket,188,1324754.0,2.6
+Electrical,Aftermarket,269,1295887.0,2.5
+Hydraulic,Aftermarket,246,1244257.0,2.4
+Filters & Lubricants,Aftermarket,434,1159153.0,2.3
+Electrical,OEM,203,1095261.0,2.1
+Undercarriage,Aftermarket,131,899093.0,1.8
+Filters & Lubricants,OEM,258,532553.0,1.0

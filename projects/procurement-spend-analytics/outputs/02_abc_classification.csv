@@ -1,0 +1,421 @@
+part_no,category,critical,spend_usd,rank,cum_pct,abc_class
+P-0111,Engine,False,5351431.0,1,10.49,A
+P-0402,Tyres & Rims,False,2205662.0,2,14.82,A
+P-0366,Ground Engaging Tools,False,2060110.0,3,18.86,A
+P-0204,Undercarriage,False,1253855.0,4,21.32,A
+P-0047,Hydraulic,False,1209070.0,5,23.69,A
+P-0390,Tyres & Rims,False,1134043.0,6,25.91,A
+P-0283,Electrical,False,1054814.0,7,27.98,A
+P-0029,Hydraulic,False,985466.0,8,29.91,A
+P-0373,Ground Engaging Tools,False,913714.0,9,31.7,A
+P-0141,Engine,False,828716.0,10,33.33,A
+P-0205,Undercarriage,False,692180.0,11,34.68,A
+P-0418,Tyres & Rims,False,670485.0,12,36.0,A
+P-0168,Undercarriage,True,665052.0,13,37.3,A
+P-0001,Hydraulic,False,606686.0,14,38.49,A
+P-0245,Filters & Lubricants,False,605280.0,15,39.68,A
+P-0302,Electrical,False,580519.0,16,40.82,A
+P-0345,Ground Engaging Tools,False,575247.0,17,41.95,A
+P-0179,Undercarriage,True,552231.0,18,43.03,A
+P-0003,Hydraulic,False,537846.0,19,44.08,A
+P-0157,Engine,False,535067.0,20,45.13,A
+P-0071,Hydraulic,False,530199.0,21,46.17,A
+P-0419,Tyres & Rims,True,483031.0,22,47.12,A
+P-0393,Tyres & Rims,False,472276.0,23,48.04,A
+P-0142,Engine,False,457832.0,24,48.94,A
+P-0381,Tyres & Rims,False,455180.0,25,49.83,A
+P-0270,Filters & Lubricants,False,449130.0,26,50.72,A
+P-0326,Electrical,False,443792.0,27,51.59,A
+P-0341,Ground Engaging Tools,False,399825.0,28,52.37,A
+P-0152,Engine,False,384849.0,29,53.12,A
+P-0189,Undercarriage,True,383036.0,30,53.88,A
+P-0362,Ground Engaging Tools,True,372880.0,31,54.61,A
+P-0124,Engine,False,357629.0,32,55.31,A
+P-0128,Engine,False,351851.0,33,56.0,A
+P-0183,Undercarriage,False,339580.0,34,56.66,A
+P-0046,Hydraulic,False,325545.0,35,57.3,A
+P-0285,Electrical,False,317703.0,36,57.92,A
+P-0075,Hydraulic,False,308892.0,37,58.53,A
+P-0149,Engine,False,300804.0,38,59.12,A
+P-0317,Electrical,False,297816.0,39,59.7,A
+P-0278,Electrical,True,295615.0,40,60.28,A
+P-0395,Tyres & Rims,False,294516.0,41,60.86,A
+P-0082,Hydraulic,False,294439.0,42,61.44,A
+P-0368,Ground Engaging Tools,False,286960.0,43,62.0,A
+P-0252,Filters & Lubricants,False,257869.0,44,62.51,A
+P-0023,Hydraulic,False,256193.0,45,63.01,A
+P-0413,Tyres & Rims,False,254939.0,46,63.51,A
+P-0356,Ground Engaging Tools,False,248471.0,47,64.0,A
+P-0329,Electrical,False,236667.0,48,64.46,A
+P-0398,Tyres & Rims,False,232669.0,49,64.92,A
+P-0400,Tyres & Rims,False,231692.0,50,65.37,A
+P-0067,Hydraulic,False,228486.0,51,65.82,A
+P-0379,Tyres & Rims,False,226952.0,52,66.26,A
+P-0137,Engine,False,226535.0,53,66.71,A
+P-0175,Undercarriage,False,214632.0,54,67.13,A
+P-0100,Engine,False,213473.0,55,67.55,A
+P-0041,Hydraulic,True,211207.0,56,67.96,A
+P-0410,Tyres & Rims,False,208276.0,57,68.37,A
+P-0260,Filters & Lubricants,False,207145.0,58,68.78,A
+P-0112,Engine,True,203015.0,59,69.17,A
+P-0123,Engine,False,199351.0,60,69.57,A
+P-0176,Undercarriage,True,196774.0,61,69.95,A
+P-0353,Ground Engaging Tools,False,189685.0,62,70.32,A
+P-0143,Engine,False,188239.0,63,70.69,A
+P-0017,Hydraulic,False,184200.0,64,71.05,A
+P-0350,Ground Engaging Tools,False,180824.0,65,71.41,A
+P-0304,Electrical,True,175241.0,66,71.75,A
+P-0146,Engine,False,173229.0,67,72.09,A
+P-0264,Filters & Lubricants,False,173134.0,68,72.43,A
+P-0389,Tyres & Rims,False,172793.0,69,72.77,A
+P-0106,Engine,True,164838.0,70,73.09,A
+P-0136,Engine,False,161734.0,71,73.41,A
+P-0399,Tyres & Rims,False,160228.0,72,73.72,A
+P-0248,Filters & Lubricants,False,159949.0,73,74.04,A
+P-0038,Hydraulic,True,154681.0,74,74.34,A
+P-0132,Engine,False,153586.0,75,74.64,A
+P-0337,Ground Engaging Tools,False,150210.0,76,74.94,A
+P-0361,Ground Engaging Tools,True,148804.0,77,75.23,A
+P-0005,Hydraulic,False,145713.0,78,75.51,A
+P-0134,Engine,False,144908.0,79,75.8,A
+P-0258,Filters & Lubricants,False,139485.0,80,76.07,A
+P-0416,Tyres & Rims,False,132320.0,81,76.33,A
+P-0115,Engine,True,130398.0,82,76.59,A
+P-0010,Hydraulic,False,129524.0,83,76.84,A
+P-0405,Tyres & Rims,False,124451.0,84,77.08,A
+P-0335,Electrical,False,122714.0,85,77.33,A
+P-0138,Engine,False,122684.0,86,77.57,A
+P-0310,Electrical,True,122473.0,87,77.81,A
+P-0045,Hydraulic,False,119924.0,88,78.04,A
+P-0407,Tyres & Rims,False,115907.0,89,78.27,A
+P-0088,Engine,True,114853.0,90,78.49,A
+P-0338,Ground Engaging Tools,False,114830.0,91,78.72,A
+P-0066,Hydraulic,True,110590.0,92,78.94,A
+P-0200,Undercarriage,False,109870.0,93,79.15,A
+P-0238,Filters & Lubricants,False,108240.0,94,79.36,A
+P-0387,Tyres & Rims,False,102696.0,95,79.56,A
+P-0086,Engine,False,100299.0,96,79.76,A
+P-0054,Hydraulic,True,99663.0,97,79.96,A
+P-0298,Electrical,False,98818.0,98,80.15,A
+P-0386,Tyres & Rims,False,98122.0,99,80.34,B
+P-0144,Engine,False,97145.0,100,80.53,B
+P-0089,Engine,False,96047.0,101,80.72,B
+P-0171,Undercarriage,False,95986.0,102,80.91,B
+P-0014,Hydraulic,True,95707.0,103,81.1,B
+P-0048,Hydraulic,False,94942.0,104,81.28,B
+P-0276,Filters & Lubricants,False,93950.0,105,81.47,B
+P-0133,Engine,True,91042.0,106,81.65,B
+P-0388,Tyres & Rims,False,90361.0,107,81.82,B
+P-0237,Filters & Lubricants,False,88022.0,108,82.0,B
+P-0374,Ground Engaging Tools,False,86575.0,109,82.17,B
+P-0292,Electrical,False,85961.0,110,82.33,B
+P-0280,Electrical,False,84864.0,111,82.5,B
+P-0229,Filters & Lubricants,False,84381.0,112,82.67,B
+P-0030,Hydraulic,False,83750.0,113,82.83,B
+P-0163,Undercarriage,False,82929.0,114,82.99,B
+P-0084,Hydraulic,True,82791.0,115,83.16,B
+P-0021,Hydraulic,False,82002.0,116,83.32,B
+P-0384,Tyres & Rims,False,81978.0,117,83.48,B
+P-0113,Engine,True,80761.0,118,83.64,B
+P-0403,Tyres & Rims,False,80113.0,119,83.79,B
+P-0354,Ground Engaging Tools,False,80029.0,120,83.95,B
+P-0012,Hydraulic,True,79822.0,121,84.11,B
+P-0151,Engine,False,79774.0,122,84.26,B
+P-0215,Filters & Lubricants,False,79547.0,123,84.42,B
+P-0159,Engine,False,78315.0,124,84.57,B
+P-0277,Filters & Lubricants,False,77825.0,125,84.72,B
+P-0221,Filters & Lubricants,False,77060.0,126,84.88,B
+P-0167,Undercarriage,False,76791.0,127,85.03,B
+P-0118,Engine,False,76445.0,128,85.18,B
+P-0147,Engine,False,75983.0,129,85.32,B
+P-0226,Filters & Lubricants,False,75507.0,130,85.47,B
+P-0408,Tyres & Rims,False,74034.0,131,85.62,B
+P-0085,Engine,False,72894.0,132,85.76,B
+P-0068,Hydraulic,False,71008.0,133,85.9,B
+P-0342,Ground Engaging Tools,False,70246.0,134,86.04,B
+P-0392,Tyres & Rims,True,70198.0,135,86.18,B
+P-0072,Hydraulic,True,69958.0,136,86.31,B
+P-0375,Ground Engaging Tools,False,69929.0,137,86.45,B
+P-0349,Ground Engaging Tools,True,68972.0,138,86.59,B
+P-0198,Undercarriage,False,68175.0,139,86.72,B
+P-0358,Ground Engaging Tools,False,67764.0,140,86.85,B
+P-0095,Engine,True,66653.0,141,86.98,B
+P-0126,Engine,False,66340.0,142,87.11,B
+P-0022,Hydraulic,False,66152.0,143,87.24,B
+P-0191,Undercarriage,False,65669.0,144,87.37,B
+P-0158,Engine,False,65502.0,145,87.5,B
+P-0186,Undercarriage,False,64914.0,146,87.63,B
+P-0119,Engine,False,64606.0,147,87.75,B
+P-0049,Hydraulic,False,64259.0,148,87.88,B
+P-0363,Ground Engaging Tools,False,63840.0,149,88.0,B
+P-0315,Electrical,False,63437.0,150,88.13,B
+P-0090,Engine,False,63201.0,151,88.25,B
+P-0351,Ground Engaging Tools,False,62909.0,152,88.38,B
+P-0051,Hydraulic,True,62277.0,153,88.5,B
+P-0009,Hydraulic,True,61861.0,154,88.62,B
+P-0254,Filters & Lubricants,False,60226.0,155,88.74,B
+P-0190,Undercarriage,False,60208.0,156,88.86,B
+P-0288,Electrical,False,59793.0,157,88.97,B
+P-0394,Tyres & Rims,False,59777.0,158,89.09,B
+P-0273,Filters & Lubricants,True,59573.0,159,89.21,B
+P-0380,Tyres & Rims,False,58876.0,160,89.32,B
+P-0182,Undercarriage,True,56953.0,161,89.43,B
+P-0161,Undercarriage,False,55716.0,162,89.54,B
+P-0249,Filters & Lubricants,False,55403.0,163,89.65,B
+P-0027,Hydraulic,False,55396.0,164,89.76,B
+P-0370,Ground Engaging Tools,False,55160.0,165,89.87,B
+P-0172,Undercarriage,False,54300.0,166,89.98,B
+P-0194,Undercarriage,True,53845.0,167,90.08,B
+P-0076,Hydraulic,False,53547.0,168,90.19,B
+P-0185,Undercarriage,True,53091.0,169,90.29,B
+P-0378,Ground Engaging Tools,False,52959.0,170,90.39,B
+P-0180,Undercarriage,False,51658.0,171,90.49,B
+P-0065,Hydraulic,False,51081.0,172,90.6,B
+P-0211,Filters & Lubricants,True,51018.0,173,90.7,B
+P-0224,Filters & Lubricants,False,50846.0,174,90.79,B
+P-0043,Hydraulic,True,50675.0,175,90.89,B
+P-0102,Engine,True,50673.0,176,90.99,B
+P-0093,Engine,True,50520.0,177,91.09,B
+P-0309,Electrical,False,50197.0,178,91.19,B
+P-0034,Hydraulic,False,49427.0,179,91.29,B
+P-0053,Hydraulic,False,49245.0,180,91.38,B
+P-0116,Engine,True,49015.0,181,91.48,B
+P-0162,Undercarriage,False,48741.0,182,91.58,B
+P-0383,Tyres & Rims,False,48146.0,183,91.67,B
+P-0201,Undercarriage,True,47133.0,184,91.76,B
+P-0150,Engine,True,47023.0,185,91.86,B
+P-0346,Ground Engaging Tools,False,46820.0,186,91.95,B
+P-0165,Undercarriage,False,45763.0,187,92.04,B
+P-0035,Hydraulic,False,45696.0,188,92.13,B
+P-0217,Filters & Lubricants,False,45680.0,189,92.22,B
+P-0235,Filters & Lubricants,True,45640.0,190,92.31,B
+P-0110,Engine,True,45460.0,191,92.39,B
+P-0352,Ground Engaging Tools,False,43969.0,192,92.48,B
+P-0359,Ground Engaging Tools,False,43260.0,193,92.57,B
+P-0279,Electrical,False,43171.0,194,92.65,B
+P-0184,Undercarriage,False,42926.0,195,92.73,B
+P-0130,Engine,False,42862.0,196,92.82,B
+P-0324,Electrical,False,42335.0,197,92.9,B
+P-0301,Electrical,False,42277.0,198,92.98,B
+P-0188,Undercarriage,True,42136.0,199,93.07,B
+P-0145,Engine,False,41438.0,200,93.15,B
+P-0011,Hydraulic,False,40768.0,201,93.23,B
+P-0025,Hydraulic,False,40709.0,202,93.31,B
+P-0212,Filters & Lubricants,False,40465.0,203,93.39,B
+P-0202,Undercarriage,False,40440.0,204,93.47,B
+P-0415,Tyres & Rims,False,40391.0,205,93.55,B
+P-0063,Hydraulic,False,40119.0,206,93.62,B
+P-0333,Electrical,False,40021.0,207,93.7,B
+P-0024,Hydraulic,False,39976.0,208,93.78,B
+P-0018,Hydraulic,False,39747.0,209,93.86,B
+P-0225,Filters & Lubricants,False,38871.0,210,93.94,B
+P-0412,Tyres & Rims,False,37515.0,211,94.01,B
+P-0080,Hydraulic,True,37483.0,212,94.08,B
+P-0314,Electrical,False,37459.0,213,94.16,B
+P-0286,Electrical,False,37453.0,214,94.23,B
+P-0039,Hydraulic,False,37177.0,215,94.3,B
+P-0297,Electrical,False,37106.0,216,94.38,B
+P-0269,Filters & Lubricants,False,36764.0,217,94.45,B
+P-0016,Hydraulic,False,35156.0,218,94.52,B
+P-0103,Engine,False,35038.0,219,94.58,B
+P-0206,Undercarriage,False,34424.0,220,94.65,B
+P-0382,Tyres & Rims,False,34376.0,221,94.72,B
+P-0364,Ground Engaging Tools,False,34114.0,222,94.79,B
+P-0295,Electrical,False,33931.0,223,94.85,B
+P-0094,Engine,True,33849.0,224,94.92,B
+P-0316,Electrical,False,33556.0,225,94.99,B
+P-0312,Electrical,False,33532.0,226,95.05,B
+P-0196,Undercarriage,False,33521.0,227,95.12,C
+P-0334,Electrical,False,32427.0,228,95.18,C
+P-0203,Undercarriage,False,32280.0,229,95.24,C
+P-0414,Tyres & Rims,False,31882.0,230,95.31,C
+P-0303,Electrical,False,31868.0,231,95.37,C
+P-0348,Ground Engaging Tools,False,31514.0,232,95.43,C
+P-0174,Undercarriage,True,31191.0,233,95.49,C
+P-0114,Engine,False,30220.0,234,95.55,C
+P-0247,Filters & Lubricants,False,30093.0,235,95.61,C
+P-0271,Filters & Lubricants,False,29862.0,236,95.67,C
+P-0259,Filters & Lubricants,True,29730.0,237,95.73,C
+P-0195,Undercarriage,False,29710.0,238,95.78,C
+P-0091,Engine,True,28760.0,239,95.84,C
+P-0318,Electrical,False,28687.0,240,95.9,C
+P-0079,Hydraulic,True,27799.0,241,95.95,C
+P-0020,Hydraulic,True,27673.0,242,96.01,C
+P-0300,Electrical,False,27607.0,243,96.06,C
+P-0267,Filters & Lubricants,False,27101.0,244,96.11,C
+P-0135,Engine,False,26728.0,245,96.17,C
+P-0170,Undercarriage,False,26402.0,246,96.22,C
+P-0284,Electrical,False,26376.0,247,96.27,C
+P-0328,Electrical,False,26245.0,248,96.32,C
+P-0074,Hydraulic,False,26032.0,249,96.37,C
+P-0299,Electrical,False,25490.0,250,96.42,C
+P-0181,Undercarriage,False,25072.0,251,96.47,C
+P-0153,Engine,True,25065.0,252,96.52,C
+P-0031,Hydraulic,True,25016.0,253,96.57,C
+P-0360,Ground Engaging Tools,False,24993.0,254,96.62,C
+P-0140,Engine,True,24863.0,255,96.67,C
+P-0178,Undercarriage,True,24764.0,256,96.72,C
+P-0109,Engine,True,24123.0,257,96.76,C
+P-0311,Electrical,False,23621.0,258,96.81,C
+P-0002,Hydraulic,True,23571.0,259,96.86,C
+P-0120,Engine,False,23050.0,260,96.9,C
+P-0078,Hydraulic,False,22787.0,261,96.95,C
+P-0199,Undercarriage,False,22729.0,262,96.99,C
+P-0121,Engine,False,22388.0,263,97.03,C
+P-0187,Undercarriage,False,22335.0,264,97.08,C
+P-0404,Tyres & Rims,False,22146.0,265,97.12,C
+P-0411,Tyres & Rims,False,22121.0,266,97.16,C
+P-0376,Ground Engaging Tools,False,21814.0,267,97.21,C
+P-0026,Hydraulic,True,21582.0,268,97.25,C
+P-0208,Undercarriage,False,21371.0,269,97.29,C
+P-0096,Engine,False,21235.0,270,97.33,C
+P-0122,Engine,False,21138.0,271,97.37,C
+P-0385,Tyres & Rims,False,20912.0,272,97.42,C
+P-0077,Hydraulic,False,20829.0,273,97.46,C
+P-0060,Hydraulic,False,20399.0,274,97.5,C
+P-0232,Filters & Lubricants,False,20298.0,275,97.54,C
+P-0070,Hydraulic,True,20179.0,276,97.58,C
+P-0320,Electrical,False,20051.0,277,97.61,C
+P-0166,Undercarriage,False,19931.0,278,97.65,C
+P-0268,Filters & Lubricants,False,19803.0,279,97.69,C
+P-0177,Undercarriage,True,19251.0,280,97.73,C
+P-0406,Tyres & Rims,False,19128.0,281,97.77,C
+P-0377,Ground Engaging Tools,False,19118.0,282,97.81,C
+P-0062,Hydraulic,True,18091.0,283,97.84,C
+P-0234,Filters & Lubricants,False,18072.0,284,97.88,C
+P-0220,Filters & Lubricants,False,17890.0,285,97.91,C
+P-0104,Engine,False,17576.0,286,97.95,C
+P-0396,Tyres & Rims,False,17499.0,287,97.98,C
+P-0289,Electrical,False,17393.0,288,98.01,C
+P-0058,Hydraulic,False,17180.0,289,98.05,C
+P-0083,Hydraulic,False,17156.0,290,98.08,C
+P-0050,Hydraulic,False,17156.0,291,98.12,C
+P-0291,Electrical,False,16919.0,292,98.15,C
+P-0294,Electrical,False,16901.0,293,98.18,C
+P-0420,Tyres & Rims,True,16587.0,294,98.21,C
+P-0019,Hydraulic,False,16464.0,295,98.25,C
+P-0397,Tyres & Rims,False,16325.0,296,98.28,C
+P-0256,Filters & Lubricants,False,15446.0,297,98.31,C
+P-0008,Hydraulic,True,15107.0,298,98.34,C
+P-0064,Hydraulic,False,14995.0,299,98.37,C
+P-0305,Electrical,False,14983.0,300,98.4,C
+P-0129,Engine,True,14901.0,301,98.43,C
+P-0127,Engine,True,14869.0,302,98.46,C
+P-0391,Tyres & Rims,False,14768.0,303,98.48,C
+P-0032,Hydraulic,False,14702.0,304,98.51,C
+P-0240,Filters & Lubricants,False,14649.0,305,98.54,C
+P-0371,Ground Engaging Tools,False,14564.0,306,98.57,C
+P-0197,Undercarriage,True,14397.0,307,98.6,C
+P-0372,Ground Engaging Tools,True,14346.0,308,98.63,C
+P-0056,Hydraulic,False,14203.0,309,98.65,C
+P-0037,Hydraulic,False,14165.0,310,98.68,C
+P-0099,Engine,False,13936.0,311,98.71,C
+P-0287,Electrical,False,13560.0,312,98.74,C
+P-0242,Filters & Lubricants,False,13245.0,313,98.76,C
+P-0007,Hydraulic,True,13170.0,314,98.79,C
+P-0164,Undercarriage,False,13126.0,315,98.81,C
+P-0193,Undercarriage,False,13049.0,316,98.84,C
+P-0344,Ground Engaging Tools,False,12906.0,317,98.87,C
+P-0296,Electrical,False,12575.0,318,98.89,C
+P-0266,Filters & Lubricants,False,12224.0,319,98.91,C
+P-0028,Hydraulic,False,12195.0,320,98.94,C
+P-0365,Ground Engaging Tools,False,12146.0,321,98.96,C
+P-0323,Electrical,False,11825.0,322,98.98,C
+P-0107,Engine,False,11689.0,323,99.01,C
+P-0108,Engine,False,11654.0,324,99.03,C
+P-0207,Undercarriage,True,11505.0,325,99.05,C
+P-0069,Hydraulic,True,11289.0,326,99.08,C
+P-0355,Ground Engaging Tools,False,11147.0,327,99.1,C
+P-0293,Electrical,False,10848.0,328,99.12,C
+P-0340,Ground Engaging Tools,False,10791.0,329,99.14,C
+P-0155,Engine,False,10531.0,330,99.16,C
+P-0272,Filters & Lubricants,False,10391.0,331,99.18,C
+P-0262,Filters & Lubricants,False,10187.0,332,99.2,C
+P-0251,Filters & Lubricants,True,10091.0,333,99.22,C
+P-0319,Electrical,False,9927.0,334,99.24,C
+P-0154,Engine,False,9528.0,335,99.26,C
+P-0101,Engine,True,9485.0,336,99.28,C
+P-0042,Hydraulic,True,9192.0,337,99.29,C
+P-0117,Engine,False,9093.0,338,99.31,C
+P-0006,Hydraulic,True,9023.0,339,99.33,C
+P-0243,Filters & Lubricants,False,8915.0,340,99.35,C
+P-0156,Engine,False,7995.0,341,99.36,C
+P-0339,Ground Engaging Tools,False,7960.0,342,99.38,C
+P-0325,Electrical,False,7848.0,343,99.39,C
+P-0214,Filters & Lubricants,False,7428.0,344,99.41,C
+P-0401,Tyres & Rims,False,7381.0,345,99.42,C
+P-0417,Tyres & Rims,False,7342.0,346,99.44,C
+P-0282,Electrical,True,7308.0,347,99.45,C
+P-0073,Hydraulic,False,7283.0,348,99.47,C
+P-0313,Electrical,False,7117.0,349,99.48,C
+P-0265,Filters & Lubricants,False,7048.0,350,99.49,C
+P-0231,Filters & Lubricants,True,7022.0,351,99.51,C
+P-0347,Ground Engaging Tools,False,6763.0,352,99.52,C
+P-0321,Electrical,False,6640.0,353,99.53,C
+P-0250,Filters & Lubricants,False,6632.0,354,99.55,C
+P-0105,Engine,True,6608.0,355,99.56,C
+P-0246,Filters & Lubricants,False,6202.0,356,99.57,C
+P-0357,Ground Engaging Tools,False,6151.0,357,99.58,C
+P-0192,Undercarriage,True,6142.0,358,99.6,C
+P-0257,Filters & Lubricants,False,6120.0,359,99.61,C
+P-0210,Undercarriage,False,6101.0,360,99.62,C
+P-0092,Engine,True,6048.0,361,99.63,C
+P-0173,Undercarriage,False,6025.0,362,99.64,C
+P-0061,Hydraulic,True,5981.0,363,99.66,C
+P-0059,Hydraulic,False,5909.0,364,99.67,C
+P-0004,Hydraulic,False,5830.0,365,99.68,C
+P-0125,Engine,False,5748.0,366,99.69,C
+P-0336,Electrical,False,5736.0,367,99.7,C
+P-0236,Filters & Lubricants,False,5513.0,368,99.71,C
+P-0308,Electrical,False,5137.0,369,99.72,C
+P-0087,Engine,False,5076.0,370,99.73,C
+P-0290,Electrical,False,4853.0,371,99.74,C
+P-0097,Engine,False,4576.0,372,99.75,C
+P-0139,Engine,True,4395.0,373,99.76,C
+P-0222,Filters & Lubricants,True,4371.0,374,99.77,C
+P-0244,Filters & Lubricants,False,4325.0,375,99.78,C
+P-0219,Filters & Lubricants,False,4311.0,376,99.78,C
+P-0057,Hydraulic,True,4178.0,377,99.79,C
+P-0409,Tyres & Rims,False,4036.0,378,99.8,C
+P-0367,Ground Engaging Tools,False,3987.0,379,99.81,C
+P-0255,Filters & Lubricants,True,3865.0,380,99.82,C
+P-0343,Ground Engaging Tools,False,3808.0,381,99.82,C
+P-0209,Undercarriage,False,3791.0,382,99.83,C
+P-0322,Electrical,False,3775.0,383,99.84,C
+P-0160,Engine,False,3754.0,384,99.85,C
+P-0233,Filters & Lubricants,False,3592.0,385,99.85,C
+P-0033,Hydraulic,False,3566.0,386,99.86,C
+P-0227,Filters & Lubricants,False,3478.0,387,99.87,C
+P-0331,Electrical,True,3329.0,388,99.87,C
+P-0307,Electrical,False,3312.0,389,99.88,C
+P-0281,Electrical,False,3238.0,390,99.89,C
+P-0332,Electrical,False,3212.0,391,99.89,C
+P-0040,Hydraulic,True,3091.0,392,99.9,C
+P-0327,Electrical,False,3028.0,393,99.9,C
+P-0274,Filters & Lubricants,False,2994.0,394,99.91,C
+P-0228,Filters & Lubricants,False,2992.0,395,99.92,C
+P-0036,Hydraulic,False,2925.0,396,99.92,C
+P-0169,Undercarriage,False,2875.0,397,99.93,C
+P-0015,Hydraulic,True,2755.0,398,99.93,C
+P-0241,Filters & Lubricants,False,2627.0,399,99.94,C
+P-0330,Electrical,True,2616.0,400,99.94,C
+P-0213,Filters & Lubricants,False,2588.0,401,99.95,C
+P-0044,Hydraulic,False,2576.0,402,99.95,C
+P-0218,Filters & Lubricants,False,2334.0,403,99.96,C
+P-0263,Filters & Lubricants,False,1896.0,404,99.96,C
+P-0055,Hydraulic,False,1853.0,405,99.97,C
+P-0253,Filters & Lubricants,False,1759.0,406,99.97,C
+P-0013,Hydraulic,False,1755.0,407,99.97,C
+P-0223,Filters & Lubricants,False,1739.0,408,99.98,C
+P-0369,Ground Engaging Tools,False,1592.0,409,99.98,C
+P-0306,Electrical,True,1545.0,410,99.98,C
+P-0081,Hydraulic,True,1392.0,411,99.98,C
+P-0052,Hydraulic,True,1244.0,412,99.99,C
+P-0275,Filters & Lubricants,False,1121.0,413,99.99,C
+P-0230,Filters & Lubricants,False,995.0,414,99.99,C
+P-0261,Filters & Lubricants,False,938.0,415,99.99,C
+P-0148,Engine,False,895.0,416,99.99,C
+P-0239,Filters & Lubricants,False,869.0,417,100.0,C
+P-0131,Engine,False,863.0,418,100.0,C
+P-0216,Filters & Lubricants,True,503.0,419,100.0,C
+P-0098,Engine,False,377.0,420,100.0,C

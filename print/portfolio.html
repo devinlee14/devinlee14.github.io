@@ -53,7 +53,7 @@ p{margin:0}
   <div class="bar"></div>
   <div class="role">Data Analyst</div>
   <h1>Devin Lee</h1>
-  <p class="sum">Data analyst with 3+ years across heavy equipment, retail, e-commerce and oil &amp; gas. I build data validation, ETL automation and Power BI dashboards that keep reporting accurate, then use the data to find what the business should fix. This document summarises four end-to-end data projects; the full case studies and code are on my portfolio site.</p>
+  <p class="sum">Data analyst with 3+ years across heavy equipment, retail, e-commerce and oil &amp; gas. I build data validation, ETL automation and Power BI dashboards that keep reporting accurate, then use the data to find what the business should fix. This document summarises five end-to-end data projects; the full case studies and code are on my portfolio site.</p>
   <div class="facts">
     <div><b>Focus</b>Data quality, SQL, Python, Power BI, DAX</div>
     <div><b>Work setup</b>Remote (APAC preferred, or global) or hybrid in Jakarta</div>
@@ -75,7 +75,24 @@ p{margin:0}
 </section>
 
 <section class="page">
-  <div class="head"><div><span class="chip sim">Simulated data</span><span class="chip">Python</span><span class="chip">Data quality</span><span class="chip">ESG</span><h2>Hotel utility data pipeline and ESG reporting</h2></div><span class="num">Project 1 of 4</span></div>
+  <div class="head"><div><span class="chip sim">Simulated data</span><span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Procurement</span><span class="chip">Inventory</span><h2>Heavy equipment spare parts procurement analytics</h2></div><span class="num">Project 1 of 5</span></div>
+  <div class="grid">
+    <div class="col">
+      <div class="card"><h3>Problem</h3><p>A heavy-equipment contractor with 4 remote sites spent USD 51M on spare parts in two years (14 suppliers, 420 parts). Where does the money go, which suppliers can be trusted, what does urgent buying cost, and how much critical stock should be held?</p></div>
+      <div class="card"><h3>Approach (SQL + Python)</h3><ul>
+        <li>Spend analysis and ABC classification: 23% of parts make up 80% of spend.</li>
+        <li>Supplier scorecard: OTIF, lead-time variability, reject rate and price vs contract.</li>
+        <li>Cost of urgent and off-contract buying by site; approval cycle time by PO value.</li>
+        <li>3-way match (PO vs goods receipt vs invoice) and safety stock for 45 critical parts at 95% service.</li></ul></div>
+      <div class="kpis"><div class="kpi"><b>~$522k</b><span>savings identified per year (2% of spend)</span></div><div class="kpi"><b>82.5%</b><span>OTIF; aftermarket only 60–85%</span></div><div class="kpi"><b>3.3%</b><span>invoices mismatched, $370k overbilling caught</span></div></div>
+    </div>
+    <div class="chart"><div class="ct">Supplier performance score (out of 100)</div><div class="cs">OTIF 40%, quality 30%, lead-time reliability 30%</div><div class="box"><canvas id="c0"></canvas></div></div>
+  </div>
+  <div class="foot"><span><b>Case study</b> devinlee14.github.io/projects/procurement-spend-analytics</span><span>Tools: SQL (DuckDB), Python, pandas, SciPy</span></div>
+</section>
+
+<section class="page">
+  <div class="head"><div><span class="chip sim">Simulated data</span><span class="chip">Python</span><span class="chip">Data quality</span><span class="chip">ESG</span><h2>Hotel utility data pipeline and ESG reporting</h2></div><span class="num">Project 2 of 5</span></div>
   <div class="grid">
     <div class="col">
       <div class="card"><h3>Problem</h3><p>40 hotels in 8 countries type monthly electricity, water and gas figures by hand. Errors such as MWh entered as kWh, shifted decimals, missing or duplicate months, and values that don't match the bill flow straight into reported emissions.</p></div>
@@ -92,7 +109,7 @@ p{margin:0}
 </section>
 
 <section class="page">
-  <div class="head"><div><span class="chip real">Real data, 98k orders</span><span class="chip">SQL</span><span class="chip">Cohorts</span><span class="chip">RFM</span><h2>E-commerce growth and customer retention</h2></div><span class="num">Project 2 of 4</span></div>
+  <div class="head"><div><span class="chip real">Real data, 98k orders</span><span class="chip">SQL</span><span class="chip">Cohorts</span><span class="chip">RFM</span><h2>E-commerce growth and customer retention</h2></div><span class="num">Project 3 of 5</span></div>
   <div class="grid">
     <div class="col">
       <div class="card"><h3>Problem</h3><p>Olist, a Brazilian marketplace, grew GMV almost threefold in a year. Where did that growth come from, and do customers come back?</p></div>
@@ -112,7 +129,7 @@ p{margin:0}
 </section>
 
 <section class="page">
-  <div class="head"><div><span class="chip real">Real data, 95k deliveries</span><span class="chip">Python</span><span class="chip">Logistic regression</span><span class="chip">RCA</span><h2>Delivery experience root cause analysis</h2></div><span class="num">Project 3 of 4</span></div>
+  <div class="head"><div><span class="chip real">Real data, 95k deliveries</span><span class="chip">Python</span><span class="chip">Logistic regression</span><span class="chip">RCA</span><h2>Delivery experience root cause analysis</h2></div><span class="num">Project 4 of 5</span></div>
   <div class="grid">
     <div class="col">
       <div class="card"><h3>Problem</h3><p>How much does late delivery drive 1–2 star reviews, and which part of fulfilment should operations fix first?</p></div>
@@ -129,7 +146,7 @@ p{margin:0}
 </section>
 
 <section class="page">
-  <div class="head"><div><span class="chip sim">Simulated data</span><span class="chip">SQL</span><span class="chip">Reliability</span><span class="chip">RCA</span><h2>Heavy equipment availability and downtime</h2></div><span class="num">Project 4 of 4</span></div>
+  <div class="head"><div><span class="chip sim">Simulated data</span><span class="chip">SQL</span><span class="chip">Reliability</span><span class="chip">RCA</span><h2>Heavy equipment availability and downtime</h2></div><span class="num">Project 5 of 5</span></div>
   <div class="grid">
     <div class="col">
       <div class="card"><h3>Problem</h3><p>A 48-unit fleet across 4 sites. Machines stand still for four different reasons (rain, breakdowns, waiting for parts, skipped maintenance), and each needs a different fix.</p></div>
@@ -151,7 +168,9 @@ Chart.defaults.animation=false;Chart.defaults.maintainAspectRatio=false;Chart.de
 Chart.defaults.font.family='"IBM Plex Sans",sans-serif';Chart.defaults.font.size=10;Chart.defaults.borderColor="rgba(168,196,214,.12)";
 Chart.defaults.plugins.legend.display=false;Chart.defaults.elements.bar.borderRadius=4;Chart.defaults.scale.grid.drawTicks=false;Chart.defaults.scale.border={display:false};
 const L=p=>fetch("../assets/data/"+p).then(r=>r.json());
-Promise.all([L("hotel-esg.json"),L("ecommerce.json"),L("delivery.json"),L("equipment.json")]).then(([h,e,d,q])=>{
+Promise.all([L("hotel-esg.json"),L("ecommerce.json"),L("delivery.json"),L("equipment.json"),L("procurement.json")]).then(([h,e,d,q,pr])=>{
+ const tc={"OEM":c.blue,"Authorised distributor":c.teal,"Aftermarket":c.amber};
+ new Chart("c0",{type:"bar",data:{labels:pr.suppliers.map(r=>r.supplier_name),datasets:[{data:pr.suppliers.map(r=>r.score),backgroundColor:pr.suppliers.map(r=>tc[r.supplier_type]),barThickness:11}]},options:{indexAxis:"y",plugins:{legend:{display:true,position:"bottom",labels:{color:"#d0dbe2",boxWidth:10,boxHeight:10,generateLabels:()=>Object.entries(tc).map(([t,cc])=>({text:t,fillStyle:cc,strokeStyle:cc,lineWidth:0,fontColor:"#d0dbe2"}))}}},scales:{x:{min:0,max:100},y:{grid:{display:false},ticks:{color:"#d0dbe2",font:{size:9}}}}}});
  new Chart("c1",{type:"bar",data:{labels:h.recall.map(r=>r.label),datasets:[{data:h.recall.map(r=>r.caught),backgroundColor:c.teal,barThickness:16},{data:h.recall.map(r=>r.total-r.caught),backgroundColor:c.amber,barThickness:16}]},options:{indexAxis:"y",scales:{x:{stacked:true},y:{stacked:true,grid:{display:false},ticks:{color:"#d0dbe2"}}}}});
  const bf=e.monthly.months.indexOf("2017-11");
  new Chart("c2",{type:"line",data:{labels:e.monthly.months,datasets:[{data:e.monthly.gmv,borderColor:c.teal,borderWidth:2,tension:.3,pointRadius:e.monthly.months.map((_,i)=>i===bf?5:0),pointBackgroundColor:"#e8b04f"}]},options:{scales:{x:{grid:{display:false},ticks:{maxTicksLimit:8}},y:{beginAtZero:true,ticks:{callback:v=>(v/1e6).toFixed(1)+"M"}}}}});
